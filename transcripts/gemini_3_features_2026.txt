@@ -1,0 +1,437 @@
+Google just dropped Gemini 3.0 Pro, and
+if you're still using it like a basic
+search engine, you're missing out on
+features that could literally save you
+hours every single day. Most people have
+no idea what this thing can actually do.
+They type a question, get an answer, and
+move on. But Gemini 3.0 Pro has tools
+buried inside that can analyze entire
+videos, generate studio quality images,
+build interactive apps, and even create
+full podcasts from your documents. And
+in this video, I'm going to show you
+every single one of them. Let's get into
+it. All right, first things first. What
+even is Gemini 3.0? 0 Pro. It's Google's
+most advanced AI [music] model right
+now. Think of it as the brain powering
+all of Google's AI tools. It's
+multimodal, which means it doesn't just
+read text. It can understand and
+generate text, images, audio, video,
+PDFs, and even entire code bases all at
+once. Gemini 3.0 Pro launched in
+November 2025, [music] and it's a
+massive upgrade from the previous
+version. The model is designed for
+complex reasoning, long context
+understanding, [music] and what they
+call agentic tasks, which basically
+means it can plan, execute, and complete
+workflows with multiple steps,
+surpassing any other AI model that would
+struggle to keep up with all the
+information. Now, if you care about the
+numbers, it scores 37.5% on humanity's
+last exam, which is a benchmark for
+advanced reasoning. It hits 91.9% on
+GPQA Diamond, which tests graduate level
+knowledge, and 72.7% on Screenspot Pro,
+which measures how well it understands
+user interface elements on a screen. It
+outperforms GPT 5.1, Claude Sonnet 4.5,
+and its own predecessor across the
+board. So, yeah, this thing is powerful.
+All right, let me show you how this
+actually works. I'm logging into Gemini
+right now, and we're going to run a few
+tests. I want to show you the difference
+between low thinking level and high
+thinking level, and then we'll test the
+multimodal capabilities. I've selected
+thinking from the model picker. This
+gives me access to Gemini 3.0 Pro. Let's
+start with a simple test. I'm going to
+ask it this. You have $5,000 to invest.
+Option A gives you 8% return per year.
+Option B gives you 12% return but has a
+$200 yearly fee. Which one makes more
+money after 5 years? Watch how Gemini
+3.0 Pro thinks through this. It's doing
+the math, figuring out the fees, and
+comparing both options side by side.
+Look at this. It's not just picking one
+randomly. It's showing me the actual
+numbers for both choices and telling me
+which one wins. The model took a few
+extra seconds to think before answering.
+And the result is way cleaner and easier
+to understand. Now, let's test the
+multimodal capabilities. I'm going to
+upload an image, a screenshot of a
+complex data dashboard, and ask Gemini
+to analyze it. And as you can see, it's
+not just reading the image. It's
+actually interpreting the data, spotting
+patterns, calling out anomalies, and
+suggesting next steps. This is the
+moment you realize multimodal models
+aren't just a small change. They're
+basically a full analyst who can look at
+a dashboard and tell you what matters
+before you've even zoomed in. Let's also
+test its video analysis features. In the
+next example, I'll upload this video and
+ask Gemini to break it into chapters,
+highlight the key moments, identify
+emotions, and suggest how to generally
+make it better. The goal is simple. Can
+a multimodal model act like a real
+editor and not just a transcription
+machine? And as you can see, it does the
+whole thing. Clean structure, clear
+insights, even notes on pacing. At this
+point, Gemini isn't just helping with
+the editing, but it completely
+structures it. The final test is for
+long context understanding. [music] I'm
+going to upload a 30-page PDF, a
+research report, and ask Gemini to
+summarize it and answer specific
+questions. My prompt is that simple.
+Perfect. It read the entire 30-page
+document, pulled out the key findings,
+identified the methodology, and flagged
+the limitations section. This is the 2
+million token context window at work.
+While other tools would struggle with
+this much information and sometimes even
+ignore most of it, Gemini has the
+capacity to understand and memorize
+almost anything you give it. Now, let's
+test the new extended AI mode in Google
+Search. You've probably already seen
+this, but this is Gemini 3.0 Pro Power
+in Google Search directly, giving you
+deeper, more contextaware answers. I've
+enabled AI mode with extended thinking
+in Google search. Watch the difference.
+I type in best budget laptops for
+students in 2025. And look at what it
+returns. It's not just a page of blue
+links. It gives me a curated set of
+recommended picks with quick specs,
+pricing, and source callouts, plus a
+clean key considerations section.
+Battery, portability, performance,
+[music] storage, durability. It even
+surfaces shopping cards with prices and
+retailers right there in the layout.
+Now, let's try something more complex.
+How does quantum entanglement work? And
+the result is very impressive. Gemini
+doesn't just give surface level text. It
+explains that entanglement links
+particles into a single shared system.
+So, their properties aren't fully
+defined until you measure them. Then it
+breaks down the key principles like
+superp position, [music] instantaneous
+correlation, and why it looks non-local
+without letting you send messages faster
+than light. It even clarifies what it
+isn't and uses an analogy to make the
+difference click. This is AI learning at
+its best. [music] Turning a confusing
+physics idea into something clear and
+easy to understand. Let's push it
+further. I ask, visualize how compound
+interest grows over 20 years with
+$10,000 at a 7% annual return. Perfect.
+Gemini doesn't just answer with text. It
+shows the growth curve. Explains why it
+accelerates over time. gives a clear
+year-by-year breakdown and calculates
+the final value after 20 years. It even
+highlights the key takeaway. This is
+very [music] good stuff. So, we've seen
+AI mode in search, but Gemini 3.0 Pro
+becomes seriously powerful for
+education. It actually markets
+specifically to college students by
+offering a free full year of use on the
+paid plan. You can ask it to make
+learning materials, turn hard ideas into
+visuals, and even build simple
+interactive tools to explore science.
+It's not just about reading explanations
+anymore. You can create visual hands-on
+learning experiences whenever you need
+them. Let me show you. I'm going to ask
+Gemini to make a visual explanation of a
+physics idea. Projectile motion. Look at
+this. It shows the curved path of the
+object, breaks the velocity into the
+horizontal part that stays constant and
+the vertical part that changes because
+of gravity, and explains what's
+happening across the motion in clear
+stages. It even includes simple diagrams
+for the launch angle, the highest point
+where the vertical speed hits zero, and
+where it finally lands with the velocity
+components shown. Now I'm going to ask
+Gemini to write code that simulates
+this. Coding a physics simulation.
+Perfect. It generated a complete Python
+script with clear parameters, the core
+physics equations, and a mapplot lib
+animation to visualize the flight. The
+script calculates time of flight,
+maximum height, maximum range, and plots
+the full trajectory curve as it moves.
+This is basically ready to run, and you
+can push it further by asking Gemini to
+add air resistance or even build a full
+interactive app where you tweak inputs
+and see results in real time. Next up, I
+want to show you voice mode. This lets
+you have natural spoken conversations
+with Gemini. No typing required. It's
+built into the Gemini app. I usually use
+it on my phone. As you can probably
+guess, you enable this with the
+microphone icon. Hey Gemini, I need to
+plan a YouTube video about AI automation
+tools. Suggest five title options, a
+hook that grabs attention in the first
+10 seconds, and a content structure for
+a 15-minute video. And [music] watch
+this. Gemini is processing my voice
+input, understanding the context, and
+generating a full video plan. titles,
+hook, structure, everything. The
+response is instant and it's [music]
+comprehensive. This is perfect for
+brainstorming on the go when you don't
+have time to type. But to be fair, this
+is a feature I'm sure you've seen before
+through other tools. What you [music]
+probably haven't seen, though, is
+Gemini's live mode. Live mode lets
+Gemini see your screen or use your
+camera in real time. It responds
+instantly to what it sees. So, I've
+enabled live mode and pointed my phone's
+camera. I've drawn a rough flowchart for
+an automation workflow. Can you read
+this flowchart and tell me if there are
+any logical errors or missing steps? The
+flowchart looks pretty standard. It
+starts with order received, then goes to
+order confirmation, which branches into
+cancel order if no, and order confirmed
+if yes. After that, it flows through
+order processing and ends [music] with
+shipment. It seems like a standard
+process. No obvious logical errors. Are
+you thinking of any particular steps
+[music] that might be missing?
+>> Incredible. Gemini is reading my
+handwriting, understanding the flowchart
+structure, spotting what's missing, and
+suggesting how to improve this. This is
+real-time visual reasoning. It's
+literally like having a professional
+next to you see what you're seeing and
+[music] talking about it. Now, let's
+talk about one of its biggest strengths,
+which are images. I'll show you how to
+generate your own in a bit, but I want
+to point something else out first.
+Gemini 3.0 Pro doesn't just generate
+images. It can analyze them with
+incredible precision. It can read
+[music] text and images, OCR, identify
+objects, understand layouts, extract
+data from charts, and even interpret
+handwriting. To test this, [music] I'm
+going to upload a photo of a business
+card and ask Gemini to pull out all the
+info. [music]
+Extract the name, job title, company,
+phone number, email, and website from
+this business card. As you can see, it
+does exactly that. It read everything,
+even the small text at the bottom, and
+gave me all the contact details in a
+clean format. All right. Now, I'll show
+you how to generate images. To do this,
+Gemini uses Nano Banana Pro, which is
+Google's most advanced image generation.
+Let's break down the key features, and
+I'll show you a real example for each
+one. First of all, Nano Banana Pro is
+the best model for creating images with
+legible, accurate text. I'm sure you've
+tried generating an image with text on
+it, and it was just completely wrong
+since most AI tools have a hard time
+with this. But let me show you Nano
+Banana's text rendering. I'm going to
+create a YouTube thumbnail with clear,
+legible text. My prompt is create a
+YouTube thumbnail with bold text that
+says AI tools 2025 on a tech background
+with blue and purple gradients. Look at
+that. The text is crystal clear. There
+are no distorted letters, just clean,
+professional typography. This is exactly
+what you need for thumbnails, posters,
+or any design where text accuracy is
+critical. [music] You can take this a
+step further by uploading your own image
+and having it alter that. Here, I'll
+upload a picture of mine and ask it to
+put me in the thumbnail [music] we made.
+As you can see, the quality is top tier.
+Now, let's test the advanced editing
+controls. I'm going to start with a
+bright sunny image and transform it into
+a moody cinematic night scene. The
+entire vibe changed. The lighting is now
+moody and atmospheric. There are neon
+reflections on the wet street and the
+color grade is cinematic. This would
+take hours in Photoshop. Nano Banana Pro
+did it in seconds. You can also upload
+up to 14 reference images and Nano
+Banana Pro will blend them seamlessly.
+I'll upload a character portrait, a
+landscape background, and a lighting
+reference, and ask [music] it to combine
+these three images into one cohesive
+scene with the character standing in the
+landscape using the light and style from
+the third image. In the result, we can
+see perfect character consistency and
+great blending. Next up, we have video
+generation. This is done with VO 3.1,
+which is Google's newest video
+generation model. It creates highly
+realistic 8-second videos at 720p or
+1080p resolution with native audio
+generation, meaning the sound is
+synchronized automatically. Now, let's
+test the native audio generation. I'm
+going to prompt it with two people
+having a conversation in a busy coffee
+shop. Natural dialogue about their
+weekend plans.
+>> We thought about going hiking, but the
+weather looks tricker.
+>> Yeah, I saw that. We're just staying in
+and cooking a big pella.
+>> Yeah, that sounds much better than
+getting rained on.
+>> Listen to this. You can hear the two
+people talking back and forth. The
+voices sound natural and their lips
+match what they're saying. But if you
+pay attention, you can even hear the
+background noises.
+>> Yeah, that sounds much better than
+getting rained on. [laughter]
+>> All of this was generated by the AI. No
+sound effects added, no audio editing.
+VO 3.1 created everything you're
+hearing. Now it's time to bring images
+to life with image to video. You can
+upload a static image and VO will
+[music] animate it. This works great for
+turning Nano Banana Pro images into
+moving clips. I'm going to take an image
+I just made with Nano Banana Pro and
+animate it with VO 3.1. My prompt is a
+sleek smartphone rotating slowly on a
+dark surface with neon lights reflecting
+off the screen. Camera slowly zooms in.
+The product is rotating smoothly. The
+neon lights are reflecting and pulsing.
+The camera zooms in just like I asked.
+This is a full video ad created from one
+image in under 3 minutes. Let me show
+you another feature. I'm going to create
+two images with Nano Banana Pro. The
+first one shows a hiker standing on a
+mountain cliff at sunrise.
+The second one shows the same hiker with
+their arms raised as the sun comes up
+fully.
+Now I'm uploading both to VO 3.1 and my
+prompt is smooth transition from first
+image to second. Hiker slowly raises
+arms as sunlight [music] increases. Hair
+and clothes move gently in the wind. The
+transition between the two images is
+flawless. The hiker's movement from
+standing still to raising their arms
+looks natural. You can see the hair and
+clothes moving in the breeze. This is
+highquality motion created by just
+giving it two images. The possibilities
+of combining Nano Banana Pro with VO 3.1
+are honestly endless, and the results
+are the best AI has to offer right now.
+Next, let's check out Notebook LM. This
+is Google's AI powered research and
+study tool. You upload documents, PDFs,
+articles, or notes. And Notebook LM
+helps you understand, summarize, and
+explore the material. It can even
+generate a podcast style audio
+discussion about your content. I'm going
+to upload a 50-page research paper on AI
+alignment and ask Notebook LM to
+generate a podcast discussing the key
+ideas. I've uploaded the paper. Now, I'm
+going to click generate audio overview.
+Notebook LM is reading the entire paper,
+identifying the main arguments, [music]
+and creating a conversational podcast
+between two AI hosts. One asking
+questions, the other explaining
+concepts. Listen to this.
+>> Welcome back to the deep dive. Today we
+are uh taking your sources and basically
+rewriting the entire biography of what
+might be the world's most misunderstood
+fish, the ocean sunfish, the maamola.
+>> It really is a creature of extremes,
+isn't it? I mean, it's the world's
+heaviest known bony fish,
+>> right? And that title has always been
+paired with this perception that the
+giant is just
+>> the two hosts are breaking down complex
+AI alignment concepts in plain language,
+asking clarifying questions, and even
+adding commentary. Notebook LM turns
+static documents into conversational
+learning experiences. [music]
+Upload lecture notes, business reports,
+or research papers, and get an instant
+podcast that explains the key ideas, all
+powered by Google's AI stack. So now you
+know how to use Gemini 3.0 Pro. And with
+Gemini, you can create everything from
+full interactive apps to studio quality
+videos. It's not just a simple search
+engine. Instead, it has features that
+can help anyone with any given task and
+save so much time. If you want to learn
+more on how to use Gemini better than
+99% of people, watch this video next.
+Thanks [music] for watching and I'll see
+you in the next

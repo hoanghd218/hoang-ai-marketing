@@ -1,0 +1,342 @@
+If you want to set up a YouTube channel,
+this is a stepby-step breakdown of how
+to get one set up. And at the end, I'll
+show you a couple key extra settings
+that you want to make sure you dial in
+properly so your content can reach the
+right people. So, step one is easy. You
+want to make sure you go to youtube.com
+and then you're going to go to the top
+right corner and you're going to click
+this signin button on the top right.
+Step two is you need to make sure you
+have a Google account. Now, you can use
+an existing Gmail account, but actually
+we typically recommend people create a
+brand new account that you're going to
+use exclusively for your YouTube
+channel. So, go ahead and click this
+create account button. And you can have
+three options here that you would select
+for personal use, for your child, or for
+work and business. And usually people
+who are wanting to create a YouTube
+channel to start posting content online
+and growing their YouTube channel, we
+actually recommend selecting choose the
+for work or my business option just to
+keep your personal Gmail information
+separate from your work YouTube email
+address. From this point, if you have
+your own domain name, you could try out
+Google Workspace. But for most people,
+you'll just select this button right
+here to get a standard Gmail address.
+Your next step is to make sure you
+complete all your Google account setup
+information. input your name, info, your
+birthday, email address, password, all
+of those things. And if you're asked to
+verify your phone number, just go ahead
+and do it at this stage. It might seem
+inconvenient a little bit right now, but
+it will be essential later on, and we'll
+show you why in just a little bit. So,
+after you complete all that initial
+setup, you've actually just created a
+YouTube account. But now, you need to
+create a channel. You don't actually
+have a channel that exists just yet. You
+just have a YouTube account. So you'll
+see this home screen now and you'll see
+your little logo icon up in this corner.
+This is Craig Puitc
+craigutorials@gmail.com.
+But we need to select this button right
+here to actually create a YouTube
+channel. So go ahead and click create a
+channel. And at this point, your next
+step is to actually decide on your
+channel's name and your channel's
+handle. So your channel's name is
+literally whatever you want the name of
+your channel to be. So I'm going to call
+this Craig's Tutorials. So that will be
+the literal name of my channel. And then
+the handle is almost like your social
+media handle name. So this will be
+noticeable in the comments section.
+It'll be like your at@ symbol at
+Craigslistutorials. And you could change
+this if you don't want your channel name
+to be the exact same as your handle. And
+no two handles can be the same. So
+that's why we see this verification
+badge right here. That's a green check
+mark. It means that this user handle is
+available and I could use it. So we'll
+just go ahead and leave it for now. Your
+next step is to select a profile image.
+So, you can hit select picture and you
+get all of these different starting
+points if you want to use like an AI
+generated illustration or you can select
+any file from your computer or drag and
+drop a photo into this window. I have
+this little portrait shot of me right
+here that I'm going to go ahead and use.
+We'll drag that right in there and then
+we'll refframe it. Maybe kind of zoom in
+a little bit on my head. And this would
+be a good profile image to start. At
+that point, go ahead and hit create
+channel. And you just have created your
+first YouTube channel. At this point,
+you do have a basic channel set up and
+you could start posting your first
+videos right away by hitting this create
+tab and you could start uploading a
+video. But before that, there are a few
+last important steps that you want to
+make sure you set up properly so that
+your content is really positioned well
+for success as you launch your channel.
+So, the first thing you want to do is go
+over to the right side and click your
+YouTube Studio button. and that'll enter
+you into the back end of your channel
+where you monitor all of your analytics
+and insights and just do the rest of
+your channel optimization. Now, come all
+the way down to this left side, hit
+settings, then hit channel, and then hit
+feature eligibility. And right now,
+you'll see that you only have standard
+features available. And what we want to
+do is enable some of the more advanced
+and intermediate features that YouTube
+offers. So, the first one is
+intermediate features. so we can create
+custom thumbnails, start live streaming
+if you ever want to live stream and
+upload videos longer than 15 minutes.
+And in order to do this, you're going to
+have to verify your phone number. Go
+ahead and click phone verification and
+just send yourself a quick text message
+so that you can verify your phone
+number. And really, all YouTube is
+trying to do here is verify that you're
+actually a real person and not just a
+spam account. Once you do that, refresh
+your page and you should see that your
+feature eligibility has now increased
+and you have now intermediate features
+available. Now, if you want access to
+the advanced features that YouTube has,
+things like embedding live streams or
+posting more shorts daily or more daily
+uploads, sometimes you might actually
+want these a little bit earlier in your
+channel life. You'll have to do one of
+these things, a video verification,
+provide a valid ID, or have a channel
+history that usually takes about 2
+months to do. I'll show you really
+quickly how easy this is to verify. All
+you hit is access features, and I want
+to do a 6second video of myself. Hit
+next and there's an email I can find
+inside of my inbox that I can use to
+finish this video verification process.
+And alternatively, you can actually just
+scan this little QR code right here in
+the app if you don't even want to have
+to open up your email. And that's a
+really easy way to do this. So, that
+only took about 2 minutes and I just
+completed the video verification and now
+the advanced features are pending and it
+said it only takes at most 24 hours to
+complete. So, you can check back a
+little bit later to make sure that
+actually was approved. Our next setting
+we want to adjust is inside of settings,
+go to upload defaults right here inside
+of settings. And then you want to make
+sure you scroll down to visibility. And
+if this is set to public, you want this
+to either be private or unlisted. So
+that when you upload a video, the
+automatic setting that YouTube will
+select is to have that video unlisted.
+So that if you accidentally hit publish
+or save, that video does not go live for
+the world to see right away. Instead,
+you can make sure it's all optimized and
+your title's correct and your thumbnails
+are in and your description is good to
+go before you change the visibility to
+public. So, I'd highly recommend you
+adjust this setting at the beginning to
+save yourself from accidentally
+publishing a video that is not ready to
+go live. Now, inside of this upload
+default section, you can spend some time
+digging around changing some of your
+default settings. Like if you have a
+website you always want to point people
+towards or some affiliate links that you
+always want to be in your description,
+you could paste those in right here so
+you don't have to manually enter those
+every single time. As well as some key
+tags that you might always want on your
+videos inside your advanced settings.
+You could change your category. Like for
+my channel, this might be classified as
+like an education channel, maybe like
+howto style. Some of these aren't really
+relevant, but if you feel like yours
+does fit, you can go ahead and select a
+category for your channel, as well as
+some of these other things. Do you want
+comments to be enabled and what kind of
+moderation do you want? Do you want to
+have really strict holding all comments?
+Do you want no comment moderation at
+all? Most people keep it on basic, and
+that's what I'll go ahead and do for
+this channel. Now, the next setting you
+want to select is go up to channel, hit
+advanced settings, and you need to tell
+YouTube if your channel is made
+specifically targeting children or not.
+So, are you speaking to adults and young
+adults, elderly people, whatever the
+case, you've got to indicate to YouTube
+and tell them who is your channel for.
+If your channel is made for kids, select
+yes. If it's not made for kids, select
+no. And if your content varies, where
+some content is made for children and
+some is not, you could select that you
+want to review this setting for every
+single video. In any case, you want to
+make sure you dial in this setting
+appropriately, or your channel could be
+at risk for demonetization or even a
+complete ban. And then the final setting
+you want to know about is down here at
+permissions. And this is where you can
+invite others to participate and be a
+part of your channel's management. So
+maybe you have moderators that you want
+to manage comments or maybe you have
+people who actually edit content for you
+and want to upload videos for you. This
+is where you can add and invite people
+as different roles like owners,
+managers, moderators, etc. to help
+manage your channel. So those are all
+the core steps for getting your YouTube
+channel set up. We do have some
+frequently asked questions that we often
+get asked by creators in our community
+about their additional channel setup.
+And the first question is, "How do I
+change the description in my YouTube
+channel?" That little first line that
+people see underneath the title of my
+channel. How do I change that? Well, if
+you go into your YouTube studio, you can
+hit customization right here. It's not
+in your settings actually. It's in
+customization. And right here is where
+you can adjust some of these creative
+settings. Things like your description
+of your channel. This is where you would
+put the description right here. And just
+know that the first sentence or two will
+be visible in your homepage feed and
+you'll actually be able to see those
+words. So, make sure you make it count
+as you're writing your description. And
+then anything that's further than those
+first couple lines can be helpful, but
+you just want to make sure those first
+sentences are dialed in. Additionally,
+creators ask, "Where can I change my
+channel banner?" Well, that's actually
+in the same customization tab. The
+banner image is at the very top. So,
+this is where you upload a banner image.
+And you might need to play around with
+this to get it right for different
+formats. So, it's going to look
+different on a mobile browser than it
+would a desktop browser than it would a
+television. So, you got to kind of play
+around with all different formats to get
+your banner image looking exactly how
+you'd like it to look. Another question
+creators ask is, "How can somebody
+contact me via email through my YouTube
+channel?" Well, the location of where
+you set this is actually changed. It's
+also now in this channel customization.
+And if you scroll all the way down into
+contact info, this is where you can
+enter an email address that will be
+visible inside of your description and
+your profile where your audience or
+potential brands could maybe contact you
+for partnerships. So, it's really
+important to have a good email address
+here. But a tip is do not make this the
+same email address that you log into
+YouTube with. Make sure it's a separate
+email address that you use for
+contacting or interfacing with customers
+or brands. You do not want this to be
+the same email for your login. Now, a
+lot of creators also ask, "How do I
+start making money on YouTube?" And
+there's lots of ways that you can
+actually make money on YouTube, but most
+people are asking specifically about the
+YouTube partner program where you earn
+income from YouTube running ads on your
+videos. This is called YouTube AdSense,
+and it's the YouTube partner program
+where you're able to do this. But what's
+important is you need to make sure
+advanced features are already approved,
+which gives you access and makes you
+eligible to apply for future
+monetization. But the requirements for
+monetization include you need to have
+1,000 subscribers and you need to have
+either 4,000 public watch hours on long-
+form videos over the last 365 days or
+you need to have 10 million shorts views
+in the last 90 days. So until you meet
+those requirements, you won't be able to
+be a part of the YouTube partner
+program. But there's also lots of other
+ways you can start making money with
+your YouTube channel that does not
+involve the YouTube partner program.
+Now, that's a complete step-by-step
+guide of how to create a YouTube channel
+from scratch. But the next step would be
+you've got to create and publish your
+first ever YouTube video. And the
+easiest way by far to get started making
+a YouTube video is by using your
+smartphone. And if you want to check out
+a step-by-step guide of how to create
+videos with your smartphone, click or
+tap the screen right here to check out
+that video that I made. And I'll see you
+over there.

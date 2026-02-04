@@ -1,0 +1,1040 @@
+Just about a month ago, Anthropic
+released this feature called Claude
+Skills. I've been using it for the past
+month, and it completely transformed how
+I get work done in my business, allowing
+me to automate work that would take me
+around 30 minutes, sometimes an hour, to
+get done in just around 5 minutes. So,
+in this video, I'm going to give you a
+complete breakdown on how to use Claude
+skills in your business. First, I'm
+going to show you the difference between
+skills, projects, and just using Claude
+normally. Second, I'll walk you through
+how to create a skill using the Cloud
+web app. And I'll go over some examples
+on how you'd want to use Cloud Skills.
+And finally, at the end of the video,
+I'll show you how you could use Cloud
+Skills within Cloud Code so you can
+empower agents or use these skills with
+Cloud Code so you can get more work done
+autonomously. And by the end of this
+video, you'll learn exactly how to use
+Cloud Skills so you can regain back more
+time and use that time to generate more
+revenue in your business. And no, you do
+not need to know how to code. You do not
+need to be technical. You just need to
+spend the next few minutes paying
+attention so you can learn how to set
+this up for yourself. So what is cloud
+skills? Think of cloud skills kind of
+like giving a playbook to someone else
+to get work done, but instead to AI. Now
+within this playbook, you're probably
+going to have instructions, maybe some
+references, examples, standards,
+guidelines, and so on. So cloud skills
+acts like a playbook, but to be more
+technical, a skill is is basically just
+a folder. It is a folder that has a
+skill.md
+file. So a skill.md file is just a
+markdown file that has all the
+instructions and configuration on how to
+do this specific task or workflow. Now
+because cloud skills can act like a
+playbook, we can treat skills kind of
+like our playbook library. So when you
+ask AI to do something and there's a
+playbook on it that exists, let's say
+for example, you ask AI write a proposal
+for this client. Okay, what AI is going
+to do, it's going to say which playbook
+do I need? It's going to look at your
+playbook library or your skills and it's
+going to take that exact playbook which
+is called proposals. Okay, then from
+that playbook, it's going to read
+through that playbook or the skill file
+and it's going to understand this is how
+we need to do this task and then it's
+going to do the task for you. So this is
+awesome because instead of needing to
+copy paste prompts and asking AI to do
+things step by step, you can have
+predefined processes or skills in these
+what I like to call playbooks that they
+could pull out from your library and do
+multiple tasks whenever required. And
+you can have as many playbooks or skills
+as you want. You can have 10, 20, 30
+plus playbooks all listed out in your in
+your library and then AI could reference
+all of these skills whenever required.
+And the best thing about it is that it
+will only load what it needs. So if you
+ask it just write the proposal, it will
+only reference a proposal playbook. It
+will not reference everything and it
+will lose all of its context where you
+need to start a new chat. It will only
+reference what's in that folder to get
+that specific work done. That means it's
+very token efficient. Now to be more
+specific, how the skill anatomy looks
+like or how the playbook looks like is
+that it's basically a folder and within
+the folder we have a skill.md file which
+is a markdown file. And within the
+skill.md file, this is going to be the
+prompt and the instructions. Now, we can
+also have some more complex folders
+within our skill folder which are
+optional that will allow AI to execute
+more complex workflows. Let's say you
+need to run code, you can have a scripts
+folder. Let's say you have templates
+that you want AI to reference. You can
+have a templates folder. Or if you have
+other references that you want AI to
+look at to reference, you can have
+folders. And you can have as many
+folders as you want. Whatever is
+required to execute that skill, you can
+have that in there. But the most
+important thing here is a skill.md file.
+It cannot be a skill unless we have a
+skill.md file that Claude can read
+through. So if you're just getting
+started, I recommend starting simple
+with just a simple skill that just has a
+simple prompt that you could put into a
+skill.md file and then test it out. And
+then you could test out some other
+complex skills that will have scripts,
+references, and templates and so on. So
+within the skill.mmd file, it's how
+claude identifies whether this skill is
+relevant to the current task. Because
+when you have all these skills or
+playbooks in your library, AI is going
+to quickly read through all of them.
+It's not going to read through all the
+context within the skill. It's going to
+read through the name and the
+description, which is the skill.md
+header. Okay? So it's read through the
+name and the description. Now what they
+call this technically what this part is
+called is called the YAML front matter.
+technically what it's called, but you we
+don't need to worry about that. You just
+need to understand that just like how
+you have a playbook, let's say a
+librarian, you're going to look for a
+specific book to do a specific task.
+What are you going to look for? You can
+look for the name of the book and what
+the book does. Same thing with your AI
+agent. It's going to interact with your
+skills by quickly reading the name and
+description. So, it knows which skill to
+use. So, that's what Claude sees first.
+Now, once Claude identifies that this
+skill is required, then it's going to
+read through the instructions and the
+prompt, which is stored right below.
+Okay, so this is again a markdown file.
+I'm going to go over how this looks like
+in a moment once I explain completely
+how skills work. So in simple terms, a
+skill is just a prompt with a header or
+metadata. And again, the best thing
+about the skills is that there's
+automatic routing. So you do not need to
+tell Claude to do a specific skill. You
+could ask it if you want to be more
+specific, but Claude is smart enough
+where it could read through the skills
+very quickly and then identify this is
+the skills that's required. So for
+example, let's say writes an email about
+our product launch. AI will quickly
+understand, okay, do I have a skill on
+that? It will see, okay, there's an
+email skill. It'll go through the email
+skill. It will use the email skill and
+then within the email skill, you might
+have a folder that's called product
+launch. Product launch templates or
+example. So this is great because now
+you might have you might even have a
+playbook here which is called product
+launch and then it's able to do a
+product launch for you. But again, this
+is very important. The naming of the
+skills is very important because you
+don't want the CL cloud to be confused.
+So if you have email then you probably
+want to have it an email skill and then
+with an email skill you can have a
+product launch uh workflow within it. So
+technically you can have skills within
+skills it does work because AI could
+read through it. So and the way skills
+load is what makes it efficient. So you
+simply ask Claude in a chat to do
+something and if there's a skill for it,
+Claude scans the skills, it picks the
+right skills, it loads the instructions
+and then it executes. So it's very
+efficient. It only loads what it needs
+and the context stays clean. This is the
+best thing about skills because the old
+way if you wanted to do this is that
+let's say you have a skill that has a
+lot of different parts to it. Let's you
+want to write an email. What you do is
+you probably copy paste the brand
+guidelines. You copy paste email
+examples, you copy paste format rules,
+you copy paste instructions, and if you
+put all of this into a chat or a context
+window, you're going to run out of
+messages very quickly. And then you're
+going to need to copy paste everything
+into a new chat. And then it's gets very
+difficult to work. Now, when we use
+skills, what happens is you get all this
+free output. So Claude reads a skill and
+doesn't take any of the tokens or the
+context or the messages of that chat. So
+now it's way more efficient. So you can
+really get work done with skills. So
+next question is what should be a skill?
+So there's two questions. If you answer
+both of these questions yes, then you
+should 100% turn it into skill. Question
+number one, do you do this task
+repeatedly? And do you want clot to
+follow your specific process? If you
+answered yes to both these questions,
+then yes, you should make it a skill.
+Now, the best thing about skill is that
+anything can be turned into skill. As
+long as it's it's a step-by-step process
+that you want the AI to follow, it can
+be a skill. So let's say you want to
+turn email into social posts, that can
+be a skill. If you want to have an
+intake form and turn that into proposal,
+that could be a skill. If you want to
+turn meeting notes into action items,
+that could be a skill. If you want to
+turn specific content that AI had
+written and you want to apply your brand
+voice to that, you can also have a skill
+for that. Anything that has a process, a
+specific style or way that you do it can
+be turned into a skill. Now, what should
+you not use for skills? Let's say you
+want to ask AI what to prioritize.
+Probably don't need a skill for that.
+Unless you have a prioritization style
+or process that you do think, then you'd
+have a skill for that. Review my
+strategy. You want to ask to review your
+strategy. Probably won't need a skill
+for that unless you have a strategy
+review process. Then you'd have a skill.
+Problem solving. If you want a novel
+problem solving, probably won't need a
+skill unless you have like a problem
+solving framework. uh research probably
+won't need a skill for that unless you
+have like a technique or a way that you
+do research then you turn into skill.
+Okay. So generally if the task is
+repeatable and you want cloud to follow
+a specific process framework or style
+then you'd have a skill for it. So
+there's a lot of confusion between what
+how to use skills projects and just
+using clouds. So to keep things simple
+we want to have skills when we we want
+to have AI to act like a trained
+specialist with a specific process
+framework or style. simple test if you
+do this task repeatedly and you want AI
+to follow a specific process skill. Now
+with projects, projects a little bit
+different because projects is just going
+to be a shared knowledge base. So this
+is going to act like reference context
+within multiple chats uh within multiple
+chat windows. So this could be brand
+guidelines, client database, company
+strategy. This isn't necessarily a
+skill. This isn't a process. This is
+shared reference material. So simple
+test. Is this info needed for multiple
+different tasks? Now, if you just want
+to use cloud regularly, then probably
+want to use it as a smart generalist or
+exploratory thinking, then you just ask
+it simple questions. They get back and
+forth judgment, then you could use cloud
+regularly. But generally, at any point,
+if you have a proprietary way of doing
+things, a framework, a process, you'd
+want to use skills. So, let's open up
+Cloud. I'll give you a walkthrough on
+how to create your first skill. All
+right. All right. So once you open up
+Claude, the first thing you want to do
+to create skills is you need to open up
+the settings
+and then when you go to settings, you
+want to go to capabilities right over
+here. And then capabilities, if you
+scroll down, you're going to see the
+skills menu right over here. So you want
+to scroll down. As you can see, I have
+some skills that I've created. You want
+to scroll down and you want to make sure
+you activate skill creator because what
+this is going to do, this is going to
+have claude access to the skill of
+creating skills. So, um, basically this
+is going to create the skills or
+playbooks for you. Okay. So, once you
+have this on, the next step what you
+could do is click on the three dots
+here, click on try and chat. So, hey
+Claude, I just added the skill creator
+skill. Can you make something amazing
+with it? Let's test that out. So, this
+is just testing out a skill. Let's see
+what it what it does. So now you can see
+the thinking that Claude is doing.
+Thinking about creating a skill.
+So now it's reading the skill creator
+skill.
+And the cool thing about the skill is
+that you can ask Claude at any time,
+hey, can you create a skill for this
+thing? So, if you ever find yourself
+working with Claude and you're making a
+lot of edits to an email or edits to a
+piece of content or whatever you're
+working on and you figure out the
+correct way to do things, you can ask,
+"Hey, Claude, can you turn this into a
+skill?" And then Claude will
+automatically turn it into a skill for
+you. So, now, as you can see, the
+thinking here, it's looking through my
+workspace. It's giving me some ideas on
+what skills I could create. So now it's
+giving me an a suggestion leverage audit
+skill. That sounds cool. Let's see what
+it does.
+So now it's going to go through some
+reference files in my project
+and let's see what happens. So as you
+can see here now it's reading through
+the markdown file. So for skill design.
+So there's a skill on creating skills.
+So it's reading through that.
+So, as you can see here, it's doing
+this, but it's not taking the context of
+the context window. So, it's like as if
+I'm starting the chat almost fresh.
+Still, they're using some tokens here,
+but it's still still working. Okay,
+let's see here. All right, I've got the
+full picture. Solid framework for
+building skills. Now, here's my thinking
+on what would be amazed very
+specifically. You already have content
+creation skills. Boom. Boom. You've been
+frustrating content to AI brand voice
+DNA extractor. I do like that. Analyze
+your existing content and extract
+specific patterns and make your voice
+unique. Sentence rhythms could train
+phrases, storytelling moves, vocabulary
+creates reference file. Okay. Leverage
+audit framework. Okay. For your
+consulting work takes a client through
+structured assessment of their
+operations. Looks cool. Content
+optimizer. Okay. Looks cool. Okay. Let's
+go with the brand voice.
+Let's create a skill for our brand voice
+DNA. Before you go ahead, can you let me
+know
+what source
+material or content you're going to use
+to create this? Let's see. Um, I asked
+this question because I want to know
+what material we're going to be using.
+So, YouTube scripts, so on. Okay. U,
+what I'm going to do here is I'm going
+to ask it to go through my notion
+because I have this connection. Uh I
+have this connect to my notion. So I
+have notion connected to I have uh
+claude connected to my notion. So I'm
+going to ask it to do that. Let's see
+what it does. Okay. So now claude is
+going through my notion and then um
+let's see if it finds those emails.
+Okay. So now it seems like it's it's
+found my emails,
+my past 10 emails. Perfect.
+So as you can see here um Claude is
+acting as my agent. So I'm giving it
+instructions and it's able to take
+action on my behalf. It is able to
+reason, understand and take action out
+of it. So this is an example of what an
+agent is. So a lot of people don't know
+what agent is or when I first started I
+didn't understand what AI agent is. But
+AI agent basically is when you ask AI to
+do something and it's able to understand
+your instructions, reason and create a
+plan and then execute. Um, which is what
+makes it agentic. It's able to make
+decisions and take action uh by itself
+which is what claude is doing over here.
+And because I've given Claude access to
+my notion is able to look into it and
+get stuff done. So as you can see
+uh Claude's gotten four emails and needs
+six more. Um, it is going to take a
+little bit of time, but let's uh let's
+see where it goes. Um, also I'm asking
+Claude here to do this. I could have
+made this faster by just uploading the
+emails, but I wanted to show you guys
+how this would work. So, I'll get right
+back to you guys once this is completed.
+Okay, so it just finished getting all
+the 10 emails. These are the the last 10
+emails I've written. And then I think it
+got a detailed YouTube script. I don't
+know why. Maybe it failed on the last
+10th. But basically, it's gonna it's
+creating the skill now. But as you can
+see, it it will take a little bit of
+time to create the skill, but imagine
+once I get the skill done, every single
+piece of content that AI writes, I could
+just, hey, can you apply uh this skill
+or like the brand my brand voice skill
+to it? And then it will go through the
+full skill and then it will look at the
+text that I that AI written and it will
+be able to transform it into something
+that sounds more like me. Okay? And then
+this could magnify in all types of
+content I create. YouTube scripts,
+emails, newsletters, uh content,
+anything that requires scripting or
+writing or planning can use this voice.
+So yeah, I'll be back again once this is
+done.
+All right, so we're back. So if I if you
+take a look here, done. Here's what I
+built. So if you look at the skill
+folder,
+um I don't know why this is not visible.
+One second. Okay. So um I'm asking
+Claude to
+uh share the skill folder. Um this is
+why it's very important to understand
+how skills work cuz sometimes Claude
+does make does make mistakes. So I'm
+asking it to create a proper YAML header
+cuz even if you don't have if you don't
+have the YAML header correctly which is
+the name of the of the skill and then
+the description on what it does
+um claude won't be able to detect it. So
+sometimes cloud makes mistakes. So
+that's why uh watching the first part of
+this video is really important having
+understanding how skill architecture
+works. So over here I'm asking it to to
+update the skill with proper YAML header
+and then I'm asking it to create the
+folder so I can show you the structure.
+So I'll be back once it's done.
+Okay. So it just finished creating the
+skill folder. It's called uh brand voice
+DNA. There's a skill.md file which is
+the main skill with uh YAML header plus
+six layer analysis framework. And then
+it has references and then it has my um
+my DNA uh in the markdown file. So this
+is the skill that we're going to be
+using. So I'm going to double check and
+ask it if I use
+use this skill on let's say uh content
+that AI wrote will
+this
+using this skill
+transform that content into content that
+sounds like me. Let's ask it. Okay. In
+the meantime, um these are all the the
+files here. So these are all the files
+within the folder. So this is the the
+skill.md file. It's properly structured
+with uh a name and then a description.
+Double check it here. Yeah, name and
+then description. There we go. And then
+the next file is
+my brand voice DNA. So the how my brand
+how I my content is written
+with instructions and then
+brand voice DNA output template which
+yeah this might be this is what Claude
+did. So ideally you'd want to go into
+this and put in actually read through
+this make sure the whatever is written
+on here is going to create the output.
+if you want to test it out and then
+optimize a skill until it actually does
+what you want it to do.
+Okay, so it said no. This skill only
+extracts your voice patterns. It's an
+analysis tool that creates a DNA file.
+What you're describing would be separate
+skills. Something like voice transformer
+that takes AI written content. Your band
+voice DNA outputs written content. Want
+me to build that as a companion skill?
+It would reference that. Okay, then
+why? Okay, then let's create a All
+right. So I asked it to create a skill
+for my voice. So it collected all the
+emails and then went ahead and created
+the skill. So it's called Rashid voice
+and we can see in the skill over here.
+If I pull it up, there's a name and then
+there's a description and then there's
+exactly how to do this. So how to apply
+my voice to email, social post, scripts,
+landing pages, any written content
+should sound like Raj, which is me. The
+skill is a voice source of truth that
+other content skills should reference.
+Okay, so that's that. And then there's
+like when to use the purpose and then
+other instructions over here. Then
+there's a voice DNA which I think the
+skill MD file references. So when AI
+reads through this, it will know that to
+reference these files. So you can see
+over here the structure there is a
+skill. MD file which is basically how uh
+Claude knows. Let's go back here. So how
+Claude knows when to use a skill. So we
+might I might even make it better by
+changing the name to brand voice or
+something. But as long as I use voice,
+it will know when to when to call this.
+So I could even add it in the
+description on more instructions
+whenever um for keywords. So like
+whenever um user whenever like user asks
+for write this in my voice, write an
+email in my voice, turn this social
+button to my voice, it will be able to
+to use that skill. But I'm going to keep
+things simple for now. I'll go over that
+in a minute. So, there's a skill and
+there's references. And within the
+skill, uh, this skill should potentially
+reference
+the other other skills that I have in my
+workspace like so. So, I have other
+skills and so on. So, then I could use
+these references. Okay. So, here here's
+what we're going to do. You're going to
+download all.
+Yes, please.
+So we need to package it into a zip file
+and then from the zip file we'll be able
+to upload it if that doesn't work cuz
+previously it prompted me to add the
+skill and it worked but this time
+doesn't work. So this is how you do it.
+So um open here I could do is
+so next thing I need to do is I need to
+open up settings.
+We go to capabilities
+and then we go to upload skill and then
+I could drag and drop. Let's see how it
+works. So I have this folder open. Let's
+drag it. Okay. So it needs to be in a in
+a zip. So I go to my downloads.
+Zip file.
+Drag it in.
+And let's see. Hopefully this works.
+Boom. So it's uploaded. So now I could
+use this whenever. So, let's say try in
+chat
+and I'm going to do this. I'm going to
+open up a
+let's let's do this.
+So, I'm going to do is going to open up
+Gemini. I'm going to ask you to write,
+can you write an email on the importance
+of learning how to use Claude skills in
+your business and how it can save
+20 hours of your time. So, I'm going to
+take whatever Gemini wrote and then
+paste it and then test out the skill.
+Again, like we're doing this live, it
+might turn out to be like horrible, but
+let's see. Okay, still loading. Just
+doing this as an example because um
+there's a lot of like AI slop content.
+So if this actually works,
+no, I mean, oh man, this is this is the
+thing. Okay, this is live. Let me just
+give you a lesson here. I I didn't
+prompt this really well. So I said write
+an email. So it's assuming they're
+sending this to a team. So ideally I
+should say this is going to be
+like a daily newsletter email sent
+sent to my subscribers. Let's do that.
+But again, not that this can't be
+applied, not that my voice can be
+applied, but I want to do this as if I'm
+writing a daily email. Let's see what it
+comes up with. Okay, you can see how
+this email is horrible. It's literally
+like AI slop. So, let's see what what
+the what it does.
+Boom. Let's see how it works.
+Okay. Okay. So, what's going on here
+now? It's reading through that skill.
+Okay. So, it's reading through the skill
+and it's going to apply the playbook to
+this email. Let's see how it goes. Okay.
+So, now it's reading my voice DNA and
+email examples for full calibration.
+Interesting. I'm curious to see how this
+comes out.
+So, what's going on here? It's doing
+progressive disclosure. So, it's not
+loading everything at once. It's slowly
+progressing and seeing the context as it
+needs. Um, this is great because instead
+of like wasting all the tokens, it's
+very smart about the tokens.
+Okay, this isn't bad. So, it gave me
+subject options. You're wasting your $20
+a month subcl like a chat box. Build
+once runs run indefinitely.
+You're paying $20 a month for cloud. How
+many hours has it actually saved you? If
+you're just opening a new chat, typing a
+prompt, and hoping for the best, you're
+capping yourself. You're treating a
+digital employee like a search engine.
+The business owners who dominate late
+2025 aren't prompting AI. They're
+building Cloud skills. What's a skill?
+Think of a standard chat as a casual
+conversation. Think of skill as hiring
+an employee with a specific job
+description and a handbook. You tell
+Claude who to be, how to act, what tools
+to use. Once built, you never explain
+the context again. You just trigger it.
+That's leverage. Here's where it gets
+interesting. Most people are spending
+two hours every week expending context
+to AI. Remember, I like short sentences.
+Don't forget to format the date as blah
+blah blah. Make it sound like me. Every
+time you do that, you're leaking time.
+Skills preserve context. They turn off.
+They turn one-off task into oneclick
+workflows. I built three skills last
+week. Here's what happened. See the
+pattern? Wow. This is really actually
+This is really good. Wow. Holy boly.
+This is really good. I would actually
+use this. So, this is an example of a
+skill
+brand voice. And if you want that, you
+can get it for free. You can get the uh
+voice brand extractor for free below
+which I just created on the fly. So
+yeah, um that's how skills work in the
+web app. Let's dive into cloud code and
+how this would work because not only you
+could use this on the web app, you can
+also use in cloud code which is even
+more powerful. So let's dive into that.
+We're all right. So this going to be the
+most technical part of the video. So if
+this feels a little bit too complicated,
+don't worry about it. I'm going to be
+recording other videos in the future
+explaining how I use Cloud Code. But
+basically to explain, I'm using
+anti-gravity and anti-gravity is
+basically this application that I could
+have cloud code um access to my files.
+So I have files on my computer and all
+of my skills, the skill folders are all
+in my computer. So for example, if I
+open up my cloud file, you see agents
+core documentation, all these folders.
+I'm not going to go into it, but I have
+this folder called skills. Okay? And
+within these skills, I have all of these
+skills that I have prepared previously.
+So, for example, if I pull up the
+YouTube strategy, I have the skill MD
+file. Let me show you how this looks
+like in a uh closer look. So, you can
+see here we have the name, description,
+and you can see the description just has
+like many key words. So um whenever I
+use any of these keywords, it could
+catch that idea. And then I have
+workflows for this skill. So um instead
+of having each of these separate as a
+skill create title, I can have workflows
+act as many skills. And whenever I use
+any of these keywords, AI understands
+that we need to use this playbook or the
+skill which is YouTube strategy. And
+then if I'm more specific, it'll be able
+to understand these are the workflows
+that we need to use. So then we have the
+workflows over here which is our other
+markdown files. And then there's
+scripts. There's no scripts in this one.
+Then there's references and so on. So
+for example, these are the uh types of
+video uh titles that I use. So that's
+just an example of a skill. So let's go
+back to our brand voice. And what I'm
+going to do is I have cloud code open.
+So this is cloud code for uh VS code.
+You could install it with it with inst
+extensions. So I'm just using that. I
+could also use a terminal, but I prefer
+to use it this way. So, you guys who are
+familiar with cloud code would know
+what's going on here. People that aren't
+familiar, don't worry about it. I have
+another video explaining this. Okay. So,
+what I'm going to do is I'm going to
+take this folder and I'm going to put it
+into here and I'm going to tell it right
+now.
+So, what I did was I extracted the zip
+folder and I moved it into my folder.
+So, if you can see it has Rashid/voice I
+just implemented. So I'm going to ask
+it. I just imported
+Rashid
+voice. It's a skill for writing content
+in my voice. Can we implement it and
+integrate it into our skills withincloud
+folder please? and can we
+implement routing to our other skills?
+Okay, so what I'm asking here because I
+have other skills that I use, I want to
+integrate the skill with my other skills
+because I have skills for writing email
+and my cloud code. I have skills for
+writing YouTube script. So I'm asking
+cloud code to implement it within my
+workspace. Now the reason why I prefer
+cloud code is because cloud code is when
+I can have agents, I can have skills and
+I can have everything in one place where
+these skills can daisy chain and connect
+to each other. So for example, let's say
+I want to write an email on my email
+skill. I can have a step of writing an
+email routed to my my skill which is
+Rashid voice or if I write a YouTube
+script, I can have that skill routed to
+this playbook. So now everything is
+routed together kind of like playbooks
+so that when I ask AI agents or cloud it
+has the it has everything in one place.
+It has all the playbooks and it knows
+which playbooks to use. When on cloud
+web app it can do that but it's just not
+as good as uh the cloud here. And the
+best thing about this is I can manually
+edit the skill folder. So if I go back
+to YouTube strategy, if I go to the
+skill.md, if I go on here, I I know
+what's going on, right? I can go here, I
+can edit. So let's say
+I can I'm just put some random text. It
+be like yes, check
+email is whatever. So I could directly
+edit the prompt on here while on cloud
+web app, you can't really edit it unless
+you download the markdown, you edit it,
+and then you package it again as a zip
+file, then you upload it again. It gets
+really messy. So that's why I like cloud
+code. So as you can see here,
+it's going to integrate it into my
+system. It read through the files. Now
+it's going to move the skill to here.
+It's going to integrate email skill.
+It's going to integrate with my social
+media skill and it's going to integrate
+to my YouTube strategy skill.
+So yeah, it's going to go through all of
+this step by step. So I'll get back to
+you once it's done. Okay. So Cloud Code
+just linked and routed all of my skills
+to my voice skill. So, I'm going to test
+it out.
+I'd like to write an email on the
+importance of using digital assets and
+developing digital assets within your
+business, which could be AI systems, uh,
+cloud skills, um, offer documents, your
+brand voice, all of the things that
+create your business is clearly
+documented into digital asset. This
+could be a prompt and how that allows
+your business to be more scalable. I'd
+like you to write this email using Yeah,
+just write the email. Let's see what
+happens.
+Okay. So, I wrote that out
+and
+I'm just asking it to write an email.
+So, what should happen here is that it
+should go through the email skill which
+is what I have open here. And if you
+look at the email skill right here in
+the skill, I have uh read Rashid voice
+skill. So, it's routed to this. So, if
+you could see, it's actually following
+my instructions, the AI agent. So, I'll
+load your voice skill first, then write
+this email. So, boom. Like, it's as if
+you're telling an an intern or someone
+on your team to get something done. So,
+AI agents actually going to read the
+skill and then it's going to write the
+email. So, wrote the email. So, your
+business lives in your head and that's
+the problem. Every process, every offer,
+every system you've built over the
+years, it's all stored in your brain or
+scattered across random Google Docs and
+notion pages. Nobody looks at you used
+to be able to get away with this, but
+now AI can do 80 to 90% of the work in
+your business. But only if you get
+something to work with. No digital asset
+equal AI is just a chatbot you talk to.
+Digital asset equal AI can do real work.
+Let me explain what I mean by digital
+asset. Digital asset is anything in your
+business that's documented early enough
+that someone else or someone else could
+use it to produce same results you do.
+This includes your brand voice, blah
+blah blah. Most business owners have
+zero of these document. They have ideas,
+they have experience, they have skills,
+but none of it is captured in a format
+that scales.
+This is not bad. Actually, this isn't
+bad. Uh, I might edit this. I might make
+some suggestions, but it is actually
+writing 80 to 90% of my brand voice.
+Now, what's even better is that this
+cloud code is connected to my notion
+database. So, I can ask it to do that,
+to move it to my notion database, or I
+can ask it to turn this into contact to
+other pieces of content pieces. No, I
+don't want to go over too much on this
+video because u my next video will go
+over this, but let's just ask it. Yes, I
+want you to save it to notion email
+database and I want you to turn this
+into a uh quote post.
+So, it could quickly do that, but let's
+see what it does.
+So, I have the skill. It went through
+the skill over here. Social media
+workflows. Create paragraph code. So,
+social media skill. It went through that
+and now it's spawning you to save the
+email to notion. Okay. So, that agent's
+doing that. So, I'm going to talk to our
+main agent now. I want paragraph. Looks
+good. Can you
+um create it?
+It is. So, now it's using the notion
+API. It's going to find the database and
+then it's going to create that email for
+us. Okay. So, it just added it to
+notion. Now, it's going to create the uh
+paragraph code carousel for us. So, you
+could see it how it would look like.
+Yes.
+So, if I go to content
+uh which is here, I have a content
+folder and I have one on quote posts. I
+go to digital assets. Click on yes.
+Now, I have a skill specifically for
+creating these these posts. So now I was
+going to create the the slide one and
+slide two. So for uh slide one I have a
+skill for creating visual content that
+looks aesthetic. And then slide two I
+have a skill for creating a typography
+quote slide. So these are all skills
+that I've trained cloud code. I created
+a skill for some of these are micro
+skills or workflows that um they could
+use to then get work done for me that I
+wouldn't need to do it manually because
+if I were to do this manually it would
+take time. So now it's creating um this
+first slide. It's using Nanab Banana Pro
+and then it's going to create the second
+slide. Doing this live is going to be
+interesting how this comes out. So it
+took the prompt. So it it even created
+the prompt to send it here. So now it's
+creating the visual. It's using the API
+that I gave it access to.
+Man, this is this is crazy, man. Like ju
+just me like thinking about this like
+it would take me like at least 30
+minutes to get this done and this is
+getting done automatically. I could work
+on other stuff while the AI agents work.
+So this is how it looks like.
+So this is slide one. So your business
+lives in your head that is why it can't
+scale. So again slide one
+and then slide two. So let me zoom out
+here so you could you could read this.
+actually doesn't look quite right, but
+we can always make edits to this. So,
+this is just an example of how cloud
+code works. So, slide one and then slide
+two. Obviously, need to edit slide two.
+Can we I could then ask it, can we
+decrease
+the font size for slide two to make it
+fit? Make the content the text scale to
+fit, please. So, that's that. That's
+just a quick walkthrough of how you
+could use how skills work in cloud code.
+And by the way, if you're wondering how
+you could potentially use skills in your
+business, I created a quick cheat sheet
+or a table that you could quickly
+reference to get some inspiration on
+what skills you could use, including
+content creation, repurposing, marketing
+and sales assets, client management,
+operations, business analytics, and
+reporting and automation and
+systematization.
+That's also included with the brand
+voice DNA extractor. So if you want
+that, click the link in description and
+you'll get both the 50 examples of how
+you use cloud skills plus the free brand
+voice extractor. And the real powerful
+thing about skills is that it compounds.
+So think of it like a playbook chain. So
+if you have an agent and you have
+multiple skills that you want it to do,
+it is able to do that within cloud code.
+So let's say I have a skill A, which is
+I want it to help me create an output.
+Let's say this is an email.
+That's skill A. Skill B could be like
+transforming it. I could turn this into
+a social post.
+And then social C could be like
+publishing it, like a skill on how to
+publish it. And then skill D could be
+like going through your social media and
+then extracting the results on what
+happened to that spec specific post. So
+then this can create a feedback loop
+where you can have agents that run with
+skills that know how to do things just
+like how employees would work in your
+business. So this is super powerful
+because now you can have AI agents that
+are able to do actual work in your
+business, but the only thing that they
+depend on is having clear skills that
+you know how to teach them how to use
+that. So again, here are some other
+examples. So let's say you're a
+consultant, you have an intake form, you
+could turn that into proposal that could
+be turned on into onboarding emails and
+then you can have uh reporting on how
+the onboarding went. Let's say you're an
+agency. You get a brief from a client
+that creates a deliverable then it
+creates a review then an invoice like so
+on. So these skills can connect like
+daisy chains. You can have as many
+skills as you want. You can have them
+route between other skills. So this
+becomes very very very powerful.
+So if you just think about it if you are
+spending 30 minutes doing a specific
+task and you get a skill to do that
+within 3 minutes that's going to save
+you 2.5 hours a week. And then that adds
+up to 10 hours a month. And then if we
+extend that to a year, that's 120 hours
+a year. And that is equivalent to three
+work weeks. So imagine just implementing
+one skill will save you three work
+weeks. And that one skill can compound
+to more. You can build more skills. So 1
+2 3 four five skills. So now we're
+reaching a point where we're reaching a
+point in business where you can pretty
+much have AI agents do 80 to 90% of the
+work in your business. So, if you
+actually want that, subscribe to this
+channel and pay attention to my next
+videos because I'm going to be sharing
+more insights on how you could get AI
+agents and digital assets to do majority
+of the work for you in your business and
+scale in 2026. See you in the next
+video.

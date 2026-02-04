@@ -1,0 +1,630 @@
+In case you didn't know, this fell here,
+Boris Churnney, is the guy who created
+Claude Code. And every couple of weeks,
+he drops a biblical X thread all about
+how he uses Clawude Code to improve its
+effectiveness. Now, this is pretty big.
+Imagine if El Chapo taught you how to
+deal drugs, or Brian Johnson taught you
+how to make soccer moms uncomfortable.
+What I'm getting at is these are masters
+in their craft, and every time Boris
+talks about this, the effectiveness of
+every Cloud Code user goes up
+significantly. The issue is a lot of his
+tips and techniques are kind of
+uninterpretable. So what I want to do in
+this video is go through all of them and
+actually give you hands-on examples
+inside of Claude Code so that by the end
+of it you too can be the El Chropo of
+your own little universe. The only thing
+you need to follow along is a Claude
+code instance of your own inside of
+either VS Code, Anti-gravity or another
+IDE. I'm going to be using VS Code for
+simplicity. Okay, so the first major
+hack is this idea of git work trees. To
+make a long story short, this is where
+you run different instances of cloud
+code each on different branches of a
+repository. By doing this, you basically
+parallelize your workflow building after
+which you can merge all of these routes
+together with the assistance of AI. Now,
+for the uninitiated, Git is what's
+called a version control platform. And
+that basically just means you can track
+all of the changes made to a folder or a
+repository using this tool. In this
+pretty simple example, we start out with
+this one branch in blue called the main
+branch. And essentially, every time a
+developer needs to work on a specific
+feature or a particular bug fix, what
+they'll do is actually branch out and
+create a new one as we see here in red
+called bug fix branch. They do this
+because typically the things that need
+changing in the bug fix branch don't
+necessarily affect the things that
+people are working on in the main
+branch. And in this way you can have
+multiple developers and programmers
+working on multiple different features
+of a file. Get work trees. You take
+these branches and put them into
+different folders. Then you can have
+multiple instances of Claude, Codeex,
+Gemini or whatever your agent is working
+on these different folders in parallel
+to develop different features. When
+you're done with all this, what you do
+is you merge them back together. I was
+unable to find a good enough diagram
+showing that. But as you see here, we
+have a main route in blue and then sort
+of a temporary branch that was generated
+in red. Well, what basically happens is
+they merge back to both the same path.
+And this nowadays is typically
+facilitated again through AI. So to give
+you guys a quick example of this in
+action, this is a website that I
+developed for Maker School, my
+community, just as a demo to show people
+how easy and fast it is to build your
+own AI automation agency website using a
+tool like Cloud Code. And really what
+all websites are under the hood is just
+a bunch of HTML hypertext markup
+language arranged something like this.
+So what I have is in my VS code instance
+a folder called leftclick- agency that
+contains both the index html and then
+some additional tertiary files here that
+contain other stuff in my workspace. All
+of this exists in a folder termed
+leftclick- agency. Now this is what it
+looks like in Mac OS. Might look a
+little bit different where you are. Now,
+let's say I want to work on three
+features simultaneously. Maybe instead
+of a website, this is a really big fat
+app. And I figure most of these changes
+are going to take a fair amount of time.
+I also figure that each of these new
+features that I'm adding on are sort of
+a little bit different from each other.
+They don't require rebuilding of the
+main app or the main website itself.
+Maybe in our case, I'm just developing
+different pages. So, what I do is I
+create three separate folders which are
+duplicates of my main folder. one called
+leftclick-about, one called leftclick-
+contact, and the last called
+leftclick-services.
+What I'm going to do now is open up
+three separate instances of cloud code.
+And I'm just going to arrange them in
+such a way that I can look at all of
+them simultaneously. Once I have these
+three open, I'm going to add a prompt.
+Let's take a look at the middle pane
+here because I think that'll be easier
+for us. Navigate to leftclick- contact.
+Your task is to build a new contact page
+in a new git work tree. Develop in the
+same style as the original. Research
+Nick Sarif leftclick.ai. AI, do whatever
+else you need to to ensure this
+accurately reflects a highquality
+contact page. Now, what I'm going to do
+next is turn all of these three on and
+have them all working in their own
+separate instance. And at the very end,
+what we're going to do is combine them
+all together. With all of this done, we
+can proceed in any developed app 3 to 5x
+faster depending on the number of panes
+that you open. I should note that you
+are going to have some slowdown because
+as you're going to see in a moment, the
+merge process is not instantaneous. But
+the more parallelized you make the
+workflow, obviously the better and
+faster this gets. And this is going to
+apply if you're building anything,
+whether it's a website, a full stack
+application, an automated workflow, an
+agentic workflow, whatever it is under
+the sun. Get workree style development
+can help you. So, looks like all three
+of these branches are now done. I'm just
+going to go back to my file explorer
+here. And if I click on the about,
+you'll notice there's now an about.html.
+In contact, there's a contact.html. And
+in services, there's a services.html.
+HTML. Once done with all of that, what
+we can do is go back to an instance of
+Cloud Code and then just ask it to merge
+these three branches for us. So, I'll
+say, could you merge the three branches
+I just did a bunch of development on for
+me, leftclick services, leftclick about,
+and leftclick contact. I'd like all
+three of these merged with the main
+branch. No conflicts etc. Once you're
+done, you now have three pages. In this
+case, this is the contact page, which is
+pretty sexy. There's also an about page
+here that actually has a bunch of
+in-depth information on me, and so on
+and so on and so forth. So, that's how
+you build an app really, really quickly
+using Git Work Trees. Git Workree style
+development is facilitated and made much
+easier with a particular terminal tool
+called Ghost TTY, which Boris talks a
+fair bit about and I'll cover a little
+bit later on. But with Ghost TTY, you
+can have four, 5, 10, 15 of these
+operating simultaneously on different
+feature branches. And you can also very
+quickly jump back and forth and so on
+and so forth with a couple of quick
+terminal commands. So stay tuned for
+that. The second major tip is planning.
+Now, you probably already know about
+plan mode, but suffice to say, a minute
+of using plan mode effectively will
+literally save you and your agent hours
+and probably many dollars of building.
+Boris talks a lot about that in his big
+post. Instead of rushing to code, he
+recommends that you build an in-depth,
+very thoughtful plan first. And then if
+you're going to edit something, edit
+that rather than editing the actual
+created application itself. Because by
+doing so, you shave off tons of
+implementation time. At the end of the
+day, research occurs 10 100 times faster
+than the actual building. So only after
+you've edited your plan to perfection
+should you actually start. For instance,
+I have here a little YouTube workspace
+that I set up to help me build
+automations. And maybe one automation
+that I want to build today is an
+automated video editing workflow. This
+is basically going to be a little
+backend app that I'm going to build
+where I just give it a video and then I
+want to cut out all of the silences. So
+the first thing I'm going to do is open
+up a cloud code instance and then go
+down to the bottom here and say plan
+mode. Plan mode will basically force
+this to build in a tremendous amount of
+research and then check with me before
+it does anything. Now I'm going to use a
+voice transcription tool. I'm just going
+to talk to it like I talk to you and ask
+it to do what I want it to do. Hi, my
+goal is to develop a simple video
+editing workflow. I want to provide you
+a video somewhere between 5 to 15
+minutes in length and then I want you to
+edit out all of the silences in the
+video using some form of automated
+silence detection. I've tried building
+workflows like this uh using a variety
+of methods. Not all of them have been
+super easy or straightforward. The most
+common issues that I've found so far
+typically include the library or service
+that we're using for automated voice
+detection tripping up and then cutting
+into or a little bit after a segment of
+speech that I want cut. So I want you to
+use a very highquality voice detection
+platform. And I want to be able simply
+to give you a video, have you take it,
+detect all the silences, cut out all the
+silences, and then return me the
+smaller, significantly faster, more
+optimized file. I'm now going to dump
+that in there. And then we just remove
+the I'm now section. I'm going to press
+enter and I'm going to have it go on its
+way. Okay. Once done, it'll show you a
+plan. Now, in this case, it's video
+silence removal workflow using Cero
+voice activity detection. So, it's
+actually gone through. It's found a
+really high quality library. I know this
+is a high quality library because I've
+actually used this thing before for a
+variety of purposes. And it's telling me
+what it is planning on doing.
+implementation plan, create execution
+script, create directive, usage. There
+are a bunch of parameters here that are
+tunable and and so on and so forth. So,
+I'm reading through this. This looks
+pretty interesting. Um, in my case, I I
+like it. So, I'm just going to say yes
+and auto accept. Then after it's done,
+I'll move over to bypass permissions,
+which is sort of the crazy wild west
+cowboy raw dog version of cloud code,
+which I like using. Why does this
+matter? Well, it adds a lot to revision
+time. It's like if you've ever worked in
+a service capacity before, a freelance
+capacity before for a client, it kind of
+makes sense to spend a lot of time and
+energy clarifying the scope up front of
+what you are planning on doing than to
+just say, "Yeah, I'll figure it out." Do
+all the work, give it to them, and then
+have them be unhappy with it, and then
+force you to revise it. Right. Boris's
+third tip is to iterate through your
+claude.md. Now, if you didn't know, your
+claude.md is basically your system
+prompt. It's what is injected at the top
+of every conversation you ever have with
+Claude. If you're using a different
+agent coding platform, let's say Codax
+or something like that, this will be
+stored in a different file. There might
+be an agents.m MD instead of a cloud.
+MD, maybe a Gemini.m MD and so on and so
+on and so forth. And so the benefit to
+having a really airtight strong claw.md
+is obviously you can avoid the agent
+from making mistakes that agents tend to
+make mistakes on. Boris's whole point is
+if something happens that you don't
+like, you can just update your claw.mmd
+to prevent it from happening again.
+Also, a lot of the time when you're
+developing something, your agent will
+make some stereotypical or prototypical
+mistake. Well, if you just add a single
+line of instruction to your cloudmd to
+say, "Hey, why did you do that or stop
+doing this?" It won't do that again,
+which might save you a lot. So, there's
+a really simple and easy workflow hack
+here. Every time that this happens, you
+just say, "Hey, add this to claw.MD such
+that a future version of claude with no
+context would be able to oneshot what we
+just it." A lot of people think you have
+to update your claw.md manually. You
+absolutely don't. Just have your agent
+do it. over back here where I merged the
+three branches for that git workree
+example. I'm now just going to say
+update claw.md to reflect everything we
+just did here. I.e. I want to be able to
+say merge with git workree. And then
+you'll automatically know how to do all
+of this. It's then going to reread your
+cloud MD and then update it to reflect
+that you know line of instruction
+specifically mine about adding an about
+a contact or services or basically just
+working on multiple things
+simultaneously and how to how to
+interact with that. Next is to use
+skills and also get commit them. If
+you're unfamiliar, skills is Claude
+Code's way of basically stereotyping a
+standard operating procedure and just
+doing it the same way every time. It's
+very similar to directives,
+orchestrations, executions, if you're
+familiar with that idea. And what Boris
+heavily recommends is just to make like
+a skills GitHub repo and store all
+valuable skills there. That way, anybody
+on your team or within your company can
+quickly just pull skills as needed into
+their own repos. So for instance, I have
+a claude skills workspace here that I
+developed for a course a while back.
+Just showing people how to build skills
+and stuff like that. What I'm going to
+do here is I'm just going to say create
+a GitHub repository and push this there.
+Then in another version of Claude Code,
+whether it's yours or maybe your
+colleagues or something, you can
+actually just tell it to grab a specific
+skill from whatever the GitHub repo is
+called. You can also grab all of the
+skills if you want as well, but I just
+want to show you how to do one. It's
+gone through and it's found the skills
+workspace. And then as it finishes, you
+see we got the same skill that we had
+previously, just now loaded locally on
+our own repo. The fifth tweak is pretty
+self-explanatory, frankly, and I don't
+really think it's worth me showing you
+guys, but he's very confident that you
+can oneshot most bug fixes with Claude
+by feeding in the error codes. I think
+this depends on whether or not you're
+like an actual programming outfit and
+you even you have like a bug fix channel
+in a Slack or whatever, but he says you
+can just connect Claude code to Slack
+using the Slack MCP and then just copy
+and paste the error directly into it and
+it'll do fine. I don't know about you,
+but I think the whole idea of
+programming is I can do it all myself.
+So, I don't have a bug fix channel,
+although maybe I should. If I report a
+bug, I'll just do so directly in Cloud
+Code. The next is better prompts. And I
+really like this one. after a crappy fix
+or a crappy build, just tell Claude
+Code, "Hey, knowing everything you know
+now, scrap this and implement the more
+elegant solution." This is cool because
+you can conceptualize what Claude is
+doing is basically searching over a big
+volume of potential solutions. So, let's
+pretend the solution that you really,
+really want is this little green bubble
+over here. Okay? And so, this is going
+to be the solution. Good god, that looks
+terrible. Now, Claude's going to try a
+bunch of things in its initial naive
+search strategy. It's going to try
+searching here. here. And if that
+doesn't work, it'll try searching here.
+And then if that doesn't work, it'll try
+searching here. And then finally, at the
+very end, it might search here and get a
+portion of your solution or something
+like that. And it'll kind of zoom in and
+do more searching within this big
+solution space. The issue is when you do
+this 1 2 3 4 and then five times in
+total. um you know your repo gets pretty
+messy because you have all of the stuff
+of the first solution, all the stuff of
+the second solution and third and fourth
+and fifth when in reality it was really
+just that fifth one that actually
+contained what you needed. So at this
+point instead of having like a really
+really busy repo just tell cloud hey
+scrap everything except for the valuable
+bit. Go and recreate those almost as if
+you didn't do 1 2 3 and four and at that
+point what's in the context window
+becomes pretty valuable. The next major
+tip is ghost tty. So this is actually
+what Enthropic or some Enthropic team
+members I should say probably the ones
+that work with Boris use on a daily
+basis. What it is is just another
+terminal manager that's faster. It
+renders more colors. It's also less
+compute intensive which is particularly
+important if you're running like 50
+million Git work trees simultaneously.
+Also has shortcuts to quickly split
+screens which is really useful when
+you're running a bunch of different
+cloud code instances in the terminal.
+This is what mine looks like. It's
+pretty straightforward. Um I could just
+type claude and then I can have it run.
+I could go claude dangerously skip
+permissions. Then I could have it run uh
+I could go claude here, claude here.
+Maybe I want this one to be my super
+dangerous one. Uh and then I could say,
+I don't know, write me a story. Now,
+what's really cool about this is instead
+of me having to like manually move my
+mouse and then click on all these
+different branches, which um you know I
+was doing previously, I can just hold
+command and then I can go to the right
+or to the left. Command shift and then
+press enter. It'll actually open up my
+currently maximized or focused tab,
+which is kind of neat. So, I can go
+back, close that out, and then maybe I
+can go over here. Write me a limmerick
+about Sally, my first true love. It's a
+dog. Maybe over here, we'll go back and
+I'll say, um, write me a program that
+automatically fetches the top 100 posts
+in hacker news. Then run it. And then
+maybe over here, I'll say compile your
+research dossier on Nixar. And it's
+clearly evidenced I'm not famous enough
+yet because all these damn things
+misspell my names. All right. So, you
+know, when things require some help or
+notification, you can very quickly just
+jump over to the specific piece that you
+want. That's kind of neat. Yes, I do
+want to proceed. Yes, I would like to
+proceed and so on and so forth. At any
+point in time, if I wanted to, I don't
+know, split this and have more terminal
+instances, I could actually just hold
+command and press D. That'll open up
+one. If I hold command, shift and D,
+that'll open up them vertically. And so
+in this way you can actually open up, as
+you see here, an absolutely ridiculous
+number of terminal instances everywhere.
+I'm just splitting them all the way
+through, scrolling through. Uh, and
+what's really cool is, as mentioned,
+this doesn't really take too much on the
+compute side of things, and personally,
+I just like how clean it is. Now, this
+is more of a programming thing, but is
+what it is. Tell me all about Moltbot.
+Boris's eight major tip was on sub
+agents. And in case you guys didn't
+know, I hated sub aents until quite
+recently. I just thought sub agents were
+a royal waste of time because the vast
+majority of the time, the amount of time
+it would take to call the sub agent
+would take longer than if you just did
+it on the main thread. And I thought sub
+agents were more of a symptom of really
+shitty context management. But anyway,
+as technology continues its ceaseless
+march towards the future, now they're
+pretty solid. So you can call them to
+parallelize tasks and save time. So to
+do so, I'll just jump into Visual Studio
+Code and I'll say you can now create sub
+agents. I'd like you to create a
+specific claude sub agent that reviews
+code after you're done writing it. The
+main agent will call the sub agent at
+the end of every major write process and
+use it to confirm that the code was
+written in as efficient a way as
+possible because this sub agent will
+have no context. It will be able to
+evaluate the code objectively, not
+polluted by prior work. Now, I should
+note that for whatever reason, this
+isn't actually yet built into cloud
+code. Like, it just doesn't know
+natively if you tell it to do that. So
+what I had to do here is immediately
+after asking it, I had to say look up
+cla sub aent ability. It's a specific
+piece of functionality offered by
+claude. Now what's really funny is in
+order to do the research for this task,
+it actually spun up a bunch of sub aents
+itself called research sub aents which
+are just part of the way that this now
+works. Anyway, now it's gotten all the
+information about what a sub aent looks
+like. And what I'll do is I'll just add
+this to my cloud.md. So the next time I
+can just say, hey, write make me another
+sub aent. Great. Add this to cloud.md.
+So you can create sub aents the first go
+next time. What gets created is a new
+markdown file called code- reviewer. Um
+it goes through and then provides a
+bunch of instructions here and this is
+essentially the claw.md for that
+specific agent. It then also gives it
+some tools like read grap glob. What
+these do is not super important but at
+the end of it you can now ask it to look
+over any code. So I have a bunch of code
+over here. Why don't I go over here to
+website email scraper and then I'll say
+use the code- reviewer sub aent to
+review website email scraper. py in
+executions. Now instead of having to do
+all of this itself, it will now spin up
+a new task here called review website
+scraper that has its own input up here
+in the top right hand corner. And this
+is basically like the prompt that the
+parent agent gave to the sub agent. At
+the very end of it, we then get some
+information. So the script is production
+ready with minor improvements, well
+structured async code and so on and so
+forth. So what you can do is you just
+give that back to the main agent or
+build a very simple flow to give that
+back to the main agent um automatically
+and then it'll just like always
+constantly be writing higher quality
+code. I have a feeling Boris has to do a
+fair number of like database calls and
+analytics based things in his day-to-day
+because he included an additional one
+called data and analytics. The takeaway
+here was just have Claude stop writing
+manual database queries. He's like I
+haven't written a line of SQL in 6
+months and all the power to you buddy. I
+never did that to begin with, but sure.
+Finally, the last piece of advice and
+one that I consider pretty valuable is
+explanatory output style. Basically,
+inside of the cloud code config, there's
+the ability to enable an explanatory or
+learning output style. And that's where
+every time Claude will do something, it
+will just give you some sort of reason
+or justification why. Additionally, you
+can ask Claude to generate HTML or asky
+diagrams for you. Every time it does
+something that you're not sure about. By
+doing this, you can also get a visual
+view of what's going on. In order to
+reach that, just head over to your cloud
+code instance and say output styles.
+That'll open up a little terminal query
+here, which may be kind of intimidating
+again if you guys are used to using the
+main one, but that's okay. You can then
+just scroll down to explanatory or
+learning. If you go explanatory, it'll
+explain its choices and codebased
+patterns. Whereas, if you go learning,
+it'll actually stop and ask you to write
+small pieces of code for hands-on
+practice. This is how they try and stop
+people from sucking more and more at
+code as this takes more of its work.
+More of your work. That's to be
+understood. Just like the calculator
+removed our need to do like manual uh
+mental math. So too has Claude removed
+our need to do smaller little coding
+operations and so on and so forth.
+Alternatively, you can also go directly
+to whatever Claude instance just built
+you something and say create me a simple
+asky diagram showing me what you just
+did. It'll then go through and actually
+create one for you. Um I really like
+this because this to me is like the
+fastest way of immediately having a
+visual understanding what's going on.
+And here I have it. So main
+conversation, I asked you to call the
+sub agent. It then spun up some isolated
+context with some review instructions.
+It read the scraper and then it did the
+stuff. Obviously, as you build more and
+more complicated things, this becomes
+more valuable. Okay, I hope you now know
+everything you need to be the El Chapo
+of your own personal universe. Thank you
+very much for watching and I hope you
+guys appreciated the clock code
+walkthrough. I have love you rest today.

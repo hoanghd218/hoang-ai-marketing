@@ -1,0 +1,1032 @@
+Today we're talking about writing killer
+scripts. If you want to learn how to
+make content faster, this is going to be
+one of the most helpful videos you ever
+watch. Cuz the truth is, when it comes
+to content, most people really struggle
+with script writing hooks and
+storytelling. And the reason is you
+don't have a system for converting raw
+ideas into winning scripts. Now, I've
+studied thousands of the top creators
+across every niche, and it turns out
+they're all using the exact same script
+writing process to make their videos way
+faster. It's the same playbook I've
+personally used to generate billions of
+views and over a million followers. So,
+in this video, I'm going to walk you
+through the whole thing. This is the
+four-step blueprint for building a
+script writing system that will help you
+make videos 10 times faster. And trust
+me when I say this, nobody else has
+given away this kind of stuff for free.
+All right. Now, before I go through the
+four-step system, it's really important
+to understand why people get stuck with
+script writing and storytelling. It
+turns out there are four major blockers
+that cause the blank page problem. These
+four things are the reason why script
+writing feels so difficult. Now, here
+are the four script writing blockers.
+The interestingness blocker, the hook
+blocker, the storytelling blocker, and
+the engagement blocker. Each of those
+blockers corresponds to a question that
+will pop in your head and make you
+unsure of what to write. So, for the
+interestingness blocker, the question
+is, what is actually interesting about
+this topic or story that I should
+include? For the hook blocker, the
+question is, what is the best way to
+hook the viewer? For the storytelling
+blocker, the question is, if I am able
+to hook them, what is the best way to
+tell the rest of the story to hold their
+attention the entire time? And for the
+engagement blocker, the question is, if
+I'm able to hold their attention the
+entire time, how can I make sure that
+after they're done, they engage by
+liking or sharing the video? Whether
+you're a creator or a brand, these four
+questions are going to be on your mind
+every time you're trying to think
+through how to tell a story. And when
+you don't have an answer to any of those
+questions, that's what holds you up and
+causes the overthinking. So, what I've
+done is built a script writing system,
+really a framework that helps you
+systematically think through each of
+those questions to come to an answer
+much faster. So, for the rest of this
+video, I'm going to break down a bunch
+of tactical tips for how to get through
+each of those blockers. And then at the
+end, I'll walk through my step-by-step
+script writing process for how I
+speedrun around the blank page problem.
+All right, let's start with the
+interestingness blocker. The very first
+thing to tackle before you actually
+start writing a script is to figure out
+what makes the video interesting or
+compelling. If you're making content,
+you have to start with this step first.
+Because if you don't have a set of facts
+or an angle or a premise that's actually
+interesting, none of the rest of the
+script writing process really even
+matters because you're going to be
+optimizing for a boring concept. So,
+this first part of the process before
+you actually write the script is to jot
+down a few bullets about what makes this
+story interesting to you. Now, this
+brings up a really key question. How do
+we know which facts or nuggets to grab
+that will make our version of the story
+more interesting? In other words, is
+there a formula for knowing when
+something is going to be interesting to
+others? And it turns out there is. I
+call this the law of interesting.
+Interestingness comes from shock value.
+When you're making a video, whether it's
+entertainment or education based, you
+want to find key facts or opinions that
+drive maximum shock. Now, shock value is
+the distance between what someone
+already knows about a topic and what you
+tell them in the video. The greater this
+distance, the greater the shock and the
+more they will hold on to see why that
+shocking claim might be true. For
+example, I made a video about a Russian
+engineer that built a fully functional
+Iron Man suit in his garage. Now, when I
+was researching this topic, I came
+across a clip where the main engineer
+said that he invented the world's first
+personal hydrogen reactor, the glowing
+thing that goes in Iron Man's chest. As
+soon as I heard that, I thought, there's
+absolutely no way that could be true.
+How could a random guy in a garage build
+a hydrogen reactor by himself? And that
+right there, that curiosity shocked
+based question that pops in your head
+when you hear something you can't
+believe, that's what you're going for.
+My current belief was that there was a
+0% chance this guy could have built a
+hydrogen reactor. His claim was that he
+did. The distance between those two
+things is massive. And that distance
+represents max shock, max
+interestingness, and I had to stick
+around and keep watching to figure out
+if it were true. Now, knowing that, I
+anchored my video around that detail.
+And the video got 40 million views in 5
+days. So, for you, when you're
+researching a topic or just trying to
+organize the facts you already have in
+your head, you want to write down the
+things that would drive maximum shock
+based on what you think the viewer knows
+or doesn't. So, here are the tactical
+steps for doing that research process.
+This is exactly what I do. I call it
+idea development. When you research a
+topic, you want to watch and read
+everything you can and then assess every
+fact you hear on a shock score of one to
+100. Out of a 100 people, how many do
+you think would have heard that thing
+before or not? If your best guess is
+about four out of five people wouldn't
+have heard it, well then that's going to
+be a shock score of around 80 out of
+100. The goal is to find facts that are
+true but also have a maximum shock
+score. So as you find them, take those
+facts and write them down as bullets on
+your script document. And this works for
+entertainment content like the Iron Man
+example, and it also works for all
+educational content. What do you know to
+be true about this topic that most
+people don't write those things down?
+That's where true interestingness lives.
+So, this first step, the gathering of
+the facts, makes the research process so
+much faster. Now, there's two ways you
+can run this research process to mine
+for the shocking facts. The first way is
+that you could do it manually, where you
+find videos and blogs, and you just read
+all of them on your own and try to parse
+out the different facts. Or you could
+use the new sand castles.ai AI research
+tool. And this is exactly what I do.
+First, I find any reference links or
+videos about the topic. I go to the
+scripts tab in Sandcastles. I press new
+script. I press notes. And then I drop
+in any of those links or just a broad
+context about the topic that I want to
+make. Now, Sandcastles will
+automatically write a V1 script. But I
+just ignore that for now. Here's where
+the real sauce is. Go down to the script
+writing toolbar at the very bottom of
+the page and click that first button on
+the left. This is a research report that
+was created based on the links and
+context that I put in the notes. But
+this isn't just a normal research
+report. It was specifically created to
+mine for interesting and shocking facts.
+This report feature is basically a
+shortcut for finding the most shocking
+and interesting facts for any context or
+links that you give. So, even if you
+don't want to write the full script in
+Sand Castles, which is totally fine,
+this little research tool that's kind of
+hidden is actually a super helpful way
+to curate the shocking facts that you
+can then use in your manual writing
+process. So, those are the two ways you
+can mine for interesting facts with a
+high shock score. You can do it manually
+just by watching all the sources or you
+can do it automatically with the
+Sandcastle's research report. Now, let's
+zoom back out. At this point in the
+script writing process, you now have a
+dock with five to 10 bullets of the most
+interesting and shocking facts about the
+topic. And this will help us get past
+the interestingness blocker because now
+we have a process and a system for
+curating the most interesting parts of
+the story. Now it's time to actually
+start writing the script and piecing
+everything together. So let's move on to
+step two. All right, the next most
+important piece to focus on is the hook
+blocker. And you guys are going to love
+this one. Once you've curated the most
+interesting aspects of the story, the
+next question on your mind should be,
+how do I hook the viewer? Now, we all
+know the hook is the most important part
+of the script. So, is there a formula
+for writing a winning hook every single
+time? Of course, there is. Now, I've
+analyzed thousands of hooks across every
+single niche. And it turns out there are
+nine proven hook formats that tend to
+work in every single category. If you're
+stuck, the easiest way to solve for
+writing a winning hook is just to use
+one of these nine proven formats and not
+over complicate it. All right. So, here
+are the nine most effective hook
+formats. You have secret reveal, case
+study, comparison, question, education,
+list, contrarian, personal experience,
+and problem. Those are the nine. Now,
+quickly, let me just go through a
+oneline explainer of each of them so
+that you can use these right after
+watching this video. No gatekeeping
+here, but to be honest, I could do a
+whole video on just those nine hook
+formats. So, if you want me to do a much
+deeper dive where I dedicate a whole
+video to those, break them down, do a
+ton of examples, comment something like
+nine hooks so I know that you guys want
+that. Okay, here we go. This is the
+quick breakdown of the nine proven hook
+formats. Let's start with secret reveal.
+The secret reveal hook works best when
+you have some unknown insight or future
+implication that the viewer might not
+know. It teases the feeling that the
+speaker knows something the viewer
+doesn't. So, for example, Google just
+released four free AI trainings that
+make it way faster to learn AI. The
+secret reveal format is great for news
+coverage, product releases, or tactical
+tips that have just been uncovered. All
+right, next is the case study hook. This
+is number two. The case study hook works
+best when you're highlighting a brand,
+person, or subject that achieved some
+result in some unexpected way. For
+example, Alex Hormosi just sold $100
+million worth of books in 3 days using
+this five-step method. Case study hooks
+are great for breaking down a rapid
+explanation for how X subject
+accomplished Y result in Z method. Most
+educational creators have a ton of
+success with case study type hooks. All
+right, third, we have the comparison
+hook. The comparison hook is when you
+instantly compare two or more versions
+of something so you can illustrate the
+optimal one verse the suboptimal. For
+example, what's the difference between a
+beginner creator versus an experienced
+one. These are really great for breaking
+down A versus B scenarios and creating
+instant contrast between the ideal
+desired state and the base one. All
+right, fourth, we have the question
+hook. The question hook is when you
+explicitly ask a question to implant the
+desired curiosity directly in the
+viewer's mind. So, for example, can you
+bake sourdough bread in under an hour
+using only household ingredients? The
+question hook is great for teeing up
+challenge videos or directly asking a
+question that is common from your
+viewer. All right, fifth, we have the
+education hook. The education hook
+introduces a step-by-step process for
+completing a single task, process, or
+workflow. For example, here's the
+easiest way to use ChatGBT to create
+content. Typically, the education hook
+is the precursor to a tutorial or some
+kind of playbook. All right, sixth, we
+have the list hook. The list hook
+introduces an ordered set of items for
+accomplishing a painoint or task. For
+example, these are the five best
+Premiere Pro editing templates that you
+can use for free. List hooks are best
+for plainly introducing a rapidfire list
+of items. All right, seventh is the
+contrarian hook. The contrarian hook
+introduces a bold and contrarian take in
+the very first sentence as a way of
+grabbing attention. For example,
+Jaguars's rebrand is one of the worst
+design blunders in the history of the
+world. Contrarian hooks are great when
+you have a strong take that goes against
+the grain and you're willing to frame
+the entire video around it. And this
+works especially well if that contrarian
+take drives discussion in the comments.
+All right, eighth is the personal
+experience hook. The personal experience
+hook introduces a personal story or
+scenario, usually preceding a
+storytelling type video. For example,
+when I was in college, I use this sleep
+technique to only have to sleep 3 hours
+per night. Personal experience hooks are
+best when you want to speak in first
+person and frame up a story from your
+point of view. And last, but certainly
+not least, is the problem hook. The
+problem hook introduces a specific pain
+point or problem to set up a solution
+response. For example, if you struggle
+with acne, this is one obvious solution
+that will clear it right up. Problem
+hooks work best when you can agitate a
+pain point that the viewer is already
+aware of. Now, of course, not all nine
+hooks are going to work in every
+scenario, but in every scenario, I
+guarantee one or two of these will be
+the best bet of the nine. Now, once you
+know these are the nine goated hook
+templates, the questions then become,
+how do I know which hook format to use
+in what scenario? And then of course,
+how do I take my chosen hook format and
+write it so that it works for my topic
+specifically? Let's tackle both
+questions. The easiest way to decide
+which of the nine hook formats you
+should use is to study which hook
+formats are already working for the best
+performing videos in your niche. Now,
+typically for every niche, there will be
+one to two hook formats that just always
+crush. And this is because certain
+topics are better suited for certain
+hook storytelling than others. So, just
+pick the hook formats that are already
+working for your niche and remix those.
+Don't over complicate it. Now, the
+easiest way to figure out which hooks
+are best performing in your niche is to
+go to Sandcastles, go to the channels
+tab, and build a watch list of all the
+top performing accounts. Go to the
+videos tab, filter by that watch list,
+sort by outlier score top down. Now,
+you've got all the best videos in your
+space from those accounts right there
+for you. Click on each individual video
+to get to the idea detail page. Scroll
+down past the transcript and boom, right
+there, we have the hook analysis for
+you. This shows exactly which of the
+nine hook types I just walked through is
+being used on that video. It's
+automatic. This makes it so easy for
+you. You don't even need to watch the
+video. If you just click into 20 or 30
+of the top performing videos, there will
+be a pattern. There always is. Now, if
+you combine this datadriven pattern
+matching approach on Sandcastles with
+common sense, you'll easily be able to
+figure out which hook formats work best
+for your topic. Now, the second question
+is, okay, once I pick the hook format,
+how do I actually write it and tweak it
+so that it works for my specific video?
+And again, there are two ways to do
+this. The manual way is to take the
+literal word for word hook from the
+outperformer, copy that down, paste it
+in your doc, switch the words mad lib
+style, and run with that. So, the way to
+do this, go to Sandcastles, click into
+the video, see the full transcript, copy
+the hook word for word, and go from
+there. Again, pretty easy, but that's
+the manual process. You have to know
+which words to switch mad lip style. The
+other way, the automatic way is to again
+use sand castles, but it's a different
+feature. one that will automatically
+write all the hook variants for you in
+one click. So to access this, go back to
+the scripts tab, go to the script you
+just made, go all the way down to that
+script writing toolbar at the bottom.
+The third button, the one with the key,
+click that. What you see are all nine of
+the hook options written for you for
+your topic automatically. Now again, you
+might not want to use the Sandcastle's
+generated version word for word. Take
+that, copy it, paste it in your doc, and
+tweak it from there. And I'll say this
+again, you may not want to use Sand
+Castles or any AI tool to write the full
+script end to end because you don't like
+how it reads. But these little pieces,
+the research report, the hookwriter,
+these little things help you figure out
+puzzle pieces to add to your script
+process to find the answer quicker. Now,
+as a bonus on hooks, before I move to
+the next step in this video, I just want
+to quickly review the four hook
+commandments. Once you write your hook,
+screen for these four things to make
+sure these are true, and your hooks will
+perform much better. The four
+commandments for hooks are alignment,
+speed to value, clarity, and curiosity.
+For alignment, hooks are actually three
+parts. It's visual hook, spoken hook,
+and text hook. It's not one component.
+It's actually three. The visual, spoken,
+and text hook must be aligned. Whatever
+you say in the spoken hook has to match
+what you're showing with the visual and
+text. Now, the nine hook formats I just
+went over, those are obviously the
+spoken hook. That's what you write on
+the script. That's what you speak. But
+you should also be thinking about what
+visuals and text you should show on
+screen to complement the words you're
+saying. Okay. Next, when it comes to
+speed to value, the hook delivery must
+be fast. Zero delay, zero fluff. If the
+viewer only hears one sentence and you
+stop the video there, is it clear what's
+coming next or is it up in the air? It
+must be clear. The third piece, when it
+comes to clarity, the hook must clarify
+what the video is going to be about.
+Again, if the viewer only hears that
+first sentence, are they clear about
+what's coming or is it murky? Do they
+not understand the words you're saying?
+It must be clear. And then lastly is
+curiosity. The hook must open a question
+in the viewer's mind. This is the
+curiosity loop concept. When you're
+reading the hook back and you just read
+the hook, does it make you want to keep
+watching, keep reading, or not? So now
+you have the nine proven hook formats
+with a description of when you use each
+one, and the four hook commandments,
+kind of like filters or a checklist that
+you should run your hook through once
+it's written. If you want an even deeper
+dive on hooks, I made three other
+completely free videos that I'll link
+below. I also recorded a 2-hour in-depth
+training just on hooks. Literally
+everything I know about hooks with a
+37page notes guide that everybody who
+takes the training gets. That's also
+linked below. If you want to go crazy on
+hooks, the answer's right there. It's in
+the description. You don't need to watch
+anything else. Okay. So, at this point
+in the script process, let's just zoom
+back out and orient where we are. We've
+gone through two of the four steps.
+First, we curated the five to 10 most
+interesting facts about the story. And
+second, we've now picked the hook format
+and written the hook. If you're looking
+at your script document, you now have
+the body points and the hook done. Next,
+we need to figure out how do we piece
+those body points together to tell a
+compelling story after the hook. Okay,
+so the third blocker, remember, is the
+storytelling blocker. And for this one,
+you're stuck on this question. If I am
+able to hook them, how do I tell a story
+that's compelling enough to hold their
+attention through the whole thing? And
+the easiest way to solve the blank page
+problem of writing the story is to start
+with a story outline. I call this the
+story structure. It's the way the story
+flows after the hook. Now, listen, I'm a
+nerd when it comes to this stuff. Just
+like the hooks, I've analyzed thousands
+of the top performing videos across
+every niche. And there's also a proven
+pattern for story structures. There are
+seven winning story structures that tend
+to work across every niche. And just
+like hooks, I'm going to walk through
+all seven, give you the sauce, and tell
+you exactly how to use them. If you
+don't know where to start when it comes
+to structuring those facts into a story,
+I would pick one of these seven. So, the
+seven story structures are this:
+breakdown, newscaster, case study,
+explainer, listical, problem solver,
+tutorial, and educational. Now, just
+like we did for hooks, let's go through
+a two to three sentence explainer of
+each one. I'll break down when to use it
+and what hooks to pair with each
+different storytelling structure. Like I
+said, nobody gives away this kind of
+stuff for free. So, if you're liking
+this, you know what to do. All right,
+the first story structure is the
+breakdown story structure. And the
+breakdown story structure is really used
+to explain any concept in building
+blocks. Essentially, you're breaking
+down some complex thing. Now, the
+outline that you would use for breakdown
+stories goes like this. First, you have
+a hook. Then, you have some initial
+context shock. Then, you have a block
+explaining what happened or how it
+works. Then, you have a block for why it
+matters. And then, an outro. It's a five
+block outline. The breakdown story
+format is best for things like product
+launches, general development or news,
+new technology or analysisbased stories.
+Now, typically the best hooks to use
+when you're writing in a breakdown story
+format would be the secret reveal, the
+question, the comparison, or the
+contrarian. Okay. Second, we have the
+newscaster story structure. The
+newscaster story structure is used to
+explain a largely factual recounting of
+an event. Typically, not as much
+opinion, more facts. It's like a
+journalist. It's kind of like a
+breakdown, but it has more of a
+journalistic fact-based slant. Now, the
+outline for newscaster stories goes like
+this. You have hook, you have the full
+context of the story, you have an
+optional extremely short take or
+analysis section, optional, and then you
+have an outro. So, it's three or four
+pieces. And like I said, newscaster
+stories are typically best for
+journalism or sharing the news. Now,
+typically the best hooks to use if
+you're trying to write in the newscaster
+format would be secret reveal, question,
+comparison, contrarian, or problem.
+Okay. Third, we have the case study
+explainer story structure. The case
+study explainer story structure, that's
+a mouthful, is used whenever you're
+trying to educate a viewer on some
+blueprint or framework or process that
+was used to achieve some outcome in some
+way. Now, the outline for case study
+explainers is hook. the framework, which
+is typically two to four pieces breaking
+down in succession the framework used
+and then the outro. So, it's really
+three blocks, but that framework block
+is like the whole story. It's there's
+many blocks between. Case study
+explainers are best when you're trying
+to teach skills or break down some
+framework quickly. And typically, the
+best hooks used when you're doing a case
+study story would be the case study
+hook, a question hook, or a comparison
+hook. All right, the fourth story
+structure out of seven is the listical.
+Now, the listical story structure is
+pretty straightforward. It's when you're
+trying to educate a viewer using an
+ordered list of items. And the outline
+is very simple. It's hook. It's the
+list, whatever the three to five items
+would be, and then it's the outro. Now,
+listicicals are best used when you have
+a mutually exclusive list of atomic
+units, things that you can break apart
+in separation and just go one after the
+next. Typically, for listical videos,
+you use the list hook, but you can also
+use the problem hook as well. All right.
+Fifth, we have the problemolver story
+structure. And the problem solver story
+structure, again a tongue twister, I
+need simpler names, is very common. It's
+when you're trying to agitate a pain to
+tee up some solution. Problem,
+agitation, solution. Now, the outline, I
+kind of just alluded to it, would be
+hook, problem, and you can agitate the
+problem in there, solution, outro.
+Problem solver stories are best when
+you're trying to lead with the problem.
+It's a very simple structure, but it's
+executed very well, especially for
+educational or product use cases. Now,
+typically for problem solver stories,
+you're going to use the problem hook.
+You could also use the question hook or
+the contrarian hook. All right. Sixth,
+we have the tutorial. And the tutorial
+story structure is really used as like a
+ride along or a recap of an experiment
+or some walkthrough of a system. This is
+what you'd want to use if you were
+explaining a step-by-step process for
+how to do something. Now, the outline
+for tutorial stories, very simple, is
+hook, the tutorial, which again is like
+a listbased step-by-step flow, and then
+the outro. So it's three blocks, but
+that middle block is kind of expanded.
+As I mentioned, tutorials are best for
+education, kind of explaining uncharted
+territory, trying to break down a
+complex system, things like that. Now,
+the difference between a tutorial and a
+list is that for tutorial, you have a
+series of steps, but they all go in
+succession leading to one outcome. They
+don't really live alone. The steps can't
+live on their own. For list, every
+single unit, every single piece in the
+list can live on its own. They're kind
+of like separate things. They can all
+help lead to the same outcome, but
+they're all separate. So it's contingent
+steps on each other and then separate.
+Now the difference between a tutorial
+and a case study story structure again
+tutorial is step by step leading to one
+outcome. The case study is less howto
+steps and more analysis or reflections
+of pieces that led to that outcome. So
+they're two sides of the same coin. All
+right. Number seven is educational or
+personal story. And this story structure
+is really used for storytelling from the
+first person perspective. Anytime you
+want to lead with the creator's point of
+view, you're going to use this personal
+story structure. The outline for this is
+very simple. It's hook, personal,
+experience, story, actually telling the
+story, start, middle, end, and then
+outro. So, it's three blocks, but again,
+that middle block is a bit expanded. And
+educational stories, like I said, are
+used to illustrate firsterson learnings.
+Typically, they lead to motivation,
+inspiration, something of that nature.
+Now, the best hook to use for these
+would be the personal experience hook.
+You could also use the problem or
+contrarian hooks. All right. Now that
+you know the seven story structures, and
+apologies, that was a mouthful. The two
+questions that pop in your head again
+are the same thing. How do I know which
+one to use? And once I pick one, how do
+I write my story for my topic? How do I
+tweak it so that it works for me? Let's
+tackle both of those. First, how do you
+know which one to pick? The best way to
+know which one to pick is the exact same
+process I talked about when we were
+going over hooks. You want to study the
+best performing videos in your niche to
+figure out how they tell stories for
+those viewers in those topic areas and
+then pick those one to two story
+structures that work over and over. Now,
+if you're a script writing guru, you can
+make any of the story structures work
+for any topic. But if you're not and you
+just want to take the easy route, pick
+what's working for your topic and just
+use that. It couldn't be any easier.
+Now, I will say this, the winning story
+structures are going to vary niche to
+niche. But for every niche, there are
+going to be one or two standouts that
+always seem to work. And again, that's
+because the psychology of consuming
+different topics varies. And so, certain
+storytelling methods are just more
+effective in certain areas than others.
+Now, the easiest way to figure out what
+the winning story structures are in your
+niche is to go to sandcastles.ai, I
+build a watch list of all the top
+accounts using the channels tab. Go to
+the videos tab. Filter the videos by
+that watch list. Sort by outlier score
+top to bottom. Click into each
+individual video. Scroll down and look
+at the story structure analysis section.
+We literally put which of the seven
+they're using on every single video. And
+really all it takes is going in maybe
+once a week, clicking on the top 20 or
+30, and just noticing the pattern. There
+is always a pattern. You will see it
+right away. Now, of course, the last
+question is once I pick which of the
+seven to use, how do I actually tweak
+and write it for my topic? And again,
+you can either do this the manual way or
+the automated way. And you're probably
+sensing a theme here. I'm trying to give
+you all the tools for how to do these
+steps as fast as possible while still
+maintaining quality. But if you like the
+manual art of script writing, I'm still
+breaking down the why and the how so you
+can do it by hand. Now, when it comes to
+story structure and actually writing the
+story, both manual and automated benefit
+significantly from using sand castles.
+Now, on the manual side, this is what I
+would do. I would go to the script tab
+in Sand Castles. I would go down to that
+script toolbar that we've been going to
+the second button. Now, click that. That
+is now all seven story structures laid
+out for you. Now, if you want to do this
+manually and you don't want to use sand
+castles to write, which is completely
+fine, click the copy button on whichever
+structure you like. Paste that into your
+doc or paste it into chat GBT. And that
+is now the outline that you can use. And
+what you're going to do is just start
+slotting in facts that you've already
+pulled those interesting and shocking
+facts into each bucket to logically tell
+the story from beginning to end. Now,
+obviously, there is an art to slotting
+in those facts. Obviously, there's an
+art to the writing itself, and I don't
+have enough time in this video to go
+into every nuance of the writing. If you
+want me to make a detailed breakdown on
+that, put that in the comments so I
+know. This is the shortcut for the
+writing. Imagine you were telling this
+story to a friend. You now know the
+facts you want to tell them. You now
+know how you would intro the story with
+the hook. How would you order those
+facts so they would understand it the
+most? What order do they go in? That's
+how you should think about sequencing
+the actual writing itself. If you want
+to watch a live breakdown where I script
+and kind of voice over exactly why I
+write each word the way I write it, I'll
+link that video below, too. Now, of
+course, if you want to avoid all the
+headache of the manual part and trying
+to figure out how to sequence the steps,
+you can use the automated flow, which is
+going into Sandcastles, picking which of
+the structures you want to use, and then
+one click, we'll write it for you. And
+again, if you don't like the way Sand
+Castles writes and you prefer Chachi or
+Claude, that's totally fine. But having
+access to the story structures, the hook
+formats, and the research report, these
+little pieces make it way easier to
+drive whatever process, manual, chat, or
+claude, you prefer. I'll be honest, I
+personally don't really like an AI
+program writing my scripts end to end.
+It just feels very artificial. But what
+I do like using is different pieces here
+or there to kind of stitch together my
+90% draft as quick as I can and then I
+manually edit from there. And before we
+move on and finish the video, the reason
+why it feels like sand castles is always
+the answer for doing this faster is
+because it is. I built sand castles
+specifically to make short form video a
+thousand times faster. all these
+formulas, all these playbooks, all these
+learnings. Nobody else is on the cutting
+edge like I am. If you like the way I
+explain this stuff, I am taking my brain
+and distilling it into Sandcastle so
+that you can use it on demand whenever
+you want. That's why it feels like it is
+the answer because it is. Okay, let's
+zoom back out. At this point, we have
+now covered three of the four major
+script writing blockers. First, we broke
+down how to mine for the most
+interesting facts in the story. And then
+we covered the top hook formats and the
+top storytelling structures that you can
+use to start piecing together those
+facts. And we covered those in that
+order because this whole video was about
+how can you write scripts faster. And
+once you have structures and templates
+that allow you to know how to write the
+hook and how to write the story, this
+process gets way quicker. Now, the last
+blocker is the engagement blocker. And
+the question in your mind should be, if
+I'm able to hook them, if I'm able to
+hold them the whole time, how do I make
+the story good enough to where they
+actually engage and they like or share
+with a friend? And I'll give you this
+one super fast. The way to ensure the
+engagement happens is to increase the
+chances that an emotional transfer
+happens via some sort of payoff. Now,
+there are six buckets of emotions that
+you could use content to drive. You've
+got awe or inspiration, amusement or
+humor, excitement or joy, anger or
+outrage, surprise, shock or curiosity,
+and then sadness or empathy. Those are
+the six. The greater the transfer of
+emotion that your video has, A, the more
+the viewer will like it because the
+dopamine release, and B, the higher
+chance there is that they'll share it
+because they want to transfer that
+emotion to someone else. Now, the best
+way to ensure this emotional transfer
+happens is to be very intentional as
+you're writing on the emotion that you
+want to drive. And so, what I like to do
+is write the desired emotion that I'm
+going for at the top of my page as a
+reminder when I'm writing so that I can
+use that as a filter. So, those are the
+four key steps to go from a blank page
+to a finished script really fast and
+avoid the four big script writing
+blockers. Step one, curate the highest
+shock, facts, takes, and opinions to
+ensure max interestingness of the video.
+Step two, choose a proven hook structure
+and make sure your hook satisfies the
+four hook commandments. Step three,
+choose a proven story structure. And
+step four, ensure the emotional transfer
+happens. Now, let's recap the
+step-by-step system that you should use
+for your script writing to ensure that
+you can get through it as fast as
+possible. The first step is that I'm
+researching and I'm writing down as many
+bullets as I can that are interesting
+about the topic. And again, the way I
+look for those is that I'm documenting
+anything that shocks me based on the 1
+to 100 shock factor score. You can do
+this manually or you can use the
+Sandcastle's research report feature to
+do this much faster. Second, based on
+the facts I find and the general
+approach I want to take, I'm going to
+write my desired emotion at the top of
+my paper to make sure that I'm using
+that as a filter for the rest of the
+process. Third, I'm picking the hook
+structure that I want to use, and I'm
+doing that by using sand castles to
+figure out which hook structures are
+working the best for my topic and my
+niche. I'm taking one of those hooks in
+that structure, and then I'm tweaking it
+and optimizing it for my specific video.
+And of course, I'm ensuring that that
+hook meets all four hook commandments
+and that I have a good visual to pair
+with it. Now, fourth, I'm picking the
+story structure that I want to use to
+write the rest of my script. To do this,
+again, I'm looking at what has already
+worked in my niche using the sand
+castle's analysis process, and I'm
+thinking about my own personal spin and
+the facts I have at my disposal,
+combining those to pick the right story
+structure. I'm taking that story
+structure. I'm writing the outline of
+that structure on my page. And I'm
+starting to think about how I can slot
+different facts in. Just writing down
+those sections, I'm telling you, is very
+helpful in the flow. All right. Fifth,
+I'm going to actually write the script
+using that outline. And I know we didn't
+talk about this piece as explicitly as
+the others, but once you have the hook
+format chosen, the shocking facts
+pulled, and the story structure outline
+decided, it's really just about layering
+the facts in order, and adding
+transitions to smooth it out. That's
+really all you have to do to write a
+banger script. And again, I will go
+through a much deeper dive on the
+writing in the future. If you guys want
+that, just comment below. All right.
+Then lastly, I'm going to read through
+the finished script and I'm going to
+have that emotional filter in my mind
+again. And I'm just gut-eing if I want
+anger shock. Did this script written
+drive anger shock in me or not? It's the
+last check. If not, I would change the
+wording and phrasing to make that
+emotion more visceral. Now, at the end,
+once I have all six of those things
+completed, there's a quick four-step
+checklist, four questions really, that
+I'm asking myself to make sure that it's
+finished. This is what I'm asking. Is
+this story interesting? Is this story as
+compressed as it can possibly be? Does
+this hook actually hook me on its own?
+And what emotion do I feel when I finish
+reading? If I can get through those four
+questions, just based on the text script
+alone, I know I'm good once I add
+visuals, cuz they'll only make it
+better. All right, guys. That is all
+I've got for this video. This was a
+master class on how to write scripts 10
+times faster. Obviously, the only way
+you're going to get the script writing
+from 60 minutes down to 60 seconds is if
+you use an AI tool from end to end. But
+if you're like me, you probably feel
+like the AI writing just doesn't hit.
+It's just not there at the quality you
+want. What I found to be the fastest
+while still maintaining effective
+quality and being able to go viral
+whenever I want is using the system and
+automated pieces where it makes sense,
+but then stitching together and editing
+manually. That combo seems to work the
+best. And I'm telling you, using sand
+castles to find the proven outliers,
+both for hooks and story structures,
+that alone will save you 10x the time
+when you're trying to figure out how to
+write the script. As always, guys, I'm
+trying the absolute best to make it
+easier for you to make better content.
+That's my whole mission with this
+channel. Whether you're a creator or a
+business owner, this script writing
+framework should help you a ton. Keep me
+posted in the comments if you guys like
+this one. I really do read every comment
+and use it as a guide for what videos to
+make next. So, if you want something or
+you're confused, please leave a comment
+and let me know what I should cover. And
+remember, if you're a business owner and
+you're still watching, I built a free
+community specifically for you
+entrepreneurs trying to get better at
+content. We have 31,000 business owners
+in there. There are 60 free trainings
+just like this. Everybody's working
+together to help each other. Everyone's
+giving feedback. It's honestly a great
+vibe. If you're an entrepreneur and you
+want to join that, it's completely free.
+I've got an invite link below. Until the
+next one, we will see you guys then.
+Peace.
