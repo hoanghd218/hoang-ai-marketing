@@ -1,0 +1,25 @@
+# Environment variables and MCP config (contains API keys)
+.env
+.mcp.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Node modules (if MCPs install locally)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Output folders (optional - uncomment if you don't want to track outputs)
+# research/
+# exports/
+# data/

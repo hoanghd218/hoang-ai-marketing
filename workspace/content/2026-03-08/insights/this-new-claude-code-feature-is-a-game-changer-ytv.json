@@ -1,0 +1,46 @@
+{
+  "video_id": "YTNvuG1HqKE",
+  "summary": "This short tutorial demos Claude Code's newly released 'loop' skill and 'schedule tasks' feature. The loop skill lets you set recurring actions — like checking a deploy or polling ClickUp — at custom intervals (every 5, 10 minutes, hourly) for up to 3 days within a single session. Schedule tasks go further: they're long-lived, support daily/weekly/monthly cadences with catch-up logic, and run indefinitely — though currently limited to the desktop app. Both features require the terminal or app to remain open. The video is aimed at developers and power users of Claude Code who want hands-off, proactive automation without leaving their IDE. Biggest takeaways: (1) Claude Code can now act autonomously on a timer, not just on-demand. (2) Loop vs. schedule tasks serve different use cases — ephemeral monitoring vs. persistent routines. (3) This turns Claude Code from a reactive assistant into a lightweight cron-based agent.",
+  "insights": [
+    {
+      "type": "Framework",
+      "title": "Loop vs. Schedule Tasks: Two tiers of recurring automation",
+      "explanation": "Loop is ephemeral (3-day max, single session, no catch-up) for quick monitoring tasks. Schedule tasks are long-lived, support daily/weekly/monthly cadences with catch-up, designed for persistent routines. Choose the tier based on whether you need temporary monitoring or ongoing automation."
+    },
+    {
+      "type": "Paradigm Shift",
+      "title": "From reactive assistant to proactive agent",
+      "explanation": "Claude Code is no longer just a tool that responds when you type. With loop and scheduled tasks, it can initiate actions, check on things, and notify you without any input — fundamentally changing the interaction model from pull to push."
+    },
+    {
+      "type": "Framework",
+      "title": "Natural language cron job creation",
+      "explanation": "You can either use the /loop slash command with explicit parameters or simply describe what you want in natural language. Claude Code interprets the intent, invokes the loop skill internally, and creates the cron job — no syntax to memorize."
+    },
+    {
+      "type": "Warning",
+      "title": "Terminal or app must stay open for loops to run",
+      "explanation": "Both loop and schedule tasks require the Claude Code session (terminal, desktop app, or VS Code extension) to remain open. If you close it, the recurring tasks stop. This is not a cloud-hosted cron — it is local and session-bound."
+    },
+    {
+      "type": "Warning",
+      "title": "Schedule tasks currently limited to desktop app only",
+      "explanation": "While the loop skill works across terminal, VS Code extension, and desktop app, the more powerful schedule tasks feature is currently only available in the Claude Code desktop app. Plan your workflow accordingly."
+    },
+    {
+      "type": "Principle",
+      "title": "Automation value scales with frequency of repetitive checks",
+      "explanation": "The loop feature is most valuable when you have a task you'd otherwise check manually every few minutes — deploy status, project updates, CI pipelines. The more repetitive and frequent the check, the greater the payoff of automating it."
+    },
+    {
+      "type": "Framework",
+      "title": "Three-step loop setup: describe, invoke, forget",
+      "explanation": "The workflow is: (1) describe what you want monitored and at what interval, (2) Claude Code creates the cron via the loop skill, (3) walk away and get notified when something changes. No configuration files or external tools needed."
+    },
+    {
+      "type": "Diagnosis",
+      "title": "Why developers miss important updates: context-switching cost",
+      "explanation": "Developers miss deploy failures or project updates because manually checking requires breaking focus. The root cause isn't forgetfulness — it's that polling is expensive in terms of attention. Loop eliminates this by making Claude Code do the polling."
+    }
+  ]
+}

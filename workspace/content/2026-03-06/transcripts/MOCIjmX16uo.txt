@@ -1,0 +1,7 @@
+Now, allow me to share some of my own personal experience here, cuz I have a lot of it I think will really tie this together, cuz I went from being that engineer that refused to use AI coding tools to now teaching thousands of individuals and teams at large companies how to use them effectively.
+
+So, back in 2024, I was one of those people that said no to all AI coding tools. I wrote all of my code by hand still. But finally, November of 2024 is when I installed Windsurf. That was my first AI coding assistant. And man was my brain blown. Like I wish I had used AI coding assistants for the last year.
+
+And so I didn't start doing a ton with these AI coding assistants. Like they just help me with writing a function or editing a single file. But over time, like the next six months, I built up my full system that I call my PIV loop plan, implement validate. I have a video on my channel where I cover it that I'll link to right here.
+
+So, I've gotten to the point now where I delegate all of my coding, at least almost all of my coding to the AI coding assistants because I put myself in the driver's seat for the planning and the validation at the end, sandwiching the implementation.

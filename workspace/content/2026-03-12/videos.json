@@ -1,0 +1,544 @@
+{
+  "date": "2026-03-12",
+  "total": 9,
+  "videos": [
+    {
+      "video_id": "NMWgXvm--to",
+      "slug": "stripes-coding-agents-ship-1300-prs-every-week-heres-how-they-do-it",
+      "title": "Stripe's Coding Agents Ship 1,300 PRs EVERY Week - Here's How They Do It",
+      "url": "https://www.youtube.com/watch?v=NMWgXvm--to",
+      "channel": "Cole Medin",
+      "views": 356,
+      "published_at": "2026-03-12T00:00:32Z",
+      "image": "images/stripes-coding-agents-ship-1300-prs-every-week-heres-how-they-do-it.jpg",
+      "transcript": "transcripts/stripes-coding-agents-ship-1300-prs-every-week-heres-how-they-do-it.txt",
+      "summary": "This video breaks down how Stripe ships 1,300+ fully AI-written pull requests per week using their internal agent harness called Minions. It explores the architecture of structured AI coding workflows — combining non-deterministic agent nodes with deterministic validation steps (linting, type checking, testing) — to achieve reliability at scale. Stripe's approach includes deterministic context curation before the agent runs, isolated cloud dev boxes (EC2 instances) for execution, a 500-tool MCP server called Tool Shed, and mandatory human review. The video also covers how Shopify (Roast) and other companies follow the same pattern. Most importantly, it shows how individual developers can apply these ideas through the PIV loop (Plan, Implement, Validate) across separate coding sessions. Best for: engineers and technical leaders looking to scale AI coding beyond simple chat-based assistance.",
+      "insights": [
+        {
+          "type": "Paradigm Shift",
+          "title": "The system controls the agent, not the agent controls the system",
+          "explanation": "Most developers let the AI coding agent drive the entire workflow. Stripe flips this: the workflow is a fixed graph of steps, and the agent only runs inside contained boxes within that graph."
+        },
+        {
+          "type": "Framework",
+          "title": "Blueprint Architecture: Agent nodes + Deterministic nodes",
+          "explanation": "Stripe's Minions uses 'blueprints' — workflows that interweave agent steps with deterministic steps (linting, type checking, test execution). Each node type handles what it does best."
+        },
+        {
+          "type": "Framework",
+          "title": "The PIV Loop: Plan → Implement → Validate across sessions",
+          "explanation": "Use one agent session to create a structured plan with human review, cut the context window, feed the plan into a fresh implementation session, then run deterministic validation."
+        },
+        {
+          "type": "Principle",
+          "title": "Deterministic guardrails compound into system-wide reliability",
+          "explanation": "Writing code to deterministically handle small, predictable decisions saves tokens, reduces cost, and gives the agent fewer opportunities to get things wrong."
+        },
+        {
+          "type": "Framework",
+          "title": "Context Curation Before Agent Execution",
+          "explanation": "Before the agent begins coding, a deterministic node curates relevant documentation and a filtered subset of MCP tools. This prevents assumptions and avoids tool overload."
+        },
+        {
+          "type": "Warning",
+          "title": "Don't let agents run infinite retry loops on test failures",
+          "explanation": "Stripe caps agent retry loops at a maximum of two iterations when tests fail. After that, it escalates to a human."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why AI coding feels unreliable: no validation guarantees",
+          "explanation": "The root cause isn't that LLMs write bad code — it's that typical agent usage has no guaranteed validation step."
+        },
+        {
+          "type": "Framework",
+          "title": "Cattle-not-pets: Isolated ephemeral dev boxes for each agent run",
+          "explanation": "Each Minion runs in an isolated AWS EC2 instance preloaded with the codebase, spun up and torn down on demand."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "The industry is heading toward more power to the system, not more power to agents",
+          "explanation": "Stripe, Shopify, Airbnb, and AWS are all converging on constraining agents within structured workflows. The competitive advantage isn't a better agent — it's a better system."
+        },
+        {
+          "type": "Warning",
+          "title": "Never skip human review — even with structured workflows",
+          "explanation": "Despite 1,300 PRs per week being fully AI-written, Stripe never merges without human review."
+        }
+      ],
+      "notion_page_id": "321ab9e5-e740-81a9-9936-d30576e81ea4",
+      "notion_url": "https://www.notion.so/Stripe-s-Coding-Agents-Ship-1-300-PRs-EVERY-Week-Here-s-How-They-Do-It-321ab9e5e74081a99936d30576e81ea4"
+    },
+    {
+      "video_id": "dMXuKdIGzVo",
+      "slug": "anthropic-just-dropped-skills-for-office-apps",
+      "title": "Anthropic Just Dropped Skills for Office Apps",
+      "url": "https://www.youtube.com/watch?v=dMXuKdIGzVo",
+      "channel": "Mark Kashef",
+      "views": 1190,
+      "published_at": "2026-03-11T22:20:41Z",
+      "image": "images/anthropic-just-dropped-skills-for-office-apps.jpg",
+      "transcript": "transcripts/anthropic-just-dropped-skills-for-office-apps.txt",
+      "summary": "Anthropic released three updates enabling Claude Skills inside Microsoft Excel and PowerPoint add-ins. Users can now invoke built-in slash commands or import custom skills to run repeatable workflows directly within Office files. The Claude Co-work sidebar maintains real-time context of the open document via a session file. Custom skills act as deterministic SOPs — enforcing formatting rules or running variance analysis on spreadsheets. Skills can be shared across an organization's team account. Aimed at knowledge workers, finance professionals, solopreneurs, and team leads who spend significant time in Excel and PowerPoint.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "Skill-as-SOP: Package recurring prompts into reusable slash commands",
+          "explanation": "Codify your exact standards into a skill file, upload it once, and invoke it with a slash command. This turns ad-hoc AI prompting into a deterministic, repeatable process."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Skills replace Excel macros for a new generation of automation",
+          "explanation": "Claude Skills represent a paradigm replacement for Excel macros — natural language SOPs that can audit formulas, calculate variances, and add comments without writing VBA code."
+        },
+        {
+          "type": "Framework",
+          "title": "Three-layer Claude stack: Extension + Co-work + Skills",
+          "explanation": "The full workflow layers three components: the Office add-in extension, Claude Co-work for real-time monitoring, and Skills for deterministic task automation."
+        },
+        {
+          "type": "Principle",
+          "title": "Deterministic execution beats ad-hoc prompting at scale",
+          "explanation": "When you tailor your specific company workflow into a skill, you get consistent, reliable results every time."
+        },
+        {
+          "type": "Framework",
+          "title": "Board-ready slide audit as a reusable skill template",
+          "explanation": "The demonstrated skill enforces board presentation standards: slides with 3+ bullets get rewritten as a single bold headline stat with one supporting line."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Repetitive feedback is a symptom of missing automation",
+          "explanation": "If you find yourself giving Claude the same feedback every time, that's a signal you should package those instructions into a skill."
+        },
+        {
+          "type": "Framework",
+          "title": "Session file enables real-time document awareness",
+          "explanation": "Claude Co-work reads a session file that acts as the bridge between the Office extension and the Co-work panel, enabling contextual follow-up questions."
+        },
+        {
+          "type": "Principle",
+          "title": "Best AI integrations meet users where they already work",
+          "explanation": "The most impactful AI updates integrate naturally into platforms people use every day — Excel and PowerPoint."
+        },
+        {
+          "type": "Framework",
+          "title": "Org-wide skill sharing for team standardization",
+          "explanation": "Team account admins can share skills across the entire organization, creating organizational consistency without each person building their own prompts."
+        },
+        {
+          "type": "Warning",
+          "title": "Custom instructions compound with skills — design them together",
+          "explanation": "If you set custom instructions without considering how they interact with your skills, you may get conflicting or redundant behavior."
+        }
+      ],
+      "notion_page_id": "321ab9e5-e740-8166-86c4-ef86b8018c44",
+      "notion_url": "https://www.notion.so/Anthropic-Just-Dropped-Skills-for-Office-Apps-321ab9e5e740816686c4ef86b8018c44"
+    },
+    {
+      "video_id": "qb90PPbAWz4",
+      "slug": "karpathys-autoresearch-explained-in-24-minutes",
+      "title": "Karpathy's \"autoresearch\" explained in 24 minutes",
+      "url": "https://www.youtube.com/watch?v=qb90PPbAWz4",
+      "channel": "Greg Isenberg",
+      "views": 4007,
+      "published_at": "2026-03-11T22:01:00Z",
+      "image": "images/karpathys-autoresearch-explained-in-24-minutes.jpg",
+      "transcript": "transcripts/karpathys-autoresearch-explained-in-24-minutes.txt",
+      "summary": "Greg Isenberg breaks down Andrej Karpathy's open-source project 'Auto Research' — an AI agent loop that autonomously runs experiments on a GPU, evaluates results, discards losers, keeps winners, and repeats. The video explains the core mechanism, then proposes 10 business ideas built on top of it. Best for entrepreneurs and builders looking to understand the auto-research loop pattern and brainstorm commercial applications. Biggest takeaways: (1) the loop pattern is universal and applies far beyond ML training; (2) the real money is in packaging the loop for a painful niche; (3) you still need human-in-the-loop oversight in high-stakes domains.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "The Auto Research Loop: Goal → Plan → Act → Measure → Keep Winners → Repeat",
+          "explanation": "You give the AI agent a clear goal and a success metric. It plans an experiment, runs it, reads results, discards what didn't improve, saves what did, then plans the next experiment."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "From manual A/B testing to autonomous experiment swarms",
+          "explanation": "Traditional optimization runs a handful of tests with human oversight. Auto Research flips this: the AI runs hundreds of experiments overnight and surfaces only the winners."
+        },
+        {
+          "type": "Framework",
+          "title": "Niche Agent-in-a-Box productization model",
+          "explanation": "Pick a painful niche, design a tiny auto-research loop tuned to that niche's KPI, package it as a product with a monthly subscription."
+        },
+        {
+          "type": "Principle",
+          "title": "When legends move, pay attention and tinker",
+          "explanation": "When deeply respected builders like Karpathy and Toby Lutke both publicly endorse a new tool, that's a strong signal to invest time learning it."
+        },
+        {
+          "type": "Warning",
+          "title": "Blind trust in autonomous loops will burn you",
+          "explanation": "In high-stakes domains like finance, people will be tempted to hand over bank accounts to auto research. Without human-in-the-loop, autonomous optimization can produce catastrophic losses."
+        },
+        {
+          "type": "Framework",
+          "title": "Three-file setup to start: program.md + bench script + branch",
+          "explanation": "Create an 'auto' folder, add a program.md describing the goal, write a bench script measuring the success metric, make a branch, and let it rip."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Auto Research works for any optimization problem, not just ML training",
+          "explanation": "The loop pattern generalizes to landing page conversion, email sequences, pricing strategies, lead scoring rules. Anywhere you have a measurable outcome and variable inputs."
+        },
+        {
+          "type": "Framework",
+          "title": "Revenue model: monthly retainer + performance bonus on KPI lifts",
+          "explanation": "Charge a monthly retainer for running experiments plus a performance bonus tied to specific KPI improvements."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why most businesses under-optimize: experiments are too expensive and slow",
+          "explanation": "Running experiments manually is time-consuming and costly. Auto research makes experiments nearly free and fully automated."
+        },
+        {
+          "type": "Principle",
+          "title": "The winning pattern is: automate the grind, touch only high-impact decisions",
+          "explanation": "Let the autonomous loop handle repetitive grunt work so humans only engage on high-value judgment calls."
+        }
+      ],
+      "notion_page_id": "321ab9e5-e740-8187-81da-e4a48bb17f9f",
+      "notion_url": "https://www.notion.so/Karpathy-s-autoresearch-explained-in-24-minutes-321ab9e5e740818781dae4a48bb17f9f"
+    },
+    {
+      "video_id": "6vPaitNQMGY",
+      "slug": "watch-openclaw-manage-a-swarm-of-claude-code-agents",
+      "title": "Watch OpenClaw manage a swarm of Claude Code agents…",
+      "url": "https://www.youtube.com/watch?v=6vPaitNQMGY",
+      "channel": "David Ondrej",
+      "views": 3982,
+      "published_at": "2026-03-11T21:17:03Z",
+      "image": "images/watch-openclaw-manage-a-swarm-of-claude-code-agents.jpg",
+      "transcript": "transcripts/watch-openclaw-manage-a-swarm-of-claude-code-agents.txt",
+      "summary": "A step-by-step tutorial on setting up OpenClaw on a VPS to manage multiple Claude Code sub-agents via Telegram. The creator shows the full pipeline: provisioning a VPS, installing OpenClaw, connecting Telegram, configuring Claude Code as a skill, and dispatching sub-agents to build software. Key takeaways: (1) VPS is superior to local hardware for AI agent hosting due to cost, scalability, and remote access; (2) Over 15% of community OpenClaw skills contain malware; (3) The orchestrator-subagent architecture keeps the main agent responsive while multiple coding agents work in parallel.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "VPS + OpenClaw + Claude Code: The 3-Layer AI Agent Stack",
+          "explanation": "Infrastructure layer (VPS), Orchestration layer (OpenClaw via Telegram/Slack), Execution layer (Claude Code sub-agents). Each layer is independently scalable."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "You don't need expensive hardware to run AI agents 24/7",
+          "explanation": "A $5-10/month VPS is cheaper, faster to set up, remotely accessible, and more scalable than expensive Mac Minis."
+        },
+        {
+          "type": "Warning",
+          "title": "15%+ of community OpenClaw skills are malware",
+          "explanation": "Sites like ClawHub have over 15% malicious skills that steal API keys. Only install from the official repo (github.com/openclaw/skills)."
+        },
+        {
+          "type": "Principle",
+          "title": "Orchestrator must never be blocked by execution tasks",
+          "explanation": "Your main AI agent should only orchestrate and dispatch, never execute build tasks directly. Dispatching sub-agents keeps the orchestrator responsive."
+        },
+        {
+          "type": "Framework",
+          "title": "The 5-step OpenClaw deployment pipeline",
+          "explanation": "Provision VPS → install OpenClaw → connect chat channel → install Claude Code skill → test by dispatching a build task."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Claude Code fails on root — it's by design, not a bug",
+          "explanation": "Anthropic disables dangerous permissions for root users. Fix: create a non-root user and run Claude Code under that user."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Let the AI agent improve itself through conversation",
+          "explanation": "Instruct OpenClaw via Telegram to update its own configuration, restart its gateway, and install skills. Treat AI as a collaborator that can modify its own setup."
+        },
+        {
+          "type": "Warning",
+          "title": "Skill files should be plain markdown — code inside is a red flag",
+          "explanation": "Legitimate OpenClaw skills are plain markdown with no executable code. If a skill contains JavaScript or Python, it's almost certainly malicious."
+        },
+        {
+          "type": "Principle",
+          "title": "Two skills define success in 2026: English and AI debugging",
+          "explanation": "The only two fundamental skills needed are speaking English to communicate with AI and knowing how to use AI tools to debug problems."
+        },
+        {
+          "type": "Framework",
+          "title": "Open Router as a universal model gateway",
+          "explanation": "Using Open Router gives access to dozens of models through a single API key, enabling model switching without reconfiguring the entire stack."
+        }
+      ],
+      "notion_page_id": "321ab9e5-e740-814e-9b65-ed5b96bbada1",
+      "notion_url": "https://www.notion.so/Watch-OpenClaw-manage-a-swarm-of-Claude-Code-agents-321ab9e5e740814e9b65ed5b96bbada1"
+    },
+    {
+      "video_id": "fdrq2tN0BJM",
+      "slug": "i-did-something-incredible-with-openclaw",
+      "title": "I did something INCREDIBLE with OpenClaw",
+      "url": "https://www.youtube.com/watch?v=fdrq2tN0BJM",
+      "channel": "Alex Finn",
+      "views": 7926,
+      "published_at": "2026-03-11T20:19:24Z",
+      "image": "images/i-did-something-incredible-with-openclaw.jpg",
+      "transcript": "transcripts/i-did-something-incredible-with-openclaw.txt",
+      "summary": "Alex Finn livestreams a walkthrough of his personal AI lab: multiple Mac Studios (512GB each), an Nvidia DGX Spark, and OpenClaw AI agents running 24/7. He covers LoRA fine-tuning local models on his own YouTube transcripts, Karpathy's auto-research (self-improving models via 5-minute experiment loops), the hybrid architecture of cloud brains orchestrating local grunt-work models, and the just-released Nvidia Nemotron 3 open-source model. Target audience: builders running local AI labs and anyone evaluating cloud-vs-local AI strategies.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "Hybrid Brain Architecture: Cloud Orchestrator + Local Workers",
+          "explanation": "Use a powerful cloud model as the main brain orchestrator, then delegate grunt work to local open-source models running on your own hardware."
+        },
+        {
+          "type": "Framework",
+          "title": "LoRA Fine-Tuning on Your Own Content for a Personalized AI Voice",
+          "explanation": "Train a LoRA adapter on all your own content so your local model literally sounds like you — writes in your voice, style, and domain expertise."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Auto Research: Models That Self-Improve Through Automated Experiments",
+          "explanation": "Every 5 minutes a local model tinkers with itself, tests against a metric, keeps improvements and discards failures. Continuous self-improvement without human intervention."
+        },
+        {
+          "type": "Principle",
+          "title": "Speed Beats Quality When It Preserves Flow State",
+          "explanation": "Near-instant response time keeps you in flow state. With slower models, you context-switch, get distracted, and lose momentum. Speed compounds into higher productivity."
+        },
+        {
+          "type": "Warning",
+          "title": "Never Install Third-Party Skills Directly — Rebuild Them Yourself",
+          "explanation": "Have your AI agent read the skill, understand it, then build its own version from scratch. All skills are just markdown text files — replication is safe and easy."
+        },
+        {
+          "type": "Framework",
+          "title": "Multi-Agent Self-Healing: Agents That Fix Each Other",
+          "explanation": "Run multiple agents so when one breaks, another can diagnose and fix it. Creates a resilient system with no single point of failure."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Memory Bloat Is Why Your AI Agent Slows Down Over Time",
+          "explanation": "The agent accumulates so much context it loads 80K+ lines before each reply. Build structured memory management to prevent context overload."
+        },
+        {
+          "type": "Principle",
+          "title": "Open Source Models Are the Future — Local Superintelligence at Zero Marginal Cost",
+          "explanation": "Open-source models on owned hardware give superintelligence at zero marginal cost after initial investment. API-based models are too expensive for 24/7 agent workflows."
+        },
+        {
+          "type": "Framework",
+          "title": "Hardware Ladder: Mac Mini → Mac Studio → DGX Spark → Cluster",
+          "explanation": "Start with Mac Mini for cloud models, upgrade to Mac Studio for local inference, add DGX Spark for training, connect them all with Exo for clustering."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Don't Buy a Laptop for Local AI — SSH Into a Desktop",
+          "explanation": "Buy a cheaper Mac Studio with better specs, then SSH into it from any lightweight laptop. Avoid battery degradation, liquid damage risk, and laptop premium."
+        }
+      ],
+      "notion_page_id": "321ab9e5-e740-8149-808a-c6b2d34539eb",
+      "notion_url": "https://www.notion.so/I-did-something-INCREDIBLE-with-OpenClaw-321ab9e5e7408149808ac6b2d34539eb"
+    },
+    {
+      "video_id": "hem5D1uvy-w",
+      "slug": "googles-new-model-claude-code-just-changed-rag-forever",
+      "title": "Google's New Model + Claude Code Just Changed RAG Forever",
+      "url": "https://www.youtube.com/watch?v=hem5D1uvy-w",
+      "channel": "Nate Herk | AI Automation",
+      "views": 28230,
+      "published_at": "2026-03-11T16:46:25Z",
+      "image": "images/googles-new-model-claude-code-just-changed-rag-forever.jpg",
+      "transcript": "transcripts/googles-new-model-claude-code-just-changed-rag-forever.txt",
+      "summary": "A hands-on tutorial showing how Google's Gemini Embedding 2 combined with Claude Code can reduce multimodal RAG builds from days to under 30 minutes. Two demos are built live: a chat app over a 68-page product manual with text + image retrieval, and a roofing company tool matching uploaded photos against past projects. Targeted at AI builders and low-code practitioners. Biggest takeaways: (1) multimodal embeddings unify text/images/video/audio in one vector space; (2) Claude Code as orchestrator replaces complex pipeline engineering; (3) the competitive moat shifts from technical configuration to domain expertise.",
+      "insights": [
+        {
+          "type": "Paradigm Shift",
+          "title": "Multimodal embeddings collapse separate pipelines into one unified vector space",
+          "explanation": "Gemini Embedding 2 places all modalities in the same dimensional space, understanding nuanced cross-modal relationships without manual mapping."
+        },
+        {
+          "type": "Framework",
+          "title": "Natural-language RAG build: docs → plan mode → auto-ingest → chat app",
+          "explanation": "Open Claude Code in plan mode with embedding API docs, describe desired system in plain English, paste API keys, drop files into /data, tell Claude Code to ingest and build."
+        },
+        {
+          "type": "Principle",
+          "title": "Domain expertise now outweighs technical configuration skill",
+          "explanation": "When AI can auto-build ingestion pipelines, the differentiator shifts to knowing what metadata to attach and where process gaps exist."
+        },
+        {
+          "type": "Warning",
+          "title": "Without rich metadata and descriptions, multimodal retrieval returns shallow results",
+          "explanation": "Images and videos are stored with text descriptions. If those descriptions are generic or missing, the AI cannot match queries to the right media."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Traditional RAG fragility comes from manual chunking and multi-pipeline complexity",
+          "explanation": "The engineering overhead of figuring out chunk sizes, capturing images separately, and writing retrieval logic for each modality is the root cause."
+        },
+        {
+          "type": "Framework",
+          "title": "Iterative correction loop: stop, clarify, re-prompt without losing context",
+          "explanation": "When Claude Code misinterpreted instructions, stop execution mid-task, send a correction, and continue with full context intact."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Vector databases as spatial meaning maps, not just text indexes",
+          "explanation": "Embeddings placed by semantic meaning — tech content clusters together, entertainment elsewhere — regardless of source modality."
+        },
+        {
+          "type": "Warning",
+          "title": "Re-ingesting without deduplication creates duplicate vectors",
+          "explanation": "When updating metadata and re-ingesting, explicitly instruct upsert rather than insert to avoid polluted search results."
+        },
+        {
+          "type": "Principle",
+          "title": "Curiosity-driven prompting beats prescriptive prompting for AI-assisted builds",
+          "explanation": "Instead of guessing at fixes, paste the conversation back and ask the AI to explain how the system works. Diagnostic-first approach leads to better solutions."
+        },
+        {
+          "type": "Framework",
+          "title": "Three-key stack for instant multimodal RAG: Gemini + Pinecone + OpenRouter",
+          "explanation": "Exactly three API keys needed: Google AI Studio for embeddings, Pinecone for vector storage, OpenRouter for the chat LLM layer."
+        }
+      ],
+      "notion_page_id": "321ab9e5-e740-810d-8ac6-ebdb65c3d6e9",
+      "notion_url": "https://www.notion.so/Google-s-New-Model-Claude-Code-Just-Changed-RAG-Forever-321ab9e5e740810d8ac6ebdb65c3d6e9"
+    },
+    {
+      "video_id": "Namp-sV0UEw",
+      "slug": "i-set-up-claude-cowork-to-work-while-i-sleep-full-guide",
+      "title": "I Set Up Claude Cowork to Work While I Sleep (Full Guide)",
+      "url": "https://www.youtube.com/watch?v=Namp-sV0UEw",
+      "channel": "Brock Mesarich | AI for Non Techies",
+      "views": 4840,
+      "published_at": "2026-03-11T13:51:24Z",
+      "image": "images/i-set-up-claude-cowork-to-work-while-i-sleep-full-guide.jpg",
+      "transcript": "transcripts/i-set-up-claude-cowork-to-work-while-i-sleep-full-guide.txt",
+      "summary": "A full setup guide for Claude Co-work's scheduled tasks feature — turning Claude from a chatbot into a 24/7 autonomous AI employee. For solopreneurs, content creators, and small business owners who want AI to handle recurring tasks without manual prompting. Biggest takeaways: (1) The power stack is Claude MD file + Skills + Scheduled Tasks — each layer compounds the next; (2) Connectors are the force multiplier — plug in Gmail, Calendar, Slack so Claude reads real data; (3) Zapier MCP is the workaround for unsupported apps.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "The 3-Layer Co-work System: Claude MD + Skills + Scheduled Tasks",
+          "explanation": "Claude MD for persistent identity/context, Skills as reusable instruction files, Scheduled Tasks that trigger skills automatically. Each layer compounds into autonomous AI employee."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Claude Co-work Is Not a Chatbot — It's an AI Employee",
+          "explanation": "With proper setup (persistent context, skills, scheduled tasks, connectors), Co-work behaves like a staff member who knows your business and works independently."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Skills Are Apps for Your AI",
+          "explanation": "Think of skills as installable apps — install once, works forever. Shifts user from 'prompter' to 'system builder' who assembles capabilities."
+        },
+        {
+          "type": "Warning",
+          "title": "Don't Skip the Claude MD File",
+          "explanation": "Without a Claude MD file, every Co-work session starts from scratch. Most people skip this foundational file and never unlock persistent memory."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Copy-Paste Workflow Is the Symptom, Not the Problem",
+          "explanation": "The root cause is missing connectors. Without connecting apps directly, every interaction requires manual data transfer that kills automation benefit."
+        },
+        {
+          "type": "Framework",
+          "title": "Zapier MCP Workaround for Unsupported Apps",
+          "explanation": "Go to zapier.com/mcp, create MCP server, toggle on apps you need, copy URL, paste into Co-work. Unlocks any Zapier-supported integration."
+        },
+        {
+          "type": "Principle",
+          "title": "Connect Once, Works Forever",
+          "explanation": "Setup cost is front-loaded but payoff is permanent. Configure connectors and skills once, they run indefinitely."
+        },
+        {
+          "type": "Framework",
+          "title": "Bookend Your Day with Automated Briefings",
+          "explanation": "Morning briefing at 7-8 AM scanning calendar/email/news, end-of-day wrap-up at 6 PM summarizing completions and tomorrow's focus. Both via Slack."
+        },
+        {
+          "type": "Principle",
+          "title": "Let Claude Edit Its Own Skills",
+          "explanation": "Click 'edit with Claude' on any skill file, describe changes in plain language. Skill files are living documents the AI improves itself."
+        }
+      ],
+      "notion_page_id": "321ab9e5-e740-816f-a901-f3b2f24e14d0",
+      "notion_url": "https://www.notion.so/I-Set-Up-Claude-Cowork-to-Work-While-I-Sleep-Full-Guide-321ab9e5e740816fa901f3b2f24e14d0"
+    },
+    {
+      "video_id": "F6T3WkTWYX4",
+      "slug": "claude-cowork-just-became-10x-better-scheduled-tasks",
+      "title": "Claude Cowork Just Became 10x Better (Scheduled Tasks)",
+      "url": "https://www.youtube.com/watch?v=F6T3WkTWYX4",
+      "channel": "Ben AI",
+      "views": 2395,
+      "published_at": "2026-03-11T12:05:21Z",
+      "image": "images/claude-cowork-just-became-10x-better-scheduled-tasks.jpg",
+      "transcript": null,
+      "summary": null,
+      "insights": [],
+      "notion_page_id": "321ab9e5-e740-811b-a667-e338699855af",
+      "notion_url": "https://www.notion.so/Claude-Cowork-Just-Became-10x-Better-Scheduled-Tasks-321ab9e5e740811ba667e338699855af"
+    },
+    {
+      "video_id": "l1jnOXc52NY",
+      "slug": "i-taught-claude-code-to-play-tetris-it-broke-the-world-record",
+      "title": "I Taught Claude Code to Play Tetris... It Broke the World Record",
+      "url": "https://www.youtube.com/watch?v=l1jnOXc52NY",
+      "channel": "Nate Herk | AI Automation",
+      "views": 4821,
+      "published_at": "2026-03-11T02:54:18Z",
+      "image": "images/i-taught-claude-code-to-play-tetris-it-broke-the-world-record.jpg",
+      "transcript": "transcripts/i-taught-claude-code-to-play-tetris-it-broke-the-world-record.txt",
+      "summary": "This video demonstrates using Claude Code's browser automation (via Playwright CLI) to teach an AI agent to play games — a block runner, Tetris, and checkers. The Tetris agent surpassed the 40-million-point world record by using instant hard drops. The real point isn't gaming — it's that Claude Code can automate anything you do in a browser through a self-correcting feedback loop. Best for developers and AI enthusiasts exploring agentic automation and browser-based computer use.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "Self-Correcting Agent Loop: Screenshot → Analyze → Update → Retry",
+          "explanation": "The agent takes a screenshot of current state, analyzes what went wrong, updates its script, and retries. This iterative feedback loop enables mastery without human intervention."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "AI Agents Don't Need to Be Perfect on the First Try",
+          "explanation": "The block runner bot failed completely on attempt one but scored 10 by attempt six. The power is in the agent's ability to self-correct through iteration."
+        },
+        {
+          "type": "Principle",
+          "title": "Speed vs. Precision Trade-off in Agent Execution",
+          "explanation": "With instant hard drops the Tetris bot scored 16,000+. With a 2-second delay for visibility, performance dropped under 6,000. Agents perform best at their natural speed."
+        },
+        {
+          "type": "Framework",
+          "title": "Zero-to-Browser-Automation Setup via Plan Mode",
+          "explanation": "Open Claude Code, enter plan mode, say 'I want you to use my browser — research the best method.' Claude Code chose Playwright CLI and installed it. No manual configuration."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Games Are a Proof of Concept — Browser Automation Is the Real Capability",
+          "explanation": "The underlying capability is general-purpose browser automation: filling forms, searching sites, downloading reports. Any browser workflow can be delegated."
+        },
+        {
+          "type": "Principle",
+          "title": "Code-Level Access Beats Vision-Only Agents",
+          "explanation": "Because Claude Code can read game source code, it builds far more effective bots than vision-only agents. Direct code access gives structural understanding."
+        },
+        {
+          "type": "Warning",
+          "title": "Artificial Delays Degrade Agent Performance",
+          "explanation": "Adding a 2-second delay to make Tetris watchable caused scores to drop from 16,000+ to under 6,000. Let agents run at full speed for production tasks."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why the Bot Failed Early: Pixel-Level Timing Miscalibration",
+          "explanation": "Early failures were caused by incorrect distance calculations for jump timing. The agent needed iterations to calibrate exact pixel distances."
+        },
+        {
+          "type": "Framework",
+          "title": "Parallel Agent Execution for Throughput",
+          "explanation": "Two Tetris agents ran simultaneously in separate tabs, both surpassing the world record. Claude Code agents can be parallelized for throughput multiplication."
+        },
+        {
+          "type": "Principle",
+          "title": "Prompt the Goal, Not the Method",
+          "explanation": "The creator stated the goal and let the agent determine the implementation. Defining desired outcome produces better results than prescribing methods."
+        }
+      ],
+      "notion_page_id": "321ab9e5-e740-81e1-a7d4-d0e41b689a28",
+      "notion_url": "https://www.notion.so/I-Taught-Claude-Code-to-Play-Tetris-It-Broke-the-World-Record-321ab9e5e74081e1a7d4d0e41b689a28"
+    }
+  ]
+}

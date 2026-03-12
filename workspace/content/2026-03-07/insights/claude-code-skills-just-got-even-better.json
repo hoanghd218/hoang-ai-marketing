@@ -1,0 +1,46 @@
+{
+  "video_id": "uEiyUBifBcI",
+  "summary": "This short video covers Anthropic's updated Skill Creator skill for Claude Code — a meta-skill that creates, evaluates, benchmarks, and tunes other skills. The presenter walks through three core capabilities: (1) skill evaluation, where the agent tests a skill's output quality and iterates to fix errors, (2) benchmarking with and without a skill loaded to quantify uplift, and (3) trigger tuning, which rewrites a skill's description so it fires accurately even in projects with 10+ skills. Best suited for Claude Code power users who build and maintain multiple custom skills. Biggest takeaways: evals let skills self-improve automatically, benchmarking proves ROI with hard metrics, and trigger tuning eliminates misfires as your skill library grows. Anthropic hints that eventually a plain-English description alone will be enough — the model will figure out the implementation.",
+  "insights": [
+    {
+      "type": "Framework",
+      "title": "The Skill Lifecycle: Create → Eval → Benchmark → Trigger-Tune",
+      "explanation": "Anthropic's Skill Creator follows a four-step loop: create a skill from scratch, run evaluations to test quality, benchmark with vs. without the skill to measure uplift, then tune the trigger description for accurate activation. This is a repeatable process for any custom skill."
+    },
+    {
+      "type": "Paradigm Shift",
+      "title": "Skills can self-improve through agent-driven evaluation",
+      "explanation": "Instead of manually debugging a skill's output, you let the agent evaluate the skill's quality and make improvements autonomously. The PDF example showed text placement going from broken to accurate after a single eval cycle — the agent fixes its own tools."
+    },
+    {
+      "type": "Framework",
+      "title": "Benchmarking: side-by-side with and without the skill",
+      "explanation": "Run the same tasks with the skill loaded and without it, then compare pass rate, total time, and total tokens. This gives concrete evidence of whether a skill actually helps or just adds overhead."
+    },
+    {
+      "type": "Diagnosis",
+      "title": "Skill misfires come from vague trigger descriptions",
+      "explanation": "When projects accumulate 10+ skills, false triggers and missed triggers become common. The root cause is that skill descriptions are not specific enough for the model to distinguish which skill should handle which prompt."
+    },
+    {
+      "type": "Framework",
+      "title": "Trigger Tuning: test prompts → analyze → rewrite description",
+      "explanation": "The trigger tuning process works by generating various prompts a user might type, checking which skill the model selects, then editing the skill's description so it gets called accurately. This is a systematic fix for misfires."
+    },
+    {
+      "type": "Principle",
+      "title": "A natural-language description will eventually be the entire skill",
+      "explanation": "Anthropic states that over time, a plain-English description of what the skill should do may be enough — the model figures out the rest. The trajectory points toward skills being pure intent declarations rather than coded instructions."
+    },
+    {
+      "type": "Warning",
+      "title": "Don't scale to many skills without trigger tuning",
+      "explanation": "As your skill library grows past 10 skills, misfires become inevitable if you skip trigger tuning. Adding more skills without optimizing their descriptions degrades the accuracy of all skills, not just the new ones."
+    },
+    {
+      "type": "Paradigm Shift",
+      "title": "Meta-skills: a skill that builds and improves other skills",
+      "explanation": "The Skill Creator is itself a skill — a meta-layer where the agent's tooling is maintained by the agent. This collapses the distinction between 'developer building tools' and 'agent using tools' into a single self-improving loop."
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+Go on any social media site right now
+and you'll find different tribes rooting
+for different language models. You have
+team Claude, team Codeex, and team
+Gemini, as well as team every other
+language model on the planet. Everyone's
+got a laundry list of why their model
+choice is the absolute best compared to
+others. But instead of being pushed to
+pick a side, why not just use all of
+them? What if you could keep cloud code
+as your daily driver, but tap into the
+intelligence of Gemini and Codeex and
+whatever is the latest and greatest
+whenever you need it? I built a skill
+around this. And in this video, I'm
+going to show you how you can do it,
+too. It's a mega skill that lets you tap
+on the shoulders of giants and leverage
+any model you want depending on where
+you think these other models fit best.
+Let's dive in. So, the general concept
+is very simple. Instead of bickering
+about what model is the best today,
+whether it's 5.3 codeex, 5.9, 6.1 opus,
+whatever is going to be the next set of
+models, you can just focus on what
+works. And the way I've constructed the
+skill that I will give you by the end of
+this video is basically combining cloud
+code with open router. If you're not
+familiar with what open router is, it is
+essentially a service that lets you
+access all kinds of language models. So
+even though I'm primarily harping on
+Gemini and Codeex as the alternatives,
+you can choose whatever you want. If you
+think that Quen models are amazing at
+coding, you can leverage those and you
+can now create a pseudo council for your
+Claude code language model. So the way
+I'll put this council in action is I'll
+ask Claude code to do a task that I
+would typically do just with no language
+models whatsoever. And then I'll show
+you the power of being able to say,
+"Let's get a second opinion on this
+website, this app, this whatever that
+you can bring in a third-party source
+like Gemini to take a look at your front
+end and be like, "Step aside. I got
+this. Here's my advice on what you
+should do." And then Claude Code can
+take set advice and implement it. Same
+thing with Codeex. I actually use Codeex
+quite a bit for bug fixing. Once in a
+while, Opus will get stuck on a bug and
+instead of constantly spinning, I'll
+bring in something like Codeex to take a
+look at the entire codebase and give me
+its best opinion on what's going wrong.
+Now, you might have your own opinions on
+which models are best for what. I
+totally respect them. Everyone has
+different use cases in different
+applications. So, without further ado,
+let's take a look at this skill. And
+what I've called it is just council. You
+can name it whatever you want. And I
+created it. So, it's a slash command as
+well. I can do / counsel and it will
+know that I'm trying to invoke the third
+party powers of a different language
+model or multiple for a particular
+problem. The description is get second
+opinions from competing AI models open
+AAI Google again you can add whatever
+you want here via open router without
+leaving cloud code important this skill
+takes priority over another skill that I
+have in my system so you can ignore that
+part. Trigger phrases would be get a
+second opinion ask Gemini ask GPT ask
+codeex consult. It just gives it a
+series of different ways to be triggered
+and invoked that are semantically
+similar. And the last thing I say here
+is never call Gemini or OpenAI's APIs
+without my direct intention to do so. So
+in terms of the rest of the scale, it's
+pretty straightforward. We have the
+overall setup where you'd have to just
+grab an API key from Open Router. You
+would throw it into the N file and then
+beyond that, you'd have three invocation
+methods. You already saw a few in the
+description. This goes a little bit
+deeper into others. And this config file
+is actually the most important part of
+this skill. And this is the part where
+you will want to chime in as the user.
+And I'll grab it over so we can take a
+look. And we'll zoom in so you can see
+exactly how it's structured. So if you
+are non-technical, there's nothing you
+actually have to worry about from a
+coding perspective. You just have to
+verbally tell cloud code to change this
+file whatever way you want. So in this
+case, I walk through the providers I
+really care about and then it figured
+out from the open router API how to call
+those models. So when we look at
+defaults, then you can say that when
+there's a bug fix that Opus for whatever
+reason can't fix, we'll bring in the
+powers of 5.3 codecs. And when it comes
+to front end, we can say to use the
+powers of Gemini 3.1 Pro preview or
+whatever latest model that is out by the
+time you're watching this. And you can
+do the same thing for architecture
+refactoring, anything in general or
+quick check. So quick check on front end
+could use Gemini 3 flash, which is still
+a very capable and pretty cheap model.
+And then as we go down we have different
+categories where we go deeper as to what
+to look for. Let's say the words bug
+fixes, error diagnosis, etc. And when to
+invoke different things like the bug
+fix, like the front end, and like the
+architecture language model. And just to
+make sure we're sending the right
+information to the right model at the
+right time, we have this section that's
+called context packaging. So I said when
+sending context to another model,
+include one, the specific question or
+problem statement. Two, relevant code
+snippets. This is probably the most
+important because if you want a proper
+consult, you should provide snippets of
+the existing code to see the opinions of
+other language models. And then this one
+is really important. What other
+approaches have been tried? So in a way
+you're having these office hours with
+different language models that are aware
+of what you've tried, what you want to
+do, and where you might be stuck. And
+then they can give their holistic
+opinion in that way. And this is the
+last part I'll show that brings
+everything together, which are these
+synthesis rules. So after receiving a
+response from the council, present the
+raw response clearly labeled with the
+model name. State agreement or
+disagreement. So I want Claude code to
+chime in and be like, I agree somewhat
+with Gemini's take or Codex's take, but
+it's made me think of another solution.
+That's the goal. These are language
+models. So why not have the predictions
+of one improve and amilarate the
+predictions of the other? The last
+element here is the execute best
+approach. So end of the day, you're
+going to have different language models
+have egos about which one is right. But
+ideally, I want Claw to always pick the
+path of least resistance, even if that
+path wasn't carved by itself. Now,
+that's a run through of the skill. Let's
+actually put it to the test. So, if we
+open a terminal and I say something in
+one terminal, like, can you spin up a
+landing page for a new Claude Code boot
+camp? And it's a boot camp for someone
+that is more on the intermediate end.
+create a full landing page, a whole
+program, come up with pricing and spin
+up the resulting web page on local host.
+So, we will send this in two different
+terminals. Naturally, with language
+models, you'll have two slightly
+different results. With one, we'll keep
+it as is. With the other, I'll show you
+how just bringing in different opinions
+from different language models can
+change the entire equation. After a few
+minutes, we got two different websites
+from the two different terminals. Now,
+the first one looks like this. Nothing
+too crazy. Looks like a standard
+website.
+Could be a little bit easier on the eyes
+from a font perspective. And the second
+one is the exact same command. I just
+asked it to create a brand new folder.
+So this one looks like this. So stop
+prompting, start shipping, a little bit
+better hero statement. But the rest of
+this looks pretty similar. You can see
+the fonts are very similar. So what can
+we do to improve one versus the other?
+So this first tab, the website no cancel
+will act as our control. We're not going
+to change this at all. Whereas we're
+going to make only one set of changes
+using different language models just to
+show you how quickly you can improve
+things. So if we go to website council
+and we go to the bottom, I'll use my
+slash command slashcounsel
+and then this should now pose a question
+back to me. I'm already going to
+preemptively draft it and say the
+following. Okay, I want you to take a
+look at the web page that was put
+together and I want you to audit it from
+both a front-end perspective as well as
+a copy perspective. I want you to send
+snippets of the front-end code to Gemini
+3.1 Pro and I want to send the
+copywriting to codeex to get their
+opinions on what are the best practices
+if we should keep things the same or
+improve them and if we should improve
+them in what way. So, a bit of a
+mouthful. And as I inhale oxygen, I will
+send this over and show you the result.
+And after 4 minutes, the skill comes
+back with a proposal for a front end as
+well as a copywriting set of changes. On
+the front end, it says what's working.
+So, at least the language model is
+understanding that things don't need to
+be fully rewritten from scratch, but it
+does flag some issues. So this goes into
+the spacing, the grids, the fact that
+mobile friendly is not optimized and
+then it proposes some changes. Then the
+same thing happens with codecs on the
+copyrightiting side. Then flags, it's
+basically like having a LLM as a judge
+except you get to tap into an LLM as a
+judge from a different language model
+that might have different pros and cons.
+And then this is the part that we should
+really care about which is clawed code
+synthesis. So, it agrees. It doesn't
+have an ego in this case. With both
+reviews on the high priority items,
+here's what I would prioritize. So, now
+you give Claude code the driver's seat
+taking consultations from these models.
+On the must fix, it says split
+typography, fix grid, add focus, smooth
+FAQ animation. Same thing on the copy.
+And then it says, okay, these are the
+things that are worth testing that they
+mentioned. And then it says, do you want
+me to implement any of these changes
+now? I do. It takes 5 10 minutes. And we
+get a much better version right here
+where it's deeper in terms of the
+outcome. It's better organized. Some
+things here, especially on the font,
+look a lot cleaner. The numbers here
+specifically look way better than it
+used to before. And overall, it's a lot
+tighter. It has some more FAQs. It has
+better pricing, more detailed and
+thoughtful pricing. And we did all this
+technically with just a single prompt.
+Now, let's say that was a complete
+fluke. Let's apply it to another
+scenario and see how it behaves. So if I
+say here create a new folder and create
+an analytics dashboard showing some mock
+data for a venture capital firm and then
+I tell it to spin up on a different
+port. It will go and it then created
+something like this which is okay. It's
+not the prettiest but it's manageable.
+And then the other version looked pretty
+rough as well. But in this case, we did
+the exact same thing and then we ran an
+audit sending the exact same prompt. And
+just to experiment, I sent this prompt
+right here without even invoking the
+slash command just to see if I sent it,
+would it be able to pick up the skill
+and then invoke it. In this case, it
+executes the council plan, asks me if we
+should proceed. Then it goes through and
+brings a very heavy front-end audit. So,
+it tells me what's solid, what are the
+top fixes. Same thing with Codeex. On
+the copy side, it scores it seven out of
+10 and it comes up with both the issues
+as well as its proposed fixes. The main
+moral of this is that you don't have to
+just blindly follow what these other
+language models are proposing. They can
+just add some more brainstorming. They
+can make you think more out of the box
+and you might not go with any of these,
+but you might come up with your own from
+having seen what they come up with. And
+again, Claude says here, "My take. I
+agree with both models on high priority
+items." And then where I'd push back
+slightly. Codeex's suggestion to rename
+markups, markdowns to unrealized value
+uplifts is technically correct, but for
+a dashboard, the shorter labels are
+fine. So there is this level of judgment
+while still taking the different pieces
+of advice into account. In this case, I
+just had Cloud Code blindly follow their
+suggestions and integrate it into its
+plan. And it came up with this very
+Bloomberg terminal looking UI that I
+think could be better, but overall
+looked infinitely better than the
+initial one. again with just one prompt
+taking external perspectives into
+account. And you can apply this skill to
+all kinds of scenarios, especially
+non-technical scenarios where you can
+bring in different language models with
+different strengths. You can even take
+the same language model like Claude and
+go through different versions of it to
+see what versions might say about the
+exact same task. So you could check
+Haiku, you could check sonnet, and you
+could check Opus all on the exact same
+task or the exact same copy or whatever
+it is you're trying to accomplish. So
+hopefully that shows you the power of
+creating a mega skill. And the beauty of
+these mega skills is you can combine
+them with additional skills, let's say
+the front-end skill, and create some
+form of symbiosis between both of them.
+So the more skills you can stack and the
+deeper you can make them, the higher
+leverage you'll have. And like I said,
+I'll attach the skill that I showed you
+in this video in the second link in the
+description below. And if you want
+access to my exclusive mega skills, then
+you'll want to check out the first link
+in the description below for my early AI
+adopters community. And for the rest of
+you, if you found this helpful, you
+found it novel, and you want to see
+more, then please leave me a like and a
+comment on the video. It really helps
+the video and the channel.

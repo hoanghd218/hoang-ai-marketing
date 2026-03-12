@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(find-skills)",
+      "Bash(npx skills find:*)",
+      "Bash(cat:*)",
+      "mcp__MiniMax__web_search",
+      "WebFetch(domain:www.youtube.com)",
+      "mcp__MiniMax__understand_image",
+      "Bash(python3:*)",
+      "Bash(pip3 list:*)",
+      "mcp__claude_ai_Notion__notion-fetch",
+      "mcp__claude_ai_Notion__notion-create-pages",
+      "Bash(# Check if Notion MCP is available as a tool via npx or installed package which notion-mcp || npx --yes @notionhq/notion-mcp-server --version)",
+      "Bash(# Check environment for Notion API key cat /Users/hoangtran/Documents/Github/hoang-ai-marketing/.env)",
+      "mcp__claude_ai_Notion__notion-update-data-source",
+      "mcp__claude_ai_Notion__notion-update-page",
+      "Bash(curl:*)",
+      "Bash(source:*)",
+      "mcp__nano-banana__generate_image",
+      "mcp__nano-banana__get_configuration_status",
+      "Bash(GEMINI_API_KEY=\"AIzaSyA27_tz8prqiq5V5bEgotAZq55P69-3Ga0\" python3:*)",
+      "Bash(open:*)",
+      "Bash(~/.claude/skills/.venv/bin/python3 .claude/skills/youtube-trend-finder/scripts/search_trends.py \"one person business with AI\" --date week --max-results 10 --language en --with-transcript --format json)",
+      "Bash(~/.claude/skills/.venv/bin/python3:*)",
+      "Bash(uv run:*)",
+      "Bash(/Users/hoangtran/.claude/skills/.venv/bin/python3:*)",
+      "Bash(pip3 show:*)",
+      "Bash(pip3 install:*)",
+      "Bash(pip show:*)",
+      "WebSearch",
+      "Skill(mkt-find-trend-videos-subscribed)",
+      "Skill(mkt-find-trend-videos-subscribed:*)",
+      "mcp__mcp-registry__search_mcp_registry",
+      "Bash(chmod +x /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-create-video-reels-text-overlay/scripts/render_reels.sh)",
+      "Bash(bash .claude/skills/mkt-create-video-reels-text-overlay/scripts/render_reels.sh --message \"4 Mùa Cuộc Sống — Jim Rohn:\\\\n1. Đông — Khó khăn sẽ đến, hãy chuẩn bị\\\\n2. Xuân — Cơ hội mở ra, hãy gieo hạt\\\\n3. Hạ — Bảo vệ thành quả khỏi cỏ dại\\\\n4. Thu — Gặt hái, rồi Đông lại quay lại\" --video workspace/assets/reels/videos/3.mp4 --music \"workspace/assets/reels/music/nhac truyen cam hung.mp3\" --watermark \"@hoang.ai\" --output workspace/content/reels-4-mua-remotion-test.mp4)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

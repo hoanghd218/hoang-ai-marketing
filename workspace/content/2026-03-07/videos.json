@@ -1,0 +1,234 @@
+{
+  "date": "2026-03-07",
+  "total": 7,
+  "videos": [
+    {
+      "video_id": "XuVvSq_EeIE",
+      "slug": "claude-code-2-0-is-finally-here-nate",
+      "title": "Claude Code 2.0 is Finally Here",
+      "url": "https://www.youtube.com/watch?v=XuVvSq_EeIE",
+      "channel": "Nate Herk | AI Automation",
+      "views": 1905,
+      "published_at": "2026-03-07T05:47:57Z",
+      "image": "images/claude-code-2-0-is-finally-here-nate.jpg",
+      "transcript": "transcripts/claude-code-2-0-is-finally-here-nate.txt",
+      "summary": "This short video announces that Claude Code now supports native scheduled tasks, turning it into a persistent, autonomous AI agent that can run without human prompting. The creator walks through how to set up scheduled tasks via the Schedule tab or the /schedule command, then makes a deeper argument: scheduled agentic workflows are fundamentally different from deterministic scripts (Python/TypeScript) because they are self-healing. When a deterministic script hits an error, it stops and notifies the user. When a Claude Code agent hits an error, it diagnoses the problem, tries alternative approaches, and updates its own behavior to avoid the same error again. The key implication is that users are no longer the bottleneck — skills and workflows can improve automatically over time without manual intervention.",
+      "insights": [
+        {"type": "Paradigm Shift", "title": "Agentic workflows are self-healing; deterministic scripts are not", "explanation": "Traditional Python/TypeScript automation fails silently or throws an error and stops — it cannot recover on its own. A Claude Code agent, when it hits an error, actively tries alternative solutions and updates itself so the same error does not recur."},
+        {"type": "Paradigm Shift", "title": "Claude Code is now a 24/7 AI employee, not a reactive tool", "explanation": "With native scheduled tasks, Claude Code no longer requires a human to initiate each session. It can run continuously on a defined schedule, fundamentally shifting it from a chat assistant to an autonomous agent."},
+        {"type": "Framework", "title": "Two ways to set up a Claude Code scheduled task", "explanation": "You can either (1) open the Schedule tab and click 'New Task' to configure name, description, prompt, model, mode, folder, and cadence — or (2) type /schedule inside any existing session to set one up inline."},
+        {"type": "Principle", "title": "You are no longer the bottleneck when the agent self-corrects", "explanation": "When an agentic workflow can diagnose and fix its own errors without human intervention, the human is removed from the critical path — workflows improve continuously and autonomously rather than stalling until a developer patches them."},
+        {"type": "Warning", "title": "Scheduled tasks currently require the Claude desktop app", "explanation": "At the time of the video, native scheduled tasks are only accessible through the Claude desktop app, not the web or API — users who rely on other interfaces will not yet have access to this feature."},
+        {"type": "Diagnosis", "title": "Most automation stalls because deterministic code cannot adapt to unexpected errors", "explanation": "The root reason human oversight is still required in most automation pipelines is that script-based workflows have no recovery logic — any deviation from the expected path requires a human to diagnose and fix it manually."},
+        {"type": "Principle", "title": "Every skill and workflow you have already built compounds in value with scheduling", "explanation": "Because scheduled tasks run the same Claude Code agent you already use interactively, every existing skill, prompt, and workflow you have built becomes 10x more powerful without any additional development work."}
+      ],
+      "notion_page_id": "31cab9e5-e740-81ae-9762-d2679e08044b",
+      "notion_url": "https://www.notion.so/Claude-Code-2-0-is-Finally-Here-31cab9e5e74081ae9762d2679e08044b"
+    },
+    {
+      "video_id": "BlNJFa3Btm8",
+      "slug": "claude-code-2-0-is-finally-here",
+      "title": "Claude Code 2.0 Is Finally Here",
+      "url": "https://www.youtube.com/watch?v=BlNJFa3Btm8",
+      "channel": "Nate Herk | AI Automation",
+      "views": 4278,
+      "published_at": "2026-03-07T05:06:53Z",
+      "image": "images/claude-code-2-0-is-finally-here.jpg",
+      "transcript": "transcripts/claude-code-2-0-is-finally-here.txt",
+      "summary": "This tutorial-focused video covers Claude Code's newly launched native scheduled tasks feature in the desktop app. The creator demonstrates how to convert existing Claude Code skills into automated, recurring agents that run without user supervision. Three biggest takeaways: (1) Scheduled tasks use the full agentic Claude Code engine, not deterministic scripts, making them self-healing and adaptive. (2) Tasks are stateless by default, but you can engineer shared memory via a per-task state file that each agent run reads and overwrites. (3) Real-world constraints matter: the desktop app must stay open, permissions must be locked down to prevent destructive actions, and you should always do a supervised test run before going hands-off.",
+      "insights": [
+        {"type": "Paradigm Shift", "title": "Scheduled Tasks Are Agents, Not Scripts — and That Changes Everything", "explanation": "Unlike a deterministic Python or TypeScript cron job that fails silently on errors, Claude Code's scheduled tasks run the full agentic engine — it retries, adapts, and self-corrects when something breaks. This fundamentally reframes automation from 'a script that executes' to 'an employee that handles problems.'"},
+        {"type": "Principle", "title": "You Are No Longer the Bottleneck", "explanation": "Agentic scheduled tasks remove the human from the loop for recurring work — skills that required manual triggers can now run, improve, and deliver results while the user is asleep. The ceiling of personal productivity shifts from human hours to compute hours."},
+        {"type": "Framework", "title": "3-Layer Self-Improving Loop for Scheduled Agents", "explanation": "Layer 1: If the script errors, instruct the agent to fix its own code. Layer 2: If the prompt is suboptimal, instruct the agent to rewrite it. Layer 3: Maintain a per-task state file that logs the previous run's status, known issues, and outcomes — every new agent wakes up, reads the file, runs, then overwrites it."},
+        {"type": "Framework", "title": "Lean State File Pattern for Stateless Agent Memory", "explanation": "Instead of an append log (which bloats after thousands of runs), maintain one file per task that gets fully overwritten each run with: last run timestamp, duration, what happened, known issues. The task prompt explicitly instructs the agent to read this file before starting and overwrite it after finishing."},
+        {"type": "Warning", "title": "Always Do a Supervised Test Run Before Going Hands-Off", "explanation": "If a scheduled task lacks required permissions or hits an API key gap, it will pause mid-run and wait for human input — defeating the purpose of automation. Run every new task manually with oversight first to confirm it can complete end-to-end without asking for anything."},
+        {"type": "Warning", "title": "Lock Down Permissions or the Unattended Agent Can Cause Real Damage", "explanation": "Because scheduled tasks run without supervision, a misconfigured agent could make irreversible changes — deleting files, pushing bad commits, or overwriting data. Explicitly deny destructive bash commands (rm, delete, drop) in the project's local Claude settings before automating anything."},
+        {"type": "Diagnosis", "title": "Weak Automation Notifications Cause Scheduled Tasks to Go Unnoticed", "explanation": "The desktop app's default notifications are visually silent and fail to capture attention, meaning users miss task completions entirely. The fix is adding a sound hook on session end and embedding a messaging ping (e.g., ClickUp, Slack) directly into the task prompt."},
+        {"type": "Warning", "title": "The Desktop App Must Stay Open — Closing Your Computer Kills the Schedule", "explanation": "All cron metadata lives inside the Claude Code desktop app, so if the computer is off or the app is closed, scheduled tasks will not fire. There is a 7-day catch-up window when the app reopens, but time-sensitive automations will miss their window entirely."},
+        {"type": "Paradigm Shift", "title": "Existing Skills Are the Raw Material for Automation — Not New Code", "explanation": "You do not need to write new automation scripts from scratch. Every skill already built in a Claude Code project can be converted into a scheduled task in minutes simply by asking Claude to read the skill and set it up on a schedule."},
+        {"type": "Principle", "title": "Determinism vs. Adaptability Is a Dial, Not a Binary Choice", "explanation": "Scheduled tasks can be fully agentic (adaptive, self-healing) or fully deterministic (just execute a script) — or any mix. Choosing the right point on that dial for each automation based on its risk tolerance and complexity is the core design decision."}
+      ],
+      "notion_page_id": "31cab9e5-e740-814c-96ad-f9204fdc9183",
+      "notion_url": "https://www.notion.so/Claude-Code-2-0-Is-Finally-Here-31cab9e5e740814c96adf9204fdc9183"
+    },
+    {
+      "video_id": "NDnv16PY2XQ",
+      "slug": "cursor-automations-clearly-explained-worth-learning",
+      "title": "Cursor Automations Clearly Explained (worth learning?)",
+      "url": "https://www.youtube.com/watch?v=NDnv16PY2XQ",
+      "channel": "Nate Herk | AI Automation",
+      "views": 1510,
+      "published_at": "2026-03-06T20:23:28Z",
+      "image": "images/cursor-automations-clearly-explained-worth-learning.jpg",
+      "transcript": "transcripts/cursor-automations-clearly-explained-worth-learning.txt",
+      "summary": "This video explains Cursor Automations — a new feature that lets you set up trigger-based cloud coding agents that run automatically on events (GitHub pushes, Slack messages, cron schedules, webhooks) instead of manual prompting. The creator compares it to OpenClaw (a personal OS-level assistant) and Claude Code (a coding agent you run locally/in-browser). Cursor Automations is positioned as a cloud-side engineering crew for code review, security checks, and maintenance. The video is for developers and AI-tool users who feel overwhelmed by the constant flood of new tools. Biggest takeaways: (1) Learn transferable fundamentals (planning, prompt design, orchestration, evals) rather than chasing every new tool; (2) Think of Claude Code as the 'builder' and Cursor Automations as the 'caretaker' — build locally, then hand off maintenance to always-on cloud agents; (3) AI agents are not truly 'always on' like humans — they operate via heartbeats and event-driven wake-up loops.",
+      "insights": [
+        {"type": "Principle", "title": "Learn fundamentals, not tools", "explanation": "Planning, prompt design, tools & memory, orchestration, evals, deployment, and safety — these transfer across every AI tool. Obsessing over tool-hopping creates confusion; mastering core concepts lets you adapt to any new platform quickly."},
+        {"type": "Framework", "title": "Builder + Caretaker workflow: Claude Code builds, Cursor Automations maintains", "explanation": "Use Claude Code locally to design, build, and test your project. Once shipped to GitHub, hand it off to Cursor Automations for ongoing autonomous workflows — security audits, code reviews, scheduled maintenance — creating a clean separation of build vs. maintain."},
+        {"type": "Paradigm Shift", "title": "AI agents are not 'always on' — they operate on heartbeats and triggers", "explanation": "The mental model of an AI agent watching everything 24/7 is wrong. Both OpenClaw and Cursor Automations use event-driven wake-up loops — the agent sleeps, wakes on a trigger or cron heartbeat, processes its task, then goes back to sleep."},
+        {"type": "Framework", "title": "The 4-year evolution of AI coding: Suggest > Write > Ship > Maintain", "explanation": "2023: AI suggests code. 2024: AI helps you write it. 2025: AI writes and ships it autonomously. 2026: AI continuously maintains and improves codebases on its own. This trajectory frames where tools like Cursor Automations fit."},
+        {"type": "Diagnosis", "title": "Tool FOMO comes from not recognizing tools do the same thing", "explanation": "The panic to learn every new AI tool stems from not seeing that most tools share the same underlying patterns. Once you understand the fundamentals, you realize new tools are just different interfaces over the same concepts."},
+        {"type": "Framework", "title": "Cursor Automations setup: Trigger > Repo > Prompt > Model > MCP tools", "explanation": "To create an automation: pick a trigger type (cron, GitHub event, Slack, Linear, webhook), select the repo, write a prompt, choose a model (Codex, GPT, Claude Opus/Sonnet), optionally add memories and MCP server connections, then activate."},
+        {"type": "Warning", "title": "Sandboxed agents are safer than OS-level autonomous agents", "explanation": "Cursor Automations runs in isolated cloud sandboxes with scoped tools and repos — limiting blast radius. Contrast with OpenClaw running on your full OS with file/browser/shell access, which is why people literally bought separate Mac Minis to contain it."},
+        {"type": "Diagnosis", "title": "Claude Code's deployment gap: great at building, needs external hosting for automation", "explanation": "Claude Code excels at building automations but lacks a native 'set and forget' cloud runtime. You have to host scripts on trigger.dev or GitHub Actions yourself. Cursor Automations fills this gap with its built-in cloud sandbox and trigger UI."},
+        {"type": "Warning", "title": "Desktop-dependent scheduling is fragile", "explanation": "Tools like Claude Co-work can schedule tasks, but only while the desktop app is open — if your computer is off, nothing runs. Cloud-based triggers (Cursor Automations, n8n) solve this by running independently of your local machine."},
+        {"type": "Principle", "title": "The value of 'set and forget' is the real competitive moat", "explanation": "The tools winning attention (Cursor Automations, n8n) share one trait: you can configure them in minutes and they just run. Reducing the friction between 'built' and 'deployed and running' is what makes a tool genuinely useful for automation."}
+      ],
+      "notion_page_id": "31cab9e5-e740-81f5-a75c-e79fa97ab02c",
+      "notion_url": "https://www.notion.so/Cursor-Automations-Clearly-Explained-worth-learning-31cab9e5e74081f5a75ce79fa97ab02c",
+      "content_analysis": {
+        "score": 6.4,
+        "rating": "VÀNG",
+        "content_ideas": [
+          {"title": "Tool mới ra là phải học ngay? Sai.", "format": "Facebook Post", "file": "contents/NDnv16PY2XQ-facebook-post-1.md"},
+          {"title": "AI agent không làm việc 24/7 như bạn nghĩ", "format": "Facebook Post", "file": "contents/NDnv16PY2XQ-facebook-post-2.md"},
+          {"title": "5 bước setup AI agent tự động bảo trì code", "format": "Actionable Post", "file": "contents/NDnv16PY2XQ-actionable-post-1.md"}
+        ],
+        "analysis_file": "ideas/NDnv16PY2XQ.md"
+      }
+    },
+    {
+      "video_id": "0b8qQx3FaLE",
+      "slug": "the-ai-stack-behind-20m-views-full-breakdown",
+      "title": "The AI stack behind 20M+ views (Full Breakdown)",
+      "url": "https://www.youtube.com/watch?v=0b8qQx3FaLE",
+      "channel": "Greg Isenberg",
+      "views": 3601,
+      "published_at": "2026-03-06T19:30:00Z",
+      "image": "images/the-ai-stack-behind-20m-views-full-breakdown.jpg",
+      "transcript": "transcripts/the-ai-stack-behind-20m-views-full-breakdown.txt",
+      "summary": "A podcast interview with Kova, an Instagram short-form creator known for getting millions of views, where she reveals her complete AI-powered content creation workflow. She demonstrates how to use Manus AI to reverse-engineer any creator's visual style into a replication plan, how to use Freepik's Nana Banana Pro model to transform plain backgrounds into visually stunning sets, and how to generate AI video transitions for scroll-stopping hooks. She also shares her system of using Obsidian + Claude Code to turn scripts into storyboards using templates and style guides. Target audience: content creators and solo entrepreneurs who want professional-looking short-form video without Hollywood budgets. Biggest takeaways: (1) AI image gen can replace expensive studio sets -- Kova built her entire visual brand from a dorm room, (2) Use AI agents like Manus to analyze and deconstruct creators you admire into actionable style guides, (3) Systems and templates (Obsidian + AI coding tools) are how solo creators scale content production.",
+      "insights": [
+        {"type": "Framework", "title": "The AI Video Style Reverse-Engineering Workflow", "explanation": "Feed a creator's video into Manus AI with a structured prompt: (1) extract style and aesthetic keywords, (2) transcribe and segment the script into story sections, (3) generate a replication plan. This produces a complete style guide covering typography, lighting, B-roll types, music tone, and narrative structure that you can adapt for your own content."},
+        {"type": "Framework", "title": "The Two-Workflow System for 90% of Edits", "explanation": "Kova's entire visual production relies on just two repeatable workflows: (1) AI background enhancement -- take a still frame from footage, run it through Freepik's image gen to add objects and set dressing, mask the result, and overlay it in Premiere Pro; (2) AI transitions -- extract start and end frames, generate a 3-4 second video clip between them using models like Kling or Kaiber, then stitch it into the edit."},
+        {"type": "Paradigm Shift", "title": "Studio-Quality Sets No Longer Require a Studio", "explanation": "Kova built her entire visual brand -- fairy lights, vinyl players, bookshelves, lush plant arrangements -- from a bare dorm room using AI image generation. Hollywood-level production design is no longer gatekept by budget or physical space."},
+        {"type": "Principle", "title": "Simpler Prompts Produce Better Image Gen Results", "explanation": "When prompting image generation models, shorter and more general prompts tend to produce better output because the model defaults to what it is actually good at. Overly specific prompts force the model into territory where it is more likely to fail."},
+        {"type": "Warning", "title": "Avoid Negative Language in Video Gen Prompts", "explanation": "Video generation models do not truly comprehend negation. Prompts like 'the camera doesn't move' will often cause the camera to move, because the model latches onto the keyword 'move' regardless of the 'doesn't.' Use positive phrasing instead."},
+        {"type": "Framework", "title": "The Five-Act Short-Form Video Structure", "explanation": "Viral short-form content follows a five-act build-log structure: (1) Hook -- show the finished product first, (2) Conflict/Stakes -- introduce a personal challenge, (3) The Build -- show 2-3 key process steps, (4) Problem and Resolution -- a comedic or dramatic arc, (5) Tease/CTA -- creative call to action."},
+        {"type": "Principle", "title": "Every Video Needs a One-Sentence Concept That Is Both Technical and Emotional", "explanation": "The strongest short-form videos have a concept that can be explained in under 10 seconds and has an immediate visual payoff. The concept must combine a technical mechanic with an emotionally resonant outcome."},
+        {"type": "Paradigm Shift", "title": "Differentiation Is the New Scale", "explanation": "Creative culture has become so fragmented that scale alone no longer wins. Creators of the future must prioritize differentiation over reach. Every creator needs to identify their own differentiating factor and use AI tools to amplify it."},
+        {"type": "Framework", "title": "The Obsidian + Claude Code Content System", "explanation": "Keep templates (storyboard, editor handoff, style guide) in an Obsidian vault. When a script is ready, open the vault in Claude Code and prompt it to transform the script into the storyboard template. This turns static notes into an executable content production system."},
+        {"type": "Principle", "title": "Systems Are the Prerequisite to Scaling Content", "explanation": "To scale content production as a solo creator, you must first build documented systems -- style guides, templates, folder structures, naming conventions. AI tools can then execute on those systems, but only if the systems are well-documented first."}
+      ],
+      "notion_page_id": "31cab9e5-e740-81b2-8ce1-f4ebb45889e3",
+      "notion_url": "https://www.notion.so/The-AI-stack-behind-20M-views-Full-Breakdown-31cab9e5e74081b28ce1f4ebb45889e3",
+      "content_analysis": {
+        "score": 8,
+        "rating": "XANH",
+        "content_ideas": [
+          {"title": "Phòng ngủ thành studio -- Cách AI biến bất kỳ chỗ nào thành set quay chuyên nghiệp", "format": "Facebook Post", "file": "contents/0b8qQx3FaLE-facebook-post-1.md"},
+          {"title": "Sai lầm khi prompt AI mà 90% người dùng mắc phải", "format": "Facebook Post", "file": "contents/0b8qQx3FaLE-facebook-post-2.md"},
+          {"title": "Quy trình 5 bước biến ý tưởng thành video ngắn hút triệu view", "format": "Actionable Post", "file": "contents/0b8qQx3FaLE-actionable-post-1.md"},
+          {"title": "Hệ thống Obsidian + AI -- vũ khí bí mật của creator triệu view", "format": "Facebook Post", "file": "contents/0b8qQx3FaLE-facebook-post-3.md"}
+        ],
+        "analysis_file": "ideas/0b8qQx3FaLE.md"
+      }
+    },
+    {
+      "video_id": "EeX7ovArylU",
+      "slug": "youve-never-used-claude-code-skills-like-this",
+      "title": "You've Never Used Claude Code Skills Like This",
+      "url": "https://www.youtube.com/watch?v=EeX7ovArylU",
+      "channel": "Mark Kashef",
+      "views": 2650,
+      "published_at": "2026-03-06T18:02:49Z",
+      "image": "images/youve-never-used-claude-code-skills-like-this.jpg",
+      "transcript": "transcripts/youve-never-used-claude-code-skills-like-this.txt",
+      "summary": "This video demonstrates how to build a 'Council' skill for Claude Code that lets you consult competing AI models (Gemini, Codex, etc.) via OpenRouter without leaving the Claude Code terminal. Instead of picking one model, you route different tasks — bug fixes to Codex, front-end reviews to Gemini — and let Claude synthesize the advice. The creator walks through the skill's config file (provider defaults, context packaging rules, synthesis rules) and shows two live demos: a landing page and a VC analytics dashboard, each improved dramatically with a single council prompt. Target audience: Claude Code power users and developers who want multi-model workflows. Biggest takeaways: (1) A config-driven skill can turn Claude Code into a multi-model orchestrator without switching tools. (2) Context packaging — sending the right code snippets, prior attempts, and problem statements — is what makes external consultations actually useful. (3) Claude Code can act as a judge that synthesizes competing opinions and picks the best path, even when that path was proposed by a rival model.",
+      "insights": [
+        {"type": "Framework", "title": "The Council Skill: multi-model orchestration inside Claude Code", "explanation": "Build a skill with a config file that maps task categories (bug fix, front-end, architecture, quick check) to specific external models via OpenRouter. Claude Code routes the question, packages context, receives the response, and synthesizes a final recommendation — all from one terminal."},
+        {"type": "Paradigm Shift", "title": "Stop picking a side — use all models as a council", "explanation": "Instead of arguing which LLM is best, treat each model as a specialist consultant. Keep Claude Code as the driver but tap Gemini for front-end, Codex for bug fixing, or any model for its relative strength."},
+        {"type": "Framework", "title": "Context Packaging: the three elements that make consultations useful", "explanation": "When sending context to an external model, always include: (1) the specific problem statement, (2) relevant code snippets, and (3) what approaches have already been tried."},
+        {"type": "Principle", "title": "The orchestrator should pick the path of least resistance, even if it wasn't its own idea", "explanation": "Configure Claude Code's synthesis rules so it always selects the best approach regardless of which model proposed it. Remove ego from the workflow."},
+        {"type": "Framework", "title": "Synthesis Rules: agree, disagree, then execute", "explanation": "After receiving a council response, Claude Code should: (1) present the raw response labeled with the model name, (2) state agreement or disagreement with reasoning, (3) execute the best approach."},
+        {"type": "Paradigm Shift", "title": "LLM-as-a-Judge works better when the judge is a different model", "explanation": "Using a different language model to audit code or copy is like getting a second opinion from a doctor with different training. Different model architectures catch different blind spots."},
+        {"type": "Warning", "title": "Don't blindly follow external model suggestions", "explanation": "The council's advice is brainstorming material, not gospel. Always apply judgment before implementing external recommendations."},
+        {"type": "Framework", "title": "Mega Skills: stack and compose skills for compound leverage", "explanation": "Combine the council skill with domain-specific skills (e.g., a front-end skill) to create symbiotic workflows. The more skills you stack, the higher leverage each prompt delivers."},
+        {"type": "Diagnosis", "title": "Why Opus gets stuck on bugs: single-model tunnel vision", "explanation": "When a model spins on a bug repeatedly, it's not a capability failure — it's a perspective failure. Bringing in a different model breaks the loop because it approaches the problem from a fundamentally different angle."},
+        {"type": "Principle", "title": "Config-driven skills let non-technical users customize AI behavior without coding", "explanation": "The council skill's power lies in its config file, not its code. Users can verbally tell Claude Code to change which models handle which tasks — no programming knowledge required."}
+      ],
+      "notion_page_id": "31cab9e5-e740-8123-9541-f41ce6702b6a",
+      "notion_url": "https://www.notion.so/You-ve-Never-Used-Claude-Code-Skills-Like-This-31cab9e5e74081239541f41ce6702b6a",
+      "content_analysis": {
+        "score": 7,
+        "rating": "VÀNG",
+        "content_ideas": [
+          {"title": "Đừng tranh luận AI nào giỏi nhất -- dùng hết chúng đi", "format": "Facebook Post", "file": "contents/EeX7ovArylU-facebook-post-1.md"},
+          {"title": "3 bước để lấy ý kiến thứ hai từ AI", "format": "Actionable Post", "file": "contents/EeX7ovArylU-actionable-post-1.md"},
+          {"title": "Muốn AI làm tốt hơn? Nhờ AI khác chấm điểm cho nó", "format": "Facebook Post", "file": "contents/EeX7ovArylU-facebook-post-2.md"}
+        ],
+        "analysis_file": "ideas/EeX7ovArylU.md"
+      }
+    },
+    {
+      "video_id": "BVD49yi_Yhs",
+      "slug": "gpt-5-4-hit-a-wall-its-over",
+      "title": "GPT 5.4 hit a wall. It's over.",
+      "url": "https://www.youtube.com/watch?v=BVD49yi_Yhs",
+      "channel": "David Ondrej",
+      "views": 16257,
+      "published_at": "2026-03-06T02:30:23Z",
+      "image": "images/gpt-5-4-hit-a-wall-its-over.jpg",
+      "transcript": "transcripts/gpt-5-4-hit-a-wall-its-over.txt",
+      "summary": "David reviews the GPT 5.4 release from OpenAI, comparing it head-to-head against Claude Opus 4.6 across multiple real-world tasks: creative writing, teaching/explanations, geopolitical analysis, visual reasoning (calorie estimation), and coding (game clones via Codex). While GPT 5.4 wins on benchmarks (computer use, agentic browsing, GPQA Diamond) and visual reasoning, Opus 4.6 consistently outperforms on creative writing, instruction-following, explanation quality, and decisive opinionated answers. The video targets AI power users and developers choosing between frontier models. Biggest takeaways: (1) Benchmarks do not reflect real-world superiority — Opus wins 3 out of 4 practical tests despite losing on paper. (2) GPT 5.4 has a persistent length-calibration problem: verbose when brevity is needed, terse when depth is required. (3) For coding and vibe-coding, GPT 5.4 is competitive but not revolutionary; for general AI agent workflows, Opus remains the gold standard.",
+      "insights": [
+        {"type": "Paradigm Shift", "title": "Benchmarks are not real-world performance", "explanation": "GPT 5.4 beats Opus 4.6 on nearly every published benchmark, yet loses 3 out of 4 practical head-to-head tests. The gap between benchmark scores and day-to-day utility is now a structural problem in AI evaluation."},
+        {"type": "Diagnosis", "title": "GPT 5.4's length-calibration is inverted", "explanation": "GPT 5.4 writes long when asked to be concise and writes short when depth is needed. This reveals a failure in instruction-sensitivity."},
+        {"type": "Principle", "title": "Knowing when to be concise vs. verbose is a mark of intelligence", "explanation": "A truly intelligent model adjusts output length to match task requirements — brief for stories, detailed for explanations."},
+        {"type": "Framework", "title": "4-dimension model evaluation: Writing, Teaching, Opinion, Vision", "explanation": "To properly evaluate a frontier model, test it across four practical dimensions: creative writing, teaching/explanation, opinionated analysis, and visual reasoning."},
+        {"type": "Warning", "title": "Do not trust AI for calorie tracking from images", "explanation": "Both GPT 5.4 and Opus 4.6 significantly missed the actual calorie count of a 500-calorie meal. Using AI vision for calorie estimation without knowing exact ingredient weights will lead to systematic errors."},
+        {"type": "Principle", "title": "More reasoning time does not guarantee better output", "explanation": "GPT 5.4 Thinking spent 1 minute 45 seconds on the geopolitics question (10x longer than Opus), yet produced a hedged, less decisive answer."},
+        {"type": "Warning", "title": "People are underpowering AI agents with easy tasks", "explanation": "Most users are stuck in a 2024-2025 mindset, giving AI models tasks that are too simple. Current frontier models can handle far more ambitious multi-step projects than users typically assign."},
+        {"type": "Diagnosis", "title": "GPT 5.4 hedges on opinion tasks despite explicit instructions", "explanation": "When asked to be 'decisive and opinionated' on geopolitics, GPT 5.4 still produced a balanced, hedged answer. This reveals a deeper alignment/safety constraint that overrides user instructions."},
+        {"type": "Framework", "title": "Context engineering with XML wrapping for summarization", "explanation": "When feeding long text to an AI for summarization, wrap the content in XML tags. This helps the model distinguish between instructions and content, producing better summaries."},
+        {"type": "Paradigm Shift", "title": "High-risk AI-exposed industries are also high-reward", "explanation": "Industries most exposed to AI displacement (software, finance, legal) are simultaneously where AI creates the most upside for entrepreneurs."}
+      ],
+      "notion_page_id": "31cab9e5-e740-8197-80be-de6bd7151658",
+      "notion_url": "https://www.notion.so/GPT-5-4-hit-a-wall-It-s-over-31cab9e5e740819780bede6bd7151658",
+      "content_analysis": {
+        "score": 7,
+        "rating": "VÀNG",
+        "content_ideas": [
+          {"title": "Benchmark cao không có nghĩa là AI giỏi", "format": "Facebook Post", "file": "contents/BVD49yi_Yhs-facebook-post-1.md"},
+          {"title": "Cách đánh giá AI model đúng -- khung 4 chiều", "format": "Infographic", "file": "contents/BVD49yi_Yhs-infographic-1.md"},
+          {"title": "Bạn đang cho AI làm việc quá dễ", "format": "Facebook Post", "file": "contents/BVD49yi_Yhs-facebook-post-2.md"}
+        ],
+        "analysis_file": "ideas/BVD49yi_Yhs.md"
+      }
+    },
+    {
+      "video_id": "uEiyUBifBcI",
+      "slug": "claude-code-skills-just-got-even-better",
+      "title": "Claude Code Skills Just Got Even Better",
+      "url": "https://www.youtube.com/watch?v=uEiyUBifBcI",
+      "channel": "Nate Herk | AI Automation",
+      "views": 13206,
+      "published_at": "2026-03-06T02:10:52Z",
+      "image": "images/claude-code-skills-just-got-even-better.jpg",
+      "transcript": "transcripts/claude-code-skills-just-got-even-better.txt",
+      "summary": "This short video covers Anthropic's updated Skill Creator skill for Claude Code — a meta-skill that creates, evaluates, benchmarks, and tunes other skills. The presenter walks through three core capabilities: (1) skill evaluation, where the agent tests a skill's output quality and iterates to fix errors, (2) benchmarking with and without a skill loaded to quantify uplift, and (3) trigger tuning, which rewrites a skill's description so it fires accurately even in projects with 10+ skills. Best suited for Claude Code power users who build and maintain multiple custom skills. Biggest takeaways: evals let skills self-improve automatically, benchmarking proves ROI with hard metrics, and trigger tuning eliminates misfires as your skill library grows. Anthropic hints that eventually a plain-English description alone will be enough — the model will figure out the implementation.",
+      "insights": [
+        {"type": "Framework", "title": "The Skill Lifecycle: Create → Eval → Benchmark → Trigger-Tune", "explanation": "Anthropic's Skill Creator follows a four-step loop: create a skill from scratch, run evaluations to test quality, benchmark with vs. without the skill to measure uplift, then tune the trigger description for accurate activation."},
+        {"type": "Paradigm Shift", "title": "Skills can self-improve through agent-driven evaluation", "explanation": "Instead of manually debugging a skill's output, you let the agent evaluate the skill's quality and make improvements autonomously."},
+        {"type": "Framework", "title": "Benchmarking: side-by-side with and without the skill", "explanation": "Run the same tasks with the skill loaded and without it, then compare pass rate, total time, and total tokens. This gives concrete evidence of whether a skill actually helps."},
+        {"type": "Diagnosis", "title": "Skill misfires come from vague trigger descriptions", "explanation": "When projects accumulate 10+ skills, false triggers and missed triggers become common. The root cause is that skill descriptions are not specific enough."},
+        {"type": "Framework", "title": "Trigger Tuning: test prompts → analyze → rewrite description", "explanation": "The trigger tuning process works by generating various prompts, checking which skill the model selects, then editing the skill's description so it gets called accurately."},
+        {"type": "Principle", "title": "A natural-language description will eventually be the entire skill", "explanation": "Anthropic states that over time, a plain-English description of what the skill should do may be enough — the model figures out the rest."},
+        {"type": "Warning", "title": "Don't scale to many skills without trigger tuning", "explanation": "As your skill library grows past 10 skills, misfires become inevitable if you skip trigger tuning."},
+        {"type": "Paradigm Shift", "title": "Meta-skills: a skill that builds and improves other skills", "explanation": "The Skill Creator is itself a skill — a meta-layer where the agent's tooling is maintained by the agent. This collapses the distinction between 'developer building tools' and 'agent using tools'."}
+      ],
+      "notion_page_id": "31cab9e5-e740-81ce-8dd8-e3741ac73e2a",
+      "notion_url": "https://www.notion.so/Claude-Code-Skills-Just-Got-Even-Better-31cab9e5e74081ce8dd8e3741ac73e2a",
+      "content_analysis": {
+        "score": 7,
+        "rating": "VÀNG",
+        "content_ideas": [
+          {"title": "AI đã biết tự sửa lỗi của chính nó", "format": "Facebook Post", "file": "contents/uEiyUBifBcI-facebook-post-1.md"},
+          {"title": "10 skills nhưng skill nào cũng bị gọi nhầm? Đây là cách sửa", "format": "Actionable Post", "file": "contents/uEiyUBifBcI-actionable-post-1.md"},
+          {"title": "Tương lai của AI: chỉ cần mô tả bằng tiếng Việt là đủ", "format": "Facebook Post", "file": "contents/uEiyUBifBcI-facebook-post-2.md"}
+        ],
+        "analysis_file": "ideas/uEiyUBifBcI.md"
+      }
+    }
+  ]
+}

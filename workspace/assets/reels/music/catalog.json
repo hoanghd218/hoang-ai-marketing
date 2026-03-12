@@ -1,0 +1,34 @@
+[
+  {
+    "id": "lo-fi-chill-beat",
+    "file": "lo-fi-chill-beat.mp3",
+    "description": "Lo-fi chill beat nhẹ nhàng, phù hợp nội dung suy ngẫm, chia sẻ kiến thức",
+    "mood": ["calm", "reflective", "chill"],
+    "tags": ["lofi", "chill", "ambient", "study"],
+    "bpm": 85
+  },
+  {
+    "id": "cinematic-inspiring",
+    "file": "cinematic-inspiring.mp3",
+    "description": "Nhạc nền cinematic truyền cảm hứng, phù hợp motivational content",
+    "mood": ["inspirational", "motivational", "epic"],
+    "tags": ["cinematic", "inspiring", "emotional", "uplifting"],
+    "bpm": 100
+  },
+  {
+    "id": "minimal-piano",
+    "file": "minimal-piano.mp3",
+    "description": "Piano đơn giản, tối giản, phù hợp nội dung wisdom, sâu sắc",
+    "mood": ["calm", "deep", "reflective", "warm"],
+    "tags": ["piano", "minimal", "soft", "emotional"],
+    "bpm": 70
+  },
+  {
+    "id": "dark-ambient-tech",
+    "file": "dark-ambient-tech.mp3",
+    "description": "Ambient tối, tech vibe, phù hợp nội dung AI, công nghệ, hacker aesthetic",
+    "mood": ["tech", "focused", "moody", "dark"],
+    "tags": ["ambient", "tech", "dark", "electronic"],
+    "bpm": 90
+  }
+]

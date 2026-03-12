@@ -1,0 +1,56 @@
+{
+  "video_id": "OUyfxhFtGCo",
+  "summary": "This video explains Claude Code's new 'loop' feature — a built-in skill that lets you schedule recurring prompts (reminders, checks, skill invocations) within a single session for up to 3 days. The creator (Nate) demos setting one-time reminders and interval-based loops (e.g., check ClickUp every 10 minutes), then compares loops to the separately-released 'scheduled tasks' feature. Loops are session-scoped, ephemeral, and suited for immediate project work; scheduled tasks are persistent, long-lived, and suited for daily/weekly routines. Best for developers and power users of Claude Code who want to automate monitoring, deploy checks, or time-based reminders without leaving their coding environment. Biggest takeaways: (1) Loops and scheduled tasks solve different problems — use the 'right now' vs. 'every day' heuristic to choose. (2) Context window management is critical for loops that fire frequently. (3) Loops can invoke skills on a timer, enabling lightweight autonomous agent behavior within a single session.",
+  "insights": [
+    {
+      "type": "Framework",
+      "title": "Loop vs. Scheduled Tasks Decision Framework",
+      "explanation": "Ask one question: 'Do I need help right now on a project, or do I need help with something every day/every week?' If right now, use loop. If recurring long-term, use scheduled tasks. This simple heuristic prevents choosing the wrong tool."
+    },
+    {
+      "type": "Framework",
+      "title": "Three Cron Primitives for Loop Management",
+      "explanation": "The loop system works through three tools: cron create (schedule a task), cron list (see active tasks), and cron delete (cancel a task). All three can be invoked with natural language, forming a complete CRUD cycle for in-session automation."
+    },
+    {
+      "type": "Paradigm Shift",
+      "title": "Claude Code as a Proactive Agent, Not Just a Reactive Tool",
+      "explanation": "With loops, Claude Code shifts from responding only when prompted to proactively checking things, sending reminders, and monitoring systems on a timer — behaving more like an autonomous assistant than a chat interface."
+    },
+    {
+      "type": "Warning",
+      "title": "Context Rot from High-Frequency Loops",
+      "explanation": "If a loop fires every 10 minutes and generates a large report each time, tokens accumulate rapidly in the session context, leading to 'context rot' — degraded performance as the context window fills with stale information. Keep loop outputs concise or manage context deliberately."
+    },
+    {
+      "type": "Warning",
+      "title": "Session Closure Kills All Loops",
+      "explanation": "Loops are tied to their session. Closing the terminal, closing a VS Code tab, or ending the session destroys all active loops with no recovery. There is no persistence or catch-up mechanism, unlike scheduled tasks."
+    },
+    {
+      "type": "Diagnosis",
+      "title": "Why Loops and Scheduled Tasks Seem Redundant but Aren't",
+      "explanation": "Released within 12 hours of each other, the two features appear identical but differ fundamentally: loops are session-scoped and ephemeral (max 3 days, no persistence), while scheduled tasks are stored, long-lived, and support catch-up. The confusion stems from similar surface behavior masking different architectures."
+    },
+    {
+      "type": "Principle",
+      "title": "Ephemeral Automation Should Have Built-In Expiry",
+      "explanation": "The 3-day loop expiry exists as a safety mechanism — if you forget about running loops, they auto-clean after 3 days. Any ephemeral automation should have a self-destruct timer to prevent runaway resource consumption."
+    },
+    {
+      "type": "Principle",
+      "title": "Loops Are Session-Scoped, Not Global",
+      "explanation": "Each Claude Code session is independent. A loop created in one tab/session cannot be seen or managed from another. This isolation prevents cross-session interference but requires awareness that 'list all loops' only shows the current session's loops."
+    },
+    {
+      "type": "Framework",
+      "title": "Practical Loop Use Cases Pattern",
+      "explanation": "Five concrete patterns emerged: (1) urgent email monitoring every 5 minutes, (2) deploy health checks every hour, (3) 3-day sprint progress tracking, (4) test iteration watching, (5) log monitoring. The common thread: short-lived, project-specific monitoring that doesn't need to outlive the work session."
+    },
+    {
+      "type": "Paradigm Shift",
+      "title": "Loops Enable Skill Chaining on a Timer",
+      "explanation": "You can tell a loop to invoke a specific skill (e.g., 'every 20 minutes, run review PR skill'), turning Claude Code into a lightweight autonomous agent that periodically executes complex workflows — not just simple reminders but full skill invocations on a schedule."
+    }
+  ]
+}

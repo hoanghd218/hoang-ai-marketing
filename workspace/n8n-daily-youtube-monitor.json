@@ -1,0 +1,380 @@
+{
+  "name": "Daily YouTube Channel Monitor + Transcript",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "id": "trigger-daily",
+      "name": "Daily 8AM Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "channels",
+              "name": "channels",
+              "value": "={{ [\n  { \"id\": \"UCsBjURrPoezykLs9EqgamOA\", \"name\": \"Fireship\" },\n  { \"id\": \"UC2WHjPDvbE6O328n17ZGcfg\", \"name\": \"ForrestKnight\" },\n  { \"id\": \"UCX6OQ3DkcsbYNE6H8uQQuVA\", \"name\": \"MrBeast\" }\n] }}",
+              "type": "array"
+            },
+            {
+              "id": "youtube_api_key",
+              "name": "youtube_api_key",
+              "value": "={{ $env.YOUTUBE_API_KEY }}",
+              "type": "string"
+            },
+            {
+              "id": "published_after",
+              "name": "published_after",
+              "value": "={{ new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString() }}",
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "id": "set-config",
+      "name": "Config: Channels & API Key",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "channels",
+        "options": {}
+      },
+      "id": "split-channels",
+      "name": "Split Channels",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [440, 0]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://www.googleapis.com/youtube/v3/search",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "part", "value": "id,snippet" },
+            { "name": "channelId", "value": "={{ $json.channels.id }}" },
+            { "name": "type", "value": "video" },
+            { "name": "order", "value": "date" },
+            { "name": "publishedAfter", "value": "={{ $('Config: Channels & API Key').item.json.published_after }}" },
+            { "name": "maxResults", "value": "10" },
+            { "name": "key", "value": "={{ $('Config: Channels & API Key').item.json.youtube_api_key }}" }
+          ]
+        },
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "search-videos",
+      "name": "YouTube Search API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [660, 0],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "has-items",
+              "leftValue": "={{ $json.items }}",
+              "rightValue": "",
+              "operator": {
+                "type": "array",
+                "operation": "notEmpty"
+              }
+            }
+          ]
+        }
+      },
+      "id": "filter-empty",
+      "name": "Has Videos?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [880, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.first().json.items || [];\nconst channelName = $('Split Channels').item.json.channels.name;\n\nreturn items.map(item => ({\n  json: {\n    video_id: item.id.videoId,\n    title: item.snippet.title,\n    channel: channelName,\n    channel_id: item.snippet.channelId,\n    published_at: item.snippet.publishedAt,\n    description: item.snippet.description,\n    thumbnail: item.snippet.thumbnails?.high?.url || item.snippet.thumbnails?.default?.url,\n    url: `https://www.youtube.com/watch?v=${item.id.videoId}`\n  }\n}));"
+      },
+      "id": "extract-video-list",
+      "name": "Extract Video List",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1100, -100]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://www.googleapis.com/youtube/v3/videos",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "part", "value": "statistics,contentDetails" },
+            { "name": "id", "value": "={{ $json.video_id }}" },
+            { "name": "key", "value": "={{ $('Config: Channels & API Key').item.json.youtube_api_key }}" }
+          ]
+        },
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "get-video-stats",
+      "name": "Get Video Stats",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1320, -100],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const video = $('Extract Video List').item.json;\nconst stats = $input.first().json.items?.[0];\n\nreturn [{\n  json: {\n    ...video,\n    view_count: parseInt(stats?.statistics?.viewCount || '0'),\n    like_count: parseInt(stats?.statistics?.likeCount || '0'),\n    comment_count: parseInt(stats?.statistics?.commentCount || '0'),\n    duration: stats?.contentDetails?.duration || '',\n    has_captions: stats?.contentDetails?.caption === 'true'\n  }\n}];"
+      },
+      "id": "merge-stats",
+      "name": "Merge Stats",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1540, -100]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://yt-to-text.com/api/v1/Subtitles",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ video_id: $json.video_id }) }}",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "get-transcript",
+      "name": "Extract Transcript (yt-to-text)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1760, -100],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const video = $('Merge Stats').item.json;\nconst response = $input.first().json;\n\n// Extract transcript text from yt-to-text.com response\nlet transcript = '';\nlet transcript_status = 'failed';\n\ntry {\n  const transcripts = response?.data?.transcripts || [];\n  if (transcripts.length > 0) {\n    transcript = transcripts.map(t => t.t).join(' ');\n    transcript_status = 'success';\n  }\n} catch (e) {\n  transcript = '';\n  transcript_status = 'error: ' + e.message;\n}\n\nreturn [{\n  json: {\n    ...video,\n    transcript: transcript,\n    transcript_status: transcript_status,\n    transcript_length: transcript.length,\n    processed_at: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "format-transcript",
+      "name": "Format Transcript",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1980, -100]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict"
+          },
+          "conditions": [
+            {
+              "id": "has-transcript",
+              "leftValue": "={{ $json.transcript_status }}",
+              "rightValue": "success",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ]
+        }
+      },
+      "id": "filter-has-transcript",
+      "name": "Has Transcript?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [2200, -100]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "databaseId": "6fa63945025a4ab8bf276a754bd0ed22",
+        "properties": {
+          "property": [
+            {
+              "key": "Title|title",
+              "title": "={{ $json.title }}"
+            },
+            {
+              "key": "Video Link|url",
+              "includeUrl": true,
+              "urlValue": "={{ $json.url }}"
+            },
+            {
+              "key": "Views Count|number",
+              "numberValue": "={{ $json.view_count }}"
+            },
+            {
+              "key": "Topic|multiSelect",
+              "multiSelectValue": ["Chua xem"]
+            },
+            {
+              "key": "Summary|richText",
+              "textContent": "={{ $json.transcript.substring(0, 2000) }}"
+            },
+            {
+              "key": "Thumbnail|url",
+              "includeUrl": true,
+              "urlValue": "={{ $json.thumbnail }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "save-to-notion",
+      "name": "Save to Notion",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [2420, -200],
+      "credentials": {
+        "notionApi": {
+          "id": "REPLACE_WITH_NOTION_CREDENTIAL_ID",
+          "name": "Notion API"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Collect all videos that failed transcript extraction\nconst video = $json;\nreturn [{\n  json: {\n    video_id: video.video_id,\n    title: video.title,\n    channel: video.channel,\n    url: video.url,\n    transcript_status: video.transcript_status,\n    view_count: video.view_count\n  }\n}];"
+      },
+      "id": "log-failed",
+      "name": "Log Failed Transcripts",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2420, 0]
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "id": "aggregate-results",
+      "name": "Aggregate All Results",
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [2640, -100]
+    },
+    {
+      "parameters": {
+        "jsCode": "const allItems = $input.first().json.data || [];\n\nconst summary = {\n  total_videos: allItems.length,\n  with_transcript: allItems.filter(v => v.transcript_status === 'success').length,\n  failed_transcript: allItems.filter(v => v.transcript_status !== 'success').length,\n  channels: [...new Set(allItems.map(v => v.channel))],\n  run_at: new Date().toISOString()\n};\n\nreturn [{ json: summary }];"
+      },
+      "id": "summary",
+      "name": "Daily Summary",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2860, -100]
+    }
+  ],
+  "connections": {
+    "Daily 8AM Trigger": {
+      "main": [
+        [{ "node": "Config: Channels & API Key", "type": "main", "index": 0 }]
+      ]
+    },
+    "Config: Channels & API Key": {
+      "main": [
+        [{ "node": "Split Channels", "type": "main", "index": 0 }]
+      ]
+    },
+    "Split Channels": {
+      "main": [
+        [{ "node": "YouTube Search API", "type": "main", "index": 0 }]
+      ]
+    },
+    "YouTube Search API": {
+      "main": [
+        [{ "node": "Has Videos?", "type": "main", "index": 0 }]
+      ]
+    },
+    "Has Videos?": {
+      "main": [
+        [{ "node": "Extract Video List", "type": "main", "index": 0 }],
+        []
+      ]
+    },
+    "Extract Video List": {
+      "main": [
+        [{ "node": "Get Video Stats", "type": "main", "index": 0 }]
+      ]
+    },
+    "Get Video Stats": {
+      "main": [
+        [{ "node": "Merge Stats", "type": "main", "index": 0 }]
+      ]
+    },
+    "Merge Stats": {
+      "main": [
+        [{ "node": "Extract Transcript (yt-to-text)", "type": "main", "index": 0 }]
+      ]
+    },
+    "Extract Transcript (yt-to-text)": {
+      "main": [
+        [{ "node": "Format Transcript", "type": "main", "index": 0 }]
+      ]
+    },
+    "Format Transcript": {
+      "main": [
+        [{ "node": "Has Transcript?", "type": "main", "index": 0 }]
+      ]
+    },
+    "Has Transcript?": {
+      "main": [
+        [{ "node": "Save to Notion", "type": "main", "index": 0 }],
+        [{ "node": "Log Failed Transcripts", "type": "main", "index": 0 }]
+      ]
+    },
+    "Save to Notion": {
+      "main": [
+        [{ "node": "Aggregate All Results", "type": "main", "index": 0 }]
+      ]
+    },
+    "Log Failed Transcripts": {
+      "main": [
+        [{ "node": "Aggregate All Results", "type": "main", "index": 0 }]
+      ]
+    },
+    "Aggregate All Results": {
+      "main": [
+        [{ "node": "Daily Summary", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "pinData": {},
+  "tags": [
+    { "name": "youtube" },
+    { "name": "daily-automation" },
+    { "name": "transcript" }
+  ]
+}

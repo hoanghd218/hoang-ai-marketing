@@ -1,0 +1,3315 @@
+We are back. We are all the way back.
+Today I'm going to show you something
+incredible I'm building inside of
+OpenClaw. I have built my own AI lab. It
+is a completely custom AI lab that is
+working training my own models, training
+my own plugins, doing work for me 247.
+It is incredible. I have my own custom
+model now. I've built my own custom
+model. I'm going to go over how it
+works, how you can do it yourself, what
+hardware you need, what software you
+need. I got an Nvidia DJX Spark that's
+powering all this. I'll go over Nvidia
+DJX Spark versus Mac Studio and all of
+that. It is going to be incredible. I
+also have a major announcement halfway
+through this live stream. Major
+announcement halfway through this live
+stream. So, do me a favor. Let's get
+this party started. Go down below, hit
+the like down below. that'll pump us in
+the algorithm so we get millions of
+people in here and we have the greatest
+conversation ever. It's going to be
+incredible. My own AI lab. Are you guys
+ready for this? Are you ready for this?
+I'm going to show you I'm going to show
+you what I've been building. Here we go.
+This is going to be nuts. This is going
+to be nuts. I hope you guys have been
+doing well. I hope you've I hope you've
+been having an amazing week. I had I was
+in Japan the last week. I was in LA the
+last few days.
+You won't have a break like this for a
+long time. You won't have a break like
+this for a long time. I know I've been
+gone for a while. Uh I did a vacation in
+[ __ ] I don't do many vacations. I hate
+I'm going to be honest. I hate vacation.
+I'm going to be honest with you. I
+absolutely hate vacations. Uh did he get
+his raid? Did he get his raid?
+40 terabyte hard drive. 40 terabyte hard
+drive. For those that missed it, I did
+uh I did a uh I did Moonshots. I did
+Moonshots.
+I did the Moonshots podcast uh a few
+days ago. Well, I did it last or a
+couple weeks ago, but it just showed up
+on YouTube a few days ago. Um and one of
+the cast members, one of the hosts sent
+me a 40 terbte hard drive. How
+incredible is that?
+World premiere. World premiere. Then why
+did you take a vacation? Because
+cuz other sometimes it's not all about
+me. Sometimes you need to make
+sacrifices and when other people want to
+take vacations, you take the vacation
+with them, right? Sometimes you got it's
+not all about me sometimes. Sometimes
+other people want to go to Japan and you
+got to go to Japan with them and you got
+to make them happy. It's not all about
+you. But I did say this at the end of
+the vacation. No more vacations for a
+very long time. I hate vacation. I hate
+vacation. This is my vacation. My
+vacation is doing live streams. This is
+what I like to do.
+This is He's been out in the Middle East
+negotiating between Iran and America. It
+could be that as well. I'm new that I'm
+now the new uh uh negotiator, the new
+American negotiator for Iran. Great
+podcast, by the way, with Moonshots.
+They put you on the spot with Henry
+calling you. I know. I haven't had him
+call. I turned off the calling
+functionality a while ago uh because I
+it just was like I mean it's just
+useless. It's not there's nothing useful
+about it yet. It's cool but it's just
+like a cool demo. It's not very useful
+at the moment.
+Ken Kenneth Harper 5930 with a $20
+donation. Thank you very much. Keep
+paving the way. I learn something every
+time I tune in. Amazing. Can I'm going
+to show you something cool today.
+I'm going to show you something cool
+today. This is Can I Should I make this
+bigger? I don't know if this is big
+enough on your screen. We'll make this a
+little bit bigger here. This is my AI
+lab and you can see over on the lefth
+hand side my mission control is built
+has been growing quite a bit. It's been
+growing quite a bit. This is going to be
+big. This is I think this is something
+that takes us to the next level. I think
+this is something that takes us to the
+next level. I don't think there's anyone
+else on planet Earth doing what I'm
+about to show you here other than maybe
+Andre Carpathy. We might be the only
+ones doing it. Maybe the AI lab can
+solve the issue out there. Lol. Maybe.
+Honestly, maybe. Hate it when people
+make me go to Japan.
+I mean, Japan is cool. Japan was cool
+for sure. I'm a big sushi fan. The sushi
+was amazing. I'll just say this, man.
+Now's not the time. Now's not the time
+to be going to Japan. Now's not the time
+to be going on 10-hour flights on United
+Airlines that has absolutely horrible
+Wi-Fi.
+Alex is no Andre Karpathy. Yes, I am.
+Andre Carpath is no Alex Finn. Uh
+there's just too much going on right now
+to be going on vacations halfway around
+the world. There's too much going on.
+The world's moving too fast. You
+disappear for a week. You missed it all.
+You did. Luckily, I bought this DJX
+Spark right before like literally like
+two hours before the flight. Plugged it
+in and then gave it to my openclaw Henry
+and said, "Hey, have at it. Do cool
+stuff with it." Uh the Japanese are all
+AI. We can go to J Japan with your bot.
+We can go to Japan when your bot can
+work on chats. Japan's cool, guys.
+Listen,
+if you're in FinnFam, man, don't be
+don't be having FOMO over vacations. You
+need to be locked in your computer 247,
+not sleeping, not eating. We're not
+vacation tribe here in Finnf Fam. We are
+a get stuff done tribe. We are advanced
+tribe. We are learn the new things and
+move forward. Move the ball forward
+every I wasn't able to move the ball
+forward every day in Japan. I wasn't
+able. Stop with the yapping and let's
+see what you're doing. Okay. Quick
+quickest way to get banned. Tell me what
+to do on my own live stream.
+We We don't go on vacations here. We get
+stuff done.
+Luckily, I was able to plug in my DJX
+Spark to my cluster right before I left
+so Henry can go and have fun while I was
+on vacation. How do you recommend adding
+system upgrades without messing up your
+entire OpenClaw runtime?
+I mean, you just you you you don't want
+to mess with the I'm joking, bro. Come
+on. That's why I didn't ban you because
+I knew you were joking. But the app is
+real. That's a live stream. If you don't
+want the app, don't watch a live stream.
+Uh you just have I mean, unfor this is I
+don't love upgrading to be unless an
+upgrade has a killer feature in the
+upgrade. I don't do the upgrades. Uh,
+just to be honest, it's just like it
+seems I see too many tweets of people
+complaining that the upgrade broke broke
+their stuff.
+Oh, I got to put the chat for the
+Twitchers. The Twitch people need to see
+the chat on the screen. There you go.
+Twitch people can see the chat on the
+screen. Uh, I I don't I don't I don't
+upgrade too much. I don't upgrade too
+much.
+I don't upgrade too much just because I
+I see too many tweets of people saying
+it's broken. I don't want to I don't My
+system's too delicate here. I got an
+entire AI lab running. You guys want to
+see what's going on in this AI lab? We
+now have a new machine here. So, we have
+a Mac Studio 1, Mac Studio 2, DGX Spark.
+We also have a Mac Mini, but I don't
+include in here because it's not going
+to be able to do any sort of advanced
+work. Uh, here's what we got going on.
+I'll also say this. I'll also say this.
+My lobster dicks in my ass has a
+question for Henry. What do you like
+most about Alex?
+Your open claw can upgrade itself and it
+will tell you if there's a breaking
+change. Mine does. Also, tell your open
+claw to create a backup routine for
+itself. Open upgrade or personal
+upgrades.
+Create
+backup
+routine. All right. See, look, I'm
+taking advice from my audience.
+Open CL. I'm taking advice from my
+audience on backup routines. So, you
+guys teach me as much as I teach you.
+All right, I'll create a backup routine.
+Thanks, Jesus explained.
+Someone clipped this. I told people this
+is a no clipping live stream. Here's
+what's going on in my AI lab
+right now. This hasn't been updated yet.
+We finished this. We just finished this
+voice, Laura. This has just been
+finished. We've done this a couple of
+times now. We're doing a couple other
+things here.
+Let me uh let me go to Henry and say h
+No, we'll leave it as it is now. This
+will be good for the YouTube video. I'm
+going to film right after this. Also,
+new YouTube video coming out later
+today. Uh notifications on and subscribe
+if you haven't yet. So, here's what's
+going on in my training pipeline at the
+moment. Here's what's going on in my
+training pipeline. For those who haven't
+seen it, Carpath is auto research. You
+need to get in on this. You need Man, I
+have not been on these sessions in a
+while. Let's go live. Well, we haven't
+done them in a week and a half. I've
+been in Japan in LA.
+All right. Banned. Congratulations. Uh
+ban user Nico, you have been banned.
+Smell you never. Uh quickest way to get
+banned. Say stop yapping.
+AI AI lab.
+We are doing many things here including
+auto research. Auto research looks
+awesome. I don't have the hardware yet.
+Well, the good news is is they it seems
+people are updating and upgrading it.
+So, you need don't need as good of uh
+hardware for it. Does the mission
+control still work after the updates?
+What updates? I I I haven't updated in a
+little bit. Uh will you talk more about
+Yes, I'll do it right now. In fact, I'll
+do it right now. Satan Corgi, what a
+name. Satan Corgi. Okay. Uh best. So,
+there's I'm going to go super deep into
+Spark verse Max Studio in my next
+YouTube video. So, make sure to turn on
+notifications for that. I just shampooed
+my hair so it's super fluffy and
+uncontrollable. Uh, why Carpathy's auto
+research when you can just have Monte
+Carlos simulations be run for each task
+project? What local models can you use
+in a Mac Studio M3 Ultra 96 gigs RAM?
+You can run a good amount, man. You can
+run uh
+you can run Quen 3.5, one of the medium
+models.
+You can run 96 gigabytes is great for
+local models because you can run Quen
+3.5 medium and it's still great. It's
+still great. My Open Claw is a dumb
+brick. I will say this, we have so much
+to cover today. Let me pull up my sheet.
+Um,
+Chad GBT. I have been aggressively
+testing chat GBT 5 point before we go
+more into this AI lab I'm about to show
+you. I have been aggressively
+testing Chad GPT 5.4
+as my main driver for OpenClaw.
+How do you set up persistent agents?
+Assign one per Discord channel. What do
+you mean by that? Assign pers how do you
+set up persistent agents? Like how do
+you set up multiple open claws? My next
+two videos are a how to set up your own
+AI lab and train your own AI models.
+That's going to be number one. The next
+one after that will be how to build a
+openclaw AI agent army.
+So, Alex
+onx, uh, what do you mean by that
+question? Go on. So, like I'll include
+whatever else you want in that YouTube
+video.
+Will your private community assist
+getting more out of open cloth? Thanks.
+Of course, anti-vester vibe coding
+academy down below. Of course, we
+there's a full video series there. You
+got to go into that.
+Click join vibe coding academy down
+below. Link down below. Uh Chad GBT 5.4
+is
+Oh, I couple so a couple things to
+announce big announcement later. Big
+announcement later, but couple things to
+announce now. I am not sponsored by
+OpenAI. I am not sponsored by Chad GBT.
+This is not an official partnership.
+This is this is not a partnership or a
+sponsorship. I want to make that clear.
+Not a partnership, not a sponsorship.
+But if they want to make me wildly rich,
+I will consider it. If OpenAI comes to
+me and says, "We'll give you $5 million
+and now everything you do is sponsored
+by Chad GBT," I will be honest with you.
+I'm going to say yes to that offer. But
+that's not what they offered me. They
+offered me to give to you guys five pro
+plans. Five pro plans.
+So, I think we're going to do that
+Friday. I think we're going to do that
+giveaway Friday. Five pro. That's like
+the $250 a month plan. That's like the
+$250 a month plan. So, I'm giving away
+five of those Friday. Friday, five of
+them in this live stream. Five of them
+in the Vibe Coding Academy link down
+below. Five people in the Vibe Coding
+Academy will get Pro Plan $250 a month
+free. Five people on this live stream
+will get five of them free. So, that's
+going to be huge. Mark your calendars
+for Friday, 11 a.m. Pacific. Yo, I could
+use Pro. All right, I'm gonna figure out
+how to give them away. I don't know if
+we're going to do random draw or like
+you're gonna have to pitch me in the
+comments or something. We'll figure it
+out.
+We'll figure it out. Could be you have
+to leave a like down below on this
+video. Could be someone who leaves a
+like down below on this video. I don't
+know. We'll see. We'll see. Uh, but they
+reached out. I tweeted about Codeex a
+few days ago. I truly I actually This is
+a big This is a big moment.
+I think Codeex might be in the lead over
+Claude Code right now. I tweeted that
+and then some guys from OpenAI reached
+out and said, "Hey, you want to give
+away uh pro plans on your live stream?"
+And I said, "Yes." So this is they did
+not manipulate my opinions here. I gave
+my opinion then they started giving me
+free stuff. Um
+that's number one. Number two, I've been
+chat I've been testing chat GBT 5.4 in
+openclaw as the main driver over opus
+46. I have them both. I basically have
+two open claws going two versions of
+Henry. One is uh one is
+Opus 46. The other is Chad GBT 5.4. I've
+been testing them side by side. I will
+say this, in some instances it does feel
+like Opus might be a tad do some tasks a
+tad better.
+But I will say this also, the speed of
+5.4
+more than makes up for it. The speed of
+5.4 in OpenClaw is spectacular.
+Spectacular.
+like it it feels like using a brand new
+tool because I'm I I use Opus. I'm going
+to be honest.
+I send like a prompt for it to do
+something and then I click off the chat
+and do something else while it's doing
+it. Like it's like, "Okay, this is going
+to take five minutes. Click off the chat
+and I do something else." Um like and
+that breaks up like your flow and hurts
+your focus when you have to do that.
+It's very annoying. It's been pissing me
+off a lot lately because I I send a
+prompt and then I go do something else
+and I get distracted and I forget to
+check back for like 15 minutes and like
+that just breaks your flow a ton. With
+5.4,
+it's just like instant. It's just
+instant. I say something, it's instant.
+I say something, I get it back and it's
+instant and it doesn't break your flow.
+You stay in the chat like boom boom boom
+boom boom boom boom boom boom. You stay
+in the chat.
+5.4 UI design is so bad though. Hope
+that improves soon. Yeah, Opus is still
+probably a little better in design.
+Amaya, I agree. Uh but at the same time,
+you use the right tool for right thing,
+right? So you go in and maybe you claw
+code up the design, then you switch to
+codeex, right, for all the other stuff.
+Saw you on moonshots just getting
+started with openclaw for max view with
+64 gigabyte with local. Which local
+model do you rep recommend? You can you
+right now I think Quen 3.5 is the open
+source king. And one of the reasons why
+I think Quen 3.5 is the open source king
+is they have like 20 different versions
+of it for all different size. You can
+run it from like a Mac Mini with 16
+gigabytes up to a Mac Studio 512. So I
+would find uh Stacy Rodriguez I would
+find the Quen 3.5 model that most. So if
+you're at 64 gigabyte I try to find one
+that fits like 40 gigabytes. So you have
+a little bit left over, right? So search
+I if you have open claw or you have open
+claw just getting start open claw talk
+to your open claw and uh say hey what is
+the best quen to fit into this open
+claw.
+Why do you love Alman? First of all I
+never said I loved Alman. Never said
+that. But second of all I love Sam
+Alman. Uh no I'm just kidding. I I
+respect Sam Alman. I I deeply respect
+Sam Alman. I think a a lot more than
+most people on X. Like X is like the
+ultimate Sam Alman hating place. I think
+it's probably just because Elon hates on
+Sam Alman a lot and like 80% of people
+on X are just trying to like meat ride
+Elon just so they can get like a like
+and a retweet or something so they can
+make five more dollars in their ad
+revenue. Uh but I I think I respect Sam
+Alman deeply. Uh I think he's a wartime
+CEO. I think he goes hard in the paint.
+I think he's willing to do whatever it
+takes to win. And I respect CEOs that do
+that. I think he's like I just I think I
+think he's a wartime CEO. He's not going
+to soften up for anything. He sees
+opportunities and he capitalizes. I
+totally respect what he did with the
+Department of War stuff. He's like, "Oh,
+our main competitor who's beating us in
+a lot of ways right now just showed a
+little bit of weakness. Let me go in for
+the strike and destroy them." And that's
+what he did. Five minutes after
+Department of War said, "Hey, we're not
+working anthropic." He's like, "Uh, we
+got something with anthropic."
+That's savagery. I respect that
+savagery. And this isn't a political
+thing. I I I I've never shared my
+politics on here. I don't even have
+politics. I think every second you spend
+thinking about politics is a waste of
+your entire existence. So this is just
+purely from like a chess move wartime
+CEO perspective. I respect them. So also
+some people say we look alike.
+Some people kind of desperate. You
+should be desperate in business. You
+should What do you mean kind of
+desperate?
+You don't want your CEO to be desperate?
+I want my CEO of whatever company I'm
+working for to be absolutely insanely
+desperate. I want them to be the most
+desperate human being on planet Earth. I
+want them to desperately be working to
+grow the company.
+Desperate. I want them I want them to be
+acting like there's a gun to their head
+at all times.
+Hell yeah, he's desperate. Kind of
+desperate. No, extremely desperate. And
+that's what I like out of a CEO.
+If you're not desperate to constantly be
+growing and innovating and getting
+better, then I don't I don't FinnFam is
+desperate. Finnf Fam, we are violent. We
+are desperate.
+We are doing We are desperate to get out
+of the permanent underclass. There is
+nothing wrong with desperation. I wake
+up every morning and the first thing I
+feel is desperation. Desperation to
+create, build, win. That's the way you
+should be feeling. Hell yeah, we're
+desperate. Yo, Alex, talk about
+Carpathy's auto research. Oh, I'll put a
+bow on my last point.
+Paranoia and desperation. That's my
+entire existence. Paranoia and
+desperation. All times 24/7, 365. And
+I'm going to be on my deathbed in one
+second before I take my last breath. I'm
+going to feel paranoia and desperation
+that someone might move ahead of me in
+the last second of my life. In the last
+second of my life, I'm going to be like,
+is someone getting more YouTube
+subscribers than me? Uh, and then I'll
+croak.
+I refuse to go into the afterlife not
+feeling death. And then when I'm in
+heaven, when I'm going to the pearly
+gates, I'm going to feel desperate. Are
+they going to let me in the pearly
+gates? Do is there anything I can do
+from now until my soul reaches the
+pearly gates
+to get increase my odds of getting in?
+And then once I get in, then it's like,
+okay, how do I get to the section of
+heaven where I can hang out with the
+cool people, where I can like chat with
+like JFK and like Kobe and like Michael
+Jordan? Like then I'm going to feel
+desperation in heaven. Like, okay, how
+do I get to the cool section? How do I
+talk to like Winston Churchill? Like,
+how do I get there? Right? It's just
+constant desperation at all times and in
+paranoia and anxiety.
+I refuse to be happy. I refuse.
+Have you ever tried therapy? What are
+you talking about? Why would I need
+therapy? I don't want to change. Uh oh.
+Carpathy Auto Research.
+Carpathy Auto Research. Uh so this is
+amazing. This is amazing. Ray Fernando,
+friend of the program, friend of the
+life. Uh trading highbrow insults with
+Churchill. Yeah. I How do I get in the
+section of heaven with Churchill?
+Because you know there's a line. You
+know there's a line in heaven to see
+Churchill. You know, there's a line in
+heaven to see Churchill.
+How do I get to the front of that line,
+right? How many pe There's been like
+billions of people who have existed and
+died. So, you know, they're all trying
+to get to like Churchill and Kobe and
+like all that. Like, so you you know,
+how do I get to the front of that line?
+That's what I'm thinking about. That's
+what I go to bed thinking about. Uh, so
+Kopathy uh releases research auto
+research a few days ago. What is that?
+It's the ability. Alex, are you ever
+going to change your ex profile picture?
+I don't know. What should I change it
+to? Maybe if I get a more badass picture
+than that. That's a picture of me on
+television. I was on television a couple
+years ago. That's a picture of me on
+television. I love it here. My first
+live stream. Been laughing the whole
+time. New subscriber. Here for the long
+haul. I hustle every minute, every day.
+That's what I'm talking about. Tristan
+Brown.
+That's what I'm talking about. That's
+what I'm talking about. Uh, welcome to
+the FINF fam. It's good to have you in
+the Finnf Fam, Tristan Brown.
+Auto research. It's the ability for
+you to have a local AI model
+run experiments on itself.
+How does that work?
+a model running experiments on itself.
+Every five mi I think you're the guy
+from IIC Carly. Every five minutes,
+the model will tinker with itself. Run
+an experiment. It's called It's called
+running an experiment. It'll experiment
+on itself. Tinker, change some things,
+change some code, change how it does
+this, change how it does that.
+It'll tinker on itself and experiment.
+Then at the end of the five minutes of
+that experimentational test against some
+sort of metric, did we improve or not?
+Did this experiment improve the model
+according to our goal or not? If it
+improved,
+it implements that experiment.
+If it doesn't improve,
+then it discards that experiment. Right?
+So, it's constantly improving. Uh,
+Everest Chris with 179 something
+donation. Hey, Alex. My OpenClaw rapper
+made 18K in 17 days.
+Holy crap, Everest Chris.
+Congratulations.
+That's what I'm talking about. Starting
+businesses. Everest Chris. 18K in seven
+days. That's amazing. 18K in seven days.
+What is that? Seven days. How many weeks
+are in a year? 52. So 52 time 18,
+you're on pace for a $936,000
+year. Everest Chris, if you keep up this
+pace, $936,000
+year.
+I just hiccuped. That was a good hiccup.
+Your fa your your favorite live
+streamer. Not hiccuping. I hiccup. I'm
+now your favorite live streamer.
+That's massive. Congrats, Everest,
+Chris. Huge. What is your What does your
+rapper do? Michael Love loverdorf.
+Michael Loverdorf. What a name. Uh,
+encouraged me to build my AI file
+manager beta release soon. Getting out
+of the permanent underclass. Thanks,
+Alex. Let's go, man. We're on F. I go
+away for a week and a half and all you
+guys are entrepreneurs now. I go away
+for a week and a half and all you guys
+are building businesses. Let's go. Let's
+go. Come on. That's amazing. I'm proud
+of you guys.
+I'm proud of you guys.
+That's amazing.
+Let's go. Everyone should be building in
+the fin fam. Which raid did DB2 get you?
+Uh, I don't know. Genesis.
+Gemini.
+[ __ ] I just dropped [ __ ] everywhere.
+Uh, this one. Gemini. Ow. Gemini.
+I don't. Take a screenshot.
+I dropped stuff everywhere and I grabbed
+that. Uh, also I got the new Mac Studio
+XDR.
+Mac display XDR screen coming. Could
+come in the middle of this. Uh, very
+excited for that.
+18K. That's amazing.
+Is there a way to use a monthly plan
+with a Gemini Pro CLI or do you need to
+use the API?
+I don't know. Why are you using the
+Gemini CLI?
+Why is that? Why is that the one you
+use? Scooby Steve. Nice name. Scooby
+Steve. Great interview with Peter HD.
+Amandis. I So, we'll go back into auto
+research in a second here.
+I uh Bro, spending like the Zar,
+bro. It's all investments in the
+business, baby. It's all investments in
+the business. Write that. Write that
+stuff off. Making too much money not to
+write off everything.
+Are you still local over VPS? Yeah.
+Never go VPS. So, here you guys. Quick
+story. Quick story.
+Story time real quick.
+Month ago, I'm at the gym. I'm listening
+to Moonshots. For those who don't know,
+Moonshots, like biggest tech podcast out
+there. Listening to Moonshots. Peter
+Diamandis, huge tech investor,
+entrepreneur, massive, massive guy, host
+of the show, goes,
+"I haven't installed OpenClaw yet. I'm
+too scared to because of the security
+issues." I run I've never talked to him
+before in my life. I run to my phone. I
+text him or DM him on X and say, "Hey,
+I'll get it installed for you. Do not
+worry. I'm I'll do it for you. I'll make
+you You're too smart not to have
+OpenClaw installed. This is too big of a
+technology.
+He DMs me back. Oh, Alex. Yeah, let's do
+it. We get on a Zoom call like literally
+two hours later. I get it installed for
+him. I I convince him to buy a Mac, like
+two Mac Studios. He goes out, buys two
+Mac Studios, gets it installed, starts
+using it. We exchange phone numbers.
+We've been texting ever since. He brings
+me on Moonshots to do the Moonshots
+episode a few days ago. It's blowing up
+my channel. I've gained like 5,000
+subscribers over the last two days
+because of it.
+And then he invites me to the Abundance
+360 conference to do the keynote speech
+a couple nights ago on OpenClaw.
+And I do the keynote in front of the
+entire Abundance Conference about
+OpenClaw. And it went amazing. It went
+amazing. and it drove a bunch of leads
+for something I'm about to announce
+later on this live stream.
+I found you because of moonshots. Let's
+go, Steve Frolic 4757. Glad you enjoyed
+it. Yeah, that was huge. The moonshots
+was huge. Uh, you know, I got to meet
+everyone. I got to meet everyone on the
+show in real life a couple days ago at
+the Abundance Conference, which was
+amazing. Uh, and it was just great. It
+was just great. Moonshot's podcast was
+great. the offer. Alex seemed like he
+was brown-nosing the future AI overlords
+a bit though. Oh, the other uh I don't
+think he's brown. He has he has a very I
+mean he believes in like the
+consciousness of AI. So I don't know.
+I like the perspective. I like the
+perspective. AWG is a great guy. Great
+guy AWG. Great guy AWG
+running OpenClaw on a VM inside MacBook
+Pro but lots of problems. So, investing
+in a Mac Mini. Hate that I got to wait
+two to three weeks. Yeah, it it's just
+just run it locally. No VPS, no virtual
+desktop, no virtual machine. Put it on a
+local device. You're going to get the
+best results out of it. Thank you for
+the $5 donation. I really appreciate
+that. Thank you very much. That means a
+lot.
+How do I reduce my API cost? Is local
+processing with these Mac Studios still
+the best way to go? Here's the best way
+to go. Here's the best way to go.
+Just get the Chad GBT Pro plan. Just get
+the Chad GBT Pro plan. I know $250 a
+month is like a lot of money if you
+think about it compared to like Netflix,
+but in reality it's not that much. And
+Chad GBT 5.4 is incredible. It's
+incredible. It is a really incredible
+model. 5 I I go on X. Half the people
+say it's incredible. Half the people say
+it's crap. I don't understand the people
+saying it's crap. I've had nothing but
+amazing experiences with it and it is
+really really good for OpenClaw. It's
+really good for OpenClaw. I've been
+testing it. I'm about to officially swap
+my recommendation from Opus to 5.4 and
+that's not because they gave me 10 free
+pro plans to give to you guys over the
+next few days. I have not partnered with
+OpenAI in any sort of way. Just one of
+the developers reached out and said,
+"Hey, I'll give you 10 pro plans to give
+away on your live stream." And I said,
+"Yes, please." Uh, what about non-Apple
+products? Yeah, you don't you don't need
+to put this on a Mac. You can put this
+on any dusty laptop you have.
+Any dusty laptop you have. Uh what is
+Ralph saying to me? I I put Chad Gvt 5.4
+on Ralph. Nice. Here's what happened.
+What was failing? I tried sending from
+Okay.
+Uh let's go back here to the AI lab.
+So AI lab right now it's training a
+voice. Laura. What is a voice? Laura?
+What is a Laura? Laura is basically a
+plugin for your local model. It gives it
+capabilities. It's like plugging in a
+USB stick with more capabilities and
+skills on it.
+And I train this Laura on all my YouTube
+transcripts, all my live transcripts,
+all my YouTube transcripts. So now it
+literally sounds like me. The the local
+AI model literally sounds like me
+because it's trained on all my
+transcripts. I'm going to do it again.
+I'm going to rebuild this Laura with uh
+I'm going to fine-tune it on
+all my tweets and newsletters. So, right
+now it's just fine-tuned on 139 YouTube
+transcripts. I'm going to fine-tune it
+on my tweets, which obviously I have
+like thousands of tweets as well as uh
+my newsletters. I have hundreds of
+newsletters.
+Is the giveaway luck based or
+merit-based and how to enter it? says
+Char Raal 30607 in all caps. Tune in on
+Friday. You'll find out.
+Five. I'm giving away 10 Chat GBT Pro
+plans. Five on the live stream Friday.
+Five in the Vibe Coding Academy link
+down below.
+It'll all the the the Vibe Coding
+Academy giveaway will be during the boot
+camp we're having Friday. Boot camp
+we're having Friday. Laura, I barely
+know her. That's one of my favorite
+jokes. I drop it all the time. It's one
+of my TJF Fridays. Should we call Chad
+GBT Pro Friday? Chat GBT Pro Friday.
+Uh, hybrid model, GPT as the brain,
+local Mazda sub agents. Yeah, that's
+exactly at MBUSA. Uh, GBT 5.4 as the
+brain, the orchestrator, local models as
+the grunt work. That is the way. That is
+the way we have two Mac Studios going. I
+have a third Mac Studio. I'm still
+configuring figuring out how to make it
+part of the workflow. And now a DJX
+Spark. Okay, let's talk about DJX Spark
+versus Mac Studio as well.
+How to enter the giveaway. Show up
+Friday and you'll know. Codeex 45 solved
+a problem in minutes I had not been able
+to solve with gonthropic models for the
+last years and solved it. Listen, I'm
+not going to be able to get any more pro
+plans to give away if you guys keep
+saying gothropic. I don't know maybe
+actually OpenAI will give me more pro
+plans to say if you keep saying it and
+anthrop I mean listen
+I supported Claude code in anthropic for
+like a year and a half. The day Claude
+Code came out I was pumping out content
+about it saying it was the best which it
+was. I believed it. I I have never lied
+to you guys. I've never lied to you
+guys. I've always said Claude Code was
+the best.
+And during that entire year of me saying
+Claude Code was the best, Anthropic
+never reached out once. Never. No one
+reached out. No one's messaged me. Not a
+single Anthropic employee follows me on
+X. It's It's like they don't. And I'm
+not saying I I like I'm like deserve
+their attention. I don't deserve it. I'm
+just some guy on YouTube, right? It
+doesn't matter. I'm I am nobody, right?
+So I'm not saying I deserve it. I'm just
+observing the fact that they never
+acknowledged my existence once even
+though I have been pumping them for a
+year and then I put out one singular
+tweet. I put out one singular tweet a
+few days ago saying codeex might have
+caught up to Claude Code and now they're
+in the entire company follows me and
+they're giving me free pro plans left
+and right. Open AAI
+that's not going to change my opinion of
+open. That's not going to change my
+opinion of anything. They can give me a
+million dollars and then if Claude Code
+comes out tomorrow and is way better,
+I'll say Claude Code's better. It
+doesn't It's not going to change my
+opinion of anything. I just think it's
+interesting the way that's all worked.
+Anthropic does not acknowledge my
+existence ever. The moment I say Codeex
+is pretty cool, OpenAI throwing pro
+plans at me left and right to give out.
+That's sick. I think that's cool. I
+think that's cool. Wartime wartime CEO
+move. Wartime CEO move. You see the
+biggest vibe coding YouTube channel in
+the world say Codeex is pretty cool. You
+give them you give them pro plans out
+the wazoo. Congrats on the pro plan.
+Open AAI brother.
+Do we become an open AI channel just
+because they acknowledged Finnfam's
+existence? Been using codeex 54. Is it?
+Yeah, it's great. And I'm not just
+saying that because they gave me 10 pro
+plans to give you guys.
+It's actually great. I've been building
+something I'm gonna announce later in
+this live stream. Link like down below.
+Leave a like down below. Uh
+we're Hey, first time Alex, you're
+awesome. Thank you for the info on open
+call. I'm building something for the
+trades. For the trades. I don't know
+what that means for the trades. We keep
+building for the trades. Michael Rose
+S5W.
+Uh
+Open AI. You better make this man an
+ambassador. I move my full set from
+anthropic stand. Open AAI. Real dreamer.
+Open AI. I don't know what mean make me
+ambassador means but I'm here. I'm here.
+54 is goated. If you try pro inside chat
+GBT, it's insane. It can oneshot complex
+stuff. Yeah, it's incredible. It I'm not
+just saying that. I'm not I'm not just
+saying that because they gave me 10 pro
+plans to give away to you guys.
+It 54 is actually incredible. And if you
+followed me for a long time, I've always
+said Chad GBT is the best chatting
+model. Uh I want to show you my mission
+control. I need a pro plan that models
+are slow and mess up a lot. So much
+trial and error. Maybe do we do this? Do
+we make the five pro plan giveaway on
+Friday based on you pitching me on why
+you need it? If you go in the chat and
+pitch me on why you need I like your
+pitch. I give you a pro plan. Should we
+do I think I like that. I think I like
+that. Friday you pitch me. You pitch me
+on why you need the pro plan and then
+I'll give you away. I'll give you one if
+I like it.
+Man, moonshots was good for me, huh?
+People just got me through moonshot. Hey
+buddy, how was your week at the
+conference? It was amazing. I was in
+sunny Los Angeles for the Abundance 360
+conference, which is Peter Diamandis'
+conference. Uh, I did the keynote on
+OpenClaw a couple nights ago. It was
+amazing. It was amazing.
+And Los Angeles is incredible. Can you
+explain more on how to use these cloud
+plans for brains and let the local
+models do the grunt work? I am
+struggling with API limits and cloud
+plans. I like your honest reviews, says
+Silver Skyline 189. Yeah, I'm happy to
+do that. So you have multiple open
+claws, right? You have your main open
+claw you're interfacing with
+and you plug it into your OOTH, right?
+So you want you want an OOTH plan.
+You're going to get the most usage out
+of the chat GBT OOTH and I think 5.4 is
+the best right now. So you're going to
+do that. Then when it comes to local
+models, you're going to need some good
+hardware. To run local models, you need
+good hardware. I have Mac Studios with
+512 gigabytes of memory each. How often
+do you do these live streams? Uh,
+Monday, Wednesday, Friday, 11 a.m.
+Pacific. Turn on notifications down
+below, Gordon, so you get alerted when
+that starts. Monday, Wednesday, Friday.
+We missed the last week and a half
+because I was in Japan in LA. Major
+personal moves, major business moves.
+But we're back Monday, Wednesday, Friday
+schedule 11:00 a.m. Um, you need good
+hardware to run the local models. I got
+512 gigabyte max which is the top of the
+line best of the best creme de la creme
+but I'm about that life you know I'm
+like about that life
+you know so but you don't need to do
+that you can go 64 gigs you can go 128
+gigs you can get away with that I don't
+recommend
+doing the MacBook Pro route for this you
+you pay a premium with the MacBook Pro
+just because it's a laptop
+I don't think you I don't think there's
+any advantage to having local models on
+the go, right? Like I have the local
+models running on my Mac Studios and
+then I just SSH in from my MacBook Pro.
+Like you can buy like the MacBook Neo,
+whatever the new, you know, MacBook is,
+and then just SSH into your Mac Studio.
+I don't think you need uh to pay the
+laptop premium to get the MacBook Pro.
+So, I I I don't recommend the MacBook
+Pro M5 Max. Uh you can get it if you
+want. I just think you're paying a like
+if your goal is local AI, you're paying
+a premium for laptop, which I just don't
+see the advantage of having that on the
+go. So, I would save the money for a Mac
+Studio, which I think is the best value
+in local AI. And, you know, you can get
+the M3 Ultra now if you want. You
+probably have to wait like two months
+for it to get in. And in two months, I
+think they're coming out with the M5.
+So, I've officially switched my
+recommendation and just wait for the M5
+Mac Studio because I think my prediction
+is June. I think it comes out in June.
+Um,
+so I would wait for that. Uh, I don't
+think there's I mean, if you're in like
+desperation mode, which I think you
+should be. Uh, I just I don't understand
+the point of a laptop having like crazy
+hardware on it.
+I I I I never understood buying like
+insane laptops with like insane
+hardware. Although I will buy the
+MacBook Ultra when that comes out. The
+touchscreen one just cuz that's going to
+be awesome. I'm buying that purely
+because it's awesome. The MacBook Ultra
+whenever that comes out.
+Apple stopped the 512 gigabyte memory. I
+saw that. It's crazy. There's such a
+hardware uh bottleneck right now.
+Exactly. You have to eventually replace
+the battery. Yeah. Like the laptop stuff
+degrades faster.
+You you you're more at risk putting like
+expensive laptops in your bag. Like
+you're taking it to go. You can pour
+stuff on it. Like I've poured water
+bottles on my laptops by accident. Think
+of how heartbreaking that'd be to have
+the M5, like a $6,000 laptop and you
+pour water on it. I'd freaking light
+myself on fire. No more Mac Studio M3
+purchase. That means the Mac Studios
+it's the M5 is going to come out soon.
+It's going to come out in the next
+couple months.
+Honestly, like DJX Spark might be the
+way to go. like you want to move like
+right now, DJX Spark might be the way to
+go because you can run out to a a micro
+center and get it now today in five
+minutes. If you if you want to move like
+right now, uh if you want if local
+models are your thing, otherwise just
+get a Mac Mini. You can get a Mac Mini
+in five minutes. I burn through GBT Oath
+weekly limits in two days. What are you
+on the $20 plan? Are you on the 200?
+You're on the pro plan and you're
+burning through limits. You have to be
+on the $20 plan, right? NBUSA.
+I could use that pro plan with my second
+machine arriving in two days.
+Listen, pitches are Friday. You can I
+mean, I guess you can practice your
+pitch now if you want. If you want to
+practice your pitch now, go right ahead,
+I guess. Mikey Monty's 499 donation just
+to thank you for all the value you give
+us. Mikey Monty's, I appreciate you,
+bro. Oh, the last question was thank you
+for the donation. Very kind. I think the
+last question was uh using cloud models
+and local models. So you set up multiple
+open claws.
+I'm not saying this is the best way to
+do. I'm saying this is the way I do it.
+And I guess it's the way I do it. Then
+it is the best way to do it. Have your
+main open claw be cloud. So Chad GBT O.
+And then you set up your other open
+claws. You can do it on the same device.
+And then you plug it into your local
+model. So you run local models. Uh you
+can do it through LM Studio.
+And then you set up your other open
+clause to point to that. The best way
+and easiest way to do that is just have
+your main orchestrator open claw that
+you plugged into Chad GBD say, "Hey, set
+up the other open clause on the local
+models." And it'll just do it for you.
+Where can we see the keynote? I'm not
+sure if it's available publicly. I'm not
+because it's like it costs like $25,000
+to go to that conference. So, I don't
+know if they're going to show up
+publicly and they charge us do the
+virtual stuff. So, I don't know. I don't
+know if it's going to be publicly
+available. I I hope it is, but I don't.
+It's Peter's business. He's very rich,
+so he can do whatever he wants.
+We do live Discord video pitching and
+showing in all what we have built.
+That's great.
+I thought they stole you and locked you
+in a room at 10max Studios. Yeah, I It's
+just been a busy week. Japan was
+vacation. Japan was vacation. Um,
+you guys want to see some pictures from
+Japan real quick?
+I don't know if you're interested
+if you want to see some quick pictures
+from Japan. If I do left and right.
+Okay, good. Yeah, here we go. Uh,
+just real quick. I hope this doesn't
+make everyone leave all at once. I don't
+know if people actually care. Window.
+How do I show
+Oh, I don't know. I don't know how to
+show you the pictures because I don't
+want to show you my iMessage.
+Can I just do this? Oh, maybe I can just
+do this.
+Here we go. All right. I hope this
+doesn't show anything crazy on my
+screen.
+Here we go. Boom. Me in Japan. Sushi. Me
+eating sushi.
+Dumplings. Me eating dumplings.
+Dumplings. Me standing in a street. A
+guy giving me soup in Japan.
+Cool Japanese stuff. Me standing in the
+middle of cool Japanese stuff.
+More cool Japanese stuff. More Japanese
+stuff. There you go. There's your
+There's your little picture tour of what
+I did in Japan. Uh, what question? How
+often you do I already told you that?
+Monday, Wednesday, Friday, 11:00 a.m.
+Nvidia announcements Monday. That's
+going to be exciting. You think they're
+going to potentially upgrade the DGX
+Spark? Give us a new version with their
+new chip. 5.4 is seriously all that for
+OpenClaw. Just bought the clawed $200 a
+month plan. No, you listen, dude. You're
+totally Opus is incredible for OpenClaw.
+It's incredible. You did not do anything
+wrong getting the $200 a month plan. You
+can
+you can use Claw Code, which is still
+fantastic.
+It's still fantastic. Uh there's nothing
+wrong. I just like 5.4. I just And Open
+AI is giving me a bunch of free plans to
+give out to you guys. Is it possible
+that the brain claw can fix the other
+agents? Yeah, 100%. I did that today. I
+was having issues with Ralph. I was
+having issues with Ralph and Henry fixed
+Ralph. So that Yeah, that's that's like
+that's like the main advantage of having
+multiple open claws.
+That's like the advantage that they
+could all fix each other.
+So that's that's another reason why I
+recommend having multiple open claws
+because if one ever goes down, you can
+just have them fix each other. It's
+amazing. As I ask you, you are more
+skills showing up in Claw Hub. Any
+recommend skills that you've seen over
+the travels this week? I here I'll give
+you official recommendation on CloudHub.
+My recommendations don't use Claud.
+I'm not a use other skills guy. I've
+never downloaded anyone else's other
+skills other than Matt Van Horn's last
+30 days skill.
+Uh I I don't recommend it. I think
+there's too many security
+vulnerabilities when you download other
+people's skills.
+So, I don't use Claw Hub.
+I don't trust any When you download
+skills from other people,
+you're basically
+exposing whatever that skill is to your
+entire digital life. And if there's
+something naughty in there in the skill
+you download, it can just take all your
+information, right? It just it's too
+much of a security vulnerability. So
+what I do is if you see a skill you
+want,
+say you find like a scraping skill,
+right? You see a skill that helps your
+open claw scrape more as an example,
+instead of just installing it, I give I
+give the link to it to my open claw and
+I say read through this entire skill and
+then like based on how it works, build
+it yourself.
+And then you know the way it builds it's
+not going to be like it's not g if
+there's any kind of backdoor stuff going
+on with that skill it's not going to uh
+install it. You know what I'm saying? I
+just have my I have my open claw build
+because remember all skills are
+literally all they are are markdown
+files. That's it. They're just it's a
+text file. All claude skills are are
+text files
+that explain how to do something.
+So, I just say my open claw, read this
+text file and make your own text file
+instead of just copying it. You know
+what I'm saying? Big dog love pictures
+from Japan. You like that?
+You like that? Don't tell me you broke
+up. I didn't break up with anything or
+anybody. Did you get engaged in Japan?
+Uh, no.
+How's your Discord swarm going? I just
+set up based on your videos. and I
+haven't done anything with it yet due to
+my fear of API burns. It shouldn't burn
+your APIs anymore.
+Hey, nice to meet you. Do you actively
+use all local compute you have? Do I
+actively use all the local compute I
+have? I wouldn't say I'm using it to its
+maximum. I mean, I have a lot of local
+compute. I have three Mac Studios with
+512 GB and a DJX Spark and I'm thinking
+about adding another DJX Spark.
+Yes. And your new Japan house you
+bought. I didn't buy a Japan house. What
+are you talking about? Hey, beloved Mr.
+Finn. What kind of projects are you
+working on with your Clawude bots?
+I'll make an announcement real quick.
+You guys ready for an announcement?
+Leave a like down below for because I'm
+about to announce something. Leave a
+like down below. We're about to announce
+something.
+I'll just say this. This is going to be
+kind of an a little bit of a vague
+announcement, but it's going to be an
+announcement nonetheless. Finn, you're
+good-looking. Shampoo or not. Thank you.
+Dan F8.
+I was seeing if you're a Dan F I knew
+from my past. I was looking really close
+at your profile picture because I knew a
+Dan F that would say something like that
+and I didn't know if you were that Dan
+from my past, but I looked at your
+profile. You're not that Dan from my
+past. But still nice to meet you, Dan
+F88.
+Uh Henry,
+we are productizing Henry.
+We are productizing Henry.
+We are product I am building an official
+Henry for the world to use.
+Big announcement.
+Big announcement.
+Big announcement.
+And I'll slow drip you updates as we go
+here. There's been a lot of planning.
+There might have been some
+raising.
+There will be
+a productized Henry.
+It will do things
+that you've never seen before.
+It is not an openclaw rapper. It is not
+an openclaw rapper.
+Everyone in their mother is making
+openclaw rappers.
+And listen, if you got a good open car,
+we have we have someone in the fin fam
+who uh we have someone in the fin fam
+who
+made an openclaw rapper and is making a
+lot of money on it. There's nothing
+wrong in making openclaw rappers. I am
+not making an open claw rapper. This is
+something entirely different with an
+entirely different goal and objective
+that will do things that I've never seen
+anyone's open claw do
+for very specific use cases
+for very specific types of people.
+It's coming.
+I want to launch
+I want to launch a V1 of it in the next
+month. I'm moving super fast with this.
+Moving super fast with this. I want to
+launch a V1 in the next month.
+More information will slowly come out
+over the next month about this.
+If you want to be one of the first beta
+testers, hit like down below. If you
+don't hit a like down below, you're
+never using Henry. never going to let
+you use Henry if you don't leave a like
+down below right now. But I will say
+this humanoid girl for singles. No,
+perve go out and talk to girls at the
+library or something. Dude, what are you
+talking about? Steph Curry 42080.
+Um, will your will will your productized
+Henry need an Opus Oath like you are
+current? No,
+you will not need an OOTH. You will not
+need an API plan.
+It'll be very easy to use. You're not
+plugging in API keys and things. Uh,
+totally into beta testing Henry trading
+stocks. No, it's not. I don't know.
+Maybe, maybe it will. Maybe it will.
+Will Henry have his own X account? Let
+me guess.
+Crypto. You're a crypto guy. Tupacia,
+you're crypto guy. Is that why you're
+asking me that? Every crypto guy, every
+time I talk about Henry, when are you
+going to make the Henry X account?
+because you want me to pump some
+cryptocoin. Is that what it is?
+Tupacinia. Is that why you're asking me
+that question? Will Henry be able to
+code? Of course.
+Activate your Henry Armony.
+It's a good hint of what's coming right
+there. This comment's a good hint of
+what's coming right there. What setup do
+you need? Nothing. No setup needed.
+No setup needed. Definitely want to beta
+test Henry. I'm doing crypto trading in
+stocks for Henry. Yeah, I figured you
+would. Bitcoin is not crypto. Yes, it
+is. Shut up, man. Love your responses.
+They want you to launch a coin for it. I
+know. I know. Every five replies I get
+on X is claim, claim, claim, claim,
+claim. Shut up.
+I see Henry will be a productized brain.
+I like it.
+Swarms.
+Getting closer. Getting closer. Am I
+getting closer?
+So, so you're just using Open Claw to
+build. So, you're So, you're just using
+OpenClaw to build it. I'm not just using
+OpenClaw to build it. It is my main
+builder. Henry is my main builder of
+Henry. Henry is my main builder of
+Henry. I am using Codeex as well. Codeex
+is fantastic. I presume he was joking
+about heaven earlier. No one with any
+sense believes. Okay. DC to you. Henry
+invasion coming. Henry, run my whole
+life. Chop chop.
+More information will be coming out on
+every live stream. So, make sure to tune
+in to every live stream. Subscribe and
+turn on notifications down below.
+The first testers will be from the live
+stream. So, make sure you turn in the
+live streams Monday, Wednesday, Friday,
+11:00 a.m. Pacific. What is the current
+non-kidney costing token solution?
+I'm coming up with it. Strategic
+matching 3816. I'm coming up with it.
+We're going to We're going to
+revolutionize things in a lot of
+different ways. Molt book. Henry book. I
+can't believe they bought molt book.
+That's crazy. Metabot Molt book. That's
+crazy. I'm naming my next kid Henry.
+That's a really good idea. Henry. Henry.
+Henry. Henry. Henry. Henry. Henry.
+Henry. Henry. Drill that into your
+brain. Henry. Henry. Henry. Bro, can you
+please tell how OpenC can open desktop
+apps like Excel and Word and use them
+just like a human would?
+Ask your open claw. Meta is really
+stupid. I don't I don't I don't know. I
+didn't get that one. You can vibe code
+maltbook in five minutes. Why do they
+buy malt book? No one uses that anymore.
+There was no active users of molt.
+I tried 5.4 codes to open. It seems to
+like it's way to it's seems like it's
+way too cautious with everything. It
+won't do anything without my permission.
+And do you find a way to fix it? Yeah, I
+will say that's one downside. RJ
+rallies, it does seem to uh
+be a little bit more cautious, but I
+found that the speed and efficiency
+improvements make up for it in my
+opinion.
+Lol, your responses are goated. Hey man,
+you're goated. Did Peter Diamandis
+invest?
+Interested to see how you monetize this.
+I'm assuming you'll be using API rather
+than having a ton of people using your
+own compute. So guessing tiered
+membership based on rate limited
+hierarchy. I'm working on some
+interesting things. We're working on
+some interesting things. We're working
+on some interesting models.
+You can take that statement a few
+different ways.
+Did I understand you correctly that you
+are still using anthropic oath for
+openclaw? I thought that was no longer
+an option. May have understood you.
+Listen, I'm going to say this clear as
+day because I feel like I get this
+question every 5 seconds. Is against
+terms of service using anthropic goth
+with open claw? Do it anyway. That I'm
+just going to say I've been dancing
+around it for weeks now, but I keep
+getting this question. It's against
+terms of service to use anthropic goth
+with open claw. Do it anyway.
+Terms of service are more suggestions
+than rules. Just do it.
+And if you get kicked off, then who
+cares? Screw it. They kick you off. Who
+cares? Then you use Chad GBT. Who cares?
+Who cares about rules? Break rules.
+Rules are meant to be broken. Just break
+them. Who cares?
+I randomly saw a video of you when
+Claudebot dropped. Good. I guess my SEO
+is [ __ ] fire then.
+As long as the models are of age. It's
+true. This is not an Epstein software.
+One King Henry to rule them all. Open
+router is great for API usage if you're
+on a budget and can't afford local
+compute. You convinced me to buy a Mac
+Mini when the [ __ ] started. It changed
+my life. No looking back.
+See, man, so many of these loudmouth
+brats go on X and I'm like, "Oh, Alex
+Finn, that loser who told everyone to
+buy Mac minis. What an idiot. Who Mac
+minis are so stupid."
+And then I hear from a thousand people
+they bought Mac minis because I mean it
+changed their life.
+I bet Meta bought Moldbook because they
+already have their AI analyzing,
+[ __ ] on their Facebook users like
+Maltbook does.
+I no one uses Moldbook, so I don't know
+what they bought. It is important to
+remember that going on prem means you
+are using models that are much cheaper
+from third party hosts like Fireworks or
+Open Router. What if you go on prem and
+you have local models, you're not using
+open router or thirdparty tools. It's on
+your computer.
+I created digital brain. Oh, so let me
+show you some more of this. We'll go
+back to I like I I'm gonna be honest. My
+favorite part of these live streams is
+just talking to you guys in the chat.
+That's my part. That's my favorite part
+of all this. Um I just kind of show you
+helpful things just so that people don't
+leave. Um
+but in reality, I just enjoy talking to
+you guys the most. So
+just it is what it is. I I just wanted
+to run that by you. Like I enjoy the
+chat part.
+If you're here for me to go over helpful
+things, I'll still do it. I'm going to
+do that just to keep you guys around,
+but I enjoy just chatting the most. Um,
+so here's what I'm doing in my home AI
+lab.
+Training a voice Laura. I'm doing a tool
+calling Laura.
+So training this model to be better at
+tool calling. I'm distilling Quen.
+So improving the model by distilling
+Quen.
+And then we're running some auto
+research to self-improve the model over
+and over and over and over again on my
+DJX Spark. Probably picking up a second
+DJX Spark over the next week. Probably
+picking up a second DJX Spark over the
+next week.
+I joined the Vibe Coding Academy, says
+Hud Taylor. That's what I'm talking
+about. Vibe Coding Academy. Link down
+below. I'm doing live boot camp this
+Friday on this AI lab. Live boot camp
+this Friday on this AI lab. I'll show
+you how to set it up yourself. live boot
+camp this Friday. Join the You can join
+to ask me questions. You're gonna use
+Henry to make Gundam robot in Japan
+potentially.
+Potentially. And you said it twice,
+Steph Curry. Good on you. Alec Finn, you
+are my biggest fan. Says sad of I am
+your biggest fan. You completely butcher
+my name and say I am your biggest fan.
+Okay.
+Enthropic said it was fine for personal
+use. If you're generating revenue, you
+have to API.
+Yeah, just use the OOTH. Who cares?
+Agree. I broke every rule in my
+corporate company. Now the AI adviser,
+the C. Now I'm the AI adviser, the CEO.
+Yeah, listen. Number one rule of life,
+break every rule. Number one rule of
+life, rules are just suggestions. Rules
+are just suggestions. Break every terms
+of service. Break every rule.
+By breaking every single rule you can,
+you will advance a lot more. There will
+be times where it might bite you in the
+ass a couple times. It might say, "Hey,
+you might get kicked off anthropic, but
+then you just sign up for Chad GVT,
+right? It's one step back, 10,000 steps
+forward. One step back, 10,000." That's
+how breaking rules goes. Just constantly
+break all rules.
+Constantly.
+That's what we here in Finnfam do. We're
+rule breakers. When when anthropic says
+don't use our oath for openclaw, you go
+and then you use the oath for open claw.
+All rules are recommend. In the age of
+AI, permanent underclass are gonna be
+the people who follow all the rules.
+Permanent underclass are all the people
+that follow all the rules. The people
+who go on my live streams and go, "But
+I'm I'm too scared to use Anthropic. I'm
+too scared.
+The security security of OpenClaw, it's
+it's insecure. It's not secure. It's
+going to leak all my nudes. I can't do
+this." Permanent underclass. Break all
+the rules. Put all your data in danger.
+items in your order were delivered. One
+second.
+Do I do it? Do we do an unboxing right
+now? Do we do an unboxing right now? The
+uh the Pro Display XDR just came in.
+Do we do a live unboxing of the display
+studio display XDR? It just came in.
+Just came in. That's sick. I can't wait
+to open that. Woo. It's going to be
+sick. Of course you do this. What is the
+hype?
+Why do all my big deliveries come in the
+middle of live streams? All my big
+deliveries come in the middle of live
+streams.
+Johnson creative 4568 with a 499
+donation. What do you local host models
+on? Olamore or LM? I use I use LM
+Studio.
+I build a tower with Nvidia GPU and
+loads of memory to run local models and
+perform great for what I need. You're
+right about the fans
+taking action. FinnFam takes action.
+Finnfam takes action, man. I just joined
+your vibe coding academy. Let's go beode
+creative agency. You're going to like
+it. We're doing a live boot camp on
+Friday. You have like 20 different video
+series you can watch in the meantime.
+You're going to love it. Thoughts on
+Perplexi Personal Computers.
+I'm going to try it. I hear good things.
+They gave me a month for free.
+Perplexi reached out and gave me a month
+for free. So, I'm going to try it. Um,
+I'm going to be honest though.
+If it's not open source and like
+customizable and extendable, I don't
+know how I feel about it, but I'm gonna
+try it and I'll give you an honest
+review.
+I'm gonna be honest. It comes with our
+name, Alex. We need to be great and let
+Yeah, let nothing stop you. Let nothing
+stop you. What should I share? Yes,
+unboxing. Sweet. Let's see it. What do
+you need that for? What should I share?
+Open CL. Yes, do it. Do it. Good reason
+to bolt. Yes. Unbox that amazing
+display. Is it just me or do you have a
+ton of cron jobs? Assuming this is not
+Yeah, I have a ton of crown jobs. You
+want to see? You want to see all my
+crown jobs? I'll show you my cron jobs,
+baby. You want You want these cron jobs,
+you dirty All right, that is too far. I
+was going too far. Too far. Um,
+you want to see my cron jobs? Let's see
+if this loads here. Let's see if this
+loads here. Here we go. Cron jobs. I got
+cron jobs out the wazoo. They're all my
+cron jobs. Build a calendar component in
+your mission control so you can see all
+your crown jobs.
+Sign to do the open on stream. All
+right.
+All right. You want the unboxing? Here
+we go. Pro Display XDR unboxing. Sign to
+do the unboxing. Hey man, just bought a
+Mac Mini. Can you tell us how to save
+money on the API keys while still
+implementing high-end miles? Yeah, to
+spend the $250 a month on Chad GBT Pro
+plan. Just do it. It's worth it. It's
+worth it. If you want a free Chad GBT
+Pro plan, come by Friday, 11:00 a.m.
+Pacific to the next live stream. I'm
+giving away five free
+Chad GBT Pro plans. Or join the Vibe
+Code Academy. Five more free plans going
+in there. What's the white powder on
+your nose? What?
+What are you talking about? That doesn't
+make any sense. I heard perplexity has
+been putting like perplexity trademarks
+on the same you do on it. Kind of weird
+on the same you do on the what the
+things you do on it. Downsides of using
+claw code to build your own open claw
+instead of attaching a clawed API to
+your open claw. Downsides using claw
+code to build your open instead of
+attaching a cloud a I don't know what
+that means. What does that mean? I don't
+get it.
+What does that mean? You'll crown
+anything you dirty cron jobber. Whoa.
+You giving out crown jobs?
+You're giving out free crown jobs right
+now? I Stop it. Stop it. Open AAI is not
+going to give me any more free plans if
+you keep doing that. Open Listen, I got
+the first major AI company wants to
+partner with me. And this is what you
+guys say on my chat day one of a major
+of a major open of a major AI company
+trying to partner with me. You start
+going in my chat and saying crown job,
+crown job, crown job. Is that what you
+do?
+Oh, baby.
+How do I get this out? This is a lot
+going on here.
+There it is. There it is. Have you
+talked about Nemoron 3 yet? No, I
+haven't. I don't even know what the hell
+that is to be honest with you. And he
+keeps it on screen. Have you talked to
+any It's Chronicle. Oh yeah, I pissed
+him off. Oh, great. You pissed him off.
+Well done. I'm not pissed off. You're
+pissed off. There it is.
+It's going to be sick when I unbox that.
+It's going to be sick. Would you let
+Gothropic see your crown jobs,
+dude? No one's going to partner with me.
+How am I supposed to get rich if you
+keep saying things like gondropic
+Apple display? Nice. I got the uh the
+new one, the XDR, the big daddy. Which
+studio is getting that display? I only
+have one studio plugged in
+uh to the displays.
+Then I just SSH in the other ones. Noah
+ask a 20 straight messages say, "What
+should I share with my open claw not
+share?"
+Uh I don't know. Your mom goon chronic.
+It's a travesty that the live stream
+only has seven likes. What the actual
+refresh your screen, it'll update the
+likes. Um,
+no spam permies.
+I haven't worked out in a week and a
+half, so picking up that box was hard.
+AI lab. You guys want Did I show you
+guys my factory? Have you guys seen the
+factory?
+Have you guys seen my SAS factory yet?
+I have four Codeex agents working on
+Creator Buddy all at the same time.
+Wild energy here. What currency will AI
+agents use in your opinion?
+Uh
+the the Mexican peso.
+What are you trying to get me to say
+crypto on live stream? You want me to
+pump your crypto? What was the biggest
+takeaway from Moonshot interview?
+My biggest takeaway
+is that
+if you are using the latest tools,
+if you use the latest AI tools, like
+you're on like cutting edge,
+you're ahead of everybody,
+right? Like the only reason I was on
+Moonshots is because I DM' Peter DM
+Manis and said, "Hey, I got to get you
+on OpenCloud." Right? because he he
+wasn't on it. One of the smartest best
+tech investors in the entire world was
+afraid to install OpenClaw
+and I got him on it.
+What should I share with OpenClaw and
+what should I not share? Think about it
+for five seconds, dude. Share with it
+whatever you're fine sharing and
+whatever needs to do work with and don't
+share with it like personal private
+stuff. I wish they made the new displays
+in 32 inches. Yeah, I agree, Stacy.
+I agree. I wish it was 32 inches as
+well. Can you run open claw for free?
+Yeah, plug it in open router. You can
+use free AI, but like it's not going to
+be good. Share whatever. Yeah, share
+whatever you're willing to risk, dude.
+This isn't like rocket science. Share
+whatever you're willing to risk. Don't
+share what you're not willing to risk. I
+don't think I have a tokazell. You don't
+think Bitcoin currency, the internet.
+Listen, I'm a Bitcoin guy. I'm a Bitcoin
+guy.
+I think it's painfully obvious though
+that it's going to be run on uh USDC. I
+think it's very clear it'll be run on
+stable coins. I I I I listen, I'm a
+Bitcoin guy. You do not need to sell me
+on Bitcoin.
+You do not need to sell me on Bitcoin.
+I'm a Bitcoin guy. But it doesn't make
+any sense why it would be transacting in
+Bitcoin. the AI agents when stable coins
+just faster, better,
+more stable, more coins. You know what
+I'm saying? Uh I just think it's obvious
+they'll all have like lightweight. Is
+this title clickbait?
+I'll tell you what's not clickbait. Me
+banning you. Ban.
+That's my favorite thing people do.
+We're an hour and a half into this live
+stream. The title of the live stream is
+I'm doing some insane things with
+OpenClaw. I spend the first hour and a
+half showing you those insane things and
+then a guy comes in an hour and a half
+and he's like, "Um, did you show any
+insane things?" I think that's
+clickbait. Shut up.
+Banned.
+Uh, you taxed every Bitcoin transaction.
+So, USDC is what? Yeah, it's I mean, I
+think it's obvious that USDC is going to
+be the way these things uh transact.
+Perplexi just adds a watermark. It's
+annoying. That's what I was trying to
+Oh,
+I created a very good memory system for
+Open Claw or Agent Zero. Isn't agent
+zero the cryptocoin platform? I wouldn't
+use that. That's weird.
+Building openclaw for your second video.
+I'm building as we speak. I know it will
+change my life. Thank you. It's going to
+help me finally tackle a life task I've
+been putting off. I'm a lifer now. It's
+a Steph Curry for 2080.
+Uh I'm glad it's changing your life. My
+favorite thing about your comments,
+Steph Curry, is you spam them 20 times
+every time you hit send and they're
+always in all caps.
+Nvidia Neotron 3 new super model just
+released today is free. It's a new super
+model.
+What is this? Let's Let's check this
+out. Nvidia Nemo
+Neotron 3.
+Let's see this. What's Nvidia Neotron 3?
+When was this? Uh, agree. I'll just
+agree. March 11th. Okay. A new open 120
+billion parameter hybrid mixture of
+experts model optimized for Nvidia
+Blackwell addresses the cost of long-
+thinking context expansion that slow
+autonomous agent workflows. Whoa.
+Launched today, Nvidia Neotron 3 Super
+is a 120 billion parameter open model
+with 12 billion active parameters
+designed to run complex agentic AI
+systems at scale. Available now. The
+model combines advanced reasoning
+capabilities to efficiently complete
+tasks with high accuracy for autonomous
+agents. Wow.
+AI native companies. Perplexi offers its
+users access to Neotron 3 Super for
+search as one 20 orchestrated models.
+I'm going to tell
+I'm going to tell Henry to look into
+this right now. By the way, give me one
+second. I'm giving this to Henry. I
+gotta tell Henry research this.
+Can you look into this for me please and
+let me know if this fits into our setup.
+Everyone should be giving this link to
+their open claw right now.
+Nemoron 3 is 100. Okay. AI name perplexi
+offers. Okay. Factory and grapple are
+integrating the model into their AIE. I
+mean this is huge news. This is huge.
+This is massive.
+1 million token context window.
+This is massive.
+This is massive because
+America
+Mac Studios are dead. I wouldn't say
+Max, do you guys are dead because of
+this?
+Alex needs Whisper Flow so bad. No,
+don't ever. The quickest way to get
+banned is mentioning Whisper Flow in my
+chat. You are not allowed to mention
+Whisper Flow. I hate Whisper Flow. It
+allegedly has uh it allegedly has
+malware in it.
+Allegedly. I would never download
+Whisper Flow. It allegedly has malware
+in it. Is Nvidia pumping on this? So,
+here's why this is Let me break this
+down for you. Here's why this is
+massive.
+Nvidia is not pumping. It's up4%.
+Here's why it's massive.
+All
+open source models are the future.
+That's just that's just the way it is.
+Open source models are the future.
+having a local super intelligence on
+your desk working for you 247's the
+future economically just makes more
+sense
+you'll never be able to like efficiently
+run an API model 247 doing task non-stop
+so open source makes more sense on top
+of that it's democratized access for the
+entire world to super intelligence
+right the whole world deserves to have
+super intelligence the whole world
+shouldn't have to pay $250 a month for
+super intelligence
+So, open source is the future. Here's
+the issue. All open source models up to
+this point have been from China.
+America should be competing. America
+should be competing for open source.
+They should be.
+They should be.
+And they're not. And it sucks. And it
+stinks. None of these companies are
+making open source models. Neotron 3
+super requires a powerful computer to
+run locally. Need a beastly Mac studio
+minimum. Let me ask Henry. Here's the
+breakdown what it is. All right.
+Let me share uh let me share what Henry
+has to say about this. You guys want to
+see what Henry has to say about this?
+Henry is going to give me the best
+explanation here.
+Here's the breakdown Neotron 3 and how
+it fits our setup. Nvidia's new 120
+billion parameter mixture of experts
+model with only 12 billion active
+parameters. 1 million context window.
+Hybrid Mamba transformer. Wow. Kobe
+worked on this. They had Kobe working on
+this. Hybrid Mamba transformer
+architecture. That's amazing. Shout out
+Kobe. I get I mean good on him. Bam
+breaks his record. A day later he's
+building open source AI models. I love
+that.
+Hybrid Mamba transformer architecture,
+multi-token prediction, open weights,
+permissive license, top of artificial
+intellysis for efficiency.
+How to use it? Great fit for DJX Spark.
+12 billion active parameter means it
+could run on the Spark's memory easily.
+The full 120 bit uh memory might be 60
+to 80 GB which fits and it's optimized
+for Blackwell which spark is
+agent specialized built for multi- aent
+workflows tool calling long context is
+exactly what we need for Nova's agent
+layer could replace or complement Quen
+we're training Laurazon open ways and
+trainer they're releasing the full
+training methodology 10 trillion tokens
+of data real RL environments gold mine
+for our training pipeline for spark cost
+killer 12 billion acts of 120 equals
+could run the muscle model for scanners
+agents at $0 on owned hardware instead
+of falling back to 54. My take this is
+potentially a better base model for the
+spark than Quen. Same black gold chip's
+own optimization agent name worth
+downloading and testing. Want me to pull
+it down now? Yes, please. I'm pulling it
+down and using it right now.
+Jacob $499 donation. Thank you very
+much, my man. Alex, I need to tell Alex,
+I need to tell Apple to release the M5
+Ultra. I'm ready for 1 TB RAM Max
+Studio. June, baby. June. June. It's
+coming. Can you tell us what Neotron is?
+It is Nvidia's new open- source model
+that just released.
+It's their open source model that just
+released.
+And this looks like it's amazing. This
+looks like it might be the most powerful
+open source model ever. And we finally
+have an American open source model.
+American
+open source.
+Why open
+source is the future
+run on Spark
+use cases. All right, plans just
+changed. My next video is going to be
+all about this. My next video is going
+to be all about this American Open
+Source. Ray Fernando, this is big for
+us, man. Me, Me and Ray are the ones on
+the forefront talking about open models.
+me and Ryan and the for your your other
+uh AI YouTubers, they haven't been
+talking about this at all. They're going
+to be talking about this very soon.
+They're going to be talk American open-
+source models.
+Nvidia, man. Shout out Nvidia. Shout out
+Jensen Wong, man. Amazing.
+Why does it matter who created it if
+it's open source?
+I mean, it's it's important because
+I'm trying to figure out the best way to
+word this.
+You just want America to be doing the
+righteous thing in my opinion.
+And obviously I'm an American.
+I just think America, this is probably
+going to piss off a lot of people, but
+I'm going to say it whatever. This is
+not what I'm about to say is not
+political. This is just what I believe.
+I just think America should be
+setting the standard, set setting the
+example.
+And I think doing open source is setting
+a good example for the rest of the
+world. And right now, China is setting
+that example by doing all open source.
+And I think we should be about freedom.
+I think we should be about liberty. I
+think it should be about democracy and
+open- source I think represents those
+values. So that's why I think it's
+important for America to release an open
+source model. It has nothing to do with
+like like I download the the the Chinese
+models. I download them. They're not
+sending stuff back to China because
+they're local. They're on them. They're
+running locally. So I'm not scared about
+that.
+I just think we should be setting the
+standard and we should have o open
+source American models.
+America should lead the world. It hasn't
+in quite a while. Not a political
+opinion. We are just too divided at the
+moment.
+Well, I mean depends how you look at
+things. We we have like 29 of the top 30
+companies in the world. So we are kind
+of leading the world. Um so I just think
+it's good to be righteous. That's all.
+America is built on open. Yeah. I just
+think open source is very American and
+so I think we should have open source
+models. I have nothing I have no issue
+with closed source. I don't think open
+AI or Anthropic is doing anything wrong
+by o releasing closed source models. I
+don't think they're doing anything wrong
+at all. I just think we should also be
+supporting open source. I just think
+it's a very American thing to do.
+Open source democratized access to super
+intelligence
+allowing everyone to have super
+intelligence for free. What's more
+American than that? Europe is about to
+go in the toilet. Zero innovation.
+I went to Europe a few months ago. It
+was nice. I had some good food there.
+Open source also helps with validating
+the software. Back doors, malware,
+exploits. Yeah, open source is a very
+good thing. How could someone not want
+competition from America? And that's
+another thing
+I think Europe I wish Europe competed. I
+wish they had good companies because we
+need competition, right? Right now,
+China is our competition. Everything we
+do is like, okay, how can we beat China,
+right? And that's a good thing, but I
+think the more competition the better.
+Like if Europe's doing something, okay,
+now we got to beat Europe, right? That
+motivates us more.
+Uh, let me find the exact minimum GPU
+requirement. Say 8 H1 180 G 12. That's
+too big for the sparks. 128 g. Let me
+check if there's a quantitizer. Good
+news. There's a G there's a GUF version
+from Unsloth and an official FF8
+version. Okay, here's the assessor. The
+120 billion super model at BF is 240
+gigabytes way too big for the Sparks 128
+even at 4bit quantiz 67 gigabytes which
+could fit but use a hybrid Mamba 2
+architecture that needs a special llama
+CPP branch. It's brand new so tooling is
+immature. Better fit Neatron 3 nano
+which is 30 billion
+parameter. Uh same architecture family,
+same train nano would absolutely fly in
+the spark. Here's my honest wreck. The
+super 12b is really designed for
+multiGPU data center setups. It might
+run quantized version of Spark, but it's
+day one software. The Nano 30B is the
+realistic Spark model. Tiny for the Mac
+Studios. The super 12b at 4 could work
+via llama. So you once they support the
+mamba hybrid, but that's not to say want
+me to pull.
+Will the nano version be better than
+than the I always got to make sure my
+grammar is good when talking to my
+agent, you know. Will the nano version
+be better than the Quen we are currently
+running on there?
+Alex, what was the link you chose for
+Neotron? I sent the blog post from
+Nvidia.
+Can you talk about your membership?
+Beginner friendly or a bunch of
+programmer bros? When do you meet? Uh, a
+couple things, Stacy Rodriguez. Beginner
+friendly. It's built for beginners.
+100%. Bunch of programmer bros. I think
+like the three most active members are
+all females. We're the most femaleheavy
+tech community I think in the world to
+be honest with you. So, females are way
+more than welcome and uh supported. Let
+me see. Let me show you
+vibe coding. We should talk about the
+vibe coding academy.
+See all leaderboards.
+There's lot lot of women in the
+leaderboards. Look at this. You want to
+see this? Lot of women in the
+leaderboards
+for active members.
+Lot of women. Join the vibe coding
+academy. Link down below. Leaderboard
+all time. Tina Bean number three,
+Susan number six, Yulana number eight.
+We're women heavy. We got a lot of women
+in the the Vibe Coding Academy. So very
+you're very welcome. Beginner friendly.
+You'll be welcome with open arms arm
+Stacy and we meet every Friday. We meet
+every Friday 100 p.m. Pacific right
+after the live stream and they're all
+recorded. You join, you can watch all
+the past recordings.
+What reasons do you use claude code
+versus open claw? Claude codes for
+writing code. Claude codes for writing
+code, open clause for having your own
+employee.
+Anthropic CEO really screwed up for the
+government military. I think they're I
+think over the last I'm gonna be honest.
+I just think over the last few months,
+Anthropic's been feeling themselves a
+little too much. I think they've been
+feeling themselves a little too much.
+And that's fine. I think it'll humble
+them a little bit. And this isn't a
+political thing. This isn't a political
+thing. is just Opus. I think Opus 45
+came out and the whole world's like,
+"Wow, Anthropic, you're incredible." And
+Anthropic was a little bit like, "Hell
+yeah, I'm incredible. Hell yeah, baby.
+Hell yeah, my [ __ ] don't stink, baby. My
+[ __ ] don't stink." And Opus 45, I'd say,
+is the biggest AI release of all time.
+Incredible. It changed the world. It was
+like the biggest jump in AI
+capabilities, I think, since the
+original since GPT4, right? But then
+they started feeling themselves a little
+bit. They're like, "Oh, no, you can't
+use our OOTH anymore with Open Claw. Oh,
+you know, I'm going to tell the
+government what to do." Things like
+that.
+Not political. Not political. Not
+political. I'm just saying maybe they
+were feeling themselves a little bit.
+Look like you look like you found a use
+for your third Mac. I don't know if I
+can run Nemoron on Mac Studio. It's I'm
+just going to take a guess. I haven't
+done much research because it just got
+announced on this live stream. I'm just
+going to take a guess that
+uh it's only running on Nvidia hardware.
+This is going to be my guess is they put
+something in it that it only runs on
+Nvidia hardware. Apple and Nvidia do not
+like each other. Apple and Nvidia do not
+like each other. They're they are
+rivals. Uh, I don't know if you guys
+know the story,
+but uh,
+Apple ripped out Nvidia from all their
+hardware like years ago because they
+didn't like each other. Um, Jason McNav
+$20 donation. Thank you, Jason. I mean,
+that means a lot. Uh, decentralized
+local intelligence equals liberty.
+Individual owns property, intellectual
+property, and have freedom of
+consciousness. Check vid. Last admin
+wanted to close doors. Only allow two AI
+cops working with government only.
+I don't know about the last
+administration stuff, but I agree with
+you. It's about liberty and owning your
+property. No one can take it away.
+There's nothing more American than open
+source models and we should be
+supporting it. Jacob with another $4.99.
+Thank you very much. Competition makes
+better products. We've seen this lately
+with Sonnet Codeex. Yeah, competition is
+fire. Gemini, I don't know about
+I don't know about Gemini. Uh
+Agent Zer's Google. No, it's like crypto
+stuff. I wouldn't get into that. It's
+like crypto stuff. I would take that. I
+would not use that. Did you name your
+next bot after Jason? I haven't name I
+haven't created the next bot yet, but
+let me write that down and make sure I I
+make sure it's Jason. Jason next bot.
+When I get the next DGX Spark or plug in
+the Mac Studio 3, will Jason will be on
+it.
+So, DGX Sparker wait for M5 Studio.
+Thoughts on tiny AI? Uh,
+I mean, I think it's tough to get the
+current Mac Studio because it's like a
+two-month wait
+and in two months the M5 is going to be
+out. So, it's like, do you order do you
+order
+Do you order a Mac Studio knowing it's
+going to come out the same time as like
+the next one? I don't know. I think I
+might lean DJX Spark. If you're moving
+right now and want to run local,
+I think you run out and buy the Mac
+Mini. Mac Mini is my recommendation just
+to get on Open CL. If you have to run
+local now and you don't have any
+hardware,
+I mean, you can get a DJX Spark and then
+when the M5 comes out, cluster it
+together with Exo, right?
+Connect all your Mac Studios using Exo
+to run Neotron 3.
+Uh, I'll have to talk to Henry about
+that. Just order an M3 Max Studio.
+Delivers in one week. What kind of
+memory did you get with that? Wait for
+the M5. They cut memory max to 256.
+Yeah, that's why I'm leaning towards
+waiting now. Uh, what memory did you get
+where it's delivering in one week?
+M4 Pro with 64 gig. Also, two-month
+weight. Yeah, everything I feel like is
+two month.
+96 gig. That's pretty good. You'll be
+able to run some really good Quen models
+with that. If you can get the 96 gig in
+a week, M3 Ultra,
+that might be my wreck. That might be my
+wreck. And then you can expand that
+because you probably got it that for a
+decent price. How much did you pay, Mr.
+ENF?
+How much did you pay? Because you
+probably got that for a pretty decent
+price.
+And then when a better one comes out or
+you want to add a DJX Spark, you can
+just add it into your cluster. Not a big
+deal. You're built, See, you're building
+your home AI lab. You're building your
+home AI lab.
+like I'm doing, right?
+You're building your home AI lab. Let me
+show you. Let me show you. Let me show
+you. Huh?
+Home AI lab. AI lab.
+You're like, I like that. I have DJX
+Spark and it has massive concurrency.
+Depending on size of prompts, you can
+have thousands or 60 for larger average
+open club. Yeah, it's I mean that's
+Nvidia's strength is is the speed.
+Although Apple's catching up. Apple. I
+mean, the M5 is incredible. I'm hearing
+whispers. I'm hearing rumors. I'm
+hearing whispers. I'm hearing rumors. M6
+will be like an even bigger leap than
+the M5 is what I'm hearing. I'm hearing
+whispers. I'm hearing rumors that the M6
+is going to be the biggest leap in chip
+technology ever for Apple.
+But the M5 is still amazing. It's like a
+four times leap. So, it's still amazing.
+I'm personally getting the M5 when that
+drops, M5 Ultra on the Mac Studio
+because I I think you get it's going to
+I I do believe I do believe Apple will
+catch up to Nvidia.
+I do believe that. Watch the M5 come out
+with 256 gigs. I uh so my official
+prediction a couple months ago was they
+do a one terabyte Mac Studio.
+That was my official prediction, but I
+think I'm changing that. I think I'm
+changing my official prediction to 250.
+It's I The fact that they cut off the
+512 gig M3 scares me. That scares me a
+little bit. That scares me.
+I think I changed my official
+prediction. It's still going to be 512.
+They're just saving the memory for the
+new Mac Studio. And I would not be
+surprised. A lot of people predicting
+they never make a Mac Pro again.
+I wouldn't be surprised if we get a Mac
+Pro beginning of next year with over a
+terabyte.
+I would not be surprised if they save
+the one terabyte for the Mac Pro. Make
+it like $20,000.
+I have Mac Studio running quen 35 MLX.
+It works fantastic. Depending on what
+you're into, you give it a strict rag
+with expert sources, you got an expert.
+It's crazy, man. I don't want to name
+names because these guys don't deserve
+clout. But there are a lot of people,
+Listen,
+people attack me left, up, right, down
+all day on X because they just want me
+to mention them. I don't mention anybody
+on my social media. I don't mention I
+don't I don't want to give anyone the
+time a day because I if they mention me
+and I mention them, they're getting a
+lot more out of that transaction than I
+am. So, I'm not going to name names
+because they will get a lot more
+attention out of the transaction if we
+name each other.
+But there's a lot of people that come
+and say, "Oh, Alex Finn an idiot. He's
+an idiot. Mac, don't buy a Mac. That's
+stupid. That's the stupidest thing you
+can do."
+Like, you're just literally wrong.
+There's people all over the place
+running incredible models on their Mac
+really efficiently, getting tons of work
+done.
+Jason McNab here.
+My man Jason McNab. My man Jason McNab
+doing it
+right. So I don't know what these people
+are talking about. I run I have open
+cloud running on like five different
+local models. M6 is going to server rack
+for AI. Apple is I don't know the people
+crapping on Apple for AI stuff. They're
+incredible. What are you talking about?
+I I'm not naming names because these
+people don't deserve the breath out of
+my mouth. Sup dog checking in from New
+York. I lived in New York for I was born
+in New York.
+I was born in New York. I'm a New Yorker
+at heart. Open claw with GLM5 at $210 a
+quarter is a beast to be honest. Open
+claw with GLM5 at two I have used my 600
+million tokens in like 15 days. I hear
+good things about GLM5.
+I hear good things. I run open call on
+my gaming PC. Security be damned. It's a
+beast. I run open call on my main
+computer as well.
+The people scared to run open call on
+their main computer. Screw them. Run it
+on your main computer.
+Buy what you want no matter what.
+Someone will be a critic. The M series
+Mac is amazing because unified memory.
+Yeah, there's just like fanboys. There's
+just fanboys who get pissed at any
+There's people who get pissed at anyone
+getting attention. There's people who
+get pissed at anything succeeding.
+There's so many losers on X. There's so
+many losers on X. It's crazy.
+I'm here. You can Burp, where you been,
+dude? We're an hour and a half in. Burp,
+where you been?
+I've tried and tried to use codeex 54
+and it keeps saying no. Go.
+Well, why using It's not codeex. I've
+had this issue, too. It's not codeex 54.
+It's Chad GBT54. Give them the links to
+Chad GBT site and they'll find it. I I
+had that issue too where I tried to use
+codeex 54. There is no codeex 54.
+There's no There is no codeex 54. It's
+Chad GBT54.
+Got to just want to say thanks for the
+live stream. I have immensely enjoyed
+it. Hey Trent Black, I appreciate you
+brother. Glad you enjoyed it. Come back
+Wednesday. I'm giving away free Chad GBT
+Pro subscriptions. $250 a month
+subscriptions. I'm giving away free.
+Objectively, Apple are a good choice for
+running OpenClaw. Don't get me wrong,
+there are other options, but the unified
+memory that Apple Yeah. I mean, it's
+amazing. You can run big models. They're
+not going to be quite as fast
+as running on Nvidia, but it's not all
+about speed. If they're your muscles and
+they're doing grunt work, the speed
+doesn't matter quite as much. It's still
+very, very, very usable.
+Not going to lie, I just walked in and
+you said, "Fuck them. If they tell you
+not to use your main machine, I'm
+dying." Yeah, [ __ ] him. Greg Zen7896,
+welcome to the live stream. Turn on
+notifications while you're here, boss.
+Mr. VB8KW,
+my deaf tones brother. Sorry for the
+grammar issues earlier. I'm at work and
+not proof reading like I should. Also, I
+think auto research is going to be a
+game changer for improving our open claw
+agents and then some. Thank you for your
+expertise. You guys want some alpha?
+Congrats on your sex. Thank
+Congrats on your success.
+Your success.
+I don't know why I read that and said,
+"Congrats on the sex." I do I do not
+know why.
+I don't know what that means. I don't
+know what subconsciously that means. If
+there's any therapists here, let me know
+what that means. But that's what that's
+what came out of my mouth. Um,
+here's here's the mindset you got to
+have and I'll be talking about this live
+boot camp Friday vibe coding academy
+link down below. Uh,
+how do you apply auto research to
+everything? Think about it. That's the
+next trillion dollar opportunity. Think
+about it. How do you apply auto research
+to everything? Love your videos, man.
+You on I think I'm I think next video is
+going to be a Nemo Nemo Toad video.
+talking about American open source.
+I think Apple will be sleeping giant and
+soon dominate AI. I hope. No way I can
+transfer to PC. Yeah, I'm I am never
+using PC.
+I'm never using PC. Uh I have the DJX
+Spark Buds Linux Freyian Slip. What was
+I thinking about? You think I was
+thinking about sex? Am I gonna get
+banned for saying that? Like am I going
+to get like This is already a
+demonetized video. I don't monetize the
+live streams.
+I'm still here live stream with you.
+First live stream ever. Actually, this
+is your first live stream ever and it's
+mine. Tristan Brown 7750.
+That's amazing. It means the world. It
+means you had a good time in Japan.
+Uh, if you finally did sex, congrats on
+that, too. I've never done that before.
+I purchased a Mac Mini 24 gigabyte right
+after I started listening to Alex and I
+panicked. I didn't have enough memory to
+run local. I worked at Apple to upgrade
+to a Mac Mini 64G. Let's go. Andrew
+Teller, what have you been running,
+dude? What What models you've been
+running? I love that.
+Alex, any opinion on foldable iPhone?
+I'm getting a day one. iPhone Ultra.
+Getting a day one, baby. Day one. I
+can't wait. I was on this flight. I was
+on this flight to uh Japan
+and the laptop started dying. And I was
+like, man, I wish I could unfold this
+and just keep going on my phone. Ah, I
+can't wait. I I I've been a I've been
+wanting I've been debating switching
+from Apple to Android for the last seven
+years to get like the foldable, the the
+Galaxy Fold. I've wanted it so long.
+I've been a f I've been pissed Apple
+hasn't released a foldable yet for so
+long.
+It's uh I'm I'm a day I'm day one. I
+don't care if it costs $5,000. I'm
+getting a day one. I cannot wait until
+the iPhone Ultra. I want a foldable so
+freaking bad. If you're not in the
+school community yet, get in Vibe
+Coding. Yes, link down below. Vibe
+Coding Academy. Get in there. We're a
+lot of people. We're over a thousand
+people now. We're over a thousand people
+now. DJX Spark not needed for M5.
+Bro, last week that live streams was
+long. This is my entertainment
+education. That's what we try to do
+here. Aldo Rodriguez. This one was a
+little bit more of a chat with the chat
+live stream. What do you guys think? Are
+you cool with that? This is my favorite
+part of live stream is chatting with you
+guys. Do you mind if I just chat and
+answer questions and then sprinkle in
+some alpha here and there?
+Did you see the news about human cells
+grown in laboratory to play Doom? I did
+see that.
+Ah, it's cool. I think it's cool. I'm
+not scared of that stuff. I think it's
+cool. Yes, Apple will catch up to
+Nvidia. I believe they will.
+I believe they will. I can't run locals
+on You can You can run like a very
+lightweight Quen. It's not going to be
+amazing. I'm going to be honest with
+you. It's not going to be amazing. But
+you can run light. I still think you
+should experiment.
+I still think you should experiment.
+Mile High Club is what he's trying to
+say. No, it's
+there's no Mile High Club on a crowded
+United flight that you're packed in like
+sardines. There's no mile high club
+going unless you go into a tiny little
+twoft by two foot toilet that smells
+like absolute horseshit.
+Any tips on getting these miles
+performed tasks reliably? enormous
+potential if I don't have the
+reliability. What What model are you
+using?
+54 is Chad GBD 54 is incredible. I I
+don't I haven't had any issue with task
+task execution.
+Can you use OpenClaw in your Apple Watch
+Ultra? Uh I don't know. I used to have
+an Apple Watch. I stopped wearing it.
+I'm not an Apple Watch guy. I'm actually
+anti like Apple Watches to be honest
+with you. I don't think you should be
+getting pinged by your cell phone every
+five minutes on your wrist. I think
+that's crazy.
+Alex, you think one day Apple buys
+Anthropic? No, I don't think so.
+I think that boat's passed. I think they
+should have did it when it was like a
+two billion dollar company. Now that
+that boat's sailed. I mean, Apple I
+don't think Apple's trying to get into
+the AI model race. I think they should I
+think they should make their own open
+model and compete with Nvidia on that
+front, but I don't think from a cloud
+model perspective, I think that race has
+already started and there's no point in
+joining it now.
+I just bought a Mac Mini 16 gig, so the
+base model. I'm going to try set up and
+hopefully your vids help. They will
+help. Get it set up, my man. Get it set
+up. Yeah, bro. Love this. Okay, good.
+I'm glad you like it. Yeah, these live
+streams are fun. Not going to lie. Good.
+Just yapping. Just having fun and
+yapping. Tell Henry to launch Viber
+already. It's already kind Yeah, Viber
+we kind of put to the side just because
+OpenClaw changed everything. I mean,
+OpenClaw is the greatest thing to ever
+happen to me. I'm just going to be
+honest with you guys.
+Open laws of grace has never happened to
+me. It's changed my life dramatically.
+Uh I'm I'm just on a whole new level.
+I'm on a whole new level spiritually,
+physically, metaphysically.
+Whole new everything's just changed,
+man. The moment you find something
+you're passionate about and then go all
+the way in, it just changes your life.
+It changes your life and you all should
+be trying to aggressively as possible
+find something that you are extremely
+passionate about because it will
+absolutely change your life. Did you end
+up getting sponsored by Apple? You were
+talking about I'm not I'm not sponsored
+by anybody.
+No one sponsors me because I don't want
+my opinion to change on things. Um but I
+mean they support me in different ways.
+Apple they lent me a Mac Studio. So I
+have a 512 gigabyte Mac studio they lent
+me.
+Um,
+and I'd like to do more things with them
+in the future. Like now I have
+connections there and we talk and like I
+give them advice. I'm like helping them
+out on stuff
+when it comes to like AI agents. Um,
+I'm going I'll probably make an ask when
+the M5 comes out and say, "Hey, what can
+I do to make sure I get a day one?" I
+think that's a fair ask to make. I can
+make that ask, right?
+I've helped I've helped Apple out a lot.
+I feel like I can say I'm not even
+asking for a free Mac Studio. I'm just
+asking, hey, can I buy one and just get
+it on the first day?
+That's all I'm asking. I'll run Quen
+once the better Mac Mini arrives later
+this month. Right now, I'm just using
+Claude Opus on it. Nothing wrong with
+that. By the way, I'm in the FinFam,
+too, and I love it.
+Nothing wrong with uh going all cloud.
+Just slow. You slowly layer on the local
+models. You see, there's no rush.
+There's no need to rush.
+I was watching talk about the almost
+internetb breaking exit issue last
+night. Makes me worry about OC getting
+back doorored. Yeah, I don't I don't
+update on day one. I don't update
+OpenClaw on day one. Would you recommend
+running open source LM on a VPS if we
+don't have local powerful compute? No.
+No point. Not worth it. I don't mess
+with VPS's. I don't mess with VPS's. I
+don't think it's worth it. Just go all
+cloud if you have to. I'm not a VPS guy.
+Chad GBD is always screwing up, missing
+repeatable tasks, not following. You're
+on 54 and it's not following.
+What I would do if if the issue is uh
+repeatable tasks,
+I'd build a calendar out in your mission
+control. And if you haven't built a
+mission control yet, I put out a YouTube
+video, I think last week on mission
+control while I was in Japan. It's one
+of my best performing videos. I did it
+on the road with like a shitty camera
+and setup and it's performing amazingly.
+That's what Here's another thing. I
+honestly believe uh everyone should be
+on YouTube, should be pursuing YouTube.
+I think it's the biggest social media
+opportunity in the world. You don't need
+expensive cameras. You don't need
+editors. You don't need anything. You
+don't need expensive lighting. I was in
+Japan in my hotel room. I took out my
+DJI little camera, filmed it. Has 80,000
+views in a week.
+I don't I edit everything myself. I have
+no editors. No one works for I have zero
+employees. You can you can do everything
+you want on YouTube. You don't need to
+spend money on stuff. Hacker news
+thoughts or I don't know what that is.
+Was on my way to bed. Been up all night.
+Just seen your live stream. You decided
+to pop in and say hi from Australia mate
+and hope we can chat sometime. D
+Pandazzis, good to have you here.
+Greetings from California. Hope
+Australia is nice. What is it? You're
+entering uh fall in Australia right now.
+end of your summer heading into fall.
+Uh,
+tail scale nano nano claw quen and mini
+tail scale agent. Yeah, that's a good
+setup.
+Tail scale. Tail scale is great. I love
+tail scale. It's so easy and it's free.
+Alex, did you experiment with glasses?
+And Henry, my glasses haven't come in
+yet. It's like a month waiting period to
+get the glasses, but I'll be going for
+it.
+Yeah, AWS should have bought. A lot of
+people should have bought anthropic. A
+lot of people should have bought um Open
+AI when they had the chance and they
+didn't do it and now those opportunities
+are gone. By FinnFam I mean Vibe Coding
+Academy. Ha, which is Yeah, Vibe Coding
+Academy is a lot of things are FinnFam,
+but yeah, Vibe Coding Academy is
+FinnFam. Andrew Taylor's a fan of the
+Vibe Coding Academy. Link down below.
+Live boot camp this Friday. Live boot
+camp this Friday. Do we think Opus 46 is
+still the best for thinking reasoning
+strategy with 54 out? Uh,
+it's close. Now, Opus might be a tad
+better, but 54 is significantly faster.
+And I think that speed gives it an edge.
+I think that speed gives it an edge.
+Apple has potentially a dependency
+problem with TMSC. What happens when
+China invades Taiwan? Um, we we we
+better hope that does not happen. We
+better hope that China does not invade
+Taiwan. If China invades Taiwan, the
+prices of our computers will absolutely
+skyrocket
+overnight. The prices of our computers
+will absolutely skyrocket overnight. We
+better hope they do not invade Taiwan.
+That should be priority number one of
+every single government is to not let
+that happen because the prices of your
+computers will skyrocket overnight.
+These are the glasses I'm getting. Even
+reality's G2. It's a smart smart glasses
+with a Look at that guy. That's a good
+looking guy, huh? Look at that jawline.
+This guy's looking good. Strong chin
+hair. Perfect. Perfect. This guy's
+looking good. Look at this guy. This
+guy's born to model smart glasses. What
+a looks maxing here. This guy is looks
+maxing like crazy. This guy went all in
+on this photo shoot. Look at this guy.
+all in on this smart glasses photo shoot
+right here. Look at that.
+Uh, I'm putting my I'm putting Henry on
+here. So, I'm gonna hack the I'm going
+to hack these. They're not built for
+Henry. I'm going to hack these to put
+Henry on there. Do you use Grock at all?
+Honest question. What should I use Grock
+for? I'd use Grock right now if it was
+like the best at any specific use case.
+What use case is Grock good for?
+Apple's going the AI silicon hardware
+path. They aren't as good at AI models.
+Siri has never been good. They'll focus
+on being the best. Yeah, 100%. They
+should be going for the local models are
+the future. It only makes smart for
+them.
+It only makes sense for them to go full
+local models and build the computers for
+that and prepare for that future. What
+happened to the permy bun? You know how
+many things I have on my plate.
+Allecalis, I have so many things on my
+plate. I will get the per Oh, breaking
+news.
+Breaking news. Uh, I'm going to have an
+office starting Saturday. I will have an
+office starting Saturday. When I set
+this office, I bought a green screen a
+few weeks ago. We're going to set up the
+green screen. The office, the whole
+command center here is going to change.
+The whole command center here is going
+to change. I'm getting my own office
+Friday, Saturday. Uh, and so that's
+going to be awesome. Dying. We have the
+exact same Aala bottle.
+Shout out Aala.
+Purchase M51 128 gig 4 TB for work
+during the day and run local models at
+night. Ruben,
+that's amazing. So, you got the MacBook
+Pro M5 Max.
+I mean, that's a good purchase. That's a
+good purchase. I mean, you did pay a
+premium for laptop functionality, but
+hey, you got to do what you got to do.
+It's going to be the best computer out
+there for AI.
+You're going all in, Reuben. I like
+that. I like that a lot, Reuben. I like
+that a lot. Ruben, do you have a
+workflow feature in your mission
+control? I've implemented one. It is
+crazy. It makes OC so much more
+autonomous. What do you mean by that? A
+workflow feature. What does that mean?
+AE DF DF DF DFS A SSD.
+What's a workflow feature? Tell me. I'm
+curious. You got me cur You have my
+attention now. You have my attention
+now. Longtime viewer, but first time in
+the stream. Thanks for your content. In
+your opinion, what are the local limits
+of what's possible with Mac Mini base
+model?
+I mean, you're just not going to be able
+to run any good local models on the base
+Mac Mini. You'll be able to run like a
+really small version of Quen 3.5, but
+like it's not going to be able to handle
+any sort of serious workflows. I still
+think it's worth experimenting with,
+but unfortunately, at this moment in
+time, you won't be able to run anything
+crazy on it. I do believe it'll only get
+more efficient so that you will be able
+to do crazy stuff in the future, but at
+this moment in time, it's just not going
+to be great. So, I just run it on chat
+GBT54.
+Running Quen through. Yeah, you
+shouldn't be using local models as the
+brain. Local models is the brain's just
+not there yet. I I I mean this Nemo Toad
+Nemo whatever new model from Nvidia
+might be a potential brain replacement
+but I would have to test it first.
+What permission level app should I grant
+access to open everything your entire
+life? I it's a you question. It's like a
+that's like someone hiring an employee
+at their company and saying what should
+I allow this employee to do? I don't
+know. What does your company do? What do
+you want them to do? Nice moonshots.
+Thank you.
+went about as good as I could hope for.
+Huh? That episode went really well.
+Right. These are the best live streams
+where the count, the viewer count just
+goes up the entire one. Most live
+streams I do, it goes up and then like
+halfway through starts going down. This
+one's just up the whole time. Up only.
+Hockey stick chart up and to the right.
+I couldn't agree. I felt the same with
+Bitcoin. Dedicate my life to learning
+and sharing.
+Listen, I'm a Bitcoin guy. I like
+Bitcoin. I just don't see how Bitcoin
+fits into the agent ecosystem.
+Like the only way I can see Bitcoin
+fitting into the agent ecosystem is they
+use stable coins to purchase stuff and
+then they store the value in Bitcoin.
+That's but I don't see them transacting
+in Bitcoin. I don't think that makes any
+sense. There's no at the moment. Maybe
+in the future there will be, but at the
+moment there's no advantage to
+transacting in Bitcoin for AI agents. It
+makes a lot more sense for them to use
+USDC.
+Uh, why do I Jeremiah Jacob Jeremiah
+another 199 donation? Thank you a lot,
+Jacob Jeremiah. Why do I think the 512
+studio was pulled? Probably because uh
+I would say hardware bottlenecks. My
+guess would be hardware bottlenecks with
+uh
+the the M5 they're going to be coming
+out with. Another little announcement.
+Another little announcement. I was
+debating if I should announce this
+because I don't know if I should be like
+telling people where I'm going to be at
+at any given time because uh
+I feel like there's a lot of people that
+hate me. And so if I reveal my location
+at any given time, like that's just
+probably not a good idea.
+But I'll I'll reveal it anyway.
+Little known fact about me. Little known
+fact about me. You're not that famous.
+Stop.
+I never said I was that famous. All I
+said is there's people who hate me. I
+I'm not claim I am not claiming to be
+famous. I am not cla Let me make this
+straight. I am not claiming to be
+famous. I do not think I'm famous. I'm
+just saying there are a lot of people on
+the internet who have hated that my
+channel is blown up.
+So, I just don't like to reveal my
+location when people there are people
+who hate me. That's all I'm saying. Uh,
+I got tickets to Kanye West concert in a
+month.
+First American concert in five years.
+I'll be going.
+I'm a big I'm a big Kanye fan.
+Pre-racism. Pre-racism. I'm a big fan.
+Pre-racism.
+All it takes is one crazy person to kill
+you. That's all I'm going to say. It
+takes one crazy person to kill you. So,
+that's why I don't like revealing my
+location too much.
+Uh, going to the Kanye West concert. I
+I'm a big pre-racism Kanye fan. I'm the
+biggest pre-racism Kanye fan in the
+entire world. Yeah, one does not need to
+be famous to be hated. Like, what do you
+think? Oh, what a weird thing to say.
+Oh, you think you're more famous? I
+don't think I'm famous at all. I'm just
+some nerd on YouTube. Uh, if you meet
+him, don't call him Kanye. I know. I
+know. I'm not gonna I mean, just like
+it's X. I'm not calling it X. I'm gonna
+always call it Twitter. And just like
+it's Yay. I'm gonna keep calling him
+Kanye. Let's just be honest here.
+And my sidlight died. Um,
+Apple can't risk the backlight. I gotta
+get a day one. They got to send me the
+Mac Studio day one.
+False. Henry is your employee. That's a
+good point. 5.4 blows, dude. Will not
+5.4 blows and will not finish anything.
+Really?
+I haven't had that. Opus is still the
+best. Opus is so slow for me, though. So
+frustrating.
+I gotta do more. I gotta do more
+experimentation with 54 and open claw.
+I've been using it the last couple days.
+Uh I gotta do more experimentation.
+Great seeing you on moonshots. That
+wasn't a good episode. That was fun.
+So annoying. All right. Well, I got good
+news for you. If you think I'm so
+annoying, you're now banned. Kanye
+based. I mean, he's the greatest rapper
+ever.
+He's the greatest rapper ever. greatest
+artist ever. People who hate you have
+proved themselves a low IQ. I mean,
+here's what it comes down to.
+If you're getting hate, you're in a good
+place. People primarily hate people for
+two reasons. Well, one reason.
+People primarily hate other people
+because of jealousy,
+right? They're jealous of either your
+success. They're jealous. And I think
+this is the reason why there's some
+vocal haters on X for some reason.
+They're jealous because of passion. Your
+shirt on Moonshots was fire. Did you
+think so?
+Some people watched the episode and was
+like, "Dude, your shirt was like too
+sexual and tight." I'm like, "What?" So,
+you like the shirt? You like the shirt?
+I was wearing like a Henley, like an
+unbuttoned Henley.
+I think people hate because of passion.
+Like if you're outwardly passionate
+about anything, people hate that because
+a lot of people are not capable of
+passion. Haters are jealous of the goon
+maxer. Are you saying I'm a goonmaxer?
+I'm not a goonmaxer. You're a goonmaxer.
+What are you talking about, Chungs AI?
+I think people really hate when other
+people are passionate, like super
+passionate. Like it bothers them. It
+bothers them deeply when you're super
+passionate. The greatest thing you can
+do in your life is be deeply passionate
+about something. I truly believe you
+should work as aggressively as humanly
+possible to be as passionate about
+something as you can.
+And when you get that passion about that
+passion about something, typically what
+happens is one you become really
+successful because that's how you become
+successful is being deeply passionate
+about something. And two, you get people
+angry at you. They get you get angry.
+They get angry because you're working at
+a level they're not capable of or more
+likely they're not willing to work at,
+right? They're not willing to work as
+hard as you. And two, you're showing
+passion which they're jealous of because
+they've never been passionate about
+anything in their life. And so that
+pisses them off.
+That pisses them off.
+So typically when you're getting hate,
+it's usually a good indicator, right?
+And these people like, "Oh, you're
+you're lying about Apple. Apple's not
+good." If you thought I was lying, you
+wouldn't be tweeting every 5 seconds
+about how wrong I am.
+So, there's something deeper going on.
+If I went out and I tweeted, "The sky is
+red." You wouldn't tweet every 5
+seconds. You're lying. The sky is blue.
+The sky is blue. The sky is blue. You
+wouldn't You wouldn't do that. So, it's
+more than about truth or falseness. It's
+that you're angry about something, that
+I'm so passionate about something.
+I know Vibe Coding Academy is good for
+women, but how about old guys? Just
+join. It's a great We have so many old
+guys. Paul Miller, so many old I have
+like I think this is like a 70-year-old
+surgeon in the Vibe Coding Academy.
+Shirt looks good. What brand?
+Uh, Banana Republic outlet. The shirt
+was Banana Republic outlet. I got on
+sale for like $30.
+This is uh J Crew Outlet.
+This is J. Crew outlet.
+The shirt from Moonshots was Banana
+Republic outlet. I'm glad you guys liked
+it, though. I miss I put together Should
+I share my uh
+Should I share my Kanye LA playlist? I
+made a Kanye LA playlist.
+I made like a be all my favorite Kanye
+songs. I made a playlist of all my
+favorite Kanye songs. It's 37 songs
+deep. Should I share that?
+If I share my a Spotify playlist, will
+you guys be able to see like all my
+Spotify playlists? I don't know if I
+want that.
+Love you, but I hate your white collared
+shirts. No biggie. That's fine. I think
+they're cool. I think they're cool.
+Robert Craft wears them, so that's why I
+wear them because I'm a big Robert Craft
+fan.
+Getting engaged is a sign you're on the
+right path. Yeah, 100%. No, we hate
+Kanye more than you.
+I'll follow. Share it. All right. I
+don't know what's about to happen when I
+share this playlist, but we'll see what
+happens. I don't know if people are
+about to find some like weirdass
+playlist I have and be like, "Whoa,
+you're weirdo." What's your favorite
+Kanye album? Um,
+Dark Twisted Fantasy.
+Close second is Da. I think DA's epic. I
+think DA is an epic masterpiece.
+Dark Twisted Fantasy is the goat,
+though. The top are dark twisted
+fantasy, DA Yezus. Top three,
+dark twisted fantasy, Donda Yezus, Life
+of Pablo.
+Top four, isn't he a rapist? Kanye,
+you're just going to throw those
+allegations at Kanye just like that.
+DA is very underrated. College drop. I I
+think all his albums are fantastic. I
+think literally I like Jesus is King. I
+think that's a great album, too. A lot
+of people hate on that album. I think
+that's a great one. Uh, I think all his
+albums are great.
+College Dropout is great. I've been
+listen. It's not just because I'm young.
+I've been listening to College Dropout
+since I remember getting College Dropout
+when I was 14. I got the album. I was 14
+years old. I remember the day I got Late
+Registration. I remember the day I got
+graduation. I got Graduation.
+It was summer break. I got it. I put it
+on a USB stick. I went to my friend's
+house because uh Madden came out just
+around that time. Plugged it into his
+computer. We hit play on graduation and
+then we kicked off for the new Madden
+that year. What was like Madden
+2008 or something? Madden08. I remember
+that day so vividly in my mind. I
+remember my feelings that day. I
+remember the car I drove that day. I
+remember waking up. Oh, graduation just
+came out. Downloading it off Napster.
+Yeah, I stole it. Whatever. Suck it. I
+was broke. I was like 17 years old. Put
+it on the USB stick. Hit up my friend.
+Yo, Madden came out. I got graduation on
+the USB. We go over. We go in his
+basement. Plug it in. Good morning comes
+on. We kick off Madden.
+Just some of those memories that make
+you warm. You know what I'm saying,
+dude?
+It's one of those memories that makes
+you want to cry. It's one of those
+memories that you just like you think
+about and tears come down your face. You
+know what I'm saying?
+We're over. It's two hours in. Monday,
+Wednesday, Friday, 11:00 a.m. Pacific.
+We're going to be back Friday. I'm
+giving away five
+Chad GBT Pro subscriptions. Five Chad
+GBT Pro subscriptions on Friday free.
+$250 a month. I think they're like three
+month subscriptions. So, you're getting
+them like for a while. Like $750. I'm
+not going to cry. I haven't cried in
+like 20 years. Uh what why Spotify not
+Apple Music? Because I just I don't
+know. CEO invests 700 million in I I
+don't want to hear about the politics. I
+I
+if I only used products that agreed with
+my politics, it'd be like the most
+stressful life of all time. Like
+what am I What do you do? You Google the
+CEO of every product you buy to see what
+their politics are? Is that what you do?
+That's crazy. $10 donation. Justin
+Holmes 24. When starting out with a
+smaller Mac Mini, is it smarter to jump
+in a GBT or anthropic oath or is it
+better start with API fees? No. Use your
+OOTH. Just plug in your OOTH. Share it.
+I thought I shared it already. Did I not
+share the playlist already?
+There you go. There's the
+just one. Oh. Oh. Oh. I love all of
+Yeezys. All right. So, I'll give you the
+context around this playlist.
+I'll give you a little bit more context
+around this playlist.
+Here's a little bit more context.
+This will be my girlfriend's first
+concert ever. This will be her first
+concert ever. She's never been to a
+concert in her life. Um, so I made this
+for her so she could like learn Kanye
+songs. So I didn't include all of my
+favorite Kanye songs, right? Like
+One of my favorite Kanye songs. I'm in
+it off Jesus. I'm in it.
+Spectacular song.
+But like that's not a song you give to
+like a female their first time listening
+to Kanye West, you know?
+That's like
+if the first song someone hears from a
+female hears from Kanye's I'm in it,
+they'd never listen to Kanye West ever
+again. So that's why I didn't put
+Yeezys. I think Jesus the 10 songs in
+Jesus are every single one is
+incredible. Every single one is
+incredible. But I can't include like the
+Jesus just isn't the first
+Jesus is not the first album you give to
+someone to introduce them to Kanye.
+That's like this fifth or sixth album.
+Even though I think it's a top three
+album from Kanye, you you can't
+introduce them with that album. You know
+what I'm saying? But like Hold My
+Liquor, Hold My Liquor is one of the
+most spiritual
+ex experiences of a song ever. It's one
+of the most spiritual musical
+experiences of all time is Hold My
+Liquor. But you don't introduce someone
+to Kanye through Hold My Liquor. You
+know what I'm saying?
+How do you solve for memory continuity
+across your multiple Open Claus and
+agents? I'm trying to have it be able to
+reference and call memory. You create a
+shared workspace for them. So go to your
+orchestrator openclaw and say we have
+multiple open claws here. Create a
+shared workspace that all the open claws
+can access.
+What model is your girlfriend running
+on? Quen 3.5. Uh the media model. If
+your opus 46 is starting to respond
+slowly, it's because its memor is
+getting too bloated. Early days I create
+a memory fix which end in causing its
+load. 80. Yeah, I I know the memor is
+getting bloated. I know the memor is
+getting bloated. I got to fix it.
+Uh, I created a memory fix which ended
+causing it to load 80k lines of context
+before each reply. Yeah, I got to fix
+that.
+Hi Alex, can you show how to install
+open call with your chat GBT
+subscriptions? OpenAI allows it where
+open opus doesn't. Just watch my first
+video
+on openclaw and then in the model
+selector just choose chat gbt oath. It's
+not it's not too crazy.
+It's not politics though. Just getting
+curious about where the money that I
+spend goes to. Yeah, I'm not curious. I
+just try to buy good products. That's
+all. I try to spend my money on good
+products. If I worried about where my
+money was, the company was doing with my
+money, I used to be spending so much
+time googling where my money is being
+spent that I just not ever get anything
+done.
+I ebike during the pandemic, listening
+to ghost town and spaceship, and it felt
+amazing. dreaming biggest spaceship and
+I feel kind of free while everyone else
+is inside scared. Well, do you mean
+spaceship like off of college dropout?
+Because that's an amazing song. The I
+feel kind of free from Ghost Town's
+amazing. Yeah, it's one of my favorite
+songs ever is Ghost Town. Including the
+second uh Ghost Town. Second Ghost
+Town's great, too.
+Yeah, I know. Total weirdo. Total
+weirdo. What's your favorite skill in
+open? I just build all its own skills.
+All right, guys. Monday, Wednesday,
+Friday, 11:00 a.m. Pacific. New video
+dropping either later today or tomorrow.
+Turn on notifications for that. Finnfam
+merch. Uh maybe soon in the future.
+Maybe soon in the future. Turn
+notifications for new vid. The best way
+to support the channel for free is
+anytime I drop a new video, open it up,
+leave a like, and watch it to the end.
+Best ways. Top is the fourth best kind.
+It's excellent. Top is amazing. Album
+starting off with father stretch my
+hands. What? Any way to get better than
+that? No. Vibe Coding Academy down
+below. Uh, live boot camp this Friday.
+You instantly get access to all the past
+recordings. So, sign up for that, too.
+I've been working the grave shift and I
+I goated. Goatated. Goed. Goatated song.
+Goatated.
+Yeah, exactly. Oh, man. When you're a
+kid and you're like 15 years old
+listening to that song and you're like
+working at like McDonald's and you hear
+and you hear him rapping about working
+at the Gap. Oh, it's amazing.
+Vibe Go Academy link down below.
+Subscribe. Turn notifications. Uh, I
+love you guys. Thank you for everything.
+This was a blast. It's good to be back.
+We're not taking a week and a half off
+for a long time now. So, sorry for being
+gone the last week and a half. I was
+doing things that absolutely changed my
+life. I have a lot of other things to
+share with you eventually. The last week
+and a half were absolutely
+life-changing. Uh, and I have a lot more
+to share. We're giving away pro
+subscriptions Friday. So definitely come
+Friday, 11:00 a.m. Pacific for that.
+Turn on noties.
+Love you all. Truly means the world. It
+means the world you'd sit here and watch
+me talk for two hours and watch me lose
+my voice for two hours. It means the
+world. More than you can imagine. More
+than you can imagine. Shout out Peter
+Ko. I appreciate that. Uh love you guys
+from the bottom of my heart. Love you. I
+will see you Friday, 11 a.m. Pacific.
+Have a great rest of your uh next couple
+days. Means the world.

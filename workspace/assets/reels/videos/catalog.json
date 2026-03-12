@@ -1,0 +1,69 @@
+[
+  {
+    "id": "city-night-rain",
+    "file": "1.mp4",
+    "description": "Mưa đêm thành phố, ánh đèn neon mờ ảo, góc nhìn từ cửa sổ",
+    "mood": [
+      "reflective",
+      "calm",
+      "moody"
+    ],
+    "tags": [
+      "urban",
+      "rain",
+      "night",
+      "cinematic"
+    ]
+  },
+  {
+    "id": "coding-laptop-dark",
+    "file": "2.mp4",
+    "description": "Tay gõ laptop trong phòng tối, màn hình sáng code, aesthetic setup",
+    "mood": [
+      "focused",
+      "productive",
+      "tech"
+    ],
+    "tags": [
+      "coding",
+      "laptop",
+      "tech",
+      "work",
+      "dark"
+    ]
+  },
+  {
+    "id": "coffee-morning-light",
+    "file": "3.mp4",
+    "description": "Ly cà phê buổi sáng, ánh nắng chiếu qua cửa, không khí yên bình",
+    "mood": [
+      "calm",
+      "inspirational",
+      "warm"
+    ],
+    "tags": [
+      "coffee",
+      "morning",
+      "light",
+      "peaceful"
+    ],
+    "duration_sec": 8
+  },
+  {
+    "id": "walking-city-street",
+    "file": "4.mp4",
+    "description": "Đi bộ trên phố đông đúc, góc nhìn first-person, năng lượng đô thị",
+    "mood": [
+      "energetic",
+      "motivational",
+      "dynamic"
+    ],
+    "tags": [
+      "walking",
+      "city",
+      "street",
+      "urban",
+      "movement"
+    ]
+  }
+]

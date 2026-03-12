@@ -1,0 +1,56 @@
+{
+  "video_id": "EeX7ovArylU",
+  "summary": "This video demonstrates how to build a 'Council' skill for Claude Code that lets you consult competing AI models (Gemini, Codex, etc.) via OpenRouter without leaving the Claude Code terminal. Instead of picking one model, you route different tasks — bug fixes to Codex, front-end reviews to Gemini — and let Claude synthesize the advice. The creator walks through the skill's config file (provider defaults, context packaging rules, synthesis rules) and shows two live demos: a landing page and a VC analytics dashboard, each improved dramatically with a single council prompt. Target audience: Claude Code power users and developers who want multi-model workflows. Biggest takeaways: (1) A config-driven skill can turn Claude Code into a multi-model orchestrator without switching tools. (2) Context packaging — sending the right code snippets, prior attempts, and problem statements — is what makes external consultations actually useful. (3) Claude Code can act as a judge that synthesizes competing opinions and picks the best path, even when that path was proposed by a rival model.",
+  "insights": [
+    {
+      "type": "Framework",
+      "title": "The Council Skill: multi-model orchestration inside Claude Code",
+      "explanation": "Build a skill with a config file that maps task categories (bug fix, front-end, architecture, quick check) to specific external models via OpenRouter. Claude Code routes the question, packages context, receives the response, and synthesizes a final recommendation — all from one terminal."
+    },
+    {
+      "type": "Paradigm Shift",
+      "title": "Stop picking a side — use all models as a council",
+      "explanation": "Instead of arguing which LLM is best, treat each model as a specialist consultant. Keep Claude Code as the driver but tap Gemini for front-end, Codex for bug fixing, or any model for its relative strength. The best workflow is model-agnostic."
+    },
+    {
+      "type": "Framework",
+      "title": "Context Packaging: the three elements that make consultations useful",
+      "explanation": "When sending context to an external model, always include: (1) the specific problem statement, (2) relevant code snippets, and (3) what approaches have already been tried. This prevents generic advice and enables informed second opinions."
+    },
+    {
+      "type": "Principle",
+      "title": "The orchestrator should pick the path of least resistance, even if it wasn't its own idea",
+      "explanation": "Configure Claude Code's synthesis rules so it always selects the best approach regardless of which model proposed it. Remove ego from the workflow — the goal is the best outcome, not loyalty to one model's answer."
+    },
+    {
+      "type": "Framework",
+      "title": "Synthesis Rules: agree, disagree, then execute",
+      "explanation": "After receiving a council response, Claude Code should: (1) present the raw response labeled with the model name, (2) state agreement or disagreement with reasoning, (3) execute the best approach. This three-step synthesis prevents blindly following external advice."
+    },
+    {
+      "type": "Paradigm Shift",
+      "title": "LLM-as-a-Judge works better when the judge is a different model",
+      "explanation": "Using a different language model to audit code or copy is like getting a second opinion from a doctor with different training. Different model architectures catch different blind spots, making cross-model review more valuable than self-review."
+    },
+    {
+      "type": "Warning",
+      "title": "Don't blindly follow external model suggestions",
+      "explanation": "The council's advice is brainstorming material, not gospel. In the demo, Claude pushed back on Codex's suggestion to rename dashboard labels because shorter labels are better for that UI. Always apply judgment before implementing external recommendations."
+    },
+    {
+      "type": "Framework",
+      "title": "Mega Skills: stack and compose skills for compound leverage",
+      "explanation": "Combine the council skill with domain-specific skills (e.g., a front-end skill) to create symbiotic workflows. The more skills you stack and the deeper you configure them, the higher leverage each prompt delivers."
+    },
+    {
+      "type": "Diagnosis",
+      "title": "Why Opus gets stuck on bugs: single-model tunnel vision",
+      "explanation": "When a model spins on a bug repeatedly, it's not a capability failure — it's a perspective failure. Bringing in a different model (like Codex) with different training data breaks the loop because it approaches the problem from a fundamentally different angle."
+    },
+    {
+      "type": "Principle",
+      "title": "Config-driven skills let non-technical users customize AI behavior without coding",
+      "explanation": "The council skill's power lies in its config file, not its code. Users can verbally tell Claude Code to change which models handle which tasks — no programming knowledge required. This makes advanced multi-model workflows accessible to anyone."
+    }
+  ]
+}

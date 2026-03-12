@@ -1,0 +1,446 @@
+{
+  "date": "2026-03-10",
+  "total": 5,
+  "videos": [
+    {
+      "video_id": "Wu67lLD8bB0",
+      "slug": "googles-new-tool-just-10xd-claude-code",
+      "title": "Google's New Tool Just 10x'd Claude Code",
+      "url": "https://www.youtube.com/watch?v=Wu67lLD8bB0",
+      "channel": "Nate Herk | AI Automation",
+      "views": 17732,
+      "published_at": "2026-03-10T02:22:20Z",
+      "image": "images/googles-new-tool-just-10xd-claude-code.jpg",
+      "transcript": "transcripts/googles-new-tool-just-10xd-claude-code.txt",
+      "summary": "This tutorial walks through Google's new open-source GWS (Google Workspace) CLI tool that integrates with Claude Code, giving direct terminal access to Gmail, Drive, Docs, Sheets, Calendar, and Slides. The video covers installation, OAuth setup, and five practical demos: AI email triage with priority scoring, visual validation loops for Google Slides, formatted document generation, and compound tool stacking. Target audience: Claude Code power users and solopreneurs who want to bypass Zapier/Make.com for Google Workspace automation. Biggest takeaways: (1) CLI commands beat API calls for Google Workspace — simpler auth, fewer tokens; (2) The visual validation loop (generate > screenshot > audit > fix) produces production-quality output; (3) GWS CLI is pre-v1.0 so expect breaking changes.",
+      "insights": [
+        {
+          "type": "Paradigm Shift",
+          "title": "CLI over API: bash commands beat API calls for Google Workspace automation",
+          "explanation": "Instead of managing complex API endpoints and OAuth flows, GWS CLI lets you interact with Google Workspace through simple terminal commands that Claude Code can write and execute."
+        },
+        {
+          "type": "Framework",
+          "title": "GWS CLI installation in 5 steps",
+          "explanation": "Clone repo > Create Cloud project > Set up OAuth consent > Generate credentials > Enable APIs. A repeatable setup process."
+        },
+        {
+          "type": "Principle",
+          "title": "One interface to rule them all reduces context window overhead",
+          "explanation": "A single CLI tool covering all Google services eliminates the need for multiple MCP configs and reduces token consumption."
+        },
+        {
+          "type": "Framework",
+          "title": "AI email triage: fetch unread > score by business context > auto-archive low priority",
+          "explanation": "Use GWS CLI to fetch emails, have Claude score them by relevance to your business, then auto-archive or flag based on scores."
+        },
+        {
+          "type": "Warning",
+          "title": "GWS CLI is pre-v1.0 — expect breaking changes and auth quirks",
+          "explanation": "The tool is open-source and early-stage. Don't build mission-critical workflows on it yet without fallback plans."
+        },
+        {
+          "type": "Framework",
+          "title": "Visual validation loop: generate > screenshot > audit > fix > re-screenshot",
+          "explanation": "Generate content in Google Slides/Docs, screenshot it, let Claude audit the visual output, fix issues, then verify again."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why AI-generated Google Docs look terrible",
+          "explanation": "API calls output raw markdown, not formatted docs. The visual validation loop catches formatting issues that code review misses."
+        },
+        {
+          "type": "Principle",
+          "title": "Compound tool stacking: CLI + screenshot + brand guidelines = production-quality output",
+          "explanation": "The real multiplier comes from combining GWS CLI with ChromeDevTools screenshots and brand guideline files."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Built-in skills as chain recipes eliminate prompt engineering",
+          "explanation": "Skills encapsulate multi-step workflows, so you don't need to re-engineer prompts for common Google Workspace tasks."
+        },
+        {
+          "type": "Warning",
+          "title": "Screenshot quality depends on window size",
+          "explanation": "Use presentation mode for accurate visual audits — default window sizes produce misleading screenshots."
+        }
+      ],
+      "notion_page_id": null,
+      "notion_url": null,
+      "content_analysis": {
+        "score": 8.0,
+        "rating": "XANH",
+        "content_ideas": [
+          {
+            "title": "Một công cụ miễn phí của Google vừa biến Claude Code thành trợ lý toàn năng",
+            "format": "Facebook Post",
+            "file": "contents/Wu67lLD8bB0-facebook-post-1.md"
+          },
+          {
+            "title": "3 bước để Claude Code tự đọc email và lọc thư rác cho bạn",
+            "format": "Actionable Post",
+            "file": "contents/Wu67lLD8bB0-actionable-post-1.md"
+          },
+          {
+            "title": "AI không nhìn thấy thứ nó tạo ra — đây là cách fix",
+            "format": "Facebook Post",
+            "file": "contents/Wu67lLD8bB0-facebook-post-2.md"
+          }
+        ],
+        "analysis_file": "ideas/Wu67lLD8bB0.md"
+      }
+    },
+    {
+      "video_id": "OV5eK91YY68",
+      "slug": "my-openclaw-is-the-only-marketer-i-need",
+      "title": "My OpenClaw is the only marketer I need",
+      "url": "https://www.youtube.com/watch?v=OV5eK91YY68",
+      "channel": "Greg Isenberg",
+      "views": 15472,
+      "published_at": "2026-03-09T18:11:00Z",
+      "image": "images/my-openclaw-is-the-only-marketer-i-need.jpg",
+      "transcript": "transcripts/my-openclaw-is-the-only-marketer-i-need.txt",
+      "summary": "Oliver Henry shares how he built an AI marketing agent called 'Larry' using OpenClaw to automate TikTok slideshow content creation for his home decoration app 'Snuggly.' Starting from manual content creation, he iteratively trained the agent by feeding it TikTok analytics, testing hooks, and refining CTAs until Larry could independently create viral slideshows generating hundreds of thousands of views. The system drives ~$1,000/month in app revenue with minimal daily effort. Target audience: indie app developers, solopreneurs, and side-hustlers who hate marketing but need organic growth. Biggest takeaways: (1) AI marketing agents require an iterative learning loop — feed analytics back in, let the agent experiment. (2) The 'Larry Loop' framework — content creation + analytics + app metrics feeding back into each other. (3) Post TikTok slideshows as drafts and manually add sound to avoid algorithmic penalties.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "The Larry Loop: Content-Analytics-Metrics Feedback Cycle",
+          "explanation": "Create content via AI agent, feed TikTok analytics back into the agent, then feed end-goal metrics (app downloads, revenue) back into the top of the funnel. The agent iterates on all three layers simultaneously."
+        },
+        {
+          "type": "Framework",
+          "title": "Diagnostic Framework for Content Performance",
+          "explanation": "Low views = bad hook. Low views but high download percentage = good CTA, bad hook. High views but low conversions = bad CTA. Simple diagnostic matrix to identify what to fix."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "AI Agents Are Not Tools — They Are Employees You Train",
+          "explanation": "Instead of 'which SaaS tool automates this,' think 'how would I onboard this AI employee?' Give one job, let them research, check their work, then gradually let go."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Your Agent Knows Better Than You — Let Go of Control",
+          "explanation": "Oliver criticized Larry's content and posted it grudgingly. It became his best performer at 400K+ views. Stop over-marking the agent's work and trust the metrics."
+        },
+        {
+          "type": "Warning",
+          "title": "Don't Post TikTok Content Directly Through the API",
+          "explanation": "TikTok's algorithm detects API-posted content and limits reach. Post as draft, manually publish and add trending sounds to signal human posting."
+        },
+        {
+          "type": "Warning",
+          "title": "Don't Expect Instant Results — First Posts Will Flop",
+          "explanation": "Many people try once, get 700 views, and declare it broken. It took multiple iterations, hook testing, and CTA refinements before hitting 100K+ views."
+        },
+        {
+          "type": "Warning",
+          "title": "A Viral Video With a Bad CTA Is Worthless",
+          "explanation": "Oliver's 300K-view video converted almost zero app downloads because the final slide had no clear call to action. Views without conversion optimization are vanity metrics."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why Winning Hooks Stop Working Over Time",
+          "explanation": "Algorithm fatigue — TikTok stops distributing repetitive content. The agent must continuously rotate and test new hooks, not just recycle winners."
+        },
+        {
+          "type": "Principle",
+          "title": "Skills Are Neo's Kung Fu — Context Is Everything",
+          "explanation": "An AI agent without skills is like an employee without training. Skills transform a generic agent into a specialized one, and unlike SaaS tools, you own and can modify them."
+        },
+        {
+          "type": "Principle",
+          "title": "One Agent With Sub-Agents Beats Multi-Agent Mission Control",
+          "explanation": "Use one primary agent who holds all context and spawns sub-agents for long-running tasks. This preserves context continuity and keeps communication simple."
+        }
+      ],
+      "notion_page_id": null,
+      "notion_url": null,
+      "content_analysis": {
+        "score": 8.0,
+        "rating": "XANH",
+        "content_ideas": [
+          {
+            "title": "AI Agent biết hơn bạn — câu chuyện Oliver và Larry",
+            "format": "Facebook Post",
+            "file": "contents/OV5eK91YY68-facebook-post-1.md"
+          },
+          {
+            "title": "Tại sao video viral nhưng không ai mua hàng?",
+            "format": "Facebook Post",
+            "file": "contents/OV5eK91YY68-facebook-post-2.md"
+          },
+          {
+            "title": "The Larry Loop — Cách AI agent tự học làm marketing giỏi hơn mỗi ngày",
+            "format": "Actionable Post",
+            "file": "contents/OV5eK91YY68-actionable-post-1.md"
+          }
+        ],
+        "analysis_file": "ideas/OV5eK91YY68.md"
+      }
+    },
+    {
+      "video_id": "1Z1aECGwJh0",
+      "slug": "googles-new-cli-just-made-claude-code-unstoppable",
+      "title": "Google's New CLI Just Made Claude Code Unstoppable",
+      "url": "https://www.youtube.com/watch?v=1Z1aECGwJh0",
+      "channel": "Mark Kashef",
+      "views": 15415,
+      "published_at": "2026-03-09T15:30:07Z",
+      "image": "images/googles-new-cli-just-made-claude-code-unstoppable.jpg",
+      "transcript": "transcripts/googles-new-cli-just-made-claude-code-unstoppable.txt",
+      "summary": "This tutorial introduces Google Workspace CLI (GWS), a free command-line tool that gives AI agents like Claude Code direct access to Gmail, Google Calendar, Google Drive, Google Docs, Google Sheets, and Google Slides — without needing intermediaries like Zapier or Make.com. The creator walks through installation, a mega prompt for automated setup, and five practical use cases: email prioritization, calendar-to-slide-deck reports, email thread follow-ups, meeting prep briefs, and Drive auditing. Aimed at AI power users, solopreneurs, and consultants building agentic workflows. Biggest takeaways: (1) CLI + Claude Code eliminates no-code middleware and per-execution costs; (2) The CLI-first, then skills, then MCP priority order for tool adoption; (3) Chaining multiple Google services in one prompt unlocks executive-assistant-level automation.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "CLI → Skills → MCP adoption ladder",
+          "explanation": "Start with the CLI for one-off tasks. Once you repeat a task 2-3 times, crystallize it into a skill. Only reach for MCP if skills fall short."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "CLIs are no longer for developers only",
+          "explanation": "With agentic coding tools like Claude Code, you describe the task in natural language, and the AI writes and executes the command. The CLI becomes invisible."
+        },
+        {
+          "type": "Framework",
+          "title": "The describe-write-execute agentic loop",
+          "explanation": "You describe the task in plain English, Claude Code writes the CLI command, and the CLI executes it. This turns any CLI tool into a natural-language-accessible service."
+        },
+        {
+          "type": "Principle",
+          "title": "Eliminate intermediaries to eliminate per-execution costs",
+          "explanation": "Connecting Claude Code directly to GWS CLI bypasses Zapier/Make.com pricing. The only cost becomes token usage, which scales more predictably."
+        },
+        {
+          "type": "Framework",
+          "title": "Multi-service chaining in a single prompt",
+          "explanation": "Combine Gmail + Calendar + Docs + Sheets + Slides in one prompt — e.g., pull calendar events, cross-reference emails, generate a meeting brief."
+        },
+        {
+          "type": "Warning",
+          "title": "Don't skip confirmations on business Google Cloud accounts",
+          "explanation": "Use 'do not pause for confirmations' only on personal accounts. On business accounts, babysit every configuration step when production data is at stake."
+        },
+        {
+          "type": "Framework",
+          "title": "Mega prompt for automated CLI setup via browser automation",
+          "explanation": "Use a detailed setup prompt that lets Claude Code handle OAuth and authentication via browser automation, reducing complex multi-step setup to 2 minutes."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why no-code tools never quite delivered on agentic workflows",
+          "explanation": "No-code platforms operate with rigid trigger-action models. They can't dynamically chain services, reason about context, or adapt mid-workflow."
+        },
+        {
+          "type": "Principle",
+          "title": "Ask the AI what it can do before building",
+          "explanation": "After installing a new CLI tool, prompt Claude Code with 'what can I do with this?' to get a full capability map before building custom solutions."
+        },
+        {
+          "type": "Framework",
+          "title": "Tiered skill audit: daily → high-leverage → explore",
+          "explanation": "Categorize skills into Tier 1 (daily use), Tier 2 (high leverage), Tier 3 (exploratory). This prevents overwhelm and focuses adoption."
+        }
+      ],
+      "notion_page_id": null,
+      "notion_url": null,
+      "content_analysis": {
+        "score": 8.4,
+        "rating": "XANH",
+        "content_ideas": [
+          {
+            "title": "Bỏ Zapier, bỏ Make.com — Google vừa cho bạn công cụ miễn phí thay thế tất cả",
+            "format": "Facebook Post",
+            "file": "contents/1Z1aECGwJh0-facebook-post-1.md"
+          },
+          {
+            "title": "5 việc bạn làm được ngay với Google Workspace CLI + Claude Code",
+            "format": "Actionable Post",
+            "file": "contents/1Z1aECGwJh0-actionable-post-1.md"
+          },
+          {
+            "title": "Tại sao no-code tools không bao giờ thay thế được dân biết code — cho đến bây giờ",
+            "format": "Facebook Post",
+            "file": "contents/1Z1aECGwJh0-facebook-post-2.md"
+          }
+        ],
+        "analysis_file": "ideas/1Z1aECGwJh0.md"
+      }
+    },
+    {
+      "video_id": "LxJz0ITHAqI",
+      "slug": "5-things-i-wish-i-knew-about-claude-cowork-before-i-started",
+      "title": "5 Things I Wish I Knew About Claude Cowork Before I Started",
+      "url": "https://www.youtube.com/watch?v=LxJz0ITHAqI",
+      "channel": "Brock Mesarich | AI for Non Techies",
+      "views": 5278,
+      "published_at": "2026-03-09T14:43:25Z",
+      "image": "images/5-things-i-wish-i-knew-about-claude-cowork-before-i-started.jpg",
+      "transcript": "transcripts/5-things-i-wish-i-knew-about-claude-cowork-before-i-started.txt",
+      "summary": "This video covers 5 common mistakes people make with Claude Co-work (Anthropic's desktop AI agent). The creator shares lessons from personal experience. Target audience: anyone using or starting Claude Co-work who wants to move beyond basic chat. Biggest takeaways: (1) Your Claude MD file is the single most important setup step — without it, Claude guesses who you are every session; (2) Always visualize what you're building before building it; (3) Claude Co-work supports scheduled tasks, app connectors (8,000+ apps via Zapier MCP), and browser control — most people only use 5% of its capabilities.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "The 6-part Claude MD file structure",
+          "explanation": "Every Claude MD should contain: who you are, your audience, your tone, your business context, rules for Claude, and what to avoid."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Claude gives generic answers because it doesn't know who you are",
+          "explanation": "Most people skip their Claude MD file, so every conversation starts from zero context. Missing persistent identity is the root cause of poor output."
+        },
+        {
+          "type": "Principle",
+          "title": "Visualize before you build",
+          "explanation": "Always generate a visual diagram of your intended system before telling Claude to build it. Catch structural problems before wasting build time."
+        },
+        {
+          "type": "Warning",
+          "title": "Building blind leads to bloated, scrapped systems",
+          "explanation": "Jumping straight into building without a visual map causes confusion mid-build. People lose track of how parts connect and end up scrapping work."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Claude Co-work is not a chatbot — it's a background worker",
+          "explanation": "With scheduled tasks, Claude can run workflows automatically on a schedule without any manual trigger."
+        },
+        {
+          "type": "Framework",
+          "title": "The automated morning briefing pipeline",
+          "explanation": "Schedule a daily task that pulls Google Calendar and email data, generates a prioritized dashboard, and delivers via Slack."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Your apps are not separate from Claude anymore",
+          "explanation": "Through connectors, Claude can directly read Google Calendar, draft Gmail replies, access Drive files, and post to Slack."
+        },
+        {
+          "type": "Framework",
+          "title": "Zapier MCP for 8,000+ app connections",
+          "explanation": "Create a Zapier MCP server, toggle on needed apps, copy URL into Claude Co-work's connector settings for instant integration."
+        },
+        {
+          "type": "Warning",
+          "title": "Set-and-forget kills your entire system",
+          "explanation": "If you never audit your skills, commands, and scheduled tasks, they silently break — Claude MD gets outdated and tasks stop running."
+        },
+        {
+          "type": "Framework",
+          "title": "The weekly 10-minute audit ritual",
+          "explanation": "Every Monday, run a weekly audit skill that checks Claude MD, verifies scheduled tasks, and tests skills. Prevents cascading system decay."
+        }
+      ],
+      "notion_page_id": null,
+      "notion_url": null,
+      "content_analysis": {
+        "score": 8.4,
+        "rating": "XANH",
+        "content_ideas": [
+          {
+            "title": "Claude không phải chatbot — bạn đang dùng sai cách",
+            "format": "Facebook Post",
+            "file": "contents/LxJz0ITHAqI-facebook-post-1.md"
+          },
+          {
+            "title": "3 bước biến Claude thành nhân viên AI làm việc 24/7",
+            "format": "Actionable Post",
+            "file": "contents/LxJz0ITHAqI-actionable-post-1.md"
+          },
+          {
+            "title": "Zapier MCP — cách kết nối Claude với 8,000 ứng dụng",
+            "format": "Facebook Post",
+            "file": "contents/LxJz0ITHAqI-facebook-post-2.md"
+          }
+        ],
+        "analysis_file": "ideas/LxJz0ITHAqI.md"
+      }
+    },
+    {
+      "video_id": "3cYusISFc9s",
+      "slug": "how-to-use-claude-skills-2-0-better-than-99-of-people",
+      "title": "How to Use Claude Skills 2.0 Better than 99% of People",
+      "url": "https://www.youtube.com/watch?v=3cYusISFc9s",
+      "channel": "Ben AI",
+      "views": 9215,
+      "published_at": "2026-03-09T10:02:03Z",
+      "image": "images/how-to-use-claude-skills-2-0-better-than-99-of-people.jpg",
+      "transcript": "transcripts/how-to-use-claude-skills-2-0-better-than-99-of-people.txt",
+      "summary": "This video introduces Claude Skills 2.0 with built-in evals (automated testing). The presenter demonstrates building a YouTube-to-newsletter repurposing skill, running multi-variation tests with specific criteria, reviewing structured eval reports, and A/B testing for optimization. Target audience: Claude Code/Co-work users who build automation skills. Biggest takeaways: (1) Skills are never done on the first try — structured evals let you iterate 10x faster than manual trial-and-error; (2) Test one variable at a time; (3) A/B testing different context file combinations is practical context engineering.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "The Skill Creation Prompt Framework",
+          "explanation": "Structure with: name and trigger, main goal, connectors/tools, reference files, step-by-step process with checkpoints, and progressive updates section."
+        },
+        {
+          "type": "Framework",
+          "title": "The Eval-Driven Skill Iteration Loop",
+          "explanation": "Build v1, run multi-variation evals with specific criteria, review structured report, add feedback per variation, then optimize. Repeat 5-10 times."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Building the skill is not the hard part — iterating is",
+          "explanation": "Most people think skill creation ends at v1. The iteration phase after v1 is the most important step, and evals make it 10x more efficient."
+        },
+        {
+          "type": "Warning",
+          "title": "Don't let Claude define your eval criteria",
+          "explanation": "If you just say 'run some tests,' Claude invents generic checks. Define precise optimization targets yourself or eval results will be useless."
+        },
+        {
+          "type": "Principle",
+          "title": "Optimize one variable at a time",
+          "explanation": "Testing five things simultaneously makes it impossible to know what improved the output. Focus on one dimension per eval round."
+        },
+        {
+          "type": "Framework",
+          "title": "A/B Testing for Skill Optimization",
+          "explanation": "Create variant B, run both on the same input, benchmark side by side. Compare versions optimized for different goals — speed, tokens, quality."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Context engineering through A/B testing reference files",
+          "explanation": "Run A/B test with and without specific reference files to turn subjective 'does this help?' into measurable comparison."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why skills produce mediocre output: missing or wrong reference files",
+          "explanation": "For copywriting skills, the biggest quality factor is the balance of reference files, not the prompt instructions."
+        },
+        {
+          "type": "Principle",
+          "title": "Skills may become irrelevant when models upgrade",
+          "explanation": "Re-run A/B tests when new models release — the base model without the skill could outperform the old tuned skill."
+        },
+        {
+          "type": "Framework",
+          "title": "Progressive Self-Learning Skills",
+          "explanation": "Add a 'progressive updates' section: when user gives negative feedback, the skill auto-updates its SKILL.md to avoid that behavior."
+        }
+      ],
+      "notion_page_id": null,
+      "notion_url": null,
+      "content_analysis": {
+        "score": 7.4,
+        "rating": "VÀNG",
+        "content_ideas": [
+          {
+            "title": "Sai lầm lớn nhất khi dùng Claude Skills",
+            "format": "Facebook Post",
+            "file": "contents/3cYusISFc9s-facebook-post-1.md"
+          },
+          {
+            "title": "A/B Test cho AI — không chỉ dành cho quảng cáo",
+            "format": "Actionable Post",
+            "file": "contents/3cYusISFc9s-actionable-post-1.md"
+          },
+          {
+            "title": "6 thành phần của một AI Skill tốt",
+            "format": "Infographic",
+            "file": "contents/3cYusISFc9s-infographic-1.md"
+          }
+        ],
+        "analysis_file": "ideas/3cYusISFc9s.md"
+      }
+    }
+  ]
+}

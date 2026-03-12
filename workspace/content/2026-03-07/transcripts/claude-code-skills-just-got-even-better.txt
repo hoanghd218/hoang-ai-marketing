@@ -1,0 +1,77 @@
+Claude skills just got 10 times better.
+So what did Enthropic actually do that
+made all these skills better? They
+updated their skill creator skill which
+is an official Enthropic skill. And if I
+open up the actual skill MD, you can see
+this is what it does. It creates new
+skills. It can modify and improve
+existing skills. It can measure skill
+performance. So use this when you want
+to create a skill from scratch, if you
+want to update or optimize one, if you
+want to run evals to test a skill, if
+you want to do benchmarks, or if you
+want to optimize a skill's description
+for better trigger accuracy. So, I'm
+going to talk about what each of these
+little elements mean, but I just wanted
+to show you that this is the actual
+skill creator skill. It's basically just
+all of Enthropic's best practices on how
+to build better skills. So, what the
+eval do is it lets your agent actually
+evaluate the quality of your skill and
+then make improvements. Here's a quick
+example that Enthropic actually ran with
+this eval. The skill for filling out
+some PDF stuff was having trouble
+finding the right spot to put the text.
+Then after they ran the evaluation on
+the skill and it was able to improve.
+Now you can see all the text is
+accurately being placed whether that is
+a checkbox or just a fill in some sort
+of field. Here's an example where they
+said benchmark the PDF skill with and
+without the skill loaded and show me
+sideby-side results so I can see the
+uplift. And we get all this information
+about these different evaluation
+metrics. We get the pass rate. We get
+the total time and the total tokens. So
+here you can clearly see that with the
+skill you're getting much better
+results. And then the final piece is
+skill trigger tuning. So once you've got
+a project filled up with, let's just say
+10 or more skills, you might notice
+sometimes that you get false triggers or
+you get misfires, meaning you wanted it
+to use a skill and it used the wrong one
+or you wanted it to use a skill and it
+just didn't use any at all. So using the
+trigger tuning, the skill creator will
+basically analyze your skill. It will
+test out different prompts that you
+might use to trigger that skill and then
+it will edit the description so that
+that skill gets called more accurately.
+And this is an actual evaluation that
+they ran. We have the test score and the
+train score. And the green and blue are
+basically the results after it has been
+analyzed and fixed with the trigger
+tuning. And what I think is really cool
+and how I want to end off this section
+before we get into a live demo is where
+this is going. And at the bottom we have
+a quote from Enthropic themselves that
+say over time a natural language
+description of what the skill should do
+may be enough with the model figuring
+out the rest. And I really think that
+this word may should actually have been
+will. If you want to watch the full
+breakdown, then click on that play
+button right here.

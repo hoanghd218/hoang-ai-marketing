@@ -1,0 +1,387 @@
+{
+  "date": "2026-03-08",
+  "total": 6,
+  "videos": [
+    {
+      "video_id": "4XAAp-j-Op4",
+      "slug": "build-anything-with-mercury-2-heres-how",
+      "title": "Build Anything with Mercury 2, Here's How",
+      "url": "https://www.youtube.com/watch?v=4XAAp-j-Op4",
+      "channel": "David Ondrej",
+      "views": 10245,
+      "published_at": "2026-03-07T22:17:10Z",
+      "image": "images/build-anything-with-mercury-2-heres-how.jpg",
+      "transcript": "transcripts/build-anything-with-mercury-2-heres-how.txt",
+      "summary": "This video explains Mercury 2, the world's first diffusion large language model (DLM) that can reason, developed by Inception Labs. Unlike traditional transformer-based LLMs that generate text one token at a time (left to right), Mercury 2 generates all tokens at once and refines them iteratively — similar to how image diffusion models work but applied to text. The video is aimed at AI enthusiasts, developers, and startup founders. Biggest takeaways: (1) Diffusion LLMs fix the fundamental 'error compounding' flaw in transformers where early bad tokens corrupt the entire output, potentially reducing hallucinations dramatically. (2) Mercury 2 is 5-10x faster than comparable transformer models (1,000+ tokens/sec) at a fraction of the cost ($0.25/M input tokens). (3) This could be a paradigm shift moment comparable to the 2017 transformer paper — diffusion models for text may be the next major AI architecture, and we're at the very beginning of that curve.",
+      "insights": [
+        {
+          "type": "Paradigm Shift",
+          "title": "Diffusion replaces autoregression for text generation",
+          "explanation": "Instead of generating text one token at a time left-to-right like every transformer LLM, Mercury 2 generates the entire response at once as noise and refines it iteratively. This is a fundamentally different architecture that breaks the 8-year dominance of autoregressive generation."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Error compounding is the root cause of AI hallucinations on long outputs",
+          "explanation": "Traditional LLMs cannot go back and correct earlier tokens. If an early token is wrong, every subsequent token builds on that mistake. This is why hallucinations get progressively worse on longer outputs and tasks — the root cause is the autoregressive architecture itself, not model size or training data."
+        },
+        {
+          "type": "Principle",
+          "title": "Self-correction during generation beats post-hoc correction",
+          "explanation": "A model that can revise its entire output during generation (like an editor refining a draft) produces fundamentally better results than one that must commit to each word permanently. The ability to go back and change is more valuable than getting it right the first time."
+        },
+        {
+          "type": "Framework",
+          "title": "Architecture adoption follows a 5-year lag pattern",
+          "explanation": "The transformer paper was published in 2017, but mass adoption didn't happen until GPT/ChatGPT in late 2022 — a 5-year gap. If diffusion LLMs follow the same pattern, early movers who build on this architecture now will have a massive head start before mainstream adoption."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Speed is a byproduct of parallel generation, not the main innovation",
+          "explanation": "Mercury 2's 1,000+ tokens/sec speed (5-10x faster than transformers) is just a side effect of generating all tokens simultaneously. The real breakthrough is the ability to self-correct and reason non-sequentially — speed is the bonus, not the goal."
+        },
+        {
+          "type": "Principle",
+          "title": "New architectures unlock previously unviable applications",
+          "explanation": "Near-instant response times and dramatically lower costs don't just make existing apps faster — they make entirely new categories of applications viable (real-time voice agents, instant translation, co-pilots) that were impossible with transformer latency and pricing."
+        },
+        {
+          "type": "Warning",
+          "title": "Don't assume the current dominant architecture is permanent",
+          "explanation": "Before transformers, everyone used RNNs and thought they were the future. The same could happen to transformers. Building exclusively on one architecture without awareness of emerging alternatives (like diffusion LLMs) is a strategic risk."
+        },
+        {
+          "type": "Framework",
+          "title": "Mercury 2 is a drop-in replacement via OpenAI-compatible API",
+          "explanation": "Mercury 2 uses an OpenAI-compatible API, meaning you can swap it into existing codebases by changing one line. It supports tool use, structured outputs, RAG, and 128K context — making adoption trivial for developers already building on transformer-based APIs."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Sequential planning is why LLMs struggle with complex reasoning",
+          "explanation": "Yann LeCun has argued for years that autoregressive models cannot truly plan because they can only think left-to-right. Diffusion models fix this by allowing the model to revise any part of its output, enabling genuine multi-directional reasoning rather than forced sequential logic."
+        },
+        {
+          "type": "Principle",
+          "title": "The image diffusion breakthrough was a precursor to text diffusion",
+          "explanation": "Diffusion was already proven for images (Midjourney, Stable Diffusion) — generating from noise to coherent output. Mercury 2 shows the same principle applies to text and reasoning. Breakthroughs in one modality often foreshadow breakthroughs in another."
+        }
+      ],
+      "notion_page_id": "31dab9e5-e740-814a-81d8-f91d90844189",
+      "notion_url": "https://www.notion.so/Build-Anything-with-Mercury-2-Here-s-How-31dab9e5e740814a81d8f91d90844189",
+      "content_analysis": {
+        "score": 6.8,
+        "rating": "VANG",
+        "content_ideas": [
+          {"title": "AI hiện tại đang viết một chiều -- và đó là lý do nó hay nói bậy", "format": "Facebook Post"},
+          {"title": "Từ paper đến thay đổi thế giới: mất đúng 5 năm", "format": "Facebook Post"},
+          {"title": "Mercury 2 -- mô hình AI nhanh gấp 10 lần mà bạn có thể dùng ngay hôm nay", "format": "Actionable Post"}
+        ],
+        "analysis_file": "ideas/4XAAp-j-Op4.md"
+      }
+    },
+    {
+      "video_id": "OUyfxhFtGCo",
+      "slug": "this-new-claude-code-feature-is-a-game-changer",
+      "title": "This New Claude Code Feature is a Game Changer",
+      "url": "https://www.youtube.com/watch?v=OUyfxhFtGCo",
+      "channel": "Nate Herk | AI Automation",
+      "views": 28329,
+      "published_at": "2026-03-07T18:03:00Z",
+      "image": "images/this-new-claude-code-feature-is-a-game-changer.jpg",
+      "transcript": "transcripts/this-new-claude-code-feature-is-a-game-changer.txt",
+      "summary": "This video explains Claude Code's new 'loop' feature — a built-in skill that lets you schedule recurring prompts (reminders, checks, skill invocations) within a single session for up to 3 days. The creator (Nate) demos setting one-time reminders and interval-based loops (e.g., check ClickUp every 10 minutes), then compares loops to the separately-released 'scheduled tasks' feature. Loops are session-scoped, ephemeral, and suited for immediate project work; scheduled tasks are persistent, long-lived, and suited for daily/weekly routines. Best for developers and power users of Claude Code who want to automate monitoring, deploy checks, or time-based reminders without leaving their coding environment. Biggest takeaways: (1) Loops and scheduled tasks solve different problems — use the 'right now' vs. 'every day' heuristic to choose. (2) Context window management is critical for loops that fire frequently. (3) Loops can invoke skills on a timer, enabling lightweight autonomous agent behavior within a single session.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "Loop vs. Scheduled Tasks Decision Framework",
+          "explanation": "Ask one question: 'Do I need help right now on a project, or do I need help with something every day/every week?' If right now, use loop. If recurring long-term, use scheduled tasks. This simple heuristic prevents choosing the wrong tool."
+        },
+        {
+          "type": "Framework",
+          "title": "Three Cron Primitives for Loop Management",
+          "explanation": "The loop system works through three tools: cron create (schedule a task), cron list (see active tasks), and cron delete (cancel a task). All three can be invoked with natural language, forming a complete CRUD cycle for in-session automation."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Claude Code as a Proactive Agent, Not Just a Reactive Tool",
+          "explanation": "With loops, Claude Code shifts from responding only when prompted to proactively checking things, sending reminders, and monitoring systems on a timer — behaving more like an autonomous assistant than a chat interface."
+        },
+        {
+          "type": "Warning",
+          "title": "Context Rot from High-Frequency Loops",
+          "explanation": "If a loop fires every 10 minutes and generates a large report each time, tokens accumulate rapidly in the session context, leading to 'context rot' — degraded performance as the context window fills with stale information. Keep loop outputs concise or manage context deliberately."
+        },
+        {
+          "type": "Warning",
+          "title": "Session Closure Kills All Loops",
+          "explanation": "Loops are tied to their session. Closing the terminal, closing a VS Code tab, or ending the session destroys all active loops with no recovery. There is no persistence or catch-up mechanism, unlike scheduled tasks."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why Loops and Scheduled Tasks Seem Redundant but Aren't",
+          "explanation": "Released within 12 hours of each other, the two features appear identical but differ fundamentally: loops are session-scoped and ephemeral (max 3 days, no persistence), while scheduled tasks are stored, long-lived, and support catch-up. The confusion stems from similar surface behavior masking different architectures."
+        },
+        {
+          "type": "Principle",
+          "title": "Ephemeral Automation Should Have Built-In Expiry",
+          "explanation": "The 3-day loop expiry exists as a safety mechanism — if you forget about running loops, they auto-clean after 3 days. Any ephemeral automation should have a self-destruct timer to prevent runaway resource consumption."
+        },
+        {
+          "type": "Principle",
+          "title": "Loops Are Session-Scoped, Not Global",
+          "explanation": "Each Claude Code session is independent. A loop created in one tab/session cannot be seen or managed from another. This isolation prevents cross-session interference but requires awareness that 'list all loops' only shows the current session's loops."
+        },
+        {
+          "type": "Framework",
+          "title": "Practical Loop Use Cases Pattern",
+          "explanation": "Five concrete patterns emerged: (1) urgent email monitoring every 5 minutes, (2) deploy health checks every hour, (3) 3-day sprint progress tracking, (4) test iteration watching, (5) log monitoring. The common thread: short-lived, project-specific monitoring that doesn't need to outlive the work session."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Loops Enable Skill Chaining on a Timer",
+          "explanation": "You can tell a loop to invoke a specific skill (e.g., 'every 20 minutes, run review PR skill'), turning Claude Code into a lightweight autonomous agent that periodically executes complex workflows — not just simple reminders but full skill invocations on a schedule."
+        }
+      ],
+      "notion_page_id": "31dab9e5-e740-8129-a0e8-c6550160d9a0",
+      "notion_url": "https://www.notion.so/This-New-Claude-Code-Feature-is-a-Game-Changer-31dab9e5e7408129a0e8c6550160d9a0",
+      "content_analysis": {
+        "score": 7.6,
+        "rating": "VANG",
+        "content_ideas": [
+          {"title": "Bạn vẫn bấm nút để ra lệnh cho AI? Người khác đã đặt lịch để AI tự làm.", "format": "Facebook Post"},
+          {"title": "3 điều AI tự động làm thay bạn trong Claude Code (mà không cần bấm nút)", "format": "Actionable Post"},
+          {"title": "Loop hay Scheduled Tasks? Cách chọn đúng công cụ AI trong Claude Code", "format": "Infographic"}
+        ],
+        "analysis_file": "ideas/OUyfxhFtGCo.md"
+      }
+    },
+    {
+      "video_id": "RL6hK-Xo7cM",
+      "slug": "7-claude-cowork-skills-i-cant-live-without-steal-them",
+      "title": "7 Claude Cowork Skills I Can't Live Without (steal them)",
+      "url": "https://www.youtube.com/watch?v=RL6hK-Xo7cM",
+      "channel": "Brock Mesarich | AI for Non Techies",
+      "views": 20277,
+      "published_at": "2026-03-07T16:49:43Z",
+      "image": "images/7-claude-cowork-skills-i-cant-live-without-steal-them.jpg",
+      "transcript": "transcripts/7-claude-cowork-skills-i-cant-live-without-steal-them.txt",
+      "summary": "A tutorial walkthrough of 7 Claude Co-work skills the creator uses daily: (1) Morning Briefing — auto-aggregates calendar, email, news into an HTML dashboard, (2) Research Assistant — produces a structured research document with sources from a single topic, (3) Meeting Notes to Action Items — converts meeting transcripts into summaries, action items, and deadlines, (4) Slide Deck Generator — creates full HTML presentations from one sentence, (5) Visual Explainer — builds interactive web pages to break down complex topics, (6) Diagram Generator — produces Excalidraw-compatible JSON diagrams from descriptions, (7) Skill Creator — a meta-skill that builds new custom skills through a guided conversation. The video also covers Connectors (integrating 8,000+ apps via Zapier MCP) and Scheduled Tasks (running skills on autopilot). Aimed at non-technical professionals and creators who want to automate repetitive workflows without coding. Biggest takeaways: skills turn Claude from a chatbot into a workflow engine; the real power comes from combining skills + connectors + scheduled tasks into an always-on AI employee; and anyone can create custom skills for their own role.",
+      "insights": [
+        {
+          "type": "Paradigm Shift",
+          "title": "Claude is not a search engine — it's a workflow engine",
+          "explanation": "Most people use Claude like a search engine: ask a question, get a response, move on. The real value comes from treating it as a persistent workflow system where skills retain context, produce real file outputs, and trigger entire processes from a single command."
+        },
+        {
+          "type": "Framework",
+          "title": "The Skills + Connectors + Scheduled Tasks stack",
+          "explanation": "Three layers combine into a full AI employee: Skills define what Claude knows how to do (instructions), Connectors give it access to external apps (Gmail, Notion, 8,000+ via Zapier MCP), and Scheduled Tasks let it run autonomously on a timer without manual prompting."
+        },
+        {
+          "type": "Principle",
+          "title": "Output should be a deliverable, not a response",
+          "explanation": "A skill's output should not be ephemeral chat text. It should be a real, saved file — an HTML dashboard, a markdown document with sources, an Excalidraw JSON — something you can keep, share, or reuse. This is what separates a workflow tool from a chatbot."
+        },
+        {
+          "type": "Framework",
+          "title": "The Morning Briefing pattern: aggregate → structure → prioritize",
+          "explanation": "Instead of opening 5 apps every morning, a single skill scrapes calendar, email, AI news, and to-do lists, then produces a structured HTML dashboard with a top-3 priority list. The pattern is: pull from multiple sources, consolidate into one view, surface what matters most."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "The meta-skill: a skill that creates skills",
+          "explanation": "The most powerful skill is the Skill Creator — a meta-skill that guides you through a conversation to define a new skill's purpose, preferences, and output format. This means you never need to write skill markdown from scratch; you describe what you want and it packages the instructions for you."
+        },
+        {
+          "type": "Principle",
+          "title": "Anything you do repeatedly is a skill candidate",
+          "explanation": "Invoice generation, lesson planning, listing writing, weekly reports, proposal drafting — if you do it more than once, it should be codified as a skill. The test is repetition: if you find yourself giving Claude similar instructions twice, extract it into a reusable skill."
+        },
+        {
+          "type": "Warning",
+          "title": "Skills without connectors are limited to copy-paste",
+          "explanation": "Without connectors, you still have to manually copy email drafts into Gmail, paste calendar data into Claude, and shuttle information between apps. Skills alone give you structured instructions, but connectors are what let Claude actually read and write across your tools."
+        },
+        {
+          "type": "Framework",
+          "title": "Skill anatomy: a markdown file with role, instructions, and output format",
+          "explanation": "Every skill is a markdown file containing three things: a role definition (e.g., 'You are a personal chief of staff'), step-by-step workflow instructions, and an output specification (e.g., HTML dashboard in Apple Swiss style). This is all it takes — no code required."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why meetings feel pointless: no action items extracted",
+          "explanation": "The root cause of unproductive meetings is not the meeting itself but the lack of structured follow-up. When a one-hour meeting produces no documented action items, deadlines, or owners, nothing gets done. The fix is systematic extraction: summary → decisions → action items → owners → follow-up date."
+        },
+        {
+          "type": "Principle",
+          "title": "Design the output format first, then the workflow",
+          "explanation": "Each skill embeds a specific output design — the Morning Briefing mandates Apple Swiss styling, the Slide Deck enforces 'every slide must have a visual, never just text, first slide is always the hook.' Defining the output standard upfront ensures consistent, high-quality deliverables every time the skill runs."
+        }
+      ],
+      "notion_page_id": "31dab9e5-e740-8147-b1d0-e017177a3bad",
+      "notion_url": "https://www.notion.so/7-Claude-Cowork-Skills-I-Can-t-Live-Without-steal-them-31dab9e5e7408147b1d0e017177a3bad",
+      "content_analysis": {
+        "score": 8.6,
+        "rating": "XANH",
+        "content_ideas": [
+          {"title": "Bạn đang dùng AI như Google Search. Nhưng người hiểu chuyện dùng nó như nhân viên toàn thời gian.", "format": "Facebook Post"},
+          {"title": "7 kỹ năng AI mà người làm việc hiệu quả dùng mỗi ngày -- bạn có thể copy ngay", "format": "Actionable Post"},
+          {"title": "Một lệnh duy nhất. Claude làm hết. Bạn chỉ cần đọc kết quả.", "format": "Short Video"},
+          {"title": "AI Chatbot vs AI Employee -- bạn đang ở level nào?", "format": "Infographic"}
+        ],
+        "analysis_file": "ideas/RL6hK-Xo7cM.md"
+      }
+    },
+    {
+      "video_id": "wqH1hTkA6qg",
+      "slug": "stop-building-ai-agents-do-this-instead",
+      "title": "STOP Building AI Agents. Do THIS Instead.",
+      "url": "https://www.youtube.com/watch?v=wqH1hTkA6qg",
+      "channel": "Zubair Trabzada | AI Workshop",
+      "views": 66371,
+      "published_at": "2026-03-05T13:24:45Z",
+      "image": "images/stop-building-ai-agents-do-this-instead.jpg",
+      "transcript": "transcripts/stop-building-ai-agents-do-this-instead.txt",
+      "summary": "This video explains Anthropic's concept of 'skills' as an alternative to building separate AI agents for every use case. The presenter argues that AI agents are brilliant generalists but lack domain expertise, and that the solution is not to build more agents but to give one universal agent specialized knowledge through modular instruction files (skills). The video targets developers, AI agency builders, and non-technical professionals who want to customize AI behavior without coding. It includes a live demo of a GEO (Generative Engine Optimization) audit tool built with Claude Code skills that analyzes websites and generates professional reports. Biggest takeaways: (1) Intelligence is not expertise — agents need domain knowledge, not just reasoning ability. (2) Skills are modular, progressively-disclosed instruction sets that scale without overwhelming the AI's context. (3) Non-technical users can create skills using plain markdown, democratizing AI customization beyond developers.",
+      "insights": [
+        {
+          "type": "Paradigm Shift",
+          "title": "Stop building agents, start building skills",
+          "explanation": "The industry default is to build a separate custom agent for every use case. Anthropic's insight is that the underlying agent is universal — what changes is the domain expertise you feed it via modular skill files, not the agent architecture itself."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Intelligence is not expertise — the real gap in AI agents",
+          "explanation": "AI agents today are brilliant generalists who can reason from first principles, but they lack preloaded domain knowledge, workflow memory, and industry-specific edge cases. The symptom is inconsistent output; the root cause is mistaking raw intelligence for professional expertise."
+        },
+        {
+          "type": "Framework",
+          "title": "The skill file architecture: markdown + scripts + references",
+          "explanation": "A skill is a folder containing a markdown instruction file (SKILL.md) as its core, optionally bundled with Python scripts, templates, reference documents, and examples. The markdown file acts as a playbook that teaches the AI how to perform a specific task step-by-step."
+        },
+        {
+          "type": "Principle",
+          "title": "Progressive disclosure prevents context overload",
+          "explanation": "Skills are progressively disclosed — the AI only sees short descriptions until it decides a skill is needed, then loads the full instructions. This allows hundreds of skills without overwhelming context, unlike stuffing all instructions into a single prompt."
+        },
+        {
+          "type": "Warning",
+          "title": "Building a separate agent per use case does not scale",
+          "explanation": "Creating a custom agent for every business function means maintaining separate tools, architectures, and setups for each. This is exhausting, fragile, and creates compounding maintenance overhead as the number of use cases grows."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Non-technical users can now customize AI behavior",
+          "explanation": "Before skills, customizing AI required developer-level work. Skills reduce this to writing a markdown document describing your process, making AI customization accessible to recruiters, finance teams, and legal professionals."
+        },
+        {
+          "type": "Framework",
+          "title": "MCP is the hands, skills are the experience",
+          "explanation": "MCP servers give the AI the ability to connect to external tools and data (the hands), while skills tell the AI what to do with that data (the experience). Together they create an agent that can both reach into any system and handle what it finds with domain expertise."
+        },
+        {
+          "type": "Framework",
+          "title": "Sub-agent delegation pattern for complex skills",
+          "explanation": "A single skill can instruct the AI to spawn multiple sub-agents running in parallel, each handling a different aspect of a task — like a general contractor delegating to specialists. This enables sophisticated workflows within a single skill file."
+        },
+        {
+          "type": "Principle",
+          "title": "The AI auto-selects the right skill from plain English",
+          "explanation": "You do not need to explicitly invoke slash commands. When given a plain English request, the AI examines available skills, matches the most relevant one to the user's intent, and follows its instructions automatically."
+        },
+        {
+          "type": "Warning",
+          "title": "Prompt stuffing is the anti-pattern skills replace",
+          "explanation": "Cramming all instructions into a single prompt creates a messy, unscalable context that degrades performance as complexity grows. Skills solve this by organizing expertise into modular, on-demand units that keep the working context clean and focused."
+        }
+      ],
+      "notion_page_id": "31dab9e5-e740-819f-9eb6-da9381b84b3b",
+      "notion_url": "https://www.notion.so/STOP-Building-AI-Agents-Do-THIS-Instead-31dab9e5e740819f9eb6da9381b84b3b",
+      "content_analysis": {
+        "score": 7.8,
+        "rating": "VANG",
+        "content_ideas": [
+          {"title": "Bạn đang xây AI Agent? Sai rồi.", "format": "Facebook Post"},
+          {"title": "Cách dạy AI làm việc như chuyên gia -- trong 5 phút", "format": "Actionable Post"},
+          {"title": "MCP là đôi tay. Skills là kinh nghiệm.", "format": "Facebook Post"}
+        ],
+        "analysis_file": "ideas/wqH1hTkA6qg.md"
+      }
+    },
+    {
+      "video_id": "lf2lcE4YwgI",
+      "slug": "claude-code-just-got-a-massive-upgrade-agent-loops",
+      "title": "Claude Code Just Got a MASSIVE Upgrade (Agent Loops)",
+      "url": "https://www.youtube.com/watch?v=lf2lcE4YwgI",
+      "channel": "Chase AI",
+      "views": 28472,
+      "published_at": "2026-03-07T19:34:10Z",
+      "image": "images/claude-code-just-got-a-massive-upgrade-agent-loops.jpg",
+      "transcript": "transcripts/claude-code-just-got-a-massive-upgrade-agent-loops.txt",
+      "summary": "This video clarifies what Claude Code's new Agent Loops feature actually does versus the hype surrounding it. The creator debunks misinformation claiming it's a '24/7 agent' or 'Claude 2.0,' and methodically explains the limitations: session-based, 3-day max, requires computer on and terminal open. He then compares four ways to run scheduled tasks with Claude Code: Agent Loops (CLI /loop), Claude Code Desktop scheduled tasks, GitHub Actions, and Remote Control — each with distinct scopes and trade-offs. Aimed at Claude Code users who want to use the right tool for the right job. Biggest takeaways: (1) Agent Loops are for short-term, recurring micro-tasks within a single work session, not persistent automation. (2) Claude Code Desktop's scheduler is more powerful — no expiry, survives restarts, creates separate sessions. (3) Matching the tool to the scope of your task is the real skill.",
+      "insights": [
+        {
+          "type": "Framework",
+          "title": "The 4-Tier Claude Code Scheduling Stack",
+          "explanation": "Four distinct ways to run scheduled/recurring tasks: Agent Loops (CLI, session-based, 3-day max), Claude Code Desktop scheduler (persistent, survives restarts), GitHub Actions (runs on GitHub infrastructure, repo-scoped), and Remote Control (session-based remote access)."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Agent Loops Are a Micro-Task Tool, Not a Persistent Agent",
+          "explanation": "Agent Loops are session-bound recurring micro-tasks — they die when the terminal closes, the computer sleeps, or after 3 days. The mental model should be 'automated checklist within a work session,' not 'always-on assistant.'"
+        },
+        {
+          "type": "Warning",
+          "title": "Don't Use CLI Loops for Long-Running Recurring Tasks",
+          "explanation": "If you set up a daily morning report via /loop in the CLI, you'll have to re-create it every 3 days when it expires. For any recurring task meant to persist beyond a single work session, Claude Code Desktop's scheduler is the correct tool."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why the Hype Around Agent Loops Is Misleading",
+          "explanation": "The confusion stems from two versions of Claude Code (CLI and Desktop) handling scheduled tasks differently, plus GitHub Actions adding a third model. People conflate CLI loops with persistent agents because they don't understand the session-based constraint."
+        },
+        {
+          "type": "Principle",
+          "title": "Match the Tool's Scope to the Task's Scope",
+          "explanation": "Short-term project monitoring goes to /loop, daily persistent tasks go to Desktop, repo-scoped CI/CD goes to GitHub Actions. Getting the most out of these tools requires knowing when to use which."
+        },
+        {
+          "type": "Warning",
+          "title": "Desktop Scheduler Creates a New Session Every Run",
+          "explanation": "Unlike Agent Loops which operate within a single session, Claude Code Desktop's scheduler opens a new session for each execution. Running a task every minute would create 60 sessions in an hour, which could become resource-intensive."
+        },
+        {
+          "type": "Framework",
+          "title": "Agent Loops Usage Pattern: /loop + Interval + Prompt",
+          "explanation": "Type /loop, specify the time interval (5 minutes, 1 hour, every morning), then describe what you want done. The default interval is 10 minutes. The loop runs within your current terminal session."
+        },
+        {
+          "type": "Diagnosis",
+          "title": "Why GitHub Actions Can't Replace a Persistent Claude Agent",
+          "explanation": "GitHub Actions runs Claude Code on GitHub's infrastructure without needing your computer on, but it's scoped to GitHub-specific tasks (PRs, builds, code review) — it cannot serve as a general-purpose always-on Claude assistant."
+        },
+        {
+          "type": "Warning",
+          "title": "Loop Tasks Will Block Your Current Work",
+          "explanation": "Since Agent Loops run in the same terminal session, if a scheduled task triggers while you're actively working, your interaction pauses until the loop task completes. This makes high-frequency loops impractical during active coding sessions."
+        },
+        {
+          "type": "Paradigm Shift",
+          "title": "Claude Code Desktop Is More Powerful Than CLI for Scheduling",
+          "explanation": "Counter to the assumption that CLI is always more capable, Claude Code Desktop offers superior scheduling: no 3-day expiry, tasks survive app restarts, and execution happens in isolated sessions that don't interrupt your work."
+        }
+      ],
+      "notion_page_id": "31dab9e5-e740-8148-bd85-f6cf36a18b0a",
+      "notion_url": "https://www.notion.so/Claude-Code-Just-Got-a-MASSIVE-Upgrade-Agent-Loops-31dab9e5e7408148bd85f6cf36a18b0a",
+      "content_analysis": {
+        "score": 7.0,
+        "rating": "VANG",
+        "content_ideas": [
+          {"title": "Bạn đang hiểu sai về Agent Loops của Claude Code", "format": "Facebook Post"},
+          {"title": "4 cách chạy tác vụ tự động với Claude Code", "format": "Infographic"},
+          {"title": "Đừng để AI hype lừa bạn -- cách đánh giá đúng một tính năng AI mới", "format": "Actionable Post"}
+        ],
+        "analysis_file": "ideas/lf2lcE4YwgI.md"
+      }
+    }
+  ]
+}

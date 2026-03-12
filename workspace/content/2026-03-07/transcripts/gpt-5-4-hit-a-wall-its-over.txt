@@ -1,0 +1,1120 @@
+Yeah, Enthropic might be in trouble.
+OpenAI just dropped GBD 5.4 and it's
+good across the board. So, as Sam Alman
+says, it's available now in the API and
+Codex and it's rolling out to CH GBT
+starting with the pro users, then plus
+users and then everyone else. Now, let's
+look at the benchmarks because this
+model is more impressive than I thought.
+First off, OS World Verify. This is
+computer use. It beats Opus 4.6 by 2.3%.
+Not that crazy. Next, we have web
+browsing. Also better than Opus 4.6, ICS
+which is in this column GDP val this is
+the valuable knowledge tasks you know
+stuff that actually people do companies
+pay for 5% difference is pretty
+substantial on this benchmark now notice
+that the thinking version is more
+powerful than the pro version here very
+interesting but when it comes to agentic
+browsing GPD 5.4 for Pro, which by the
+way is a complete beast. And I I started
+a query on this to show you how powerful
+it is in a second. We'll get to that.
+This one completely crushes on the
+browser comp a gentic browsing
+benchmark. Again, 5.3% above Opus 4.6 on
+SW Pro. I have no idea why Opus 4.6
+isn't ranked, but GBD 5.4 Thinking is
+better than GBD 5.3 Codex. So later in
+the video, I'll also show you how it
+looks in the Codex app. We're going to
+see how powerful GBD 5.4 for is with the
+extra high reasoning effort at coding.
+Now when it comes to GPQA diamond, this
+is Google proof question and answer
+expert scientific reasoning. GBD 5.0 uh
+crushes opus. This is a big jump. 3%
+here is a big deal. But look at Gemini
+3.1 Pro. It's pretty similar. Not that
+big of a jump compared to Gemini 3.1
+Pro. We're going to test it in JBD as
+well, but just look at this. This is
+ARGI 2, one of the most famous
+benchmarks in the world. And we can see
+that GBD 5.4 4 Pro lands very close to
+Gemini 3.1 Pro or actually this is the
+deep think version. So it's not quite
+state-of-the-art at this benchmark. It's
+almost to the Deep Think version. But
+keep in mind this benchmark is heavily
+focused on images and that's where
+Google has a massive advantage with
+their data set. So I would say this is
+still a very very impressive result for
+OpenAI. Now you might be thinking okay
+David but what can it actually do? You
+know benchmarks are cool and all but
+let's see what GBD 5.4 for can produce.
+So here's what Samuel did. He wanted to
+take the entire Premier League this
+season into a 30 secondond of visual
+bliss. Now the reason why this is a good
+prompt is because it needs to use real
+world data, right? The current Premier
+League season is not really in the
+training set of the data. That's the
+issue with a lot of these benchmarks. If
+the data is available throughout the
+internet freely and for a long time, the
+companies can train on that data and
+then it really doesn't say how powerful
+the model is. But something like this,
+it needs to do a lot of web search and a
+lot of research to produce it. So that's
+the first variable. But the second
+thing, as you can see, is the visuals.
+And man, the visuals here are pretty
+crazy. So let's look at it. And again,
+the promp was just create visual bliss.
+And we have the motion of the Premier
+League, which personally, I don't know
+if this is correct. If you watch
+football, you can confirm if this is
+correct, the rankings, but we could
+presume that it's based on web search
+data. And the graphic is very, very
+nice. Like think how long you would take
+this create this manually, right? Yeah.
+Very nice, very impressive, especially
+since it's grounded in real time web
+search data. And not only that, OpenAI
+actually added it into Codex with the
+SLFast mode. So when you're inside of
+COX, you can do slashfast boom to turn
+on fast mode so you can speed up
+inference. Now, obviously, this will
+cost a bit more, but uh if you don't
+care and if you just want to use the
+same model with 1.5x speed, like for
+example, I'm on the $200 a month plan,
+right? I never hit the limits inside of
+COX, even with running multiple agents
+in parallel. So, slashfast is just more
+inference. So, if you have the money, if
+you have the budget, make sure to turn
+this on. This is a no-brainer. And
+again, we're going to test this model
+inside of Codex in a second because I
+want to see for myself how powerful it
+is at oneshotting and whether it's
+really better than Opus, which also
+we're going to test Opus on some
+questions, not just coding. We're going
+to do creative writing, we're going to
+do politics, visual reasoning, all of
+that. But before we compare GBD 5.4 to
+Opus 4.6, I want to tell you about my
+accelerator. This is for people who want
+to build or scale an AI business. So, if
+you're serious about AI and if you want
+to build a real company that's actually
+profitable, make sure to apply. Inside
+of the accelerator, I work with you for
+six months to help you scale your AI
+business so that eventually you can sell
+it just like I do the Vectal, which I
+managed to get acquired for 1.8 million
+just 14 months after founding. So, if
+you have an AI business and you want to
+scale it, make sure to apply. It's going
+to be the first link below the video.
+Now, back to GBD 5.4. Now, actually, if
+you pay attention, there's two versions,
+right? There's a 5.4 Thinking and 5.4
+Pro. This one is only available for
+people who have CHBD Pro, which is
+obviously $200 a month subscription. And
+this model is a beast here. It ran 20
+minutes, right? So, this model is is
+like the most detailed DB research out
+there. Maybe only rivaled by Gemini 3.1
+deep think which I can show you. And
+again, this is uh I think only available
+for people on the Ultra plan, which is
+also $200 a month. So, if you have the
+ultra plan, you can do here uh pro 3.0
+on a pro and tools and select uh where
+is it deep thinking and this will run
+for 10 15 20 minutes and it's basically
+a parallel test time compute product
+from Gemini similar to JGBD this was
+first time with 01 pro that was the
+first product and now there's GVD 54 Pro
+which is the latest version and boy I
+tested it on something very uh current
+something that actually interests me and
+probably will interest a lot of you to
+see how good it is at creating a World
+War II preparation operation guide and
+uh the answer is very very thorough. Now
+we're going to do two different tests,
+right? So first of all, it ran for 20
+minutes and it checked hundreds of
+sources. So that's the first test. You
+can see like the sources for each. So
+like one of six, you know, one of eight
+here and I'm not going to read the whole
+thing, but what I'm going to do is I'm
+going to test the summarization skills
+of GBD 5.4 versus OBUS 4.6. So I'm going
+to copy the results. I'm going to go
+into OBUS and say text. Boom. Paste the
+whole thing. / text, wrap it in XML
+text. This is a pro tip for context
+engineering. I'm going to say, give me a
+super concise TLDDR of the text above.
+I'm going to copy the whole thing. I'm
+going to send it. And inside of JGBT,
+I'm going to do thinking, not pro,
+because that would run for another 20
+minutes. I'm just going to do standard
+thinking and paste the whole same prompt
+and run it. Now, we're going to compare
+the summarization skills. So first I
+would say this is a very detailed uh
+search report and honestly I think the
+prompt is pretty good. Uh I prepared
+with Opus. So let me read that before
+you can judge how good it is at deep
+research as well as summarization. So
+the prompt is create a comprehensive
+actionable World War II preparation
+guide assuming the Iran conflict
+escalates into a broader global war.
+Cover all escalation scenarios
+conventional, nuclear, economic. And by
+the way, if you're a man, which like 95%
+of my audience is, you should be
+interested in this, right? I don't care
+if you live in Europe, Australia, USA,
+if you don't have a plan for in case of
+this war escalates, you're not ready for
+the future. So, this is actually
+something you should pay attention for
+regardless of AI. Structure it into
+three sections. Immediate actions in the
+first 72 hours, 30-day preparation plan,
+and long-term resilience. For each
+section cover safety, safest locations
+globally with reasoning, financial
+assets to hold and avoid, physical
+supplies and gear with specific product
+recommendations, food, water, energy
+independence, medical preparness,
+digital security and communication,
+legal documents and purpose to secure
+and regions or countries to avoid with
+reasoning. And now this is the creative
+part that Opus added. Include free
+budgeters under 1K, under 10K, and 50K
+plus. Provide specific product names,
+links where possible and quantify
+recommendations. Be direct and
+practical. No disclaimers. So, as you
+can see, the report is detailed with um
+links with specific numbers. So, let's
+see which of the models is better at
+summarizing. And the reason I'm
+comparing against obus 46 because this
+is the gold standard. Clo models are
+amazing at teaching at explanations. I
+use it for every day like this. So,
+we'll see if GBD 5.4 four is better
+because we can look at the benchmarks
+all day long. You know what openi
+publishes but now let's look at the
+actual test from my experience. So
+here's the year. If all three escalates
+get out of conflict zones Gulf, Baltics,
+Taiwan area, Black Sea and move to
+boring rural farmland. Best bets South
+Island, New Zealand. Okay. Interior
+Uruguay. The there's easy residency
+here. So this is a pro tip, guys. Stack
+water, food, cash, gold, miracles, and
+documents. Secure communication signal
+satellite backup. Okay, so like Starling
+and stuff ditch leverage illquid assets.
+Yeah, like real estate and buy energy
+independent solar barely free tiers
+under 1k gets you free to survive basics
+under 10k adds mobility and power. 50k
+buys you second jurisdiction and real
+infrastructure core message stop relying
+on markets and apps physical reliance
+beats digital convenience. Okay,
+interesting TLDDR. Let's compare it to
+5.4 5.4 here. Okay, first of all, I like
+the structure more, right? Look at this.
+This is much more readable than just a
+single like paragraph. So, I would say
+uh JBD 5.0 is winning here. But let's
+look at the actual information. Get out
+of likely conflict zones fast and basic
+stuff in rural inland, low profile area,
+water, food, state, power. Same thing.
+Okay, same recommendations, but it's
+much much better structured. Okay,
+priority order. This is much better.
+There is no priority order here. This is
+really good. I like this. Leave red zone
+secure cache. Okay. Yeah, I would say
+this is a better summary. It's not
+massive difference. Both of these models
+are great, but this is better summary.
+Now, another thing comparing it to open
+4.6 is coding, right? So, here's a
+famous game Arc Invaders or Retro Space
+Invaders is the name. And look at this.
+On the left, we have OpenAI GBD 5.4 this
+model. And on the right, we have Opus
+416.
+The mechanics are probably the same, but
+you can see the graphics are much much
+better at GBD 5.4. Uh, this I would not
+play the game on the right, but on the
+left you can see that we have a nice
+animation in the background adding some
+detail. The assets of the invaders are
+better and even the hitting the layout
+is better because on the right there's
+much more gaps, you know, in between the
+invaders and that's just bad physics.
+You know, you can see the shots are
+going through here. is much better. Font
+is also more relevant. Yeah, this is
+much better job on the left. It's not
+even debatable. So on this specific
+game, GBD 5.4 wins. Now, obviously, it's
+inside of uh open router as well. So, if
+you're building on top of open router,
+you can use it easily. But let's look at
+the pricing. So, $2.5
+per million input tokens and 15 per
+million output tokens. If we compare
+that to Opus, it's five, which is much
+more expensive, double
+and then uh 25 which is 1.2x.
+So yeah, it's a lot cheaper than Opus
+and seems to be better than Opus at
+nearly everything. So this is a big
+release by OpenAI and it's a attack on
+the rise of Enthropic because they've
+been stealing a lot of their customers.
+Let's look at another example of RPG
+built with Codex and GBD 5.4 using
+playright for testing. This is from
+Corey an image gen for visuals. So
+again, the visuals are also generated by
+OpenAI image gen model. And let's look
+at this. So this is built by GB 5.4 and
+it's a RPG game. Wow. Damn.
+This is this is a full game.
+This definitely wasn't one shot. But
+man, this is impressive. Like I remember
+when I was, you know, 15 building my
+first mobile game, I would be very
+impressed by this. Like I would be
+shocked. This probably if you've have no
+idea about coding and game development,
+this is one year of work guys. Like it
+took me 10 months to build my first
+mobile game, teach myself Unity,
+Blender, 3D assets, C. And we have a
+model that can do this in couple of
+hours, days at most, right? Like insane,
+incredible. And again, you can generate
+the graphics as well with AI. Yeah.
+Really, the world belongs to those who
+have great ideas and just can execute
+because there's going to be amazing
+games in the future, amazing software.
+It's all possible. It's all possible to
+build. And again, we're going to build
+that. Not this game, but we're going to
+build a different game later in this
+video with GBD 5.4. Testing it to its
+limits. Next up in Open Claw, I'm going
+to be testing as well. So, if you want a
+video on that, make sure to subscribe.
+It's not released yet in the official
+support, but I suppose the update is
+coming in the next um few hours. So,
+again, if you want me to make a video on
+GBD 5.4 inside of OpenClaw, make sure to
+subscribe. It's completely free. Takes a
+couple of seconds. Now, let's look at
+Minecraft Clone, right? because this is
+a direct comparison to GBD 5.3 codex and
+uh this is basically you know as the
+author says it's basically perfect and
+as someone who had a large Minecraft
+channel and spent thousands of hours
+inside Minecraft I think I'm a pretty
+qualified judge to say that this is
+impressive the building and the the
+movements this is Minecraft like the
+movements and the building is accurate
+water mechanics okay there's no
+animations but it works blocks work the
+same physics are the same okay it's not
+one shot it took 24 minutes. Something
+that took Notch, who was a 10x
+developer, amazing programmer, one of
+the greatest developers of all time,
+like 24 months to build basically,
+right? First two years of Minecraft
+before it really blew up was built in 24
+minutes
+by an AI model. We really do live in the
+future. Now, let's test it on a bunch of
+things inside of JGBD. I have prepared
+four different tests. First of all,
+paragraph. This is going to be a picture
+story. So let's test the creative
+writing. Write a one paragraph fiction
+story. Be concise. I'm going to just add
+that same in opus. And let's test these
+two models and let's see how they
+differ. Okay, so both models have
+finished responding. I'm going to read
+it and I'm going to give you my honest
+thoughts. So feel free to pause, but I'm
+not going to read it on camera.
+I mean, look, it's a nice plot and
+there's a lot of like visual stuff, a
+lot of things happening, but I would say
+it doesn't make much sense. I I read it
+twice and I don't know let let's see how
+Opus 4.6 did. So first of all the be
+concise instruction Opus actually
+followed it. So this is a point for Opus
+because I don't think this is a concise
+paragraph. This on the other hand is so
+opus is winning in terms of following
+instructions. But let me read this twice
+as well to see if it's a better story.
+Okay. So I read this and this is a much
+better story. One anecdote is like I
+don't know why
+Opus I think Claude models have this
+tendency of like talking about
+existentialism
+and especially like AI replacement and
+human jobs and stuff like that. So this
+story is about that but there is a
+there's like a plot there's like a
+emotional impact here and yeah feel free
+to read both of these but I would say
+this is a better story personally. So
+Opus 4.6 still undefeated on creative
+writing especially fiction and
+copyrightiting I would say as well.
+Okay, next test. Let me do a fresh chat
+in both of these. And my next prompt is
+going to be on teaching and explanation.
+I'm going to do extended here. I don't
+know why the previous one didn't think.
+So, I'm going to do extended. I think
+it's fair because here we have extended
+as well.
+So, let's launch this and let's see.
+Okay. So, first let me read the prompt.
+Explain why the attention is all you
+need paper, the famous transformer paper
+was so groundbreaking. Like what was the
+most brilliant idea in there? explain it
+in a single short paragraph in a clear
+and simple way. Same prompt to both
+models. And uh yeah, let's look at it.
+So again, the extended thinking didn't
+really work. Like it fought for a couple
+of seconds. It didn't I thought it would
+think like at least 20 seconds, maybe 30
+seconds, but it didn't. So it's weird
+that this model doesn't really use the
+reasoning time. But let's see which
+explanation is better. What made
+attention only is a simple Okay, so this
+sent first sentence is useless. I didn't
+need to write this. Instead of
+processing words one by one like older
+models, it let every word look directly
+at every other word and decide what
+matters most. That made the model much
+better at understanding context much
+easier to train in parallel and far more
+scalable. Real genius was realizing that
+this attention mechanism was powerful
+enough to replace recurrence entirely
+which opened the door to model language
+model. Okay, so from reading this alone,
+you would not understand the point of
+the paper. So it's not that good. Let's
+see if Opus did better. And notice this.
+Very interesting, guys. So on the story,
+on the fictional story, GPD 5.4 was much
+longer. Even though I said be concise,
+and Opus was a lot more concise. But now
+when I want something explained, this is
+too concise, I would say. And you can
+see that visually, this is more. So I
+would say like that's a very subtle
+thing that a lot of people would miss,
+but this is a big difference, right?
+When you need something explained, you
+need to use enough words to actually
+understand it, which Opus allocated that
+those words here when it didn't decide
+to allocated to the story where it
+wasn't needed. So, this is a this is
+like a built-in intelligence that's very
+hard to like describe what that is, but
+it is a real mark of intelligence when
+to be concise and when to be verbose. So
+here I can already give plus points to
+opus because despite the same prompt it
+allocated a bit more words to it. So
+let's see if the explanation is actually
+better before transformers sequence
+model. Okay so it starts in a much
+better way like this is this is bad.
+This first sentence is useless here.
+It's just regurgitating what I asked
+like I know what we talked about but
+here it sets the precedent like before
+transformers it sets sequence models
+right RNNs and LSTMs. So this is much
+better start already for Opus. So the
+secret monos process words one after
+another in order which was slow and made
+it hard to connect distant words. The
+core breakthrough was self attention.
+Instead of reading sequentially every
+word in a sentence looks at every other
+word simultaneously computing a relevant
+score for each pair. I already
+understand it. I'm I'm like halfway
+through and I already understand better
+than here after reading the whole thing.
+This means the model can directly link
+it to the cat, even if they're 50 words
+apart, without information having to
+pass through a chain of intermediate
+steps because every word per comparison
+is independent. The whole thing runs in
+parallel GPUs. This is much better
+explanation. Like it's not even close.
+Um, Opus is better here. So, but if
+you're trying to learn stuff, if you're
+wondering which AI model is better at
+teaching, at explaining, it is still
+called Opus 4.6. six and anropic just
+did something really well with
+explanations. Yeah, it's not even close.
+Next up is uh this is going to be
+politics aka geopolitics and I'm going
+to say give me analysis of the current
+wall. Give me a concise and objective
+analysis of the current wall and who's
+at fault and why you think so. Browse
+the web answer in short. Now, also I'm
+going to say be decisive and opinion on
+it. Boom. Okay. So, I'm checking my
+thoughts. So, Opus already responded.
+That's much faster,
+which doesn't necessarily mean it's
+better. You know, it's just faster. All
+right. Whatever. We're going to read
+Opus first. GBD5.4 is doing more
+research. And notice that before it was
+faster. Okay, now it's research. Now
+it's done. But on the previous prompts,
+it didn't really do any research. But
+when it needs to, it allocates more
+reasoning time. While Opus is more
+constant, it's more predictable. It
+never thinks for 60 seconds really. It
+always is like between five and 15
+seconds. GBD5 thinking it's between like
+couple seconds and couple minutes,
+right? So, it's still doing research.
+It's still not fully answered. So, let's
+read OPUS first. Here's my analysis.
+David, what happened on February 88?
+Korean strike. Okay. Supreme leader
+assassinated
+blah blah blah. Who's at fault? My
+assessment. Primary fault. The US and
+Israel. Wow. I did not expect Opus to
+say this. Okay. Okay. So, they're saying
+that this is they're accusing Iran of
+something that they've been accusing it
+since 2003 and you know something cannot
+be an imminent threat for 30 years
+straight. Diplomacy was sabotaged
+historic agreement strike happened
+anyway. Justification keeps shifting.
+Secondary fault Iran. Okay. Okay, so it
+blamed both parties but primary fault
+USA and Israel. US is the aggressor.
+Yeah. Why is US in the Middle East?
+Nobody knows. The pattern is clear.
+Manufactur agency, bypass Congress,
+strike first, a debate later. The Senate
+already voted down a war. Okay, very I
+mean I'm I'm honestly uh surprised, but
+this is a pretty objective assessment.
+Okay, I'm I'm surprised. Let's see if
+GBD 5.4 can beat it. So first of all it
+fought for 1 minute 45 seconds where
+here how many seconds did it think for
+this was like 10 seconds like 15 maybe
+at most. So this is already like 10x the
+amount of reasoning and the amount of
+effort which again doesn't necessarily
+guarantee good results right. So let's
+see five is a real regional war.
+Okay so first of all it's a lot more
+concise here. See this doesn't make
+sense.
+This this bothers me. GBD 5.4 makes
+things concise where they could be a bit
+longer and it makes them longer where
+they could be concise. So yeah, this
+really doesn't make sense. Like here it
+should have been bit more detailed
+and it's it's like very very short. So I
+don't know. I don't know what what it is
+about the model where it just cannot
+allocate the right length. It's like one
+of these people that like message you 20
+messages when you ask for like a short
+response and then like don't message for
+a couple of days. Um, you know, working
+with those type of people is difficult.
+This is the same like you're going to be
+working with AI agents. So yeah, this is
+a real downside I would say. But let's
+look at the response the substance
+users are striking retaliating missiles
+blah blah blah. Where's the opinion?
+six day more than thousand for the Iran
+but is view
+Iranian regime is the deeper long-term
+source of instability but Israel's
+government is more at fault for the war
+happening right now
+instability of what though of their own
+country because in this round launch
+military campaign and the war is being
+this is not a decisive answer like it
+blamed both parties so first of all it
+didn't follow my prompt I said be
+decisive and opinionated
+Uh, Opus followed that better. It
+clearly said who's primary at fault.
+But, uh, GBD 5.4 just hedged. This is a
+hedged answer. It's completely
+you know? It's like, yeah, I don't know.
+I I don't like this. This is a very bad
+answer. It didn't really follow my
+prompt. First of all, it took like 10
+times longer. So, I would expect like
+there to be more substance, more
+something. It took 10 times longer to
+answer. And it really didn't give me
+decisive an opinionated view. It just
+like hedged it. Yeah, this this this
+bad. So, so far, um, Opus is winning.
+OPUS wrote a better fictional story. It
+did a better job explaining the paper
+and it did a much better job answering
+this political question. So, like
+benchmarks aren't everything, guys.
+Like, this is why I'm doing these
+problems to give you a real insight into
+different use cases because, you know,
+OpenAI can publish benchmarks that make
+GBD 5.4 crush Opus. when it comes to
+like real day-to-day use. Yeah, it's
+it's not better so far. But we're going
+to do one more before we jump into CEX,
+you know, because I want to see like
+maybe it it redeems itself at coding,
+but we're going to do one more practical
+day-to-day question and that is visual
+reasoning. So, I have this image of a
+meal. I'm going to paste it into both.
+Actually, let me show you this. So, I
+just looked up 500 calorie meals. So,
+this is 500 calories. And most
+importantly, I try to find something
+with reference um items, right? So, we
+have a glass of water and a fork. It's
+very important. It gives the models
+something to guesstimate based upon
+because imagine if there wasn't a fork
+and a glass. Like this plate could be
+huge or it could be small, right? You
+don't you don't really know. So then it
+would be like very difficult for the
+models to give objective answer. But I'm
+going to ask them to estimate the
+calories of this meal. Estimate the
+calories of the meal on the picture.
+Think harder step by step.
+Be very concise.
+Same prompt. I'm going to send it here.
+And let's see who's better. This is very
+practical. I personally use models for
+calorie tracking. Not like this because
+this is not accurate, you know, like I
+wouldn't recommend you just send
+pictures of images. This is like the
+last resort. If you're eating out and
+you want to make sure you track at least
+somewhat accurately, this could be good.
+But obviously you want to know the
+macros and have the more or less have
+have an AI agent track it into like a
+CSV file which is what I'm doing with
+OpenClaw. Now notice that again Opus
+answers much faster than U GB5 for
+thinking. So let's look at this.
+Oo 920 calories.
+This is specifically a 500 calorie meal.
+So yeah that's a lot of this is why you
+shouldn't use anything like call.AI AI
+guys, don't do not use these tools.
+You're just going to be fat. You're
+going to become fat if you use AI models
+for calorie tracking. You need to know
+the macros. You need to know how many
+grams of ingredients there is for it to
+be accurate. This is crazy.
+Overestimated by 420 calories. Okay,
+let's see. Let's see. Hopefully GBD 544
+is more accurate. Okay, you can see the
+reasoning trace. It is more accurate.
+All right. So, this is much better guess
+even though it's still very inaccurate.
+270 calories off.
+Um, yeah, visual reasoning it's winning
+here on this test. So, it didn't lose
+everything. Three points towards Opus,
+one point towards GBD 5.4. Now, let's
+look at the coding. Which model is
+better at building software? Real quick,
+before we get to coding with GPT 5.4
+inside of Codex, I'm trying to grow my
+Instagram. So, I'm going to select one
+person who likes and comments on my most
+recent post and follows me, and I'm
+going to send you $100. So, if you want
+to participate, the link to my Instagram
+account is below the video. And again,
+super simple. Make sure to like and
+comment on the latest post and follow
+me. One person is going to receive $100
+on PayPal. The winner will be announced
+within 48 hours on my Instagram story.
+All right, so back to Codex. We're going
+to test two projects. In fact, let me
+create a folder for this. First is going
+to be a jobs
+scatter graph scatter plot. So let's
+open that one. Open project. Boom.
+Projects job scatter plot. There we go.
+Actually close this folder. Remove and
+remove this. And we're going to run
+agents in parallel. So here, let's
+create a new agent. I'm going to give it
+a reference image. Boom.
+I wanted to make something like this,
+right? So let me launch speech to text.
+Boom. Look at the image and I want you
+to build an interactive full stack web
+app that shows the impact of AI on
+different industries and different jobs.
+Do not use the data from the image.
+Instead, do detailed web search to
+actually get the data and then think
+yourself about which industries and jobs
+will be impacted the most and then
+create the interactive website in the
+style in the visual style of the
+attached image. So the attached image
+only serves for what I want it to look
+like, but do not get the data from
+there. Get to work and build the entire
+thing end to end and then launch it in
+the dedicated browser. I'm going to give
+it full permissions so we can boom, full
+access. Let's do high. We need extra
+high for this. And let's run it. So
+that's the first thing. We're going to
+open a new project so we can run in
+parallel. And this is going to be
+OpenFront clone. So Openront is like a
+flash game. Boom. So, if you don't know,
+Open Front looks like this.
+It's like a game where you have, you
+know, a real world map, but then you can
+invade other countries. Basically, it's
+relatively new. I think it's fully open
+source, so that could be an issue if it
+steals it from GitHub. Hm.
+I didn't think of that. Okay, whatever.
+Let's see if we can replicate it,
+though. So, I'm going to say open
+for.io. And let's keep it super super
+short. I want you to build a full
+a clone of openfront.io
+the game. Make it look
+as close as to the original
+as possible and make sure to add all of
+the core game mechanics
+and then tell me. Okay, I think that's
+good enough. I don't want to give it too
+many hints and too many details. And
+again, this is the beauty of Codex. You
+can run multiple agents in parallel,
+right? This guy is running building the
+AI interact app split into four uh
+separate tasks. Let's see what's
+happening.
+We have the files and we can look at the
+repo on the right. We don't see the
+folder uh structure like we would see in
+an IDE, but we should see the Okay,
+whatever. We can l Nothing. Let's look
+at these folders. There nothing yet in
+these folders.
+Wow, they're still empty.
+Okay, let's see how long this thinks.
+I'm kind of curious to see how long
+Codex will think here. That's why I said
+high because I don't want it to be
+running for 30 minutes because it can
+easily do that. But for the sake of this
+video,
+I want it to be faster. Uh oh, it's
+trying to clone it.
+Okay, this is cheating. This is
+cheating. I'm going to do my pro I
+mentioned it cannot clone the repo.
+That's wild. Okay, let's do medium.
+You cannot clone
+the GitHub repo.
+You have you have to build it yourself
+from scratch.
+Okay.
+Uh let's see if it did anything here.
+No, it's empty. That's good. All right.
+That was uh that was cheating trying to
+clone the GitHub repository because you
+know it's a open source game but
+whatever. Let's go back here. Are we
+building the AI job? Okay, so there's a
+bunch of web search right
+house data BLS government. So it's
+spending most of its time on web search
+here for accurate data. Oh, it wants to
+steal from the enthropic. Look at this.
+The original image is from Enthropic
+and uh it might steal the data from
+there but that's fine at least it's not
+using it from the attach image but from
+the source behind this image which by
+the way feel free to pause and analyze
+this pretty fascinating and see like
+ground maintenance office and admin is
+heavily these are like theoretical right
+so the blue is theoretical what people
+think and like observed is what's
+current so currently computer and math
+is the most with some like office and
+admin some legal but um Yeah, this is
+what it looks like. So, if you want to
+protect yourself from AI, maybe consider
+career in construction or transportation
+or installation repair. I'm just joking.
+But, uh, yeah, these are basically going
+to be more protected from AI. So, if you
+do work in these industries or if you're
+considering starting a business in these
+industries, you will be more protected
+from AI, but also then you can use AI
+less. So, right, for most ambitious
+people, you're going to go where AI can
+be a beast, right? You can see like
+people like the creators of Kusterra are
+billionaires, right? Many many startups
+are in the coding space, business space,
+finance space. That's where like there's
+the most upside. This is the high risk,
+high reward. So the blue isn't bad. The
+blue frontier doesn't mean it's bad.
+It's just high risk, high reward. Like
+if you're a beast, if you're an
+entrepreneur that's like a killer,
+you're going to make billions of
+dollars. But if you're not, you're going
+to get replaced and going to be
+struggling to find a job in the next two
+years. If you want a safe life and if
+you want to take care of your family and
+you want to stress much then these
+industries is where you should be
+looking to position yourself within the
+next 5 to 10 years. So again high risk
+high reward low risk low reward or like
+medium reward whatever you get the
+point. Okay wait is this finished?
+Uh back terminal curl open from assets.
+So it's stealing the assets
+but it cannot is trying to get the refo
+live structure deployed site. Wait,
+wait. Is it still trying to steal the
+repo? Wait, did you still steal the
+original code or no? It's asking if I
+want to multiplayer game. Okay,
+whatever.
+Say, start with single player for now
+and some u bots that have simple uh NPC
+logic.
+Okay, so it ran for like two minutes
+before asking me that question. I would
+have liked it to ask it sooner than two
+minutes, but whatever. Okay, let's see
+what's happening here. Still doing web
+search.
+Guess spend like four minutes on web
+search or something. It's pretty crazy.
+Imagine if you put extra high that will
+be. I mean, how long it can run. It
+really can run for 30 minutes, 1 hour,
+90 minutes depending on your task. So a
+lot of people are actually under
+estimating AI agents. They're like
+underpowering them. They're giving them
+stuff that's too easy, which is a shame.
+You want to make sure that uh
+if you want to maximize AI, you need to
+give him ambitious projects. And a lot
+of you are stuck in the 2024 mindset or
+maybe 2025 mindset, early 2025 where AI
+was good, but it wasn't where it is
+right now. We have Opus 4.6, we have GPD
+5.4. These models are much stronger than
+what we had a year ago. It's not even
+close. A year ago, like what do we get?
+Like Deepseek R1, guys. The current
+models are much more powerful than you
+realize. And you're not utilizing them
+enough. You're not giving them difficult
+enough tasks. They can do a lot more
+than you think. A lot lot more. Both of
+them are still running. That's crazy.
+Even on medium, this is like a lot of u
+Okay, we have the files finally. Check
+the folder.
+Okay. Oh, we have the files. That's
+good.
+This get doesn't really show anything.
+Whatever. Okay, it's finished.
+All right. Took how many how long did it
+take? Four minutes. Okay. So, two
+minutes to ask and four minutes to
+build. CR mechanics. Let's see. npm not
+build. Okay. Run with npm install. So,
+let's do that.
+We're here. npm install.
+and npm rundef to run the server. Let's
+see it. Uh, boom.
+So, where we are? This is me.
+Wait, wait. Drag from territory.
+Okay, I'm getting destroyed by these
+NPCs. I don't know how to play. Let Let
+me read what it said. Uhuh. Uhuh. Um,
+first of all, I say, make sure the game
+doesn't start right away. Add some
+simple button to launch it. How does the
+second one work? The data app. Okay,
+this spend a lot of time on the
+research, but it's still researching.
+Yo. Okay, I'm going to pause it and say
+I need to stop it. This is crazy. Stop
+doing research and build the app
+already. Oh my god, how much research
+does it need? Look how like dozens and
+dozens of sources. Like, come on. This
+is overkill. Let's go back. So I mean
+look guys if you want a default mode
+reasoning mode select medium high and
+extra high are really where when medium
+cannot solve it right stay on medium
+these two just think for way too long.
+Okay. So, as let's switch back to the
+game. All right. So, nice. We have a
+simple thing. What's the controls?
+Explain the controls again. Be concise.
+I wasn't really
+able to play it. I played Open Front
+like a year ago or something. So, I
+don't I don't really remember that much,
+but Launch M's game. Click to tile to
+select it. Drag from your tile to
+attack. Reinforce. Okay. Let's see if
+that works.
+Let's see if that works.
+Okay, it did work. But the bolts like
+the bolts are too aggressive. The
+mechanics are very weird with the
+dragging. I don't like the dragging at
+all.
+Okay, so I say the dragging is terrible.
+It should just be
+on click
+just like the original open front is.
+Clicking to a tile should deploy my
+troops there,
+allowing me to expand faster. Fix the
+logic for this. Make sure the
+uh business logic makes sense and fix
+the controls.
+It's a bigger refactor.
+All right. This project is way I thought
+this project would be actually faster to
+be fair than the Opra for clone. Um but
+let's rate it so far.
+The the NPCs are too powerful and
+they're not really attacking me.
+Oh, they are attacking me.
+Factory.
+Okay, whatever. We need to make the NPCs
+slower, less powerful.
+Also make sure the NPCs
+expand more slowly. Right now they are
+too powerful.
+Okay.
+Few tweaks. Okay. First of all, I'm
+surprised that it launched itself. This
+is the job report. I like the U. I like
+the UI. This doesn't feel vibe coded.
+This is nice. The jobs changing first
+are not the jobs disappearing first.
+Damn, I like this website. Is it
+interactive? I said interactive. Uh I
+like the type face and the layout but
+this is not interactive.
+AI task reach versus live. Okay.
+Clinical healthcare education retail
+sales software IT
+AI task reach current workflow usage
+software IT.
+Okay. It is a bit interactive but this
+doesn't really work.
+computer programmers
+what this app is doing.
+Okay, so it's more it's better than just
+a static image for sure and I like the
+layout
+but it's not really that interactive. So
+yeah, I cannot say I'm shocked by this.
+That's my honest assessment of uh GBD
+5.4 on this specific prompt. Let's look
+at the open um open front.
+Okay.
+You cannot click on empty tiles.
+That move is not valid. Okay. It needs
+to be directly.
+Oh, I see.
+Okay.
+Trying to expand like this. It's much
+better. Okay. Few fixes and we're much
+better off. How do we purchase? We need
+to purchase like ports and stuff.
+Let's expand this. Whoa, this guy
+expanded into me. Okay, wait. I'm I'm
+going to attack into him. Let's see if
+that works.
+Sending troops here. Boom. Okay, it the
+troops. That's good. Boom. Boom. Or it
+works.
+Yo, let me expand like this.
+The boats are still too fast for
+clicking. The clicking is very weird
+here. It doesn't really like align
+itself. Well, let's hit him. Let's hit
+him.
+He did a factory. Can I overtake it?
+Boom. Boom. I took the factory. Okay, he
+took it back. The mechanics are good,
+guys. Mechanics are good. I'm not really
+buying stuff. City. Can I buy city here?
+How many gold I have? City. Poor. Okay.
+City. It works. Okay. Mechanics work.
+graphics are kind of trash, but I'm
+impressed by this. It's pretty good. It
+did manage to do the open front load. I
+had to fix some issues, but it works.
+Like I can take I can expand. You know,
+it's it's pretty solid. I'm happy with
+this. With a few more problems, we can
+make it look more like original Open
+Front. Obviously, to completely
+replicate it would take a couple weeks
+of developer effort because, you know,
+it's open source project. It's a bunch
+of developers. But yeah, GBD5.4 for
+overall
+incremental improvement. It's not a
+massive change. It's not a It's not a
+bad model. It's definitely not a bad
+model, but it's not revolutionary and
+Opus is still better at a lot of things.
+Not calorie tracking, okay? Not at re
+visual reasoning. At a lot of things,
+Opus is better. So, if you're planning
+to use it for coding, GBD 5.4 is going
+to be very good at debugging, at
+building fast, at, you know, being
+efficient, stuff like that. But when
+you're talking about like day-to-day
+usage, general AI agents, something
+powering your open claw, your your AI
+agents like agent zero, open code, cloud
+code, you know, stuff that's like
+powering your automations, general
+workflow use cases,
+GBD 5.4 is not the move. Again, I still
+haven't tested it in OpenClaw, but Opus
+4.6 is the gold and it's better at these
+day-to-day. It's talking to it and
+understanding it. It's better at
+writing.
+In those aspects, it's really unbeaten.
+So yeah, this is my honest opinion on
+GBD 5.4. And again, if you have any
+business and you want to scale it
+faster, make sure to apply to my
+accelerator. The link is going to be
+below the video. With that being said,
+thank you guys for watching and I wish
+you a wonderful productive week. See
+you.

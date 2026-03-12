@@ -1,0 +1,332 @@
+A major AI breakthrough just happened
+with Mercury 2, and this might be the
+next Transformer moment. So, Mercury 2
+is a new AI model from Inception Labs
+that achieved something incredible. It's
+the world's first DLM, diffusion LLM,
+that can actually reason, which makes it
+a huge breakthrough in the AI field. So,
+in this video, I'll explain why this
+could be the biggest shift in the AI
+field since the invention of the
+transformer, how exactly Mercury 2
+works, and how you can build anything
+with it. Now, first off, just look at
+the sheer difference in terms of speed
+compared to the models of the similar
+capability, right? So, if we have close
+45 Hiku, GPTOSS, GPD 5.1, CX mini,
+Mercury 2 is over five times faster,
+more like 10 times faster than some of
+these models for the same capability.
+Now, I think it's best if I just show
+you. So, here on the landing page, you
+can click on one of the presets and look
+how it works. Boom, it's done. Just like
+that, it generated whole text and most
+importantly, it generated it all at once
+and then refined the answer. This is how
+the fusion works. So this is a
+completely new approach for AI language
+models. Right now every single popular
+LLM, large language model, GBD clot,
+they all run on the same architecture
+which is the transformer architecture.
+But Mercury 2 is different. It is a
+diffusion model aka a DLM, a diffusion
+large language model. Now previously
+diffusion models already existed but
+they were mainly used for AI images such
+as midjourney or stable diffusion where
+it generates like the fuzzy pixels and
+then over time it becomes a cat or a
+dog, right? But now Inception Labs have
+made diffusion models useful for text
+with reasoning for the very first time.
+So let me show you three different
+things that Mercury 2 can do. Writing
+code. Boom. It writes the whole function
+and then refineses it in 14 iterations.
+And look how slow transformer is. Let's
+look at real-time voice. So the customer
+says payment failing. Can you help?
+Right? And then boom answer. Customer
+can do another query answer. So it
+writes the whole text, the whole
+paragraph and then refineses it until
+it's coherent English resulting in a
+much better experience for the user.
+Let's look at the third example with
+instant AI Asians. Design a website for
+a small business. So the agent is doing
+different tool calls, different
+function, writing files, visual design,
+component design, bunch of different
+actions. And you can see that the speed
+is completely unparalleled. This is
+Mercury 2 versus cloth haiku 4.5. So
+this isn't some, you know, shitty local
+model. This is Anthropic best model and
+Mercury 2 just completely leaves it in
+the dust. Real quick, if you want me to
+make more videos on new AI architectures
+and breakthroughs like this one, make
+sure to subscribe. 92% of you watching
+this video are not subscribed. So,
+please go below the video, click the
+subscribe button. It helps me and my
+team a lot. Gives us a nice appreciation
+and tells me that you want to see more
+videos like this. So, thank you for
+that. Now, in order to understand
+Mercury 2 and why it's such a
+breakthrough, you first need to
+understand how traditional large
+language models work. So, popular models
+like GP5.4 cloth or Gemini 3.1, they all
+have one thing in common. They generate
+text one token at a time from left to
+right just like a typewriter. This means
+that once a word is written, the model
+is stuck with it. Even if the word is
+sub-optimal or bad, it simply cannot go
+back and change it. This is known as
+auto reggressive. And this has been the
+main approach in the AI field since the
+original transformer paper in 2017.
+Attention is all you need. But that
+comes with a big problem. The biggest
+issue with the transformer architecture
+is what's known as error compounding. If
+one of the early tokens is bad or
+incorrect or not optimal, every single
+token after that builds on top of it. It
+cannot go back and change it. Which
+means the longer the response, the more
+it drifts from the optimal response. And
+this is why you see AI hallucinations
+get worse and worse on longer outputs
+and longer running tasks. Now, Yan Lakun
+is a legendary AI researcher and a
+winner of the Turing Award. and he
+speaks about this every single year for
+many years that auto reggressive LLMs
+simply cannot plan and reason
+effectively because of this fact that
+they are order aggressive. They're
+sequence models. They cannot go back and
+optimize their beginning even if they
+want to. But diffusion fixes this.
+Mercury 2 is a diffusion model. It
+applies the same idea behind image
+generators like mourney nanobana stable
+diffusion where it starts with noise
+right and then goes through these
+different steps into a coherent output.
+So when it comes to text, it starts with
+the entire noisy answer at once and then
+refineses it across multiple passes
+until the final answer is reached just
+like an editor would. And by the way,
+nobody had successfully applied this to
+text with reasoning at a good high level
+of intelligence until now. Now, here's a
+beautiful example of the difference
+between Mercury, a diffusion model, and
+order regressive models, right? Mercury
+starts with all the words, but then it
+refineses them until the answer is
+there. Now, you might be thinking, "But
+David, why does this matter?" Mercury
+can go back and correct itself as it
+generates. But that's not all. Until
+now, nobody made a diffusion model that
+can actually reason. Mercury 2 is the
+world's first reasoning diffusion model
+that is both fast and surprisingly
+capable. In fact, it's very fast. Since
+it generates the tokens in parallel,
+Mercury 2 outputs over 1,000 tokens per
+second. And this is roughly five times
+faster than transformer models of
+comparable intelligence. But the speed
+is just a nice little bonus of this
+architecture. It's not the main point.
+This new architecture of diffusion LLMs
+could fix hallucinations, lower cost,
+unlock faster models, and transform the
+entire AI field. Just look at this. This
+is how Mercury 2 compares to other
+popular fast AI models like GBD5 Nano,
+Cloud 4.5 Haiku, Gemini Free Flash, and
+so on. First, we can look at the
+end-to-end latency in the number of
+seconds where it completely destroys all
+of the competitors. And here we have six
+different benchmarks from different
+fields. So, GPQA diamond is scientific
+questions. Google proof question and
+answer very difficult questions. And we
+can see that it even beats 4.5 haiku and
+GPD5 nano. Mercury 2 also performs
+really well on scode and Amy, which is
+mathematical questions. So, this model
+is good. This is not just some like 7
+billion locally runnable model that
+underperforms. But not only that, it's
+also an agent ready model. Mercury 2
+supports tool use structured outputs,
+rag, and 128k context window. So you can
+build real apps with this, not just
+flashy demos. It can also call external
+APIs, return clean JSON, pull from your
+own data, and handle long documents, aka
+it can do anything you need it to do.
+And with the same prompt, Mercury 2 is
+way faster than speed optimized models
+like Cloud 4.5 Haiku or GBD5 Mini.
+Here's another example. The prompt is
+write a detailed guide to
+object-oriented programming. And you can
+see that Mercury completely destroys CHB
+and CL in terms of speed. In fact, it's
+not even close. You have to speed up to
+get to CHB and CL which take 30 plus
+seconds for a simple prompt. And this
+might be history repeating itself.
+Before transformers, everyone was using
+RNN, which they worked, but they had
+fundamental limits. Then the attention
+is all you need paper came out in 2017.
+But it didn't change the world until JBD
+was released in 2022. That is 5 years.
+And now some of the most respected AI
+experts are betting on diffusion models.
+So DLM's diffusion large models could
+very well be the next big thing while
+most people aren't really paying
+attention. So here's the visualization
+of the time it took from 2017 to late
+2022. and really 2023 with the release
+of GPD4 when the transformer model was
+finally changing the world and going
+mainstream right five and a half years
+from the invention of the architecture
+to mass adoption by the public which
+begs the question if the fusion models
+win what's the future of the world going
+to look like first we're going to have
+way fewer hallucinations because the
+model can self-correct during the
+generation instead of building on top of
+the bad tokens second we'll have an AI
+that can actually plan and reason in any
+direction, not just left to right. It
+can revise the whole output. So maybe
+towards the end it realizes, oh, there
+would be a much better way to do this
+and can revise the whole answer, all of
+the tokens. But the third thing that the
+fusion would unlock is voice agents,
+translation, and co-pilots that are all
+basically near instant, right? So speed
+and lower cost results in AI apps that
+simply were not viable before. If you're
+watching this and you're a creative
+person, there are so many startup ideas
+that now became possible thanks to
+Mercury 2. In fact, instead of just
+talking about it, let me show you what
+you can build with this model. So, first
+I'm going to go to
+chat.inceptionlabs.ai.
+And here we can easily test out Mercury
+2 with different reasoning efforts. All
+right. So, the first prompt I'm going to
+send is to write a Tetris clone.
+However, the with a twist, the pieces
+have to fall upwards instead of
+downwards. Now, pay attention because
+Mercury 2 can be very fast. And there it
+is. That was a couple seconds. And now
+we have a false for one second. We have
+a full text clone. How many lines of
+code is this?
+Nearly 500 lines of code. Let's see.
+All right. So, let's click start. Here
+we have the shapes. There we go. I can
+move to the left and right. Amazing.
+Let's hit enter. Okay. So, the graphics
+uh the canvas is rendered a bit off the
+screen. But the core mechanics work. And
+keep in mind this was generated in 1
+second guys. So, we can obviously refine
+it and say make the canvas bit less tall
+so it fits on my screen. Boom.
+And Mercury 2 will take like one second
+to fix this. Boom. Look at this. I love
+the the fusion generation. It's so nice.
+And there you go. It's fixed. It now
+fits on my screen. And uh we can
+actually see where the pieces are
+falling. Amazing. This is great. I'm
+playing Tetris generated by a diffusion
+model. I'm not that good at Tetris,
+guys. There we go. If you think this is
+insane, we're just getting started.
+Mercury 2 is one of the most exciting
+developments in the AI field in a while.
+And by the way, the API is actually
+OpenAI compatible. So, it's very easy to
+replace your current models. You just
+swap one line and your existing code can
+be powered by Mercury 2. And the pricing
+is just insane. Look at this. $0.25 per
+million input tokens and 0.75 per
+million output tokens. Super cheap. And
+you can use the model on open router.
+So, if you go to the search bar and
+there it is, Mercury 2, we're going to
+see that pricing matches 128K context
+window and yeah, the throughput is just
+insane. Hundreds of tokens per second
+always. So, what I'm going to do is I'm
+going to bring up the terminal and I'm
+actually going to start open code
+because we can use it in open router. We
+can use it inside of Open Code. So, I'm
+going to do /model. Boom. Let's do
+Mercury 2. There it is. Me zoom in a bit
+so it's easier to use. So, we're using
+Mercury 2 inside of Open Code via Open
+Router. So, I'm going to send in my
+prompt. Build a galaxy simulator. Oh my
+god, it's so fast. Using vanilla
+JavaScript HTML canvas, simulate 500
+stars interacting through gravity on a
+dark background. So, here we have the
+code. 3.1 seconds. Everything is done.
+And there's the index html. Okay. So,
+let's check the folder. Here we have the
+index html. Let's double click that. And
+here's the simulation. 500 stars
+interacting with gravity written in like
+two seconds or something
+crazy. And of course, if you don't want
+to use open router, you can just use
+Mercury 2 directly through the inception
+API. So, this is a massive breakthrough.
+I'm excited to see where the diffusion
+architecture goes in terms of LLMs. And
+I also want to thank Inception Labs for
+partnering with me on this video because
+this is I haven't been excited in a long
+time for a new AI breakthrough because
+this is not just a new model. This is a
+whole new different architecture and
+really we might be witnessing the
+beginning of something truly
+revolutionary. So hopefully you guys
+enjoy this video. If you did, please
+subscribe and I wish you a wonderful
+productive week. See you.

@@ -1,0 +1,447 @@
+There's a key feature inside of Claude
+Co-work that most people haven't set up
+yet. It's one of the most powerful
+things you can do with Co-work and it's
+called scheduled tasks. And when you set
+it up correctly, Claude becomes a 247
+employee that works in the background
+without you having to ask. Claude
+Co-work isn't like regular Claude. It
+knows your business. It remembers your
+context. It connects to your different
+tools, and it can run tasks completely
+on its own. But most people never get
+past just typing prompts and asking
+questions. So, in this video, I'm going
+to show you what Claude Co-work actually
+is, what skills are, and why they make
+them so powerful, and how to set up
+scheduled tasks from scratch so that
+Claude can do real work while you sleep.
+So, without further ado, let's dive
+right in. All right, so I'm going to
+show you exactly how I set up Claude
+Co-work to work while I sleep and
+perform different tasks for me on
+autopilot without me having to touch it.
+So, this is the main problem that most
+people run into when it comes to Claude
+and Co-work specifically. Every day you
+open up Claude and you ask it something,
+you close it, and tomorrow you start
+from zero. It doesn't remember you. It
+doesn't remember your business. And it
+definitely isn't able to do things while
+you sleep. But what is Claude Co-work at
+its core? It's not just a chatbot. It
+could actually be an AI employee if you
+do it correctly. So if we think of
+regular Claude, think of it like this
+way. We have to start fresh every
+conversation. It doesn't know who you
+are. There's no memory and no context.
+And you have to do all the setup every
+time. But with Claude co-work, if you do
+it correctly, it knows your business. It
+knows your name. It knows your tone.
+Picks up exactly where you left off.
+It's connected to all the different apps
+that you use and can run tasks without
+you. And if you've never used co-work
+before, there are three things that
+power this entire system. So, what is a
+Claude MD file? It's very, very simple.
+So, it's basically a file that tells
+Claude everything about you, your
+business, your rules, your style, and so
+it reads this every single time that you
+interact with co-work. So, it could have
+a full understanding of you and how you
+like to interact. Next, we have skills.
+And man, if you haven't used skills
+before, this is going to blow your mind
+when you actually begin using them cuz
+they are so so powerful. I can't even
+stress it enough. So, skills are
+basically small files that teach Claude
+specific jobs. We can then type a
+command and it knows exactly how to do
+it with no explaining required. I could
+just type in the command morning brief
+into co-work and it pulls up this entire
+document that is a set of instructions
+on a specific task and it will go ahead
+and do that for me without me having to
+explain how to do it. Then we have
+scheduled tasks and this is what makes
+this whole system incredibly powerful.
+We can set a time and set a task. And
+Claude will run this automatically every
+single day, every hour, or whenever we
+specify we want it to run. And we don't
+need to give Claude a single thing. It
+just does this on autopilot. Think of it
+like any end, but you don't need it
+anymore. And you don't even need to know
+how to set up a specific workflow. All
+right, so now let's move on to skills.
+I'm going to break these down a bit
+more, show you some of the skills I'm
+personally using and ones that you could
+actually download for free that I'm just
+going to give you. So think of skills
+like apps for your AI. We install them
+once, they work forever, and each one
+teaches Claude a specific job. So, I'm
+going to show you a couple that I have.
+I have a script skill that writes a full
+short form video script for me. It
+researches the best trending topics,
+writes the hook, and basically breaks
+down everything for me. Then, I have a
+morning command, which I'm going to
+actually share with you, that generates
+a daily briefing with trending topics,
+as well as even summarizes every single
+thing that was in my email inbox and
+basically gives me top priorities for me
+to focus on every morning. And the best
+part about these is with scheduled
+tasks, instead of me having to give it a
+prompt or a command, these can run for
+me on autopilot. So, I actually get this
+morning brief every morning at 8 a.m.
+without me having to tell co-work to
+give it to me. Again, skills in action,
+you type one command and Claude handles
+the rest. For example, all you do is
+like type in morning and Claude will
+give you, you know, the specific output
+based on the skill that you gave it.
+Okay, so now you understand what skills
+are and you probably want to begin using
+co-work. If you haven't already
+downloaded the Claude desktop app, make
+sure you do so. There's going to be a
+link in the description to set this up.
+Download it for Mac, Windows, whatever
+it is you're using. So, let me now pull
+up my Claude desktop app so you could
+see what I mean. So, the first thing
+we're going to see is we're going to see
+this normal chat interface with Claude.
+If you've ever used Claude or ChatVt
+before, this is very similar. You know,
+you can still run skills in here, but
+it's not as powerful as co-work, which
+is obviously what we're going to focus
+on in this video. So, I'm going to come
+up here to the co-work tab, and what we
+could do is we could select a specific
+folder. You could see I have a Claude
+code short system folder pulled up here.
+Or I could even go here and just create
+my own. I'm just going to call this
+Claude, open it up, click allow, and now
+Claude can now begin making changes to
+this folder and pulling context from it.
+But what I'm going to do is I'm going to
+come up to the sidebar here. Come over
+to customize and then click on skills
+because this is where the magic happens.
+And let me show you exactly what I mean.
+If I pull up this morning breathing
+skill, there is this specific file here
+which is basically a set of instructions
+explaining how I want this task to be
+performed. So it says you are a personal
+chief of staff. Every morning you scan
+the user's calendar, email, and relevant
+news to produ produce a beautiful
+interactive HTML dashboard. We don't
+necessarily need to dive into every
+single thing that's in here. Just know
+whenever I run this command, it's going
+to work exactly the same every single
+time. So, I'm going to come back to this
+task that I have here. And you can see I
+wrote the command morning briefing. Or I
+could just say, "Hey, give me a morning
+brief, something like that." And it'll
+autotrigger that workflow. It gave me a
+breakdown of every single thing like
+that I need to be up to date on every
+single morning. And then the best part
+about this though is it will create this
+HTML morning briefing for me, which is
+this amazingly formatted, easy to read,
+basically web page that I could open up
+in my browser. Gives me a morning brief
+on everything. It says nothing on my
+calendar, no urgent email or it breaks
+down specific urgent emails, shows
+things that are worth reviewing in my
+email inbox, and it even breaks down the
+top three priorities for me to focus on,
+which is pretty amazing. So, that is a
+skill. That's kind of how Claude
+Co-works. But, if we want to instantly
+level this up, we need to use scheduled
+tasks. And this is really where it
+starts to feel like you have an AI
+employee because it has these specific
+instructions with the skill knows
+exactly how to perform the tasks. Now,
+we just need to trigger it so it
+basically runs whenever we want it to.
+All you have to do is set a time and
+then this morning briefing skill will
+actually run automatically. All right,
+so let me quickly show you exactly how
+you can begin setting up tasks right now
+inside of your Claude Co-work project.
+So before I show you exactly how to do
+this yourself, here's a perfect example
+of my task. So if I click on my
+scheduled tasks in this specific folder
+that I created for the sake of this
+video, I have this one right here that
+runs every single day at 7 a.m. And if I
+click on it, you can see it's called the
+morning briefing. The next run will be
+tomorrow at 7 a.m. The description is
+pull calendar, email, and AI news at 7
+a.m. generate an Apple Swiss styled HTML
+morning briefing dashboard and send it
+to Brock via DM on Slack, which is
+actually does for me, which is the best
+thing ever. I don't even have to like
+log into Co-work. I could just get
+texted it in Slack every morning. Then
+we have our set of instructions here.
+And then we also have all the different
+apps that we can, you know, allow
+co-work to go off and pull from. I could
+either I could even click run now and
+basically just run this manually
+whenever I want to. So, let me do that
+and I'll show you the output that it
+gives me. All right. So, I just ran this
+morning briefing workflow here. And now,
+what I could do is I could just come up
+here, click on schedule, and basically
+it's going to pull up this schedule task
+skill. And I'm just going to say, I want
+you to create a scheduled task that
+every single day at 7:00 a.m. you send
+this to me via Slack. You break down all
+of this in a Slack message, as well as
+you send me over a link to the HTML site
+for me to view every single morning. So,
+I'm just going to send that off to
+co-work and it's going to begin
+scheduling this and I'll show you what
+the final output looks like once it's
+actually created. All right. And just
+like that, like 30 seconds later, we now
+have a morning briefing that was
+created. I could then actually click on
+this and this will take me to the actual
+scheduled task that I have inside of
+Co-work along with the instructions. And
+again, I could just automatically run
+this right now if I want to test it out.
+All right. So, what we have built so far
+in Co-work is pretty cool. But something
+that's instantly going to level this up,
+especially our scheduled tasks, is
+plugging them directly into connectors.
+So Claude Co-work can plug directly into
+the real apps that you use. So without
+connectors, you would have to copy in
+your calendar, take a screenshot of it,
+paste it into Claude. You'd have to
+download the files just to upload them,
+manually bring everything into Claude.
+But with connectors, we could actually
+have Claude read our calendar directly,
+read through all of our emails, access
+our Google Drive files, and even post to
+Slack on our behalf, like you just saw
+earlier on in this video. And the best
+part about connectors is we can connect
+them once, and it works forever. So,
+we'll always have access to Google
+Drive, Google Calendar, Gmail, Slack,
+all the apps that we decide to set up.
+And it's very simple to do. So, think of
+it this way. connectors and scheduled
+tasks inside of co-work basically means
+Claude could run your entire business
+for you based on the specific skills you
+give it. So once we actually add our
+connectors, we have Co-working as if
+this is a 247 employee that has access
+to any of the different apps that we use
+on a day-to-day basis. So let me show
+you now how you could begin adding all
+the different applications you want to
+add to Co-Work. So we're going to come
+over to customize. Underneath skills,
+we're going to see connectors. From here
+we have different connectors that I'm
+personally connected to. I'm connected
+to Canva, GitHub, Gmail, Google
+Calendar, Slack, and Zapier. And I could
+come here and click on browse
+connectors. So right now inside of
+Claude, I believe there's like 30 to
+maybe 50 different connectors that you
+could connect to natively. You could see
+I could connect Asauna, Gamma, HubSpot,
+all these different tools. So it's as
+simple as just clicking on an app,
+clicking connect. It's going to bring me
+over to Canva, and I'm simply just going
+to allow all of these permissions here.
+And now if I go back to co-work, you can
+see that I now have Canva connected, and
+you'll see it right here in our
+connectors. But what if you can't
+connect to a specific app that you want
+to use? I'm going to show you a quick
+hack that will allow you to do that. So,
+I'm going to look up zapier.com/mcp,
+and there's going to be a link in the
+description if you're too lazy to type
+that out. And from here, we're going to
+click on start building. Sign up for an
+account if you don't already have one.
+And guys, this is just a hack if you
+have an app you can't connect to inside
+of Co-work. This is just a workaround
+for that. So, what I'm going to do is
+I'm going to create a new MCP server.
+And I'm going to select my client as
+Cloud Co-work because that's obviously
+what we're using in this video. And then
+from here, we're going to select
+different tools. We don't need to build
+these workflows ourself. That is what
+Claude Co-work does for us. Instead, all
+we have to do is find the different apps
+that we use and then simply just toggle
+them on. So, for example, I use school
+all the time, obviously. So, I'm just
+going to select school. And now it has
+access to all these different actions
+that I select. I'm going to click on
+connect. And just like that, this should
+now be connected to our MCP server. Or
+let's say that I want to connect to
+Zenesk. I could click on select all
+tools. And you can see there's 19
+different actions here that it can
+perform and I could just simply connect
+it. So once I connect all the apps I
+want to add to this server, I'm just
+going to click this connect button.
+Click on copy URL and then I'm going to
+come back to Claude and I'm simply just
+going to paste in this URL and then
+Zapier will be connected. So, I'm going
+to show you one more scheduled task
+skill that I have created, and then I'm
+going to show you how you can actually
+upload skills from other people, and I'm
+going to give you all the skills I
+showed in this video for free and show
+you exactly how to upload them. So, this
+last scheduled task I'm going to show
+you is an end of day wrap-up. So, every
+single day at 6 p.m., Claude wraps up
+the day for me. So, it breaks down what
+I got done, what's unfinished, what's
+tomorrow's top number one priorities,
+and it even shows what Claude co-work
+did for me in that given day. So to show
+you what I mean, let me come back to
+co-work. And if I come to this specific
+task, you could see that I now have this
+end of day wrap-up HTML that looks
+exactly like the morning brief HTML that
+it created for me, but instead it's
+called end of day. Shows everything that
+Claude Co-work did for me. So there were
+11 different activities. So Claude
+Co-work built two slide decks, created a
+hook teleprompter for specific video,
+built a thumbnail generator tool,
+generated eight different thumbnail
+variants, generated five different
+thumbnail variants for another video. So
+it broke down all the things that it
+did. And inside of this task, I didn't
+do anything myself. So it said that I,
+you know, there's nothing that I
+personally did, but it broke down what
+moved forward, things that are still
+open, and even broke down what
+tomorrow's focus is. And then it finally
+breaks down a reflection of how the day
+went. So, it said a lot of thumbnail
+generations were done today. Today, put
+the camera on and record. The pipeline
+has five videos filmed and two ready to
+publish. So, it basically just broke
+down exactly what it did. And now I have
+a complete summary of my day. All right.
+So, if you want these skills that I
+showed in this video that you could
+actually turn into scheduled tasks, I
+created a Google Drive that there's
+going to be a link to in the description
+completely free for you to access. As
+well as if you want a more in-depth
+guide to the different skills I use,
+they will be inside of my paid school
+community that will also be linked. But
+if you want these specific ones, they're
+completely free inside of Google Drive.
+So, I'm just going to quickly just like
+download this. Just like that. We have
+this markdown file here. And then I'm
+going to save this to my computer. Then
+I'm going to come back to Claude
+Co-work. I'm going to come up to skills.
+I'm going to click on add, upload a
+skill. And then all we have to do is
+just simply drag this in. And right now
+it's saying upload and replace cuz I
+already have this created. But there
+will be an upload button. And then once
+this is uploaded, you will then see this
+markdown file here with the description,
+all those different things. is if you
+want to make changes to this and change
+it to your own specific like use case,
+you just come here, click edit with
+Claude, and then describe any of the
+changes you want to make to this
+specific skill and it will do it for
+you. All right guys, there we have it. I
+hope you guys got some value from this
+video. I have so much more Claude
+Co-work videos coming out in the coming
+days. Subscribe to this channel for more
+content like this. And if you guys want
+to really support the channel, you could
+join my school community where I'm
+covering all things about Claude Co-work
+and all these different AI updates that
+are happening in the space. With that
+being said, guys, if you want to join,
+there's a link in the description. If
+you don't want to join, no worries.
+Thanks for tuning in this video and I'll
+see you guys in the next
