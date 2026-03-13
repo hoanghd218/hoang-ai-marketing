@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Hoang's AI Marketing content system — a workspace for producing Vietnamese AI & automation content (YouTube, TikTok, Reels). Combines brand voice guidelines, customer personas, 26+ Claude Code skills, Python scripts for API integration, and structured planning workflows.
+Hoang's AI Marketing content system — a workspace for producing Vietnamese AI & automation content (YouTube, TikTok, Reels). Combines brand voice guidelines, customer personas, 35+ Claude Code skills, Python scripts for API integration, and structured planning workflows. Skills are organized around 5 Content Pillars: P1 AI Demo & Tutorials (40%), P2 One Person Business (25%), P3 AI News & Trends (15%), P4 Mindset & CĐS (10%), P5 Behind-the-scenes (10%).
 
 ## Environment Setup
 
@@ -43,12 +43,12 @@ uv run .claude/skills/x-trending-posts/scripts/search_x_posts.py "TOPIC" --perio
 
 The skills compose into a 6-stage pipeline:
 
-1. **Discover** — `youtube-trend-finder`, `breakout-video-finder`, `x-trending-posts`
+1. **Discover** — `youtube-trend-finder`, `breakout-video-finder`, `x-trending-posts`, `mkt-ai-news-aggregator`
 2. **Extract** — `youtube-transcript`, `youtube-subtitle-extractor`
-3. **Analyze** — `script-storytelling-analyzer`, `insight-extractor`, `content-format-analyzer`
-4. **Create** — `storytelling-script-creator`, `video-script-creator`, `desire-hook`
+3. **Analyze** — `script-storytelling-analyzer`, `insight-extractor`, `content-format-analyzer`, `mkt-competitor-video-strategy-analyzer`, `mkt-news-to-content-brief`
+4. **Create** — `storytelling-script-creator`, `video-script-creator`, `desire-hook`, `mkt-content-repurposer`, `mkt-build-in-public-post-creator`
 5. **Distribute** — `video`, `image-post-creator`, `video-to-facebook-posts`
-6. **Archive** — `notion-video-trend-sync`, `notebooklm-video-analyzer`
+6. **Archive** — `notion-video-trend-sync`, `notebooklm-video-analyzer`, `mkt-content-knowledge-compiler`
 
 ## Skill Locations
 
@@ -63,13 +63,21 @@ All skills live in `.claude/skills/`. Key ones by function:
 | `video-script-creator` | Short-form scripts (TikTok/Reels/Shorts) | `workspace/content/` |
 | `notion-video-trend-sync` | Push video data to Notion database | Notion API |
 | `x-trending-posts` | Search trending X.com posts via Grok AI | stdout or file |
+| `mkt-competitor-video-strategy-analyzer` | Analyze competitor video strategy (title, hook, structure, thumbnail) | `research/youtube/strategy/` |
+| `mkt-content-knowledge-compiler` | Compile learnings into persistent knowledge base | `workspace/foundations/knowledge-base/` |
+| `mkt-ai-news-aggregator` | Aggregate AI news from Perplexity, GitHub, X.com | `research/ai-news/[date]/` |
+| `mkt-news-to-content-brief` | Filter & rank news into content briefs | `workspace/content/news-briefs/` |
+| `mkt-content-repurposer` | 1 long-form → 4-5 multi-format content pieces | `workspace/content/repurposed/` |
+| `mkt-build-in-public-post-creator` | Build-in-public Facebook posts (5 templates) | stdout |
 
 ## Agents
 
-Two agents in `.claude/agents/`:
+Four agents in `.claude/agents/`:
 
 - **`trend-researcher`** — Orchestrates full YouTube research pipeline: search → parallel transcript extraction (max 5 concurrent) → summarize → push to Notion. Trigger with keyword + date filter.
 - **`mcp-finder`** — Discovers and configures MCP servers.
+- **`mkt-pillar1-ai-demo-researcher`** — Full Pillar 1 pipeline: fetch AI channel videos → transcript → strategy analysis → insight extraction → knowledge compilation → Notion sync → Telegram notification.
+- **`mkt-daily-ai-news-scout`** — Daily Pillar 3 pipeline: aggregate news from 3 sources (Perplexity, GitHub, X.com) → merge → content briefs → Telegram top 3.
 
 ## Workspace Structure
 
