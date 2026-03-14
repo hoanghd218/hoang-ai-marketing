@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "heygen": {
+      "source": "heygen-com/skills",
+      "sourceType": "github",
+      "computedHash": "e2c5db9c36904294497fcd18ee4f003cdf0f79746d46a57f1cc352d83957018f"
+    }
+  }
+}

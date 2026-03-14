@@ -1,0 +1,72 @@
+{
+  "durationSeconds": 24,
+  "watermark": "@tranvanhoang.com",
+  "bgVideo": "media/videos/Hoang ngoi lam viec laptop ban dem.mp4",
+  "bgMusic": "media/music/nhac truyen cam hung.mp3",
+  "sections": [
+    {
+      "lines": ["Kiểm soát thời gian", "trong 7 ngày."],
+      "startSec": 0.3,
+      "durationSec": 3.2,
+      "fontSize": 58,
+      "fontWeight": 800,
+      "color": "#FFFFFF",
+      "lineHeight": 1.3
+    },
+    {
+      "lines": [
+        "Ghi lại mọi việc bạn làm mỗi 15 phút.",
+        "Cuối tuần, xem lại toàn bộ.",
+        "Loại bỏ việc lãng phí.",
+        "Giao việc giá trị thấp cho người khác."
+      ],
+      "startSec": 3.5,
+      "durationSec": 5.5,
+      "fontSize": 40,
+      "fontWeight": 600,
+      "color": "#E0E0E0",
+      "lineHeight": 1.5
+    },
+    {
+      "lines": ["Không có 1 tuần để theo dõi?", "Hãy thử 3 ngày."],
+      "startSec": 9.0,
+      "durationSec": 3.0,
+      "fontSize": 46,
+      "fontWeight": 700,
+      "color": "#FFD700",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": ["Không có 3 ngày?", "Hãy thử 1 ngày."],
+      "startSec": 12.0,
+      "durationSec": 3.0,
+      "fontSize": 50,
+      "fontWeight": 700,
+      "color": "#FFD700",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": ["1 ngày vẫn quá nhiều?", "Hãy bắt đầu với buổi sáng mai."],
+      "startSec": 15.0,
+      "durationSec": 3.5,
+      "fontSize": 52,
+      "fontWeight": 800,
+      "color": "#FFFFFF",
+      "lineHeight": 1.3
+    },
+    {
+      "lines": [
+        "Mục tiêu không phải",
+        "biết mình bận thế nào.",
+        "Mà là biết mình",
+        "đang lãng phí ở đâu."
+      ],
+      "startSec": 18.5,
+      "durationSec": 4.5,
+      "fontSize": 44,
+      "fontWeight": 700,
+      "color": "#FFFFFF",
+      "lineHeight": 1.4
+    }
+  ]
+}

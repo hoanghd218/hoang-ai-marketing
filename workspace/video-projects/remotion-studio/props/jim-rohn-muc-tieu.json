@@ -1,0 +1,59 @@
+{
+  "durationSeconds": 22,
+  "watermark": "@tranvanhoang.com",
+  "bgVideo": "media/videos/Hoang ngoi lam viec voi may tinh.mp4",
+  "bgMusic": "media/music/rockot-motivational-cinematic-epic-174122.mp3",
+  "sections": [
+    {
+      "lines": [
+        "Đặt mục tiêu không phải để \"có\"",
+        "— mà để \"trở thành.\""
+      ],
+      "startSec": 0.3,
+      "durationSec": 4.5,
+      "fontSize": 58,
+      "fontWeight": 800,
+      "color": "#FFFFFF",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": [
+        "• Cho bạn hướng đi khi cuộc sống mơ hồ",
+        "• Biến bạn thành người kỷ luật hơn",
+        "• Giúp bạn nói \"không\" với thứ không quan trọng"
+      ],
+      "startSec": 5.0,
+      "durationSec": 5.0,
+      "fontSize": 42,
+      "fontWeight": 600,
+      "color": "#F0F0F0",
+      "lineHeight": 1.5
+    },
+    {
+      "lines": [
+        "• Kéo bạn ra khỏi vùng thoải mái",
+        "• Tạo lý do để thức dậy mỗi sáng",
+        "• Đo lường được → tiến bộ nhìn thấy được"
+      ],
+      "startSec": 10.5,
+      "durationSec": 5.0,
+      "fontSize": 42,
+      "fontWeight": 600,
+      "color": "#F0F0F0",
+      "lineHeight": 1.5
+    },
+    {
+      "lines": [
+        "\"Đừng ước cuộc sống dễ hơn.",
+        "Hãy ước mình giỏi hơn.\"",
+        "— Jim Rohn"
+      ],
+      "startSec": 16.0,
+      "durationSec": 5.5,
+      "fontSize": 50,
+      "fontWeight": 700,
+      "color": "#FFD700",
+      "lineHeight": 1.4
+    }
+  ]
+}

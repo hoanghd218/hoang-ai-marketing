@@ -58,7 +58,7 @@ For each insight, generate the content piece following the format rules of the t
 Bundle all generated pieces into a single file.
 
 ## Output
-Master file at `workspace/content/repurposed/[slug]-content-pack.md`:
+Master file at `workspace/content/[YYYY-MM-DD]/repurposed/[slug]-content-pack.md`:
 
 ```markdown
 # Content Pack: [Source Title]
@@ -82,7 +82,7 @@ Master file at `workspace/content/repurposed/[slug]-content-pack.md`:
 ## Rules
 1. **Each piece must stand alone** — no references to "the video" or "as I mentioned"
 2. **Apply brand voice** — read `MY RESOURCES/BRANDVOICE.MD` before generating
-3. **Vietnamese with full diacritics** — all output in Vietnamese, power words in English
+3. **Tiếng Việt có dấu đầy đủ** — toàn bộ output phải viết tiếng Việt có dấu. Giữ nguyên từ chuyên ngành tiếng Anh (template, marketplace, ebook, automation, framework...) vì khán giả là người Việt quen với các thuật ngữ này
 4. **No emoji** — following brand guidelines
 5. **Minimum 4 pieces** — if fewer than 4 insights are extractable, the source may not be suitable
 6. **Diverse formats** — aim for at least 2 different format types per pack

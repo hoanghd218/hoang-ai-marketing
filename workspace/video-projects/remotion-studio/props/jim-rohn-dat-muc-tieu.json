@@ -1,0 +1,56 @@
+{
+  "durationSeconds": 18,
+  "watermark": "@tranvanhoang.com",
+  "bgVideo": "media/videos/Hoang ngoi lam viec voi may tinh.mp4",
+  "bgMusic": "media/music/rockot-motivational-cinematic-epic-174122.mp3",
+  "sections": [
+    {
+      "lines": ["Đặt mục tiêu đúng cách:"],
+      "startSec": 0.3,
+      "durationSec": 3.0,
+      "fontSize": 60,
+      "fontWeight": 800,
+      "color": "#FFD700",
+      "lineHeight": 1.3
+    },
+    {
+      "lines": [
+        "Mơ lớn, nhưng không viển vông.",
+        "Kiên trì, nhưng không cứng nhắc.",
+        "Lên kế hoạch, nhưng không sợ thay đổi."
+      ],
+      "startSec": 3.3,
+      "durationSec": 4.2,
+      "fontSize": 44,
+      "fontWeight": 600,
+      "color": "#FFFFFF",
+      "lineHeight": 1.5
+    },
+    {
+      "lines": [
+        "Kỷ luật, nhưng không khắc nghiệt với bản thân.",
+        "Học từ thất bại, nhưng không sống trong quá khứ.",
+        "Tập trung vào kết quả, nhưng không bỏ qua hành trình."
+      ],
+      "startSec": 7.5,
+      "durationSec": 4.5,
+      "fontSize": 42,
+      "fontWeight": 600,
+      "color": "#FFFFFF",
+      "lineHeight": 1.5
+    },
+    {
+      "lines": [
+        "\"Kỷ luật là cầu nối",
+        "giữa mục tiêu và thành tựu.\"",
+        "— Jim Rohn"
+      ],
+      "startSec": 12.0,
+      "durationSec": 5.5,
+      "fontSize": 48,
+      "fontWeight": 700,
+      "color": "#FFD700",
+      "lineHeight": 1.4
+    }
+  ]
+}

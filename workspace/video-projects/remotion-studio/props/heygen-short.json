@@ -1,0 +1,138 @@
+{
+  "clips": [
+    { "videoPath": "media/heygen/chunk_000.mp4", "durationSeconds": 16.94 },
+    { "videoPath": "media/heygen/chunk_001.mp4", "durationSeconds": 18.30 },
+    { "videoPath": "media/heygen/chunk_002.mp4", "durationSeconds": 9.41 }
+  ],
+  "captions": [
+    {
+      "text": "Bạn không biết bán gì online? Đây là sản phẩm dễ làm nhất.",
+      "startSec": 0.0,
+      "endSec": 2.8,
+      "style": "hook",
+      "highlights": ["sản phẩm dễ làm nhất"],
+      "emoji": "mind-blown",
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Nhiều người muốn kinh doanh online nhưng nghĩ phải có hàng, phải có kho, phải có vốn lớn.",
+      "startSec": 2.8,
+      "endSec": 7.2,
+      "style": "pain",
+      "highlights": ["phải có hàng", "phải có vốn lớn"],
+      "emoji": "weary",
+      "textEffect": "flicker"
+    },
+    {
+      "text": "Sai hoàn toàn. Chỉ cần một cuốn ebook. Bạn chọn một vấn đề bạn hiểu rõ.",
+      "startSec": 7.2,
+      "endSec": 11.64,
+      "style": "solution",
+      "highlights": ["một cuốn ebook"],
+      "emoji": "light-bulb"
+    },
+    {
+      "text": "Viết giải pháp rõ ràng. Đăng lên Amazon. Amazon có sẵn hàng triệu người đang tìm sách mỗi ngày.",
+      "startSec": 11.64,
+      "endSec": 16.96,
+      "style": "normal",
+      "highlights": ["Amazon", "hàng triệu người"]
+    },
+    {
+      "text": "Bạn không cần chạy ads. Không cần website. Không cần team.",
+      "startSec": 16.96,
+      "endSec": 20.6,
+      "style": "solution",
+      "highlights": ["Không cần website", "Không cần team"],
+      "emoji": "check-mark"
+    },
+    {
+      "text": "Một cô gái chỉ viết 2 cuốn ebook dạy tiếng Tây Ban Nha.",
+      "startSec": 20.6,
+      "endSec": 24.44,
+      "style": "normal",
+      "highlights": ["2 cuốn ebook"]
+    },
+    {
+      "text": "Thu nhập: $4,000 mỗi ngày chỉ từ tiền bản quyền.",
+      "startSec": 24.44,
+      "endSec": 27.64,
+      "style": "solution",
+      "highlights": ["$4,000 mỗi ngày"],
+      "emoji": "fire",
+      "textEffect": "deep-glow",
+      "captionPosition": 50
+    },
+    {
+      "text": "Không team. Không văn phòng. Chỉ có cô ấy và nội dung của cô ấy.",
+      "startSec": 27.64,
+      "endSec": 32.76,
+      "style": "solution",
+      "highlights": ["nội dung của cô ấy"],
+      "emoji": "sparkles"
+    },
+    {
+      "text": "Bây giờ bạn nghĩ xem — bạn biết gì mà người khác đang cần?",
+      "startSec": 32.76,
+      "endSec": 35.28,
+      "style": "normal",
+      "highlights": ["người khác đang cần"],
+      "emoji": "thinking-face"
+    },
+    {
+      "text": "Viết ra. Đóng gói. Bán trên marketplace. Một người. Một hệ thống.",
+      "startSec": 35.28,
+      "endSec": 40.92,
+      "style": "solution",
+      "highlights": ["Một người", "Một hệ thống"],
+      "emoji": "muscle",
+      "textEffect": "deep-glow"
+    },
+    {
+      "text": "Thu nhập tự động. Follow để xem mình hướng dẫn cách làm từng bước.",
+      "startSec": 40.92,
+      "endSec": 44.72,
+      "style": "cta",
+      "highlights": ["Thu nhập tự động", "Follow"],
+      "emoji": "bell",
+      "textEffect": "word-by-word"
+    }
+  ],
+  "soundEffects": [
+    { "audioPath": "media/sfx/SUDDEN SUSPENSE.mp3", "startSec": 0.0, "volume": 0.5 },
+    { "audioPath": "media/sfx/Bruh - Sound Effect (HD).mp3", "startSec": 2.8, "volume": 0.3 },
+    { "audioPath": "media/sfx/tada.mp3", "startSec": 7.2, "volume": 0.4 },
+    { "audioPath": "media/sfx/ting.mp3", "startSec": 24.44, "volume": 0.4 },
+    { "audioPath": "media/sfx/Discord Notification - Sound Effect.mp3", "startSec": 40.92, "volume": 0.4 }
+  ],
+  "zoomPulses": [
+    { "timeSec": 0.0, "scale": 1.15, "type": "hold", "durationFrames": 10, "holdSec": 2.5 },
+    { "timeSec": 7.2, "scale": 1.12, "type": "punch", "durationFrames": 12 },
+    { "timeSec": 11.64, "scale": 1.1, "type": "slow", "durationFrames": 90 },
+    { "timeSec": 24.44, "scale": 1.18, "type": "hold", "durationFrames": 12, "holdSec": 3 },
+    { "timeSec": 35.28, "scale": 1.12, "type": "punch", "durationFrames": 10 },
+    { "timeSec": 40.92, "scale": 1.15, "type": "hold", "durationFrames": 10, "holdSec": 2 }
+  ],
+  "backgroundMusic": [
+    {
+      "audioPath": "media/bgm/Epic Emotional Music - Lux-Inspira - Liberation.mp3",
+      "startSec": 0,
+      "endSec": 33,
+      "volume": 0.12,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Rising Star - Song by TURPAK (No Copyright Music).mp3",
+      "startSec": 32,
+      "volume": 0.18,
+      "fadeInSec": 1,
+      "fadeOutSec": 3
+    }
+  ],
+  "durationSeconds": 44.65,
+  "crossFadeFrames": 10,
+  "showProgressBar": true,
+  "hookBoostSec": 10,
+  "defaultCaptionPosition": 55
+}

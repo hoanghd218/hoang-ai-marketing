@@ -33,7 +33,18 @@
       "Skill(mkt-find-trend-videos-subscribed:*)",
       "mcp__mcp-registry__search_mcp_registry",
       "Bash(chmod +x /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-create-video-reels-text-overlay/scripts/render_reels.sh)",
-      "Bash(bash .claude/skills/mkt-create-video-reels-text-overlay/scripts/render_reels.sh --message \"4 Mùa Cuộc Sống — Jim Rohn:\\\\n1. Đông — Khó khăn sẽ đến, hãy chuẩn bị\\\\n2. Xuân — Cơ hội mở ra, hãy gieo hạt\\\\n3. Hạ — Bảo vệ thành quả khỏi cỏ dại\\\\n4. Thu — Gặt hái, rồi Đông lại quay lại\" --video workspace/assets/reels/videos/3.mp4 --music \"workspace/assets/reels/music/nhac truyen cam hung.mp3\" --watermark \"@hoang.ai\" --output workspace/content/reels-4-mua-remotion-test.mp4)"
+      "Bash(bash .claude/skills/mkt-create-video-reels-text-overlay/scripts/render_reels.sh --message \"4 Mùa Cuộc Sống — Jim Rohn:\\\\n1. Đông — Khó khăn sẽ đến, hãy chuẩn bị\\\\n2. Xuân — Cơ hội mở ra, hãy gieo hạt\\\\n3. Hạ — Bảo vệ thành quả khỏi cỏ dại\\\\n4. Thu — Gặt hái, rồi Đông lại quay lại\" --video workspace/assets/reels/videos/3.mp4 --music \"workspace/assets/reels/music/nhac truyen cam hung.mp3\" --watermark \"@hoang.ai\" --output workspace/content/reels-4-mua-remotion-test.mp4)",
+      "Bash(ln -s ../../assets/reels media)",
+      "Bash(rm -f media)",
+      "Bash(ln -s ../../../assets/reels media)",
+      "Bash(npx remotion:*)",
+      "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/media/sfx)",
+      "Bash(cp \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/MEME SOUND/SUDDEN SUSPENSE.mp3\" \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/MEME SOUND/Bruh - Sound Effect \\(HD\\).mp3\" \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/MEME SOUND/DUN DUN DUNNN.mp3\" \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/MEME SOUND/ting.mp3\" \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/MEME SOUND/Discord Notification - Sound Effect.mp3\" /Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/media/sfx/)",
+      "mcp__heygen__create_video",
+      "mcp__heygen__get_video",
+      "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/media/bgm)",
+      "Bash(cp \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/background music/Epic Emotional Music - Lux-Inspira - Liberation.mp3\" \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/media/bgm/\")",
+      "Bash(cp \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/background music/Rising Star - Song by TURPAK \\(No Copyright Music\\).mp3\" \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/media/bgm/\")"
     ],
     "deny": [],
     "ask": []

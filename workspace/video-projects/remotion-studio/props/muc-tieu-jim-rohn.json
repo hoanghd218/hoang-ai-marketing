@@ -1,0 +1,61 @@
+{
+  "durationSeconds": 18,
+  "watermark": "@tranvanhoang.com",
+  "bgVideo": "media/videos/Hoang ngoi lam viec laptop ban dem.mp4",
+  "bgMusic": "media/music/nhac truyen cam hung.mp3",
+  "sections": [
+    {
+      "lines": ["Hãy đặt mục tiêu", "— ngay bây giờ."],
+      "startSec": 0.3,
+      "durationSec": 3.5,
+      "fontSize": 56,
+      "fontWeight": 700,
+      "color": "#FFFFFF",
+      "lineHeight": 1.3
+    },
+    {
+      "lines": [
+        "Jim Rohn nói:",
+        "\"Mục tiêu là nam châm.",
+        "Nó kéo bạn về phía trước.\""
+      ],
+      "startSec": 3.5,
+      "durationSec": 3.5,
+      "fontSize": 44,
+      "fontWeight": 400,
+      "color": "#FFD700",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": [
+        "Không lập được kế hoạch 5 năm?",
+        "→ Hãy lập kế hoạch 1 năm.",
+        "",
+        "Không có kế hoạch 1 năm?",
+        "→ Hãy viết ra mục tiêu 90 ngày.",
+        "",
+        "90 ngày vẫn quá xa?",
+        "→ Hãy bắt đầu với 1 mục tiêu tuần này."
+      ],
+      "startSec": 7,
+      "durationSec": 6,
+      "fontSize": 36,
+      "fontWeight": 400,
+      "color": "#FFFFFF",
+      "lineHeight": 1.5
+    },
+    {
+      "lines": [
+        "Mục tiêu không phải để đạt được.",
+        "Mà để bạn trở thành",
+        "con người xứng đáng với nó."
+      ],
+      "startSec": 13,
+      "durationSec": 4.5,
+      "fontSize": 48,
+      "fontWeight": 700,
+      "color": "#FFD700",
+      "lineHeight": 1.3
+    }
+  ]
+}
