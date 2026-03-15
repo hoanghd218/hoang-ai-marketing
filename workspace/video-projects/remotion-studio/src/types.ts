@@ -49,15 +49,22 @@ export type TextSection = {
   lineHeight?: number;
 };
 
+export type WordTiming = {
+  word: string;
+  start: number; // seconds (from Whisper word_timestamps)
+  end: number;
+};
+
 export type CaptionSegment = {
   text: string;
   startSec: number;
   endSec: number;
+  words?: WordTiming[]; // word-level timestamps for precise sync
   highlights?: string[];
   highlightColor?: string;
   emoji?: string; // AnimatedEmoji name (e.g. "mind-blown") or Unicode fallback
   style?: "normal" | "hook" | "pain" | "solution" | "cta";
-  textEffect?: "none" | "word-by-word" | "deep-glow" | "flicker";
+  textEffect?: "none" | "word-by-word" | "deep-glow" | "flicker" | "typewriter" | "slam" | "wave";
   captionPosition?: number; // top % position (default 55, near neck area)
 };
 
@@ -111,6 +118,14 @@ export type HeyGenShortProps = {
   backgroundMusic?: BackgroundMusicTrack[]; // multiple tracks with per-track volume & timing
   hookBoostSec?: number; // auto-boost zoom in first N seconds (default 0 = disabled)
   defaultCaptionPosition?: number; // global caption top% (default 55)
+};
+
+export type PromptTypingProps = {
+  text: string;
+  durationSeconds: number;
+  title?: string; // label above input box (default "Prompt")
+  startDelaySec?: number; // delay before typing starts (default 0.5)
+  endPauseSec?: number; // pause after typing finishes (default 1.0)
 };
 
 export type ProgressiveReductionProps = {

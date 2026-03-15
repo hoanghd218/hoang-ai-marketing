@@ -19,7 +19,8 @@ const BGMusic: React.FC<{
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
-  const baseVolume = track.volume ?? 0.12;
+  const MAX_BGM_VOLUME = 0.15;
+  const baseVolume = Math.min(track.volume ?? 0.12, MAX_BGM_VOLUME);
   const fadeIn = track.fadeInSec ?? 1;
   const fadeOut = track.fadeOutSec ?? 2;
   const endSec = track.endSec ?? totalDurationSec;

@@ -43,7 +43,7 @@ def main():
     model = whisper.load_model(args.model)
 
     print(f"Transcribing {mp3_path.name} (language={args.language})...")
-    result = model.transcribe(str(mp3_path), language=args.language, verbose=False)
+    result = model.transcribe(str(mp3_path), language=args.language, verbose=False, word_timestamps=True)
 
     # Write SRT
     srt_path = output_dir / f"{stem}.srt"
@@ -54,15 +54,26 @@ def main():
             f.write(f"{seg['text'].strip()}\n\n")
     print(f"SRT saved: {srt_path}")
 
-    # Write segments JSON (for splitting)
+    # Write segments JSON (for splitting) — includes word-level timestamps
     segments = []
     for seg in result["segments"]:
-        segments.append({
+        seg_data = {
             "id": seg["id"],
             "start": round(seg["start"], 3),
             "end": round(seg["end"], 3),
-            "text": seg["text"].strip()
-        })
+            "text": seg["text"].strip(),
+        }
+        if "words" in seg:
+            seg_data["words"] = [
+                {
+                    "word": w["word"].strip(),
+                    "start": round(w["start"], 3),
+                    "end": round(w["end"], 3),
+                }
+                for w in seg["words"]
+                if w["word"].strip()
+            ]
+        segments.append(seg_data)
 
     segments_path = output_dir / f"{stem}_segments.json"
     with open(segments_path, "w", encoding="utf-8") as f:

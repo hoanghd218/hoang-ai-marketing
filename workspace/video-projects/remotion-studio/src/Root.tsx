@@ -6,6 +6,7 @@ import { EpicFullscreen } from "./templates/EpicFullscreen";
 import { ImageKenBurns } from "./templates/ImageKenBurns";
 import { ProgressiveReduction } from "./templates/ProgressiveReduction";
 import { HeyGenShort } from "./templates/HeyGenShort";
+import { PromptTyping } from "./templates/PromptTyping";
 import type {
   DarkMinimalProps,
   BoldHighlightProps,
@@ -13,6 +14,7 @@ import type {
   ImageKenBurnsProps,
   ProgressiveReductionProps,
   HeyGenShortProps,
+  PromptTypingProps,
 } from "./types";
 
 const FPS = 30;
@@ -102,6 +104,21 @@ export const RemotionRoot: React.FC = () => {
           watermark: "@tranvanhoang.com",
           bgVideo: "media/videos/bg.mp4",
           sections: [],
+        }}
+      />
+      <Composition<PromptTypingProps>
+        id="PromptTyping"
+        component={PromptTyping}
+        fps={FPS}
+        width={1080}
+        height={1920}
+        durationInFrames={12 * FPS}
+        calculateMetadata={({ props }) => ({
+          durationInFrames: Math.round(props.durationSeconds * FPS),
+        })}
+        defaultProps={{
+          text: "Tôi muốn bạn hiểu rõ về tôi...",
+          durationSeconds: 12,
         }}
       />
       <Composition<HeyGenShortProps>

@@ -1,0 +1,41 @@
+{
+  "description": "Tech/brand logo catalog for video overlays. Add image files to this folder and register here.",
+  "usage": "Read this catalog in Step 3a to match caption keywords → logo overlay. Use as bRollOverlays with position: bottom.",
+  "logos": [
+    {
+      "file": "claude.webp",
+      "keywords": ["claude", "claude ai", "anthropic"],
+      "label": "Claude"
+    },
+    {
+      "file": "claude code.jpeg",
+      "keywords": ["claude code"],
+      "label": "Claude Code"
+    },
+    {
+      "file": "claude cowork.jpg",
+      "keywords": ["claude cowork", "claude cộng tác"],
+      "label": "Claude Cowork"
+    },
+    {
+      "file": "chatgpt.png",
+      "keywords": ["chatgpt", "gpt", "openai", "gpt-4", "gpt-4o"],
+      "label": "ChatGPT"
+    },
+    {
+      "file": "gemini.svg",
+      "keywords": ["gemini", "google ai", "bard", "google gemini"],
+      "label": "Gemini"
+    },
+    {
+      "file": "excel.jpg",
+      "keywords": ["excel", "spreadsheet", "microsoft excel"],
+      "label": "Excel"
+    },
+    {
+      "file": "nano banana.jpg",
+      "keywords": ["nano banana", "nano", "banana"],
+      "label": "Nano Banana"
+    }
+  ]
+}

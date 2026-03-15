@@ -44,7 +44,13 @@
       "mcp__heygen__get_video",
       "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/media/bgm)",
       "Bash(cp \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/background music/Epic Emotional Music - Lux-Inspira - Liberation.mp3\" \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/media/bgm/\")",
-      "Bash(cp \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/background music/Rising Star - Song by TURPAK \\(No Copyright Music\\).mp3\" \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/media/bgm/\")"
+      "Bash(cp \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/background music/Rising Star - Song by TURPAK \\(No Copyright Music\\).mp3\" \"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/media/bgm/\")",
+      "Bash(BROLL=\"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/assets/reels/broll_gifs\" echo \"=== 02_met_moi ===\")",
+      "Read(//Users/hoangtran/Documents/Github/hoang-ai-marketing/$BROLL/**)",
+      "Read(//Users/hoangtran/Documents/Github/hoang-ai-marketing/**)",
+      "Bash(pkill -f \"remotion\")",
+      "Read(//private/tmp/**)",
+      "Bash(ls /Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/*.webm)"
     ],
     "deny": [],
     "ask": []

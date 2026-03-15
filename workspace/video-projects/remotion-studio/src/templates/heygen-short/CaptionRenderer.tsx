@@ -1,6 +1,6 @@
 import React from "react";
 import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
-import type { CaptionSegment } from "../../types";
+import type { CaptionSegment, BRollOverlay as BRollOverlayType, WordTiming } from "../../types";
 import { STYLE_MAP } from "./constants";
 import { EmojiOverlay } from "./EmojiOverlay";
 import { CTAArrow } from "./CTAArrow";
@@ -8,6 +8,10 @@ import {
   getWordByWordStyles,
   getDeepGlowShadow,
   getFlickerOpacity,
+  getTypewriterStyles,
+  getTypewriterCursor,
+  getSlamStyles,
+  getWaveStyles,
 } from "./textEffects";
 
 /* ── Highlighted text with optional effects ── */
@@ -17,12 +21,108 @@ const HighlightedText: React.FC<{
   highlightColor: string;
   textEffect?: string;
   localFrame: number;
-}> = ({ text, highlights, highlightColor, textEffect, localFrame }) => {
+  wordTimings?: WordTiming[];
+  captionStartSec?: number;
+}> = ({ text, highlights, highlightColor, textEffect, localFrame, wordTimings, captionStartSec }) => {
   const words = text.split(/\s+/);
 
   // Word-by-word mode: each word gets staggered entry
   if (textEffect === "word-by-word") {
-    const wordStyles = getWordByWordStyles(text, localFrame);
+    const wordStyles = getWordByWordStyles(text, localFrame, 3, wordTimings, captionStartSec);
+    return (
+      <>
+        {words.map((word, i) => {
+          const isHL = highlights?.some(
+            (hl) => word.toLowerCase().includes(hl.toLowerCase())
+          );
+          return (
+            <span
+              key={i}
+              style={{
+                display: "inline-block",
+                opacity: wordStyles[i]?.opacity ?? 1,
+                transform: wordStyles[i]?.transform ?? "none",
+                color: isHL ? highlightColor : undefined,
+                fontWeight: isHL ? 900 : undefined,
+                textShadow: isHL ? `0 0 12px ${highlightColor}40` : undefined,
+                marginRight: "0.3em",
+              }}
+            >
+              {word}
+            </span>
+          );
+        })}
+      </>
+    );
+  }
+
+  // Typewriter: sharp cut reveal + blinking cursor
+  if (textEffect === "typewriter") {
+    const wordStyles = getTypewriterStyles(text, localFrame, 4, wordTimings, captionStartSec);
+    const cursor = getTypewriterCursor(words.length, localFrame, 4, wordTimings, captionStartSec);
+    return (
+      <>
+        {words.map((word, i) => {
+          const isHL = highlights?.some(
+            (hl) => word.toLowerCase().includes(hl.toLowerCase())
+          );
+          return (
+            <React.Fragment key={i}>
+              <span
+                style={{
+                  display: "inline-block",
+                  opacity: wordStyles[i]?.opacity ?? 0,
+                  color: isHL ? highlightColor : undefined,
+                  fontWeight: isHL ? 900 : undefined,
+                  textShadow: isHL ? `0 0 12px ${highlightColor}40` : undefined,
+                  marginRight: "0.3em",
+                }}
+              >
+                {word}
+              </span>
+              {cursor.visible && cursor.afterWordIndex === i && (
+                <span style={{ display: "inline-block", color: highlightColor, fontWeight: 400 }}>|</span>
+              )}
+            </React.Fragment>
+          );
+        })}
+      </>
+    );
+  }
+
+  // Slam: words drop in with scale bounce
+  if (textEffect === "slam") {
+    const wordStyles = getSlamStyles(text, localFrame, 4, wordTimings, captionStartSec);
+    return (
+      <>
+        {words.map((word, i) => {
+          const isHL = highlights?.some(
+            (hl) => word.toLowerCase().includes(hl.toLowerCase())
+          );
+          return (
+            <span
+              key={i}
+              style={{
+                display: "inline-block",
+                opacity: wordStyles[i]?.opacity ?? 1,
+                transform: wordStyles[i]?.transform ?? "none",
+                color: isHL ? highlightColor : undefined,
+                fontWeight: isHL ? 900 : undefined,
+                textShadow: isHL ? `0 0 12px ${highlightColor}40` : undefined,
+                marginRight: "0.3em",
+              }}
+            >
+              {word}
+            </span>
+          );
+        })}
+      </>
+    );
+  }
+
+  // Wave: words ripple with sine-wave motion
+  if (textEffect === "wave") {
+    const wordStyles = getWaveStyles(text, localFrame, 3, wordTimings, captionStartSec);
     return (
       <>
         {words.map((word, i) => {
@@ -113,10 +213,16 @@ export const CaptionRenderer: React.FC<{
   globalStartSec: number;
   totalDuration: number;
   defaultCaptionPosition?: number;
-}> = ({ captions, globalStartSec, totalDuration, defaultCaptionPosition }) => {
+  bRollOverlays?: BRollOverlayType[];
+}> = ({ captions, globalStartSec, totalDuration, defaultCaptionPosition, bRollOverlays }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const currentTimeSec = globalStartSec + frame / fps;
+
+  // Check if any b-roll GIF is active at the current time
+  const isBRollActive = bRollOverlays?.some(
+    (b) => currentTimeSec >= b.startSec && currentTimeSec < b.endSec
+  ) ?? false;
 
   const activeIdx = captions.findIndex(
     (c) => currentTimeSec >= c.startSec && currentTimeSec < c.endSec
@@ -147,8 +253,8 @@ export const CaptionRenderer: React.FC<{
 
   return (
     <>
-      {/* Emoji overlay */}
-      {active.emoji && <EmojiOverlay emoji={active.emoji} frame={localFrame} />}
+      {/* Emoji overlay — hidden when b-roll GIF is active (mutual exclusion) */}
+      {active.emoji && !isBRollActive && <EmojiOverlay emoji={active.emoji} frame={localFrame} />}
 
       {/* CTA arrow */}
       {isCTA && <CTAArrow frame={frame} />}
@@ -196,6 +302,8 @@ export const CaptionRenderer: React.FC<{
               highlightColor={preset.accentColor}
               textEffect={textEffect}
               localFrame={localFrame}
+              wordTimings={active.words}
+              captionStartSec={active.startSec}
             />
           </span>
         </div>

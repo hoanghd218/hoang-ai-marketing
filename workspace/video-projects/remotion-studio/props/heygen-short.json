@@ -1,136 +1,399 @@
 {
   "clips": [
-    { "videoPath": "media/heygen/chunk_000.mp4", "durationSeconds": 16.94 },
-    { "videoPath": "media/heygen/chunk_001.mp4", "durationSeconds": 18.30 },
-    { "videoPath": "media/heygen/chunk_002.mp4", "durationSeconds": 9.41 }
+    { "videoPath": "media/heygen/chunk_000.mp4", "durationSeconds": 5.00 },
+    { "videoPath": "media/heygen/chunk_001.mp4", "durationSeconds": 10.67 },
+    { "videoPath": "media/heygen/chunk_002.mp4", "durationSeconds": 3.70 },
+    { "videoPath": "media/grok/1.mp4", "durationSeconds": 5.6 },
+    { "videoPath": "media/grok/2.mp4", "durationSeconds": 5.8 },
+    { "videoPath": "media/heygen/chunk_003.mp4", "durationSeconds": 5.19 },
+    { "videoPath": "media/grok/3.mp4", "durationSeconds": 5.2 },
+    { "videoPath": "media/grok/4.mp4", "durationSeconds": 6.1 },
+    { "videoPath": "media/heygen/chunk_004.mp4", "durationSeconds": 6.86 }
   ],
   "captions": [
     {
-      "text": "Bạn không biết bán gì online? Đây là sản phẩm dễ làm nhất.",
+      "text": "Một mình mà vận hành như có 3 nhân viên — nhờ mình biến Claude Co-work",
       "startSec": 0.0,
-      "endSec": 2.8,
+      "endSec": 2.6,
       "style": "hook",
-      "highlights": ["sản phẩm dễ làm nhất"],
-      "emoji": "mind-blown",
-      "textEffect": "word-by-word"
+      "highlights": ["3 nhân viên"],
+      "textEffect": "slam",
+      "captionPosition": 55,
+      "words": [
+        {"word": "Một", "start": 0.0, "end": 0.28},
+        {"word": "mình", "start": 0.28, "end": 0.44},
+        {"word": "mà", "start": 0.44, "end": 0.62},
+        {"word": "vận", "start": 0.62, "end": 0.76},
+        {"word": "hành", "start": 0.76, "end": 0.9},
+        {"word": "như", "start": 0.9, "end": 1.06},
+        {"word": "có", "start": 1.06, "end": 1.22},
+        {"word": "3", "start": 1.22, "end": 1.34},
+        {"word": "nhân", "start": 1.34, "end": 1.46},
+        {"word": "viên", "start": 1.46, "end": 1.64},
+        {"word": "—", "start": 1.64, "end": 1.64},
+        {"word": "nhờ", "start": 1.64, "end": 1.84},
+        {"word": "mình", "start": 1.84, "end": 1.96},
+        {"word": "biến", "start": 1.96, "end": 2.24},
+        {"word": "Claude", "start": 2.24, "end": 2.42},
+        {"word": "Co-work", "start": 2.42, "end": 2.6}
+      ]
     },
     {
-      "text": "Nhiều người muốn kinh doanh online nhưng nghĩ phải có hàng, phải có kho, phải có vốn lớn.",
-      "startSec": 2.8,
-      "endSec": 7.2,
+      "text": "thành hệ thống chạy tự động 24/7.",
+      "startSec": 2.6,
+      "endSec": 5.0,
+      "style": "hook",
+      "highlights": ["24/7"],
+      "textEffect": "slam",
+      "captionPosition": 55,
+      "words": [
+        {"word": "thành", "start": 2.6, "end": 2.82},
+        {"word": "hệ", "start": 2.82, "end": 2.98},
+        {"word": "thống", "start": 2.98, "end": 3.18},
+        {"word": "chạy", "start": 3.18, "end": 3.5},
+        {"word": "tự", "start": 3.5, "end": 3.76},
+        {"word": "động", "start": 3.76, "end": 3.96},
+        {"word": "24/7.", "start": 3.96, "end": 4.72}
+      ]
+    },
+    {
+      "text": "Trước đây mình dùng AI kiểu gì? Mở ChatGPT lên, hỏi một câu,",
+      "startSec": 5.0,
+      "endSec": 8.3,
       "style": "pain",
-      "highlights": ["phải có hàng", "phải có vốn lớn"],
+      "highlights": ["ChatGPT"],
+      "textEffect": "flicker",
+      "captionPosition": 55,
+      "words": [
+        {"word": "Trước", "start": 5.16, "end": 5.28},
+        {"word": "đây", "start": 5.28, "end": 5.38},
+        {"word": "mình", "start": 5.38, "end": 5.48},
+        {"word": "dùng", "start": 5.48, "end": 5.68},
+        {"word": "AI", "start": 5.68, "end": 5.92},
+        {"word": "kiểu", "start": 5.92, "end": 6.1},
+        {"word": "gì?", "start": 6.1, "end": 6.26},
+        {"word": "Mở", "start": 6.68, "end": 6.72},
+        {"word": "ChatGPT", "start": 6.72, "end": 7.22},
+        {"word": "lên,", "start": 7.22, "end": 7.4},
+        {"word": "hỏi", "start": 7.7, "end": 7.76},
+        {"word": "một", "start": 7.76, "end": 7.88},
+        {"word": "câu,", "start": 7.88, "end": 8.16}
+      ]
+    },
+    {
+      "text": "copy kết quả, xong đóng lại. Mỗi lần muốn làm gì lại phải giải thích lại từ đầu.",
+      "startSec": 8.3,
+      "endSec": 12.2,
+      "style": "pain",
+      "highlights": ["giải thích lại từ đầu"],
+      "textEffect": "flicker",
+      "captionPosition": 55,
+      "words": [
+        {"word": "copy", "start": 8.48, "end": 8.64},
+        {"word": "kết", "start": 8.64, "end": 8.86},
+        {"word": "quả,", "start": 8.86, "end": 9.06},
+        {"word": "xong", "start": 9.34, "end": 9.4},
+        {"word": "đóng", "start": 9.4, "end": 9.54},
+        {"word": "lại.", "start": 9.54, "end": 9.7},
+        {"word": "Mỗi", "start": 10.12, "end": 10.2},
+        {"word": "lần", "start": 10.2, "end": 10.34},
+        {"word": "muốn", "start": 10.34, "end": 10.44},
+        {"word": "làm", "start": 10.44, "end": 10.54},
+        {"word": "gì", "start": 10.54, "end": 10.78},
+        {"word": "lại", "start": 10.78, "end": 11.1},
+        {"word": "phải", "start": 11.1, "end": 11.24},
+        {"word": "giải", "start": 11.24, "end": 11.4},
+        {"word": "thích", "start": 11.4, "end": 11.48},
+        {"word": "lại", "start": 11.48, "end": 11.62},
+        {"word": "từ", "start": 11.62, "end": 11.72},
+        {"word": "đầu.", "start": 11.72, "end": 11.9}
+      ]
+    },
+    {
+      "text": "Tốn thời gian, không nhớ gì cả, và chẳng tự động được gì hết.",
+      "startSec": 12.2,
+      "endSec": 15.7,
+      "style": "pain",
+      "highlights": ["không nhớ gì"],
       "emoji": "weary",
-      "textEffect": "flicker"
+      "textEffect": "slam",
+      "captionPosition": 55,
+      "words": [
+        {"word": "Tốn", "start": 12.38, "end": 12.52},
+        {"word": "thời", "start": 12.52, "end": 12.72},
+        {"word": "gian,", "start": 12.72, "end": 12.98},
+        {"word": "không", "start": 13.36, "end": 13.48},
+        {"word": "nhớ", "start": 13.48, "end": 13.74},
+        {"word": "gì", "start": 13.74, "end": 13.9},
+        {"word": "cả,", "start": 13.9, "end": 14.08},
+        {"word": "và", "start": 14.08, "end": 14.48},
+        {"word": "chẳng", "start": 14.48, "end": 14.66},
+        {"word": "tự", "start": 14.66, "end": 14.82},
+        {"word": "động", "start": 14.82, "end": 15.0},
+        {"word": "được", "start": 15.0, "end": 15.1},
+        {"word": "gì", "start": 15.1, "end": 15.28},
+        {"word": "hết.", "start": 15.28, "end": 15.48}
+      ]
     },
     {
-      "text": "Sai hoàn toàn. Chỉ cần một cuốn ebook. Bạn chọn một vấn đề bạn hiểu rõ.",
-      "startSec": 7.2,
-      "endSec": 11.64,
+      "text": "Cho đến khi mình phát hiện Claude Co-work có thể làm 3 thứ mà chatbot thường không làm được.",
+      "startSec": 15.7,
+      "endSec": 19.4,
       "style": "solution",
-      "highlights": ["một cuốn ebook"],
-      "emoji": "light-bulb"
+      "highlights": ["3 thứ"],
+      "textEffect": "wave",
+      "captionPosition": 55,
+      "words": [
+        {"word": "Cho", "start": 15.96, "end": 16.04},
+        {"word": "đến", "start": 16.04, "end": 16.12},
+        {"word": "khi", "start": 16.12, "end": 16.26},
+        {"word": "mình", "start": 16.26, "end": 16.42},
+        {"word": "phát", "start": 16.42, "end": 16.56},
+        {"word": "hiện", "start": 16.56, "end": 16.7},
+        {"word": "Claude", "start": 16.9, "end": 16.92},
+        {"word": "Co-work", "start": 16.92, "end": 17.32},
+        {"word": "có", "start": 17.32, "end": 17.64},
+        {"word": "thể", "start": 17.64, "end": 17.72},
+        {"word": "làm", "start": 17.72, "end": 17.84},
+        {"word": "3", "start": 17.84, "end": 18.02},
+        {"word": "thứ", "start": 18.02, "end": 18.14},
+        {"word": "mà", "start": 18.14, "end": 18.32},
+        {"word": "chatbot", "start": 18.32, "end": 18.6},
+        {"word": "thường", "start": 18.6, "end": 18.74},
+        {"word": "không", "start": 18.74, "end": 18.88},
+        {"word": "làm", "start": 18.88, "end": 19.02},
+        {"word": "được.", "start": 19.02, "end": 19.12}
+      ]
     },
     {
-      "text": "Viết giải pháp rõ ràng. Đăng lên Amazon. Amazon có sẵn hàng triệu người đang tìm sách mỗi ngày.",
-      "startSec": 11.64,
-      "endSec": 16.96,
+      "text": "Một — nó làm việc trực tiếp trên folder máy tính của bạn.",
+      "startSec": 19.4,
+      "endSec": 21.8,
       "style": "normal",
-      "highlights": ["Amazon", "hàng triệu người"]
+      "highlights": ["folder"],
+      "textEffect": "none",
+      "captionPosition": 55
     },
     {
-      "text": "Bạn không cần chạy ads. Không cần website. Không cần team.",
-      "startSec": 16.96,
-      "endSec": 20.6,
-      "style": "solution",
-      "highlights": ["Không cần website", "Không cần team"],
-      "emoji": "check-mark"
-    },
-    {
-      "text": "Một cô gái chỉ viết 2 cuốn ebook dạy tiếng Tây Ban Nha.",
-      "startSec": 20.6,
-      "endSec": 24.44,
+      "text": "Mỗi folder là một dự án riêng, có bộ nhớ riêng, có luật chơi riêng.",
+      "startSec": 21.8,
+      "endSec": 25.0,
       "style": "normal",
-      "highlights": ["2 cuốn ebook"]
+      "highlights": ["bộ nhớ riêng", "luật chơi riêng"],
+      "textEffect": "none",
+      "captionPosition": 55
     },
     {
-      "text": "Thu nhập: $4,000 mỗi ngày chỉ từ tiền bản quyền.",
-      "startSec": 24.44,
-      "endSec": 27.64,
+      "text": "Hai — nó kết nối được Gmail, Notion, Google Calendar.",
+      "startSec": 25.0,
+      "endSec": 28.4,
+      "style": "normal",
+      "highlights": ["Gmail", "Notion", "Google Calendar"],
+      "textEffect": "none",
+      "captionPosition": 55
+    },
+    {
+      "text": "Nên nó đọc email thật, xem lịch thật, không phải bịa.",
+      "startSec": 28.4,
+      "endSec": 30.8,
+      "style": "normal",
+      "highlights": ["email thật", "lịch thật"],
+      "textEffect": "none",
+      "captionPosition": 55
+    },
+    {
+      "text": "Ba — bạn dạy nó một lần thôi, lưu thành Skill.",
+      "startSec": 30.8,
+      "endSec": 33.4,
       "style": "solution",
-      "highlights": ["$4,000 mỗi ngày"],
-      "emoji": "fire",
+      "highlights": ["Skill"],
+      "emoji": "sparkles",
       "textEffect": "deep-glow",
-      "captionPosition": 50
+      "captionPosition": 55,
+      "words": [
+        {"word": "Ba", "start": 31.04, "end": 31.1},
+        {"word": "—", "start": 31.1, "end": 31.1},
+        {"word": "bạn", "start": 31.1, "end": 31.3},
+        {"word": "dạy", "start": 31.3, "end": 31.38},
+        {"word": "nó", "start": 31.38, "end": 31.54},
+        {"word": "một", "start": 31.54, "end": 31.68},
+        {"word": "lần", "start": 31.68, "end": 31.84},
+        {"word": "thôi,", "start": 31.84, "end": 32.06},
+        {"word": "lưu", "start": 32.42, "end": 32.52},
+        {"word": "thành", "start": 32.52, "end": 32.6},
+        {"word": "Skill.", "start": 32.6, "end": 32.84}
+      ]
     },
     {
-      "text": "Không team. Không văn phòng. Chỉ có cô ấy và nội dung của cô ấy.",
-      "startSec": 27.64,
-      "endSec": 32.76,
+      "text": "Từ đó nó tự chạy, hẹn giờ chạy mỗi sáng luôn.",
+      "startSec": 33.4,
+      "endSec": 36.0,
       "style": "solution",
-      "highlights": ["nội dung của cô ấy"],
-      "emoji": "sparkles"
+      "highlights": ["tự chạy"],
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": [
+        {"word": "Từ", "start": 33.18, "end": 33.64},
+        {"word": "đó", "start": 33.64, "end": 33.86},
+        {"word": "nó", "start": 33.86, "end": 34.02},
+        {"word": "tự", "start": 34.02, "end": 34.14},
+        {"word": "chạy,", "start": 34.14, "end": 34.4},
+        {"word": "hẹn", "start": 34.4, "end": 34.86},
+        {"word": "giờ", "start": 34.86, "end": 34.98},
+        {"word": "chạy", "start": 34.98, "end": 35.24},
+        {"word": "mỗi", "start": 35.24, "end": 35.32},
+        {"word": "sáng", "start": 35.32, "end": 35.54},
+        {"word": "luôn.", "start": 35.54, "end": 35.7}
+      ]
     },
     {
-      "text": "Bây giờ bạn nghĩ xem — bạn biết gì mà người khác đang cần?",
-      "startSec": 32.76,
-      "endSec": 35.28,
-      "style": "normal",
-      "highlights": ["người khác đang cần"],
-      "emoji": "thinking-face"
-    },
-    {
-      "text": "Viết ra. Đóng gói. Bán trên marketplace. Một người. Một hệ thống.",
-      "startSec": 35.28,
-      "endSec": 40.92,
+      "text": "Giờ mỗi sáng mình thức dậy: email đã phân loại xong,",
+      "startSec": 36.0,
+      "endSec": 39.0,
       "style": "solution",
-      "highlights": ["Một người", "Một hệ thống"],
-      "emoji": "muscle",
-      "textEffect": "deep-glow"
+      "highlights": ["phân loại xong"],
+      "textEffect": "none",
+      "captionPosition": 55
     },
     {
-      "text": "Thu nhập tự động. Follow để xem mình hướng dẫn cách làm từng bước.",
-      "startSec": 40.92,
-      "endSec": 44.72,
+      "text": "reply đã soạn sẵn trong Gmail.",
+      "startSec": 39.0,
+      "endSec": 41.2,
+      "style": "solution",
+      "highlights": ["soạn sẵn"],
+      "textEffect": "none",
+      "captionPosition": 55
+    },
+    {
+      "text": "Báo cáo trend AI cho YouTube nằm sẵn trong folder.",
+      "startSec": 41.2,
+      "endSec": 44.2,
+      "style": "solution",
+      "highlights": ["trend AI"],
+      "textEffect": "none",
+      "captionPosition": 55
+    },
+    {
+      "text": "Task list cập nhật tự động. Mình chỉ cần review và bấm gửi.",
+      "startSec": 44.2,
+      "endSec": 47.3,
+      "style": "solution",
+      "highlights": ["tự động", "review"],
+      "textEffect": "none",
+      "captionPosition": 55
+    },
+    {
+      "text": "Một mình — nhưng vận hành như có team.",
+      "startSec": 47.3,
+      "endSec": 49.0,
       "style": "cta",
-      "highlights": ["Thu nhập tự động", "Follow"],
-      "emoji": "bell",
-      "textEffect": "word-by-word"
+      "highlights": ["team"],
+      "emoji": "fire",
+      "textEffect": "typewriter",
+      "captionPosition": 55,
+      "words": [
+        {"word": "Một", "start": 47.48, "end": 47.62},
+        {"word": "mình", "start": 47.62, "end": 47.74},
+        {"word": "—", "start": 47.74, "end": 47.74},
+        {"word": "nhưng", "start": 47.74, "end": 47.88},
+        {"word": "vận", "start": 47.88, "end": 48.04},
+        {"word": "hành", "start": 48.04, "end": 48.16},
+        {"word": "như", "start": 48.16, "end": 48.28},
+        {"word": "có", "start": 48.28, "end": 48.42},
+        {"word": "team.", "start": 48.42, "end": 48.58}
+      ]
+    },
+    {
+      "text": "Link tải Claude Co-work mình để ở phần mô tả.",
+      "startSec": 49.0,
+      "endSec": 51.0,
+      "style": "cta",
+      "highlights": [],
+      "textEffect": "typewriter",
+      "captionPosition": 55,
+      "words": [
+        {"word": "Link", "start": 49.16, "end": 49.26},
+        {"word": "tải", "start": 49.26, "end": 49.44},
+        {"word": "Claude", "start": 49.44, "end": 49.62},
+        {"word": "Co-work", "start": 49.62, "end": 50.0},
+        {"word": "mình", "start": 50.0, "end": 50.2},
+        {"word": "để", "start": 50.2, "end": 50.42},
+        {"word": "ở", "start": 50.42, "end": 50.52},
+        {"word": "phần", "start": 50.52, "end": 50.64},
+        {"word": "mô", "start": 50.64, "end": 50.72},
+        {"word": "tả.", "start": 50.72, "end": 50.84}
+      ]
+    },
+    {
+      "text": "Nếu bạn muốn mình làm video hướng dẫn setup chi tiết",
+      "startSec": 51.0,
+      "endSec": 53.0,
+      "style": "cta",
+      "highlights": ["setup"],
+      "textEffect": "typewriter",
+      "captionPosition": 55,
+      "words": [
+        {"word": "Nếu", "start": 50.84, "end": 51.22},
+        {"word": "bạn", "start": 51.22, "end": 51.28},
+        {"word": "muốn", "start": 51.28, "end": 51.42},
+        {"word": "mình", "start": 51.42, "end": 51.58},
+        {"word": "làm", "start": 51.58, "end": 51.72},
+        {"word": "video", "start": 51.72, "end": 51.96},
+        {"word": "hướng", "start": 51.96, "end": 52.24},
+        {"word": "dẫn", "start": 52.24, "end": 52.38},
+        {"word": "setup", "start": 52.38, "end": 52.66},
+        {"word": "chi", "start": 52.66, "end": 52.78},
+        {"word": "tiết", "start": 52.78, "end": 52.96}
+      ]
+    },
+    {
+      "text": "thì comment \"OS\" bên dưới nhé.",
+      "startSec": 53.0,
+      "endSec": 54.5,
+      "style": "cta",
+      "highlights": ["OS"],
+      "emoji": "index-finger",
+      "textEffect": "typewriter",
+      "captionPosition": 55,
+      "words": [
+        {"word": "thì", "start": 53.0, "end": 53.04},
+        {"word": "comment", "start": 53.04, "end": 53.24},
+        {"word": "\"OS\"", "start": 53.24, "end": 53.52},
+        {"word": "bên", "start": 53.52, "end": 53.7},
+        {"word": "dưới", "start": 53.7, "end": 53.88},
+        {"word": "nhé.", "start": 53.88, "end": 54.04}
+      ]
     }
   ],
   "soundEffects": [
-    { "audioPath": "media/sfx/SUDDEN SUSPENSE.mp3", "startSec": 0.0, "volume": 0.5 },
-    { "audioPath": "media/sfx/Bruh - Sound Effect (HD).mp3", "startSec": 2.8, "volume": 0.3 },
-    { "audioPath": "media/sfx/tada.mp3", "startSec": 7.2, "volume": 0.4 },
-    { "audioPath": "media/sfx/ting.mp3", "startSec": 24.44, "volume": 0.4 },
-    { "audioPath": "media/sfx/Discord Notification - Sound Effect.mp3", "startSec": 40.92, "volume": 0.4 }
+    { "audioPath": "media/sfx/SUDDEN SUSPENSE.mp3", "startSec": 0.0, "volume": 0.6 },
+    { "audioPath": "media/sfx/Whoosh sound effect (1).mp3", "startSec": 5.0, "volume": 0.4 },
+    { "audioPath": "media/sfx/Bruh - Sound Effect (HD).mp3", "startSec": 11.1, "volume": 0.5 },
+    { "audioPath": "media/sfx/búng tay.mp3", "startSec": 15.96, "volume": 0.5 },
+    { "audioPath": "media/sfx/lung linh.mp3", "startSec": 30.8, "volume": 0.4 },
+    { "audioPath": "media/sfx/tada.mp3", "startSec": 32.6, "volume": 0.5 },
+    { "audioPath": "media/sfx/Discord Notification - Sound Effect.mp3", "startSec": 47.48, "volume": 0.5 }
   ],
   "zoomPulses": [
-    { "timeSec": 0.0, "scale": 1.15, "type": "hold", "durationFrames": 10, "holdSec": 2.5 },
-    { "timeSec": 7.2, "scale": 1.12, "type": "punch", "durationFrames": 12 },
-    { "timeSec": 11.64, "scale": 1.1, "type": "slow", "durationFrames": 90 },
-    { "timeSec": 24.44, "scale": 1.18, "type": "hold", "durationFrames": 12, "holdSec": 3 },
-    { "timeSec": 35.28, "scale": 1.12, "type": "punch", "durationFrames": 10 },
-    { "timeSec": 40.92, "scale": 1.15, "type": "hold", "durationFrames": 10, "holdSec": 2 }
+    { "timeSec": 0.0, "scale": 1.15, "type": "hold", "durationFrames": 10, "holdSec": 3.0 },
+    { "timeSec": 5.16, "scale": 1.10, "type": "punch", "durationFrames": 8 },
+    { "timeSec": 12.38, "scale": 1.12, "type": "punch", "durationFrames": 10 },
+    { "timeSec": 15.96, "scale": 1.10, "type": "punch", "durationFrames": 8 },
+    { "timeSec": 31.04, "scale": 1.12, "type": "hold", "durationFrames": 10, "holdSec": 2.0 },
+    { "timeSec": 47.48, "scale": 1.10, "type": "punch", "durationFrames": 8 }
+  ],
+  "bRollOverlays": [
+    { "mediaPath": "media/logos/claude cowork.jpg", "startSec": 0.0, "endSec": 2.6, "position": "bottom", "borderRadius": 20 },
+    { "mediaPath": "media/logos/chatgpt.png", "startSec": 5.0, "endSec": 8.3, "position": "bottom", "borderRadius": 20 },
+    { "mediaPath": "media/logos/claude cowork.jpg", "startSec": 15.7, "endSec": 19.4, "position": "bottom", "borderRadius": 20 },
+    { "mediaPath": "media/logos/claude cowork.jpg", "startSec": 49.0, "endSec": 51.0, "position": "bottom", "borderRadius": 20 }
   ],
   "backgroundMusic": [
-    {
-      "audioPath": "media/bgm/Epic Emotional Music - Lux-Inspira - Liberation.mp3",
-      "startSec": 0,
-      "endSec": 33,
-      "volume": 0.12,
-      "fadeInSec": 1,
-      "fadeOutSec": 2
-    },
-    {
-      "audioPath": "media/bgm/Rising Star - Song by TURPAK (No Copyright Music).mp3",
-      "startSec": 32,
-      "volume": 0.18,
-      "fadeInSec": 1,
-      "fadeOutSec": 3
-    }
+    { "audioPath": "media/bgm/chase-velocity.mp3", "startSec": 0, "volume": 0.15, "fadeInSec": 0.5, "fadeOutSec": 2 },
+    { "audioPath": "media/bgm/miracle.mp3", "startSec": 15, "volume": 0.10, "fadeInSec": 1, "fadeOutSec": 2 },
+    { "audioPath": "media/bgm/rising-star.mp3", "startSec": 47, "volume": 0.15, "fadeInSec": 1, "fadeOutSec": 3 }
   ],
-  "durationSeconds": 44.65,
+  "durationSeconds": 54.12,
   "crossFadeFrames": 10,
   "showProgressBar": true,
   "hookBoostSec": 10,

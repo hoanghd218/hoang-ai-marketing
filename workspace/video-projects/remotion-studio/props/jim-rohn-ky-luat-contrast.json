@@ -1,0 +1,80 @@
+{
+  "durationSeconds": 27,
+  "watermark": "@tranvanhoang.com",
+  "bgVideo": "media/videos/Hoang ngoi lam viec voi may tinh.mp4",
+  "bgMusic": "media/background music/The Last Hero - Veaceslav Draganov (CINEMATIC MUSIC) (free music with license).mp3",
+  "sections": [
+    {
+      "lines": ["Jim Rohn:", "Kỷ luật hay hối tiếc", "— bạn chọn gì?"],
+      "startSec": 0.3,
+      "durationSec": 3.5,
+      "fontSize": 56,
+      "fontWeight": 700,
+      "color": "#FFFFFF",
+      "lineHeight": 1.3
+    },
+    {
+      "lines": ["Kỷ luật thì nặng,", "nhưng hối tiếc còn nặng hơn."],
+      "startSec": 4.0,
+      "durationSec": 3.0,
+      "fontSize": 48,
+      "fontWeight": 700,
+      "color": "#FFD700",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": ["Bắt đầu thì khó,", "nhưng không bắt đầu còn khó hơn."],
+      "startSec": 7.2,
+      "durationSec": 3.0,
+      "fontSize": 48,
+      "fontWeight": 700,
+      "color": "#FFFFFF",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": ["Kiên nhẫn thì chậm,", "nhưng bỏ cuộc thì mất tất cả."],
+      "startSec": 10.4,
+      "durationSec": 3.0,
+      "fontSize": 48,
+      "fontWeight": 700,
+      "color": "#FFD700",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": ["Thay đổi thì đau,", "nhưng mắc kẹt còn đau hơn."],
+      "startSec": 13.6,
+      "durationSec": 3.0,
+      "fontSize": 48,
+      "fontWeight": 700,
+      "color": "#FFFFFF",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": ["Dậy sớm thì mệt,", "nhưng lãng phí thời gian còn mệt hơn."],
+      "startSec": 16.8,
+      "durationSec": 3.0,
+      "fontSize": 48,
+      "fontWeight": 700,
+      "color": "#FFD700",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": ["Học hỏi thì tốn công,", "nhưng thiếu hiểu biết tốn gấp bội."],
+      "startSec": 20.0,
+      "durationSec": 3.0,
+      "fontSize": 48,
+      "fontWeight": 700,
+      "color": "#FFFFFF",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": ["Nỗi đau kỷ luật chỉ tính bằng ngày.", "Nỗi đau hối tiếc tính bằng cả đời.", "", "— Jim Rohn"],
+      "startSec": 23.2,
+      "durationSec": 3.5,
+      "fontSize": 44,
+      "fontWeight": 700,
+      "color": "#FFD700",
+      "lineHeight": 1.5
+    }
+  ]
+}

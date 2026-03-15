@@ -1,0 +1,5526 @@
+{
+  "version": 1,
+  "total_files": 330,
+  "categories": {
+    "01_tien_bac": {
+      "name_vi": "Tiền bạc / Làm giàu",
+      "name_en": "Money / Wealth",
+      "emotion": [
+        "excited",
+        "ambitious",
+        "greedy"
+      ],
+      "use_when": "Nói về tiền, thu nhập, passive income, kiếm tiền online, ROI, doanh thu, lợi nhuận, giá trị tài chính",
+      "files": [
+        {
+          "file": "money rain_1_Make It Rain Money GIF.gif",
+          "tags": [
+            "money",
+            "rain",
+            "cash",
+            "rich"
+          ],
+          "mood": "hype",
+          "visual": "Bills/cash falling from sky like rain",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "money rain_2_Make It Rain Money GIF.gif",
+          "tags": [
+            "money",
+            "rain",
+            "cash",
+            "rich"
+          ],
+          "mood": "hype",
+          "visual": "Bills/cash falling from sky like rain",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "money rain_3_Make It Rain GIF.gif",
+          "tags": [
+            "money",
+            "rain",
+            "cash",
+            "rich"
+          ],
+          "mood": "hype",
+          "visual": "Bills/cash falling from sky like rain",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "make it rain cash_1_Make It Rain GIF.gif",
+          "tags": [
+            "money",
+            "rain",
+            "throwing",
+            "cash"
+          ],
+          "mood": "hype",
+          "visual": "Person throwing money in the air",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "make it rain cash_2_Make It Rain Money GIF.gif",
+          "tags": [
+            "money",
+            "rain",
+            "throwing",
+            "cash"
+          ],
+          "mood": "hype",
+          "visual": "Person throwing money in the air",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "make it rain cash_3_Excited Make It Rain GIF by DoSomething.gif",
+          "tags": [
+            "money",
+            "rain",
+            "throwing",
+            "cash"
+          ],
+          "mood": "hype",
+          "visual": "Person throwing money in the air",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "stonks meme_1_All In Crypto GIF.gif",
+          "tags": [
+            "stocks",
+            "meme",
+            "investing",
+            "growth"
+          ],
+          "mood": "hype",
+          "visual": "Stonks meme man with rising arrow chart",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "stonks meme_2_.gif",
+          "tags": [
+            "stocks",
+            "meme",
+            "investing",
+            "growth"
+          ],
+          "mood": "hype",
+          "visual": "Stonks meme man with rising arrow chart",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "stonks meme_3_Stonk GIF.gif",
+          "tags": [
+            "stocks",
+            "meme",
+            "investing",
+            "growth"
+          ],
+          "mood": "hype",
+          "visual": "Stonks meme man with rising arrow chart",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "dollar eyes_1_Money Eyes GIF by OOZ_mates.gif",
+          "tags": [
+            "money",
+            "eyes",
+            "greedy",
+            "excited"
+          ],
+          "mood": "hype",
+          "visual": "Character with dollar signs in eyes",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "dollar eyes_2_Money Geld GIF.gif",
+          "tags": [
+            "money",
+            "eyes",
+            "greedy",
+            "excited"
+          ],
+          "mood": "hype",
+          "visual": "Character with dollar signs in eyes",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "dollar eyes_3_Money Win GIF.gif",
+          "tags": [
+            "money",
+            "eyes",
+            "greedy",
+            "excited"
+          ],
+          "mood": "hype",
+          "visual": "Character with dollar signs in eyes",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "payday celebration_1_Celebrate Make It Rain GIF by Hello All.gif",
+          "tags": [
+            "payday",
+            "celebration",
+            "salary",
+            "happy"
+          ],
+          "mood": "hype",
+          "visual": "Person celebrating payday with joy",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "payday celebration_2_Laura Leon Dance GIF.gif",
+          "tags": [
+            "payday",
+            "celebration",
+            "salary",
+            "happy"
+          ],
+          "mood": "hype",
+          "visual": "Person celebrating payday with joy",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "payday celebration_3_Celebrate Make It Rain GIF by Hello All.gif",
+          "tags": [
+            "payday",
+            "celebration",
+            "salary",
+            "happy"
+          ],
+          "mood": "hype",
+          "visual": "Person celebrating payday with joy",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "passive income_1_.gif",
+          "tags": [
+            "passive",
+            "income",
+            "money",
+            "automated"
+          ],
+          "mood": "hype",
+          "visual": "Money flowing in passively, relaxed wealth",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "passive income_2_Stock Market Trading GIF by CGTraveler - Carlos Ga.gif",
+          "tags": [
+            "passive",
+            "income",
+            "money",
+            "automated"
+          ],
+          "mood": "hype",
+          "visual": "Money flowing in passively, relaxed wealth",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        },
+        {
+          "file": "passive income_3_Cryptocurrency Defi GIF by 1inch.gif",
+          "tags": [
+            "passive",
+            "income",
+            "money",
+            "automated"
+          ],
+          "mood": "hype",
+          "visual": "Money flowing in passively, relaxed wealth",
+          "best_for": [
+            "hook về thu nhập/kiếm tiền",
+            "reveal kết quả tài chính",
+            "nói về passive income/ROI"
+          ]
+        }
+      ]
+    },
+    "02_met_moi": {
+      "name_vi": "Mệt mỏi / Kiệt sức",
+      "name_en": "Tired / Exhausted",
+      "emotion": [
+        "tired",
+        "frustrated",
+        "overwhelmed"
+      ],
+      "use_when": "Nói về làm việc quá sức, burnout, thiếu ngủ, mệt mỏi với công việc thủ công, cần tự động hóa",
+      "files": [
+        {
+          "file": "tired exhausted_1_Tired Spongebob Squarepants GIF.gif",
+          "tags": [
+            "tired",
+            "exhausted",
+            "sleepy",
+            "burnout"
+          ],
+          "mood": "sad",
+          "visual": "Person falling asleep or extremely tired",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "tired exhausted_2_Tired Jet Lag GIF.gif",
+          "tags": [
+            "tired",
+            "exhausted",
+            "sleepy",
+            "burnout"
+          ],
+          "mood": "sad",
+          "visual": "Person falling asleep or extremely tired",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "tired exhausted_3_Tired Patrick Star GIF.gif",
+          "tags": [
+            "tired",
+            "exhausted",
+            "sleepy",
+            "burnout"
+          ],
+          "mood": "sad",
+          "visual": "Person falling asleep or extremely tired",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "falling asleep at desk_1_Billie Eilish Tiny Desk GIF.gif",
+          "tags": [
+            "sleeping",
+            "desk",
+            "office",
+            "tired"
+          ],
+          "mood": "sad",
+          "visual": "Person dozing off at work desk",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "falling asleep at desk_2_tired cat GIF.gif",
+          "tags": [
+            "sleeping",
+            "desk",
+            "office",
+            "tired"
+          ],
+          "mood": "sad",
+          "visual": "Person dozing off at work desk",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "falling asleep at desk_3_Fall Asleep All Nighter GIF by CC0 Studios.gif",
+          "tags": [
+            "sleeping",
+            "desk",
+            "office",
+            "tired"
+          ],
+          "mood": "sad",
+          "visual": "Person dozing off at work desk",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "burnout_1_dat burnout GIF.gif",
+          "tags": [
+            "burnout",
+            "exhausted",
+            "overwork",
+            "drained"
+          ],
+          "mood": "sad",
+          "visual": "Person showing signs of complete burnout",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "burnout_2_burn out GIF.gif",
+          "tags": [
+            "burnout",
+            "exhausted",
+            "overwork",
+            "drained"
+          ],
+          "mood": "sad",
+          "visual": "Person showing signs of complete burnout",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "burnout_3_motorcycle burnout GIF.gif",
+          "tags": [
+            "burnout",
+            "exhausted",
+            "overwork",
+            "drained"
+          ],
+          "mood": "sad",
+          "visual": "Person showing signs of complete burnout",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "coffee addict_1_Snow White Coffee GIF.gif",
+          "tags": [
+            "coffee",
+            "caffeine",
+            "morning",
+            "energy"
+          ],
+          "mood": "sad",
+          "visual": "Person desperately drinking/needing coffee",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "coffee addict_2_Too Much Coffee GIF by 20th Century Fox Home Enter.gif",
+          "tags": [
+            "coffee",
+            "caffeine",
+            "morning",
+            "energy"
+          ],
+          "mood": "sad",
+          "visual": "Person desperately drinking/needing coffee",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "coffee addict_3_coffee machine GIF.gif",
+          "tags": [
+            "coffee",
+            "caffeine",
+            "morning",
+            "energy"
+          ],
+          "mood": "sad",
+          "visual": "Person desperately drinking/needing coffee",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "monday mood_1_New Girl Ugh GIF.gif",
+          "tags": [
+            "monday",
+            "mood",
+            "depressed",
+            "work"
+          ],
+          "mood": "sad",
+          "visual": "Dreading Monday morning feeling",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "monday mood_2_Monday Morning Cat GIF by GrowthX.gif",
+          "tags": [
+            "monday",
+            "mood",
+            "depressed",
+            "work"
+          ],
+          "mood": "sad",
+          "visual": "Dreading Monday morning feeling",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "monday mood_3_Monday Omg GIF by JustViral.gif",
+          "tags": [
+            "monday",
+            "mood",
+            "depressed",
+            "work"
+          ],
+          "mood": "sad",
+          "visual": "Dreading Monday morning feeling",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "zombie mode_1_Walking Dead Halloween GIF by Jukebox Saints.gif",
+          "tags": [
+            "zombie",
+            "tired",
+            "dead",
+            "walking"
+          ],
+          "mood": "sad",
+          "visual": "Person in zombie-like exhausted state",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "zombie mode_2_Role Playing Reaction GIF by Hyper RPG.gif",
+          "tags": [
+            "zombie",
+            "tired",
+            "dead",
+            "walking"
+          ],
+          "mood": "sad",
+          "visual": "Person in zombie-like exhausted state",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        },
+        {
+          "file": "zombie mode_3_Disappointed Plants Vs Zombies GIF.gif",
+          "tags": [
+            "zombie",
+            "tired",
+            "dead",
+            "walking"
+          ],
+          "mood": "sad",
+          "visual": "Person in zombie-like exhausted state",
+          "best_for": [
+            "mô tả pain point làm việc thủ công",
+            "trước khi giới thiệu giải pháp",
+            "nói về burnout"
+          ]
+        }
+      ]
+    },
+    "03_hop_hanh": {
+      "name_vi": "Họp hành / Văn phòng",
+      "name_en": "Meetings / Office",
+      "emotion": [
+        "bored",
+        "annoyed",
+        "resigned"
+      ],
+      "use_when": "Nói về họp hành vô bổ, công việc văn phòng, Zoom call, lãng phí thời gian trong meeting",
+      "files": [
+        {
+          "file": "boring meeting_1_Bored Over It GIF by Joel Byars.gif",
+          "tags": [
+            "meeting",
+            "boring",
+            "office",
+            "yawn"
+          ],
+          "mood": "funny",
+          "visual": "Person bored in a dull meeting",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "boring meeting_2_tired monday GIF by BrownSugarApp.gif",
+          "tags": [
+            "meeting",
+            "boring",
+            "office",
+            "yawn"
+          ],
+          "mood": "funny",
+          "visual": "Person bored in a dull meeting",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "boring meeting_3_Sleepy Work GIF by webex.gif",
+          "tags": [
+            "meeting",
+            "boring",
+            "office",
+            "yawn"
+          ],
+          "mood": "funny",
+          "visual": "Person bored in a dull meeting",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "zoom call funny_1_Bbc Party GIF by DanceCode.gif",
+          "tags": [
+            "zoom",
+            "video call",
+            "remote",
+            "funny"
+          ],
+          "mood": "funny",
+          "visual": "Funny moment on a video call",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "zoom call funny_2_Season 12 Lol GIF by RuPaul_s Drag Race.gif",
+          "tags": [
+            "zoom",
+            "video call",
+            "remote",
+            "funny"
+          ],
+          "mood": "funny",
+          "visual": "Funny moment on a video call",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "zoom call funny_3_Work From Home Animation GIF by Deskey Branding.gif",
+          "tags": [
+            "zoom",
+            "video call",
+            "remote",
+            "funny"
+          ],
+          "mood": "funny",
+          "visual": "Funny moment on a video call",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "this meeting could be email_1_Oprah Winfrey Meeting GIF by MOODMAN.gif",
+          "tags": [
+            "meeting",
+            "email",
+            "waste",
+            "time"
+          ],
+          "mood": "funny",
+          "visual": "Frustrated person in unnecessary meeting",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "this meeting could be email_2_Snl Meeting GIF by Saturday Night Live.gif",
+          "tags": [
+            "meeting",
+            "email",
+            "waste",
+            "time"
+          ],
+          "mood": "funny",
+          "visual": "Frustrated person in unnecessary meeting",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "this meeting could be email_3_Email Staff GIF.gif",
+          "tags": [
+            "meeting",
+            "email",
+            "waste",
+            "time"
+          ],
+          "mood": "funny",
+          "visual": "Frustrated person in unnecessary meeting",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "pretending to listen_1_Listening GIF.gif",
+          "tags": [
+            "fake",
+            "listening",
+            "distracted",
+            "meeting"
+          ],
+          "mood": "funny",
+          "visual": "Person pretending to pay attention",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "pretending to listen_2_Listen Shark Tank GIF by ABC Network.gif",
+          "tags": [
+            "fake",
+            "listening",
+            "distracted",
+            "meeting"
+          ],
+          "mood": "funny",
+          "visual": "Person pretending to pay attention",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "pretending to listen_3_You Never Listen Small Business Owner GIF by Auror.gif",
+          "tags": [
+            "fake",
+            "listening",
+            "distracted",
+            "meeting"
+          ],
+          "mood": "funny",
+          "visual": "Person pretending to pay attention",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "office presentation_1_us office presentation GIF.gif",
+          "tags": [
+            "presentation",
+            "office",
+            "slides",
+            "speaking"
+          ],
+          "mood": "funny",
+          "visual": "Person giving an office presentation",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "office presentation_2_Monkey Presentation GIF.gif",
+          "tags": [
+            "presentation",
+            "office",
+            "slides",
+            "speaking"
+          ],
+          "mood": "funny",
+          "visual": "Person giving an office presentation",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        },
+        {
+          "file": "office presentation_3_News Work GIF by sendwishonline.com.gif",
+          "tags": [
+            "presentation",
+            "office",
+            "slides",
+            "speaking"
+          ],
+          "mood": "funny",
+          "visual": "Person giving an office presentation",
+          "best_for": [
+            "pain point lãng phí thời gian",
+            "trước khi giới thiệu automation",
+            "nói về làm việc không hiệu quả"
+          ]
+        }
+      ]
+    },
+    "04_AI_cong_nghe": {
+      "name_vi": "AI / Công nghệ",
+      "name_en": "AI / Technology",
+      "emotion": [
+        "amazed",
+        "futuristic",
+        "curious"
+      ],
+      "use_when": "Nói về AI, automation, công nghệ mới, robot, machine learning, chatbot, tool AI, demo công nghệ",
+      "files": [
+        {
+          "file": "artificial intelligence_1_Artificial Intelligence Ai GIF.gif",
+          "tags": [
+            "AI",
+            "intelligence",
+            "brain",
+            "neural"
+          ],
+          "mood": "serious",
+          "visual": "AI brain or neural network visualization",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "artificial intelligence_2_Artificial Intelligence Dancing GIF.gif",
+          "tags": [
+            "AI",
+            "intelligence",
+            "brain",
+            "neural"
+          ],
+          "mood": "serious",
+          "visual": "AI brain or neural network visualization",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "artificial intelligence_3_artificial intelligence futurism GIF.gif",
+          "tags": [
+            "AI",
+            "intelligence",
+            "brain",
+            "neural"
+          ],
+          "mood": "serious",
+          "visual": "AI brain or neural network visualization",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "robot futuristic_1_Assembly Line Ai GIF by Kanpai Pandas.gif",
+          "tags": [
+            "robot",
+            "future",
+            "tech",
+            "android"
+          ],
+          "mood": "serious",
+          "visual": "Futuristic robot or android",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "robot futuristic_2_Robot Eye GIF.gif",
+          "tags": [
+            "robot",
+            "future",
+            "tech",
+            "android"
+          ],
+          "mood": "serious",
+          "visual": "Futuristic robot or android",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "robot futuristic_3_Sunglasses Robot GIF by Jukebox Saints.gif",
+          "tags": [
+            "robot",
+            "future",
+            "tech",
+            "android"
+          ],
+          "mood": "serious",
+          "visual": "Futuristic robot or android",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "matrix code rain_1_The Matrix Loop GIF.gif",
+          "tags": [
+            "matrix",
+            "code",
+            "green",
+            "hacker"
+          ],
+          "mood": "serious",
+          "visual": "Green code rain like The Matrix",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "matrix code rain_2_Coding The Matrix GIF.gif",
+          "tags": [
+            "matrix",
+            "code",
+            "green",
+            "hacker"
+          ],
+          "mood": "serious",
+          "visual": "Green code rain like The Matrix",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "matrix code rain_3_The Matrix Animation GIF.gif",
+          "tags": [
+            "matrix",
+            "code",
+            "green",
+            "hacker"
+          ],
+          "mood": "serious",
+          "visual": "Green code rain like The Matrix",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "AI brain neural_1_Glow Machine Learning GIF by xponentialdesign.gif",
+          "tags": [
+            "AI",
+            "brain",
+            "neural",
+            "network"
+          ],
+          "mood": "serious",
+          "visual": "Neural network or AI brain visualization",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "AI brain neural_2_Ai Blob GIF by davidvnun.gif",
+          "tags": [
+            "AI",
+            "brain",
+            "neural",
+            "network"
+          ],
+          "mood": "serious",
+          "visual": "Neural network or AI brain visualization",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "AI brain neural_3_Ai Blob GIF by davidvnun.gif",
+          "tags": [
+            "AI",
+            "brain",
+            "neural",
+            "network"
+          ],
+          "mood": "serious",
+          "visual": "Neural network or AI brain visualization",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "iron man hologram_1_Iron Man Instagram GIF.gif",
+          "tags": [
+            "hologram",
+            "iron man",
+            "tech",
+            "interface"
+          ],
+          "mood": "serious",
+          "visual": "Holographic interface like Iron Man",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "iron man hologram_2_iron man hologram GIF.gif",
+          "tags": [
+            "hologram",
+            "iron man",
+            "tech",
+            "interface"
+          ],
+          "mood": "serious",
+          "visual": "Holographic interface like Iron Man",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "iron man hologram_3_Iron Man GIF.gif",
+          "tags": [
+            "hologram",
+            "iron man",
+            "tech",
+            "interface"
+          ],
+          "mood": "serious",
+          "visual": "Holographic interface like Iron Man",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "chatbot AI_1_Ai Popcorn GIF by ChatbotBuilder.gif",
+          "tags": [
+            "chatbot",
+            "AI",
+            "conversation",
+            "bot"
+          ],
+          "mood": "serious",
+          "visual": "AI chatbot interaction",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "chatbot AI_2_Stan Marsh Ai GIF by South Park.gif",
+          "tags": [
+            "chatbot",
+            "AI",
+            "conversation",
+            "bot"
+          ],
+          "mood": "serious",
+          "visual": "AI chatbot interaction",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "chatbot AI_3_Artificial Intelligence Ai GIF by ChatbotBuilder.gif",
+          "tags": [
+            "chatbot",
+            "AI",
+            "conversation",
+            "bot"
+          ],
+          "mood": "serious",
+          "visual": "AI chatbot interaction",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "futuristic technology_1_Coding Artificial Intelligence GIF by Butlerm.gif",
+          "tags": [
+            "future",
+            "tech",
+            "sci-fi",
+            "innovation"
+          ],
+          "mood": "serious",
+          "visual": "Futuristic technology scene",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "futuristic technology_2_High Tech Internet GIF by Matthew Butler.gif",
+          "tags": [
+            "future",
+            "tech",
+            "sci-fi",
+            "innovation"
+          ],
+          "mood": "serious",
+          "visual": "Futuristic technology scene",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        },
+        {
+          "file": "futuristic technology_3_digital technology code GIF by Matthew Butler.gif",
+          "tags": [
+            "future",
+            "tech",
+            "sci-fi",
+            "innovation"
+          ],
+          "mood": "serious",
+          "visual": "Futuristic technology scene",
+          "best_for": [
+            "giới thiệu tool AI mới",
+            "demo công nghệ",
+            "nói về tương lai AI"
+          ]
+        }
+      ]
+    },
+    "05_coding": {
+      "name_vi": "Lập trình / Code",
+      "name_en": "Programming / Coding",
+      "emotion": [
+        "focused",
+        "frustrated",
+        "proud"
+      ],
+      "use_when": "Nói về code, lập trình, debug, developer life, vibe coding, no-code, build app",
+      "files": [
+        {
+          "file": "hacker typing_1_Game Hacking GIF.gif",
+          "tags": [
+            "hacker",
+            "typing",
+            "keyboard",
+            "fast"
+          ],
+          "mood": "funny",
+          "visual": "Person typing rapidly on keyboard like a hacker",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "hacker typing_2_Work Working GIF by Pudgy Penguins.gif",
+          "tags": [
+            "hacker",
+            "typing",
+            "keyboard",
+            "fast"
+          ],
+          "mood": "funny",
+          "visual": "Person typing rapidly on keyboard like a hacker",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "hacker typing_3_Coding Jim Carrey GIF by PERFECTL00P.gif",
+          "tags": [
+            "hacker",
+            "typing",
+            "keyboard",
+            "fast"
+          ],
+          "mood": "funny",
+          "visual": "Person typing rapidly on keyboard like a hacker",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "programming coding_1_Animated GIF.gif",
+          "tags": [
+            "programming",
+            "code",
+            "developer",
+            "screen"
+          ],
+          "mood": "funny",
+          "visual": "Code on screen, developer working",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "programming coding_2_Code Hacking GIF by Pizza Ninjas.gif",
+          "tags": [
+            "programming",
+            "code",
+            "developer",
+            "screen"
+          ],
+          "mood": "funny",
+          "visual": "Code on screen, developer working",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "programming coding_3_Work Coding GIF by Scaler.gif",
+          "tags": [
+            "programming",
+            "code",
+            "developer",
+            "screen"
+          ],
+          "mood": "funny",
+          "visual": "Code on screen, developer working",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "debugging developer_1_Tech Coding GIF by Persona.gif",
+          "tags": [
+            "debug",
+            "bug",
+            "fix",
+            "developer"
+          ],
+          "mood": "funny",
+          "visual": "Developer frustrated while debugging",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "debugging developer_2_.gif",
+          "tags": [
+            "debug",
+            "bug",
+            "fix",
+            "developer"
+          ],
+          "mood": "funny",
+          "visual": "Developer frustrated while debugging",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "debugging developer_3_Coding Software Engineer GIF by CodeRower.gif",
+          "tags": [
+            "debug",
+            "bug",
+            "fix",
+            "developer"
+          ],
+          "mood": "funny",
+          "visual": "Developer frustrated while debugging",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "it works meme_1_Richard Attenborough Whip GIF.gif",
+          "tags": [
+            "works",
+            "success",
+            "meme",
+            "surprise"
+          ],
+          "mood": "funny",
+          "visual": "Celebration when code finally works",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "it works meme_2_Work From Home Dog GIF.gif",
+          "tags": [
+            "works",
+            "success",
+            "meme",
+            "surprise"
+          ],
+          "mood": "funny",
+          "visual": "Celebration when code finally works",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "it works meme_3_Proud Of You Yes GIF.gif",
+          "tags": [
+            "works",
+            "success",
+            "meme",
+            "surprise"
+          ],
+          "mood": "funny",
+          "visual": "Celebration when code finally works",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "fix bug create more bugs_1_Bug Coding GIF by Quixy.gif",
+          "tags": [
+            "bug",
+            "fix",
+            "broken",
+            "cycle"
+          ],
+          "mood": "funny",
+          "visual": "Fixing one bug creates more bugs",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "fix bug create more bugs_2_No Way Funny Meme GIF.gif",
+          "tags": [
+            "bug",
+            "fix",
+            "broken",
+            "cycle"
+          ],
+          "mood": "funny",
+          "visual": "Fixing one bug creates more bugs",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "fix bug create more bugs_3_Coding Software Engineer GIF by CodeRower.gif",
+          "tags": [
+            "bug",
+            "fix",
+            "broken",
+            "cycle"
+          ],
+          "mood": "funny",
+          "visual": "Fixing one bug creates more bugs",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "developer life_1_Development Cells GIF by EMBL.gif",
+          "tags": [
+            "developer",
+            "life",
+            "code",
+            "programmer"
+          ],
+          "mood": "funny",
+          "visual": "Day in the life of a developer",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "developer life_2_Developer Dev GIF by KeepCoding.gif",
+          "tags": [
+            "developer",
+            "life",
+            "code",
+            "programmer"
+          ],
+          "mood": "funny",
+          "visual": "Day in the life of a developer",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        },
+        {
+          "file": "developer life_3_Tired Shiba Inu GIF by Doge Pound.gif",
+          "tags": [
+            "developer",
+            "life",
+            "code",
+            "programmer"
+          ],
+          "mood": "funny",
+          "visual": "Day in the life of a developer",
+          "best_for": [
+            "demo code/vibe coding",
+            "nói về lập trình/no-code",
+            "developer humor"
+          ]
+        }
+      ]
+    },
+    "06_shock_bat_ngo": {
+      "name_vi": "Sốc / Bất ngờ",
+      "name_en": "Shock / Surprise",
+      "emotion": [
+        "shocked",
+        "amazed",
+        "disbelief"
+      ],
+      "use_when": "Nói về kết quả bất ngờ, số liệu gây sốc, plot twist, reveal, thông tin gây ngạc nhiên",
+      "files": [
+        {
+          "file": "mind blown_1_Blow Your Mind Wow GIF by Product Hunt.gif",
+          "tags": [
+            "mind blown",
+            "amazed",
+            "explosion",
+            "wow"
+          ],
+          "mood": "shock",
+          "visual": "Head exploding with amazement",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "mind blown_2_Cosmo Kramer Mind Blown GIF.gif",
+          "tags": [
+            "mind blown",
+            "amazed",
+            "explosion",
+            "wow"
+          ],
+          "mood": "shock",
+          "visual": "Head exploding with amazement",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "mind blown_3_No Way Wow GIF by Productions Deferlantes.gif",
+          "tags": [
+            "mind blown",
+            "amazed",
+            "explosion",
+            "wow"
+          ],
+          "mood": "shock",
+          "visual": "Head exploding with amazement",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "surprised pikachu_1_Surprised Meme GIF.gif",
+          "tags": [
+            "pikachu",
+            "surprised",
+            "meme",
+            "face"
+          ],
+          "mood": "shock",
+          "visual": "Surprised Pikachu face meme",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "surprised pikachu_2_Pokemon Reaction GIF.gif",
+          "tags": [
+            "pikachu",
+            "surprised",
+            "meme",
+            "face"
+          ],
+          "mood": "shock",
+          "visual": "Surprised Pikachu face meme",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "surprised pikachu_3_Pokemon GIF.gif",
+          "tags": [
+            "pikachu",
+            "surprised",
+            "meme",
+            "face"
+          ],
+          "mood": "shock",
+          "visual": "Surprised Pikachu face meme",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "jaw drop shocked_1_Shocked Genie GIF.gif",
+          "tags": [
+            "jaw drop",
+            "shocked",
+            "stunned",
+            "omg"
+          ],
+          "mood": "shock",
+          "visual": "Jaw dropping in shock and disbelief",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "jaw drop shocked_2_Cat Wow GIF.gif",
+          "tags": [
+            "jaw drop",
+            "shocked",
+            "stunned",
+            "omg"
+          ],
+          "mood": "shock",
+          "visual": "Jaw dropping in shock and disbelief",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "jaw drop shocked_3_shocked jaw drop GIF.gif",
+          "tags": [
+            "jaw drop",
+            "shocked",
+            "stunned",
+            "omg"
+          ],
+          "mood": "shock",
+          "visual": "Jaw dropping in shock and disbelief",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "plot twist_1_Chevy Chase Community GIF.gif",
+          "tags": [
+            "plot twist",
+            "unexpected",
+            "surprise",
+            "turn"
+          ],
+          "mood": "shock",
+          "visual": "Dramatic plot twist reaction",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "plot twist_2_sarah greene plot twist GIF.gif",
+          "tags": [
+            "plot twist",
+            "unexpected",
+            "surprise",
+            "turn"
+          ],
+          "mood": "shock",
+          "visual": "Dramatic plot twist reaction",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "plot twist_3_Tommy Bb21 GIF by Big Brother.gif",
+          "tags": [
+            "plot twist",
+            "unexpected",
+            "surprise",
+            "turn"
+          ],
+          "mood": "shock",
+          "visual": "Dramatic plot twist reaction",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "wait what meme_1_Bored Whats Going On GIF by Ponke.gif",
+          "tags": [
+            "wait",
+            "what",
+            "confused",
+            "surprised"
+          ],
+          "mood": "shock",
+          "visual": "Double-take 'wait what' reaction",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "wait what meme_2_So What Smoking GIF by Jazz Memes.gif",
+          "tags": [
+            "wait",
+            "what",
+            "confused",
+            "surprised"
+          ],
+          "mood": "shock",
+          "visual": "Double-take 'wait what' reaction",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "wait what meme_3_Scared Wait What GIF.gif",
+          "tags": [
+            "wait",
+            "what",
+            "confused",
+            "surprised"
+          ],
+          "mood": "shock",
+          "visual": "Double-take 'wait what' reaction",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "shooketh_1_.gif",
+          "tags": [
+            "shook",
+            "shocked",
+            "shaking",
+            "disbelief"
+          ],
+          "mood": "shock",
+          "visual": "Person visibly shaken and shocked",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "shooketh_2_gasp GIF.gif",
+          "tags": [
+            "shook",
+            "shocked",
+            "shaking",
+            "disbelief"
+          ],
+          "mood": "shock",
+          "visual": "Person visibly shaken and shocked",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        },
+        {
+          "file": "shooketh_3_Shocked Koreantagshook GIF.gif",
+          "tags": [
+            "shook",
+            "shocked",
+            "shaking",
+            "disbelief"
+          ],
+          "mood": "shock",
+          "visual": "Person visibly shaken and shocked",
+          "best_for": [
+            "hook gây sốc",
+            "reveal số liệu bất ngờ",
+            "plot twist trong story"
+          ]
+        }
+      ]
+    },
+    "07_thanh_cong": {
+      "name_vi": "Thành công / Ăn mừng",
+      "name_en": "Success / Celebration",
+      "emotion": [
+        "triumphant",
+        "joyful",
+        "proud"
+      ],
+      "use_when": "Nói về đạt mục tiêu, kết quả tốt, milestone, thành tựu, ăn mừng, victory moment",
+      "files": [
+        {
+          "file": "celebration victory_1_Happy Celebration GIF by MightyMike.gif",
+          "tags": [
+            "celebration",
+            "victory",
+            "win",
+            "champion"
+          ],
+          "mood": "hype",
+          "visual": "Celebrating a big victory",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "celebration victory_2_Happy Football GIF by Piñata Farms_ The Meme App.gif",
+          "tags": [
+            "celebration",
+            "victory",
+            "win",
+            "champion"
+          ],
+          "mood": "hype",
+          "visual": "Celebrating a big victory",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "celebration victory_3_Excited Lets Go GIF by Zypto.gif",
+          "tags": [
+            "celebration",
+            "victory",
+            "win",
+            "champion"
+          ],
+          "mood": "hype",
+          "visual": "Celebrating a big victory",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "we did it_1_Kamala Harris Veep GIF by Election 2020.gif",
+          "tags": [
+            "success",
+            "team",
+            "achievement",
+            "celebration"
+          ],
+          "mood": "hype",
+          "visual": "Group celebration after achieving goal",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "we did it_2_Kamala Harris Good Job GIF by The Democrats.gif",
+          "tags": [
+            "success",
+            "team",
+            "achievement",
+            "celebration"
+          ],
+          "mood": "hype",
+          "visual": "Group celebration after achieving goal",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "we did it_3_John Krasinski Sgn GIF by SomeGoodNews.gif",
+          "tags": [
+            "success",
+            "team",
+            "achievement",
+            "celebration"
+          ],
+          "mood": "hype",
+          "visual": "Group celebration after achieving goal",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "confetti celebration_1_.gif",
+          "tags": [
+            "confetti",
+            "party",
+            "celebration",
+            "festive"
+          ],
+          "mood": "hype",
+          "visual": "Confetti raining down in celebration",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "confetti celebration_2_Happy Party GIF by UniqueBelgium.gif",
+          "tags": [
+            "confetti",
+            "party",
+            "celebration",
+            "festive"
+          ],
+          "mood": "hype",
+          "visual": "Confetti raining down in celebration",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "confetti celebration_3_Celebrate Happy Birthday GIF by ConEquip Parts.gif",
+          "tags": [
+            "confetti",
+            "party",
+            "celebration",
+            "festive"
+          ],
+          "mood": "hype",
+          "visual": "Confetti raining down in celebration",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "mic drop_1_Bryan Cranston Mic Drop GIF.gif",
+          "tags": [
+            "mic drop",
+            "boss",
+            "confident",
+            "done"
+          ],
+          "mood": "hype",
+          "visual": "Dropping microphone after epic moment",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "mic drop_2_Barack Obama Mic Drop GIF.gif",
+          "tags": [
+            "mic drop",
+            "boss",
+            "confident",
+            "done"
+          ],
+          "mood": "hype",
+          "visual": "Dropping microphone after epic moment",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "mic drop_3_Minions Mic Drop GIF.gif",
+          "tags": [
+            "mic drop",
+            "boss",
+            "confident",
+            "done"
+          ],
+          "mood": "hype",
+          "visual": "Dropping microphone after epic moment",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "nailed it success_1_Season 4 Success GIF by The Office.gif",
+          "tags": [
+            "nailed it",
+            "perfect",
+            "success",
+            "proud"
+          ],
+          "mood": "hype",
+          "visual": "Perfect execution, nailed it moment",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "nailed it success_2_Hammer Yes GIF.gif",
+          "tags": [
+            "nailed it",
+            "perfect",
+            "success",
+            "proud"
+          ],
+          "mood": "hype",
+          "visual": "Perfect execution, nailed it moment",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "nailed it success_3_Well Done Good Job GIF by Pudgy Penguins.gif",
+          "tags": [
+            "nailed it",
+            "perfect",
+            "success",
+            "proud"
+          ],
+          "mood": "hype",
+          "visual": "Perfect execution, nailed it moment",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "lets go hype_1_Excited Lets Go GIF by Zypto.gif",
+          "tags": [
+            "hype",
+            "energy",
+            "lets go",
+            "pumped"
+          ],
+          "mood": "hype",
+          "visual": "Hyped up and ready to go",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "lets go hype_2_Happy Lets Go GIF by Pengu.gif",
+          "tags": [
+            "hype",
+            "energy",
+            "lets go",
+            "pumped"
+          ],
+          "mood": "hype",
+          "visual": "Hyped up and ready to go",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        },
+        {
+          "file": "lets go hype_3_Celebrate Lets Go GIF by Zypto.gif",
+          "tags": [
+            "hype",
+            "energy",
+            "lets go",
+            "pumped"
+          ],
+          "mood": "hype",
+          "visual": "Hyped up and ready to go",
+          "best_for": [
+            "show kết quả thành công",
+            "milestone/achievement",
+            "kết video tích cực"
+          ]
+        }
+      ]
+    },
+    "08_that_bai_fail": {
+      "name_vi": "Thất bại / Fail",
+      "name_en": "Failure / Epic Fail",
+      "emotion": [
+        "disappointed",
+        "desperate",
+        "helpless"
+      ],
+      "use_when": "Nói về lỗi, thất bại, sai lầm, bug, crash, mất dữ liệu, kết quả tệ, cảnh báo sai lầm",
+      "files": [
+        {
+          "file": "epic fail_1_Dunk Fail GIF.gif",
+          "tags": [
+            "fail",
+            "epic",
+            "disaster",
+            "mistake"
+          ],
+          "mood": "funny",
+          "visual": "Something going spectacularly wrong",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "epic fail_2_Fail Black And White GIF.gif",
+          "tags": [
+            "fail",
+            "epic",
+            "disaster",
+            "mistake"
+          ],
+          "mood": "funny",
+          "visual": "Something going spectacularly wrong",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "epic fail_3_thatfails fails GIF.gif",
+          "tags": [
+            "fail",
+            "epic",
+            "disaster",
+            "mistake"
+          ],
+          "mood": "funny",
+          "visual": "Something going spectacularly wrong",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "this is fine fire_1_This Is Fine GIF.gif",
+          "tags": [
+            "fire",
+            "fine",
+            "calm",
+            "disaster"
+          ],
+          "mood": "funny",
+          "visual": "Dog sitting in burning room saying 'this is fine'",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "this is fine fire_2_Im Fine All Good GIF by Pudgy Memez.gif",
+          "tags": [
+            "fire",
+            "fine",
+            "calm",
+            "disaster"
+          ],
+          "mood": "funny",
+          "visual": "Dog sitting in burning room saying 'this is fine'",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "this is fine fire_3_This Is Fine GIF.gif",
+          "tags": [
+            "fire",
+            "fine",
+            "calm",
+            "disaster"
+          ],
+          "mood": "funny",
+          "visual": "Dog sitting in burning room saying 'this is fine'",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "disaster fail_1_Terrence Ross Wow GIF.gif",
+          "tags": [
+            "disaster",
+            "crash",
+            "destruction",
+            "fail"
+          ],
+          "mood": "funny",
+          "visual": "Everything falling apart catastrophically",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "disaster fail_2_life fail GIF.gif",
+          "tags": [
+            "disaster",
+            "crash",
+            "destruction",
+            "fail"
+          ],
+          "mood": "funny",
+          "visual": "Everything falling apart catastrophically",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "disaster fail_3_Summer Vacation GIF.gif",
+          "tags": [
+            "disaster",
+            "crash",
+            "destruction",
+            "fail"
+          ],
+          "mood": "funny",
+          "visual": "Everything falling apart catastrophically",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "error 404_1_Technical Difficulties Error GIF.gif",
+          "tags": [
+            "error",
+            "404",
+            "not found",
+            "broken"
+          ],
+          "mood": "funny",
+          "visual": "Error 404 not found screen",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "error 404_2_Technical Difficulties Error GIF.gif",
+          "tags": [
+            "error",
+            "404",
+            "not found",
+            "broken"
+          ],
+          "mood": "funny",
+          "visual": "Error 404 not found screen",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "error 404_3_Windows Error GIF.gif",
+          "tags": [
+            "error",
+            "404",
+            "not found",
+            "broken"
+          ],
+          "mood": "funny",
+          "visual": "Error 404 not found screen",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "blue screen of death_1_blue screen reflection GIF.gif",
+          "tags": [
+            "BSOD",
+            "crash",
+            "windows",
+            "error"
+          ],
+          "mood": "funny",
+          "visual": "Windows blue screen of death",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "blue screen of death_2_Technical Difficulties Error GIF.gif",
+          "tags": [
+            "BSOD",
+            "crash",
+            "windows",
+            "error"
+          ],
+          "mood": "funny",
+          "visual": "Windows blue screen of death",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "blue screen of death_3_Windows Error GIF.gif",
+          "tags": [
+            "BSOD",
+            "crash",
+            "windows",
+            "error"
+          ],
+          "mood": "funny",
+          "visual": "Windows blue screen of death",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "everything is broken_1_Instagram Im Free GIF.gif",
+          "tags": [
+            "broken",
+            "crash",
+            "chaos",
+            "desperate"
+          ],
+          "mood": "funny",
+          "visual": "Everything breaking down at once",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "everything is broken_2_Broken Heart Water GIF by Pudgy Memez.gif",
+          "tags": [
+            "broken",
+            "crash",
+            "chaos",
+            "desperate"
+          ],
+          "mood": "funny",
+          "visual": "Everything breaking down at once",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        },
+        {
+          "file": "everything is broken_3_English What GIF.gif",
+          "tags": [
+            "broken",
+            "crash",
+            "chaos",
+            "desperate"
+          ],
+          "mood": "funny",
+          "visual": "Everything breaking down at once",
+          "best_for": [
+            "cảnh báo sai lầm",
+            "show lỗi thường gặp",
+            "before khi fix"
+          ]
+        }
+      ]
+    },
+    "09_suy_nghi": {
+      "name_vi": "Suy nghĩ / Tư duy",
+      "name_en": "Thinking / Deep Thought",
+      "emotion": [
+        "contemplative",
+        "confused",
+        "enlightened"
+      ],
+      "use_when": "Nói về suy nghĩ, phân tích, đặt câu hỏi, so sánh lựa chọn, brainstorm, strategy",
+      "files": [
+        {
+          "file": "thinking hmm_1_Thinking Cat GIF.gif",
+          "tags": [
+            "thinking",
+            "hmm",
+            "pondering",
+            "consider"
+          ],
+          "mood": "neutral",
+          "visual": "Person deep in thought, chin on hand",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "thinking hmm_2_Thinking Think GIF by The official GIPHY Page for .gif",
+          "tags": [
+            "thinking",
+            "hmm",
+            "pondering",
+            "consider"
+          ],
+          "mood": "neutral",
+          "visual": "Person deep in thought, chin on hand",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "thinking hmm_3_Think Black And White GIF.gif",
+          "tags": [
+            "thinking",
+            "hmm",
+            "pondering",
+            "consider"
+          ],
+          "mood": "neutral",
+          "visual": "Person deep in thought, chin on hand",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "calculating math meme_1_Confused Thinking GIF.gif",
+          "tags": [
+            "calculating",
+            "math",
+            "numbers",
+            "brain"
+          ],
+          "mood": "neutral",
+          "visual": "Math equations floating around head",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "calculating math meme_2_Calculate Zach Galifianakis GIF.gif",
+          "tags": [
+            "calculating",
+            "math",
+            "numbers",
+            "brain"
+          ],
+          "mood": "neutral",
+          "visual": "Math equations floating around head",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "calculating math meme_3_Confused Cat GIF.gif",
+          "tags": [
+            "calculating",
+            "math",
+            "numbers",
+            "brain"
+          ],
+          "mood": "neutral",
+          "visual": "Math equations floating around head",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "galaxy brain_1_Telepathy Brain Power GIF.gif",
+          "tags": [
+            "galaxy brain",
+            "genius",
+            "big brain",
+            "smart"
+          ],
+          "mood": "neutral",
+          "visual": "Expanding brain meme, galaxy brain",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "galaxy brain_2_stress i need a drink GIF.gif",
+          "tags": [
+            "galaxy brain",
+            "genius",
+            "big brain",
+            "smart"
+          ],
+          "mood": "neutral",
+          "visual": "Expanding brain meme, galaxy brain",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "galaxy brain_3_Galaxy Brain GIF.gif",
+          "tags": [
+            "galaxy brain",
+            "genius",
+            "big brain",
+            "smart"
+          ],
+          "mood": "neutral",
+          "visual": "Expanding brain meme, galaxy brain",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "confused math lady_1_Confused Thinking GIF.gif",
+          "tags": [
+            "confused",
+            "math",
+            "woman",
+            "meme"
+          ],
+          "mood": "neutral",
+          "visual": "Woman confused with math equations",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "confused math lady_2_.gif",
+          "tags": [
+            "confused",
+            "math",
+            "woman",
+            "meme"
+          ],
+          "mood": "neutral",
+          "visual": "Woman confused with math equations",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "confused math lady_3_Confused Math Lady GIF.gif",
+          "tags": [
+            "confused",
+            "math",
+            "woman",
+            "meme"
+          ],
+          "mood": "neutral",
+          "visual": "Woman confused with math equations",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "big brain time_1_Big Brain GIF.gif",
+          "tags": [
+            "big brain",
+            "smart",
+            "genius",
+            "idea"
+          ],
+          "mood": "neutral",
+          "visual": "Expanded brain, big brain time meme",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "big brain time_2_The Brain GIF.gif",
+          "tags": [
+            "big brain",
+            "smart",
+            "genius",
+            "idea"
+          ],
+          "mood": "neutral",
+          "visual": "Expanded brain, big brain time meme",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "big brain time_3_Brain To Brain GIF.gif",
+          "tags": [
+            "big brain",
+            "smart",
+            "genius",
+            "idea"
+          ],
+          "mood": "neutral",
+          "visual": "Expanded brain, big brain time meme",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "processing thinking_1_Thinking Brain GIF by MOODMAN.gif",
+          "tags": [
+            "processing",
+            "loading",
+            "thinking",
+            "compute"
+          ],
+          "mood": "neutral",
+          "visual": "Brain processing/loading information",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "processing thinking_2_Thinking Think GIF.gif",
+          "tags": [
+            "processing",
+            "loading",
+            "thinking",
+            "compute"
+          ],
+          "mood": "neutral",
+          "visual": "Brain processing/loading information",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        },
+        {
+          "file": "processing thinking_3_Let Me Think What GIF.gif",
+          "tags": [
+            "processing",
+            "loading",
+            "thinking",
+            "compute"
+          ],
+          "mood": "neutral",
+          "visual": "Brain processing/loading information",
+          "best_for": [
+            "đặt câu hỏi cho viewer",
+            "phân tích/so sánh",
+            "transition suy nghĩ"
+          ]
+        }
+      ]
+    },
+    "10_toc_do_nang_suat": {
+      "name_vi": "Tốc độ / Năng suất",
+      "name_en": "Speed / Productivity",
+      "emotion": [
+        "energetic",
+        "determined",
+        "efficient"
+      ],
+      "use_when": "Nói về tốc độ, năng suất, hiệu quả, tiết kiệm thời gian, automation nhanh, workflow tối ưu",
+      "files": [
+        {
+          "file": "fast speed_1_See Goodwood Festival Of Speed GIF.gif",
+          "tags": [
+            "fast",
+            "speed",
+            "quick",
+            "rapid"
+          ],
+          "mood": "hype",
+          "visual": "Something moving extremely fast",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "fast speed_2_Go Dark Helmet GIF.gif",
+          "tags": [
+            "fast",
+            "speed",
+            "quick",
+            "rapid"
+          ],
+          "mood": "hype",
+          "visual": "Something moving extremely fast",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "fast speed_3_Nfl Time GIF by FanDuel.gif",
+          "tags": [
+            "fast",
+            "speed",
+            "quick",
+            "rapid"
+          ],
+          "mood": "hype",
+          "visual": "Something moving extremely fast",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "productivity hustle_1_Cleaning Productivity GIF.gif",
+          "tags": [
+            "productivity",
+            "hustle",
+            "work",
+            "efficient"
+          ],
+          "mood": "hype",
+          "visual": "Person working with high productivity",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "productivity hustle_2_Busy Bee Workaholics GIF by Zhot.gif",
+          "tags": [
+            "productivity",
+            "hustle",
+            "work",
+            "efficient"
+          ],
+          "mood": "hype",
+          "visual": "Person working with high productivity",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "productivity hustle_3_Money Success GIF by Zhot.gif",
+          "tags": [
+            "productivity",
+            "hustle",
+            "work",
+            "efficient"
+          ],
+          "mood": "hype",
+          "visual": "Person working with high productivity",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "multitasking_1_multitasking GIF.gif",
+          "tags": [
+            "multitask",
+            "multiple",
+            "busy",
+            "juggling"
+          ],
+          "mood": "hype",
+          "visual": "Person juggling multiple tasks at once",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "multitasking_2_Stressed Spongebob Squarepants GIF.gif",
+          "tags": [
+            "multitask",
+            "multiple",
+            "busy",
+            "juggling"
+          ],
+          "mood": "hype",
+          "visual": "Person juggling multiple tasks at once",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "multitasking_3_Chasing Tom And Jerry GIF by HBO Max.gif",
+          "tags": [
+            "multitask",
+            "multiple",
+            "busy",
+            "juggling"
+          ],
+          "mood": "hype",
+          "visual": "Person juggling multiple tasks at once",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "speedrun_1_Trending Vibe GIF by Darwin.gif",
+          "tags": [
+            "speedrun",
+            "fast",
+            "record",
+            "quick"
+          ],
+          "mood": "hype",
+          "visual": "Speed running through tasks rapidly",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "speedrun_2_Trending Feels GIF by Darwin.gif",
+          "tags": [
+            "speedrun",
+            "fast",
+            "record",
+            "quick"
+          ],
+          "mood": "hype",
+          "visual": "Speed running through tasks rapidly",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "speedrun_3_Mood Feels GIF by Darwin.gif",
+          "tags": [
+            "speedrun",
+            "fast",
+            "record",
+            "quick"
+          ],
+          "mood": "hype",
+          "visual": "Speed running through tasks rapidly",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "time lapse working_1_london artist GIF by Alex Evans Art.gif",
+          "tags": [
+            "timelapse",
+            "working",
+            "progress",
+            "fast"
+          ],
+          "mood": "hype",
+          "visual": "Time-lapse of work being done quickly",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "time lapse working_2_Time-Lapse Illustration GIF by Xbox.gif",
+          "tags": [
+            "timelapse",
+            "working",
+            "progress",
+            "fast"
+          ],
+          "mood": "hype",
+          "visual": "Time-lapse of work being done quickly",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        },
+        {
+          "file": "time lapse working_3_Work From Home Swimming GIF.gif",
+          "tags": [
+            "timelapse",
+            "working",
+            "progress",
+            "fast"
+          ],
+          "mood": "hype",
+          "visual": "Time-lapse of work being done quickly",
+          "best_for": [
+            "show tốc độ automation",
+            "before/after năng suất",
+            "nói về tiết kiệm thời gian"
+          ]
+        }
+      ]
+    },
+    "11_lazy_tri_hoan": {
+      "name_vi": "Lười biếng / Trì hoãn",
+      "name_en": "Lazy / Procrastination",
+      "emotion": [
+        "lazy",
+        "unmotivated",
+        "guilty"
+      ],
+      "use_when": "Nói về trì hoãn, lười biếng, chưa bắt đầu, scroll phone cả ngày, thiếu động lực",
+      "files": [
+        {
+          "file": "lazy procrastination_1_homer simpson fashion GIF.gif",
+          "tags": [
+            "lazy",
+            "procrastination",
+            "delay",
+            "tomorrow"
+          ],
+          "mood": "funny",
+          "visual": "Person lazily avoiding work",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "lazy procrastination_2_homework relaxing GIF.gif",
+          "tags": [
+            "lazy",
+            "procrastination",
+            "delay",
+            "tomorrow"
+          ],
+          "mood": "funny",
+          "visual": "Person lazily avoiding work",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "lazy procrastination_3_Animation Fail GIF by SLOTHILDA.gif",
+          "tags": [
+            "lazy",
+            "procrastination",
+            "delay",
+            "tomorrow"
+          ],
+          "mood": "funny",
+          "visual": "Person lazily avoiding work",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "couch potato_1_Adrian Beltre GIF.gif",
+          "tags": [
+            "couch",
+            "lazy",
+            "potato",
+            "relaxing"
+          ],
+          "mood": "funny",
+          "visual": "Person being a couch potato",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "couch potato_2_.gif",
+          "tags": [
+            "couch",
+            "lazy",
+            "potato",
+            "relaxing"
+          ],
+          "mood": "funny",
+          "visual": "Person being a couch potato",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "couch potato_3_Couch Potato Cat GIF.gif",
+          "tags": [
+            "couch",
+            "lazy",
+            "potato",
+            "relaxing"
+          ],
+          "mood": "funny",
+          "visual": "Person being a couch potato",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "not today_1_Deny No Way GIF.gif",
+          "tags": [
+            "nope",
+            "not today",
+            "refuse",
+            "lazy"
+          ],
+          "mood": "funny",
+          "visual": "Refusing to do anything today",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "not today_2_Sassy Ice Cube GIF by Team Coco.gif",
+          "tags": [
+            "nope",
+            "not today",
+            "refuse",
+            "lazy"
+          ],
+          "mood": "funny",
+          "visual": "Refusing to do anything today",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "not today_3_I Dont Think So No Way GIF.gif",
+          "tags": [
+            "nope",
+            "not today",
+            "refuse",
+            "lazy"
+          ],
+          "mood": "funny",
+          "visual": "Refusing to do anything today",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "scrolling phone bored_1_Bored Social Media GIF by golden freckles.gif",
+          "tags": [
+            "scrolling",
+            "phone",
+            "bored",
+            "wasting"
+          ],
+          "mood": "funny",
+          "visual": "Mindlessly scrolling on phone",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "scrolling phone bored_2_Bored Phone GIF by Lucky Kat Studios.gif",
+          "tags": [
+            "scrolling",
+            "phone",
+            "bored",
+            "wasting"
+          ],
+          "mood": "funny",
+          "visual": "Mindlessly scrolling on phone",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "scrolling phone bored_3_Bored Social Media GIF by Funimation.gif",
+          "tags": [
+            "scrolling",
+            "phone",
+            "bored",
+            "wasting"
+          ],
+          "mood": "funny",
+          "visual": "Mindlessly scrolling on phone",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "do nothing lazy_1_To Do List Nothing GIF by SpongeBob SquarePants.gif",
+          "tags": [
+            "nothing",
+            "lazy",
+            "idle",
+            "chill"
+          ],
+          "mood": "funny",
+          "visual": "Person doing absolutely nothing",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "do nothing lazy_2_Couch Potato Laziness GIF by lianbiglian.gif",
+          "tags": [
+            "nothing",
+            "lazy",
+            "idle",
+            "chill"
+          ],
+          "mood": "funny",
+          "visual": "Person doing absolutely nothing",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        },
+        {
+          "file": "do nothing lazy_3_Season 1 Burrito GIF by Paramount_.gif",
+          "tags": [
+            "nothing",
+            "lazy",
+            "idle",
+            "chill"
+          ],
+          "mood": "funny",
+          "visual": "Person doing absolutely nothing",
+          "best_for": [
+            "mô tả thói quen xấu",
+            "pain point trì hoãn",
+            "trước khi motivate"
+          ]
+        }
+      ]
+    },
+    "12_so_sanh_before_after": {
+      "name_vi": "So sánh / Before-After",
+      "name_en": "Comparison / Before-After",
+      "emotion": [
+        "impressed",
+        "motivated",
+        "transformative"
+      ],
+      "use_when": "Nói về trước/sau, so sánh kết quả, transformation, upgrade, level up, glow up nhờ AI",
+      "files": [
+        {
+          "file": "before and after_1_Cleaning Hoarding GIF by 60 Second Docs.gif",
+          "tags": [
+            "before",
+            "after",
+            "comparison",
+            "change"
+          ],
+          "mood": "hype",
+          "visual": "Side-by-side before and after comparison",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "before and after_2_Cleaning Hoarding GIF by 60 Second Docs.gif",
+          "tags": [
+            "before",
+            "after",
+            "comparison",
+            "change"
+          ],
+          "mood": "hype",
+          "visual": "Side-by-side before and after comparison",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "before and after_3_The Devil Wears Prada Coffee GIF.gif",
+          "tags": [
+            "before",
+            "after",
+            "comparison",
+            "change"
+          ],
+          "mood": "hype",
+          "visual": "Side-by-side before and after comparison",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "expectation vs reality_1_.gif",
+          "tags": [
+            "expectation",
+            "reality",
+            "comparison",
+            "truth"
+          ],
+          "mood": "hype",
+          "visual": "Expectation vs reality contrast",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "expectation vs reality_2_run running GIF.gif",
+          "tags": [
+            "expectation",
+            "reality",
+            "comparison",
+            "truth"
+          ],
+          "mood": "hype",
+          "visual": "Expectation vs reality contrast",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "expectation vs reality_3_The Walk GIF.gif",
+          "tags": [
+            "expectation",
+            "reality",
+            "comparison",
+            "truth"
+          ],
+          "mood": "hype",
+          "visual": "Expectation vs reality contrast",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "glow up transformation_1_Glow Up White Cat GIF by Fox4Pets.gif",
+          "tags": [
+            "glow up",
+            "transform",
+            "upgrade",
+            "better"
+          ],
+          "mood": "hype",
+          "visual": "Dramatic transformation/glow up",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "glow up transformation_2_Shocked Revenge GIF by IDX Solana.gif",
+          "tags": [
+            "glow up",
+            "transform",
+            "upgrade",
+            "better"
+          ],
+          "mood": "hype",
+          "visual": "Dramatic transformation/glow up",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "glow up transformation_3_Glow Up Marvel Studios GIF by Disney_.gif",
+          "tags": [
+            "glow up",
+            "transform",
+            "upgrade",
+            "better"
+          ],
+          "mood": "hype",
+          "visual": "Dramatic transformation/glow up",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "level up upgrade_1_Level Up Success GIF.gif",
+          "tags": [
+            "level up",
+            "upgrade",
+            "evolve",
+            "improve"
+          ],
+          "mood": "hype",
+          "visual": "Leveling up or upgrading power",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "level up upgrade_2_Level Up Success GIF.gif",
+          "tags": [
+            "level up",
+            "upgrade",
+            "evolve",
+            "improve"
+          ],
+          "mood": "hype",
+          "visual": "Leveling up or upgrading power",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        },
+        {
+          "file": "level up upgrade_3_Do It Upgrade GIF.gif",
+          "tags": [
+            "level up",
+            "upgrade",
+            "evolve",
+            "improve"
+          ],
+          "mood": "hype",
+          "visual": "Leveling up or upgrading power",
+          "best_for": [
+            "so sánh trước/sau dùng AI",
+            "transformation",
+            "upgrade/level up"
+          ]
+        }
+      ]
+    },
+    "13_data_bieu_do": {
+      "name_vi": "Dữ liệu / Biểu đồ",
+      "name_en": "Data / Charts",
+      "emotion": [
+        "analytical",
+        "serious",
+        "impressed"
+      ],
+      "use_when": "Nói về số liệu, thống kê, biểu đồ, analytics, dashboard, data-driven, ROI numbers",
+      "files": [
+        {
+          "file": "chart going up_1_Special Report Ninja GIF by Pizza Ninjas.gif",
+          "tags": [
+            "chart",
+            "growth",
+            "up",
+            "increase"
+          ],
+          "mood": "serious",
+          "visual": "Graph/chart line going up dramatically",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "chart going up_2_Going Up High School GIF by Pudgy Penguins.gif",
+          "tags": [
+            "chart",
+            "growth",
+            "up",
+            "increase"
+          ],
+          "mood": "serious",
+          "visual": "Graph/chart line going up dramatically",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "chart going up_3_Happy To The Moon GIF by Degen Toonz.gif",
+          "tags": [
+            "chart",
+            "growth",
+            "up",
+            "increase"
+          ],
+          "mood": "serious",
+          "visual": "Graph/chart line going up dramatically",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "data visualization_1_.gif",
+          "tags": [
+            "data",
+            "visualization",
+            "infographic",
+            "chart"
+          ],
+          "mood": "serious",
+          "visual": "Beautiful data visualization or dashboard",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "data visualization_2_Loop Travel GIF by xponentialdesign.gif",
+          "tags": [
+            "data",
+            "visualization",
+            "infographic",
+            "chart"
+          ],
+          "mood": "serious",
+          "visual": "Beautiful data visualization or dashboard",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "data visualization_3_United States Animation GIF by Urban Institute.gif",
+          "tags": [
+            "data",
+            "visualization",
+            "infographic",
+            "chart"
+          ],
+          "mood": "serious",
+          "visual": "Beautiful data visualization or dashboard",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "analytics dashboard_1_Art Analytics GIF by ShipBob.gif",
+          "tags": [
+            "analytics",
+            "dashboard",
+            "metrics",
+            "KPI"
+          ],
+          "mood": "serious",
+          "visual": "Analytics dashboard with metrics",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "analytics dashboard_2_.gif",
+          "tags": [
+            "analytics",
+            "dashboard",
+            "metrics",
+            "KPI"
+          ],
+          "mood": "serious",
+          "visual": "Analytics dashboard with metrics",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "analytics dashboard_3_Graphics Cm GIF by crowdmedia.gif",
+          "tags": [
+            "analytics",
+            "dashboard",
+            "metrics",
+            "KPI"
+          ],
+          "mood": "serious",
+          "visual": "Analytics dashboard with metrics",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "big data_1_Talk Nerdy To Me Marketing Strategy GIF by Similar.gif",
+          "tags": [
+            "big data",
+            "data",
+            "massive",
+            "information"
+          ],
+          "mood": "serious",
+          "visual": "Big data visualization flowing",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "big data_2_Analyze Most Excellent GIF by Giflytics.gif",
+          "tags": [
+            "big data",
+            "data",
+            "massive",
+            "information"
+          ],
+          "mood": "serious",
+          "visual": "Big data visualization flowing",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "big data_3_Prove It Valentines Day GIF by Similarweb.gif",
+          "tags": [
+            "big data",
+            "data",
+            "massive",
+            "information"
+          ],
+          "mood": "serious",
+          "visual": "Big data visualization flowing",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "statistics numbers_1_Penguin Flatten GIF by Pudgy Penguins.gif",
+          "tags": [
+            "statistics",
+            "numbers",
+            "data",
+            "math"
+          ],
+          "mood": "serious",
+          "visual": "Statistics and numbers display",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "statistics numbers_2_Data Coding GIF by Pudgy Penguins.gif",
+          "tags": [
+            "statistics",
+            "numbers",
+            "data",
+            "math"
+          ],
+          "mood": "serious",
+          "visual": "Statistics and numbers display",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        },
+        {
+          "file": "statistics numbers_3_Data Coding GIF by Pudgy Penguins.gif",
+          "tags": [
+            "statistics",
+            "numbers",
+            "data",
+            "math"
+          ],
+          "mood": "serious",
+          "visual": "Statistics and numbers display",
+          "best_for": [
+            "show số liệu/thống kê",
+            "chứng minh bằng data",
+            "analytics/dashboard demo"
+          ]
+        }
+      ]
+    },
+    "14_dien_thoai_mxh": {
+      "name_vi": "Điện thoại / Mạng xã hội",
+      "name_en": "Phone / Social Media",
+      "emotion": [
+        "addicted",
+        "distracted",
+        "connected"
+      ],
+      "use_when": "Nói về social media, viral, content creator, notification, online marketing, digital life",
+      "files": [
+        {
+          "file": "scrolling phone_1_Penguin Lol GIF by Pudgy Penguins.gif",
+          "tags": [
+            "scrolling",
+            "phone",
+            "mobile",
+            "app"
+          ],
+          "mood": "neutral",
+          "visual": "Person scrolling through phone",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "scrolling phone_2_Fun Scrolling GIF.gif",
+          "tags": [
+            "scrolling",
+            "phone",
+            "mobile",
+            "app"
+          ],
+          "mood": "neutral",
+          "visual": "Person scrolling through phone",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "scrolling phone_3_Cat Wow GIF by sillynub.gif",
+          "tags": [
+            "scrolling",
+            "phone",
+            "mobile",
+            "app"
+          ],
+          "mood": "neutral",
+          "visual": "Person scrolling through phone",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "social media notification_1_Instagram Fire GIF by darkbean.gif",
+          "tags": [
+            "notification",
+            "social media",
+            "alert",
+            "ping"
+          ],
+          "mood": "neutral",
+          "visual": "Social media notifications popping up",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "social media notification_2_Tired Social Media GIF by Pudgy Penguins.gif",
+          "tags": [
+            "notification",
+            "social media",
+            "alert",
+            "ping"
+          ],
+          "mood": "neutral",
+          "visual": "Social media notifications popping up",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "social media notification_3_social media facebook GIF by Guy Trefler.gif",
+          "tags": [
+            "notification",
+            "social media",
+            "alert",
+            "ping"
+          ],
+          "mood": "neutral",
+          "visual": "Social media notifications popping up",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "viral trending_1_Monkey Trend GIF.gif",
+          "tags": [
+            "viral",
+            "trending",
+            "popular",
+            "hot"
+          ],
+          "mood": "neutral",
+          "visual": "Something going viral and trending",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "viral trending_2_English Smile GIF.gif",
+          "tags": [
+            "viral",
+            "trending",
+            "popular",
+            "hot"
+          ],
+          "mood": "neutral",
+          "visual": "Something going viral and trending",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "viral trending_3_Dog Trend GIF.gif",
+          "tags": [
+            "viral",
+            "trending",
+            "popular",
+            "hot"
+          ],
+          "mood": "neutral",
+          "visual": "Something going viral and trending",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "content creator_1_The Bachelor Snl GIF by Saturday Night Live.gif",
+          "tags": [
+            "content",
+            "creator",
+            "influencer",
+            "camera"
+          ],
+          "mood": "neutral",
+          "visual": "Content creator working on content",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "content creator_2_Find Out Art GIF.gif",
+          "tags": [
+            "content",
+            "creator",
+            "influencer",
+            "camera"
+          ],
+          "mood": "neutral",
+          "visual": "Content creator working on content",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "content creator_3_Follow Me Instagram GIF by Squarespace.gif",
+          "tags": [
+            "content",
+            "creator",
+            "influencer",
+            "camera"
+          ],
+          "mood": "neutral",
+          "visual": "Content creator working on content",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "doom scrolling_1_Sloth Gluttony GIF by Jess Stempel.gif",
+          "tags": [
+            "doom scroll",
+            "addicted",
+            "phone",
+            "endless"
+          ],
+          "mood": "neutral",
+          "visual": "Endlessly scrolling through feed",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "doom scrolling_2_Scrolling Late Night GIF.gif",
+          "tags": [
+            "doom scroll",
+            "addicted",
+            "phone",
+            "endless"
+          ],
+          "mood": "neutral",
+          "visual": "Endlessly scrolling through feed",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        },
+        {
+          "file": "doom scrolling_3_Fun Scrolling GIF.gif",
+          "tags": [
+            "doom scroll",
+            "addicted",
+            "phone",
+            "endless"
+          ],
+          "mood": "neutral",
+          "visual": "Endlessly scrolling through feed",
+          "best_for": [
+            "nói về social media/marketing",
+            "content creator life",
+            "digital tools"
+          ]
+        }
+      ]
+    },
+    "15_giai_thich": {
+      "name_vi": "Giải thích / Hướng dẫn",
+      "name_en": "Explanation / Teaching",
+      "emotion": [
+        "authoritative",
+        "helpful",
+        "clear"
+      ],
+      "use_when": "Nói về giải thích concept, hướng dẫn step-by-step, breaking down, phân tích, dạy kiến thức",
+      "files": [
+        {
+          "file": "let me explain_1_Kevin Hart Lol GIF.gif",
+          "tags": [
+            "explain",
+            "teach",
+            "point",
+            "lecture"
+          ],
+          "mood": "serious",
+          "visual": "Person explaining something earnestly",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "let me explain_2_Explaining Joe Biden GIF by The Democrats.gif",
+          "tags": [
+            "explain",
+            "teach",
+            "point",
+            "lecture"
+          ],
+          "mood": "serious",
+          "visual": "Person explaining something earnestly",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "let me explain_3_Working Work Out GIF by Northern Ireland.gif",
+          "tags": [
+            "explain",
+            "teach",
+            "point",
+            "lecture"
+          ],
+          "mood": "serious",
+          "visual": "Person explaining something earnestly",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "pointing whiteboard_1_Are You Stupid Yes Or No GIF by MESA My Emotional .gif",
+          "tags": [
+            "whiteboard",
+            "pointing",
+            "teaching",
+            "diagram"
+          ],
+          "mood": "serious",
+          "visual": "Person pointing at whiteboard explanation",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "pointing whiteboard_2_Point Pointing GIF by Thorns FC.gif",
+          "tags": [
+            "whiteboard",
+            "pointing",
+            "teaching",
+            "diagram"
+          ],
+          "mood": "serious",
+          "visual": "Person pointing at whiteboard explanation",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "pointing whiteboard_3_Scheming Shiba Inu GIF by Doge Pound.gif",
+          "tags": [
+            "whiteboard",
+            "pointing",
+            "teaching",
+            "diagram"
+          ],
+          "mood": "serious",
+          "visual": "Person pointing at whiteboard explanation",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "ted talk explaining_1_Season 3 Thank You GIF by Good Trouble.gif",
+          "tags": [
+            "ted talk",
+            "speech",
+            "explain",
+            "stage"
+          ],
+          "mood": "serious",
+          "visual": "Speaker explaining on stage like TED",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "ted talk explaining_2_School Explain GIF by Pudgy Penguins.gif",
+          "tags": [
+            "ted talk",
+            "speech",
+            "explain",
+            "stage"
+          ],
+          "mood": "serious",
+          "visual": "Speaker explaining on stage like TED",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "ted talk explaining_3_Ted Telha GIF.gif",
+          "tags": [
+            "ted talk",
+            "speech",
+            "explain",
+            "stage"
+          ],
+          "mood": "serious",
+          "visual": "Speaker explaining on stage like TED",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "breaking news announcement_1_Breaking Bbc GIF by Luke Alexander.gif",
+          "tags": [
+            "breaking news",
+            "announcement",
+            "alert",
+            "important"
+          ],
+          "mood": "serious",
+          "visual": "Breaking news announcement style",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "breaking news announcement_2_Breaking News GIF by Kanpai Pandas.gif",
+          "tags": [
+            "breaking news",
+            "announcement",
+            "alert",
+            "important"
+          ],
+          "mood": "serious",
+          "visual": "Breaking news announcement style",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "breaking news announcement_3_Breaking News GIF by ABC Network.gif",
+          "tags": [
+            "breaking news",
+            "announcement",
+            "alert",
+            "important"
+          ],
+          "mood": "serious",
+          "visual": "Breaking news announcement style",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "teaching lesson_1_You Will Learn GIF by Pudgy Penguins.gif",
+          "tags": [
+            "teaching",
+            "lesson",
+            "class",
+            "education"
+          ],
+          "mood": "serious",
+          "visual": "Teacher giving a lesson",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "teaching lesson_2_Read Sewing Bee GIF by The Great British Sewing Be.gif",
+          "tags": [
+            "teaching",
+            "lesson",
+            "class",
+            "education"
+          ],
+          "mood": "serious",
+          "visual": "Teacher giving a lesson",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        },
+        {
+          "file": "teaching lesson_3_School Enseñar GIF by Persona.gif",
+          "tags": [
+            "teaching",
+            "lesson",
+            "class",
+            "education"
+          ],
+          "mood": "serious",
+          "visual": "Teacher giving a lesson",
+          "best_for": [
+            "giải thích concept",
+            "hướng dẫn step-by-step",
+            "teaching moment"
+          ]
+        }
+      ]
+    },
+    "16_stress": {
+      "name_vi": "Stress / Áp lực",
+      "name_en": "Stress / Pressure",
+      "emotion": [
+        "anxious",
+        "overwhelmed",
+        "panicked"
+      ],
+      "use_when": "Nói về deadline, áp lực công việc, stress, quá tải, chaos, cần giải pháp gấp",
+      "files": [
+        {
+          "file": "stress panic_1_Nervous The Big Bang Theory GIF.gif",
+          "tags": [
+            "stress",
+            "panic",
+            "anxiety",
+            "worried"
+          ],
+          "mood": "sad",
+          "visual": "Person in visible stress and panic",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "stress panic_2_Stressed Mickey Mouse GIF.gif",
+          "tags": [
+            "stress",
+            "panic",
+            "anxiety",
+            "worried"
+          ],
+          "mood": "sad",
+          "visual": "Person in visible stress and panic",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "stress panic_3_What The Hell Wtf GIF.gif",
+          "tags": [
+            "stress",
+            "panic",
+            "anxiety",
+            "worried"
+          ],
+          "mood": "sad",
+          "visual": "Person in visible stress and panic",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "deadline pressure_1_Stressed Out Hana GIF by Persona.gif",
+          "tags": [
+            "deadline",
+            "pressure",
+            "urgent",
+            "clock"
+          ],
+          "mood": "sad",
+          "visual": "Racing against a tight deadline",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "deadline pressure_2_Hana Typing Fast GIF by Persona.gif",
+          "tags": [
+            "deadline",
+            "pressure",
+            "urgent",
+            "clock"
+          ],
+          "mood": "sad",
+          "visual": "Racing against a tight deadline",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "deadline pressure_3_Nervous Stress GIF by Persona.gif",
+          "tags": [
+            "deadline",
+            "pressure",
+            "urgent",
+            "clock"
+          ],
+          "mood": "sad",
+          "visual": "Racing against a tight deadline",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "overwhelmed chaos_1_Work Help GIF by Pudgy Penguins.gif",
+          "tags": [
+            "overwhelmed",
+            "chaos",
+            "too much",
+            "drowning"
+          ],
+          "mood": "sad",
+          "visual": "Person drowning in chaos and work",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "overwhelmed chaos_2_Working On Fire GIF by Pudgy Penguins.gif",
+          "tags": [
+            "overwhelmed",
+            "chaos",
+            "too much",
+            "drowning"
+          ],
+          "mood": "sad",
+          "visual": "Person drowning in chaos and work",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "overwhelmed chaos_3_Bad Day Help GIF.gif",
+          "tags": [
+            "overwhelmed",
+            "chaos",
+            "too much",
+            "drowning"
+          ],
+          "mood": "sad",
+          "visual": "Person drowning in chaos and work",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "anxiety help_1_Scared Breaking Bad GIF by davidsaracino.gif",
+          "tags": [
+            "anxiety",
+            "nervous",
+            "worried",
+            "help"
+          ],
+          "mood": "sad",
+          "visual": "Person experiencing anxiety",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "anxiety help_2_Illustration Help GIF.gif",
+          "tags": [
+            "anxiety",
+            "nervous",
+            "worried",
+            "help"
+          ],
+          "mood": "sad",
+          "visual": "Person experiencing anxiety",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "anxiety help_3_Anxiety Help GIF by Ryn Dean.gif",
+          "tags": [
+            "anxiety",
+            "nervous",
+            "worried",
+            "help"
+          ],
+          "mood": "sad",
+          "visual": "Person experiencing anxiety",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "crying stressed_1_Sad Family Time GIF by Lifetime.gif",
+          "tags": [
+            "crying",
+            "stressed",
+            "tears",
+            "breakdown"
+          ],
+          "mood": "sad",
+          "visual": "Person crying from stress",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "crying stressed_2_Cat Crying GIF.gif",
+          "tags": [
+            "crying",
+            "stressed",
+            "tears",
+            "breakdown"
+          ],
+          "mood": "sad",
+          "visual": "Person crying from stress",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        },
+        {
+          "file": "crying stressed_3_What Do You Want Crying GIF.gif",
+          "tags": [
+            "crying",
+            "stressed",
+            "tears",
+            "breakdown"
+          ],
+          "mood": "sad",
+          "visual": "Person crying from stress",
+          "best_for": [
+            "pain point áp lực",
+            "trước khi giới thiệu giải pháp",
+            "nói về deadline"
+          ]
+        }
+      ]
+    },
+    "17_dong_y": {
+      "name_vi": "Đồng ý / Tán thành",
+      "name_en": "Agreement / Approval",
+      "emotion": [
+        "supportive",
+        "confident",
+        "affirming"
+      ],
+      "use_when": "Nói về đồng tình, xác nhận, approve, đúng rồi, facts, chính xác, ủng hộ quan điểm",
+      "files": [
+        {
+          "file": "thumbs up approved_1_Angel Yes GIF by Sappy Seals.gif",
+          "tags": [
+            "thumbs up",
+            "approve",
+            "good",
+            "yes"
+          ],
+          "mood": "hype",
+          "visual": "Thumbs up approval gesture",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "thumbs up approved_2_3D Thumbs Up GIF.gif",
+          "tags": [
+            "thumbs up",
+            "approve",
+            "good",
+            "yes"
+          ],
+          "mood": "hype",
+          "visual": "Thumbs up approval gesture",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "thumbs up approved_3_I Love You Thumbs Up GIF.gif",
+          "tags": [
+            "thumbs up",
+            "approve",
+            "good",
+            "yes"
+          ],
+          "mood": "hype",
+          "visual": "Thumbs up approval gesture",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "clapping agree_1_Happy Black Girl GIF by MonA Hayslett.gif",
+          "tags": [
+            "clapping",
+            "applause",
+            "agree",
+            "bravo"
+          ],
+          "mood": "hype",
+          "visual": "Clapping in agreement and approval",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "clapping agree_2_Robert Downey Jr Ok GIF.gif",
+          "tags": [
+            "clapping",
+            "applause",
+            "agree",
+            "bravo"
+          ],
+          "mood": "hype",
+          "visual": "Clapping in agreement and approval",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "clapping agree_3_Lin Manuel Miranda Love GIF by Tony Awards.gif",
+          "tags": [
+            "clapping",
+            "applause",
+            "agree",
+            "bravo"
+          ],
+          "mood": "hype",
+          "visual": "Clapping in agreement and approval",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "nodding yes_1_Jack Nicholson Yes GIF.gif",
+          "tags": [
+            "nodding",
+            "yes",
+            "agree",
+            "affirmative"
+          ],
+          "mood": "hype",
+          "visual": "Person nodding in agreement",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "nodding yes_2_Robert Redford Nod GIF.gif",
+          "tags": [
+            "nodding",
+            "yes",
+            "agree",
+            "affirmative"
+          ],
+          "mood": "hype",
+          "visual": "Person nodding in agreement",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "nodding yes_3_Cat Yes GIF.gif",
+          "tags": [
+            "nodding",
+            "yes",
+            "agree",
+            "affirmative"
+          ],
+          "mood": "hype",
+          "visual": "Person nodding in agreement",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "exactly correct facts_1_Relationship Marriage GIF by Marcel Katz _ The Art.gif",
+          "tags": [
+            "exactly",
+            "correct",
+            "facts",
+            "right"
+          ],
+          "mood": "hype",
+          "visual": "Pointing and saying 'exactly right'",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "exactly correct facts_2_Facts Spot On GIF by SaluteXRPL.gif",
+          "tags": [
+            "exactly",
+            "correct",
+            "facts",
+            "right"
+          ],
+          "mood": "hype",
+          "visual": "Pointing and saying 'exactly right'",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "exactly correct facts_3_Preach 100 Percent GIF by Digi 995.gif",
+          "tags": [
+            "exactly",
+            "correct",
+            "facts",
+            "right"
+          ],
+          "mood": "hype",
+          "visual": "Pointing and saying 'exactly right'",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "100 percent agree_1_No Doubt Yes GIF by Lucas and Friends by RV AppStu.gif",
+          "tags": [
+            "100%",
+            "agree",
+            "totally",
+            "absolute"
+          ],
+          "mood": "hype",
+          "visual": "Complete agreement, 100 percent",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "100 percent agree_2_Alicia Keys Yes GIF by Complex.gif",
+          "tags": [
+            "100%",
+            "agree",
+            "totally",
+            "absolute"
+          ],
+          "mood": "hype",
+          "visual": "Complete agreement, 100 percent",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        },
+        {
+          "file": "100 percent agree_3_Emoji Ok GIF.gif",
+          "tags": [
+            "100%",
+            "agree",
+            "totally",
+            "absolute"
+          ],
+          "mood": "hype",
+          "visual": "Complete agreement, 100 percent",
+          "best_for": [
+            "xác nhận quan điểm",
+            "đồng ý với viewer",
+            "emphasize key point"
+          ]
+        }
+      ]
+    },
+    "18_khong_dong_y": {
+      "name_vi": "Không đồng ý / Phản đối",
+      "name_en": "Disagreement / Rejection",
+      "emotion": [
+        "dismissive",
+        "defiant",
+        "critical"
+      ],
+      "use_when": "Nói về phản bác, bác bỏ myth, nói không, sai lầm cần tránh, stop doing this",
+      "files": [
+        {
+          "file": "nope reject_1_Cat No GIF by sillynub.gif",
+          "tags": [
+            "nope",
+            "reject",
+            "no",
+            "refuse"
+          ],
+          "mood": "serious",
+          "visual": "Firmly saying nope/no way",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "nope reject_2_No Way Thumbs Down GIF by BEARISH.gif",
+          "tags": [
+            "nope",
+            "reject",
+            "no",
+            "refuse"
+          ],
+          "mood": "serious",
+          "visual": "Firmly saying nope/no way",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "nope reject_3_No Way Penguin GIF by Pudgy Penguins.gif",
+          "tags": [
+            "nope",
+            "reject",
+            "no",
+            "refuse"
+          ],
+          "mood": "serious",
+          "visual": "Firmly saying nope/no way",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "denied cancelled_1_Happy Party GIF by Jayson.gif",
+          "tags": [
+            "denied",
+            "cancelled",
+            "rejected",
+            "stop"
+          ],
+          "mood": "serious",
+          "visual": "Request denied stamp or gesture",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "denied cancelled_2_Rejected No Way GIF by Kanpai Pandas.gif",
+          "tags": [
+            "denied",
+            "cancelled",
+            "rejected",
+            "stop"
+          ],
+          "mood": "serious",
+          "visual": "Request denied stamp or gesture",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "denied cancelled_3_.gif",
+          "tags": [
+            "denied",
+            "cancelled",
+            "rejected",
+            "stop"
+          ],
+          "mood": "serious",
+          "visual": "Request denied stamp or gesture",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "delete trash bye_1_Delete Trash Can GIF by Mylio.gif",
+          "tags": [
+            "delete",
+            "trash",
+            "bye",
+            "remove"
+          ],
+          "mood": "serious",
+          "visual": "Throwing something in the trash/deleting",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "delete trash bye_2_Delete Trash Can GIF by Mylio.gif",
+          "tags": [
+            "delete",
+            "trash",
+            "bye",
+            "remove"
+          ],
+          "mood": "serious",
+          "visual": "Throwing something in the trash/deleting",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "delete trash bye_3_Delete Trash Can GIF by Mylio.gif",
+          "tags": [
+            "delete",
+            "trash",
+            "bye",
+            "remove"
+          ],
+          "mood": "serious",
+          "visual": "Throwing something in the trash/deleting",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "no way disagree_1_No Way Thumbs Down GIF by BEARISH.gif",
+          "tags": [
+            "no way",
+            "disagree",
+            "refuse",
+            "impossible"
+          ],
+          "mood": "serious",
+          "visual": "Strong disagreement gesture",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "no way disagree_2_Angry No Way GIF by BEANZ.gif",
+          "tags": [
+            "no way",
+            "disagree",
+            "refuse",
+            "impossible"
+          ],
+          "mood": "serious",
+          "visual": "Strong disagreement gesture",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        },
+        {
+          "file": "no way disagree_3_Disagree No Way GIF by Sappy Seals.gif",
+          "tags": [
+            "no way",
+            "disagree",
+            "refuse",
+            "impossible"
+          ],
+          "mood": "serious",
+          "visual": "Strong disagreement gesture",
+          "best_for": [
+            "bác bỏ myth/sai lầm",
+            "nói KHÔNG với cách cũ",
+            "phản bác quan điểm sai"
+          ]
+        }
+      ]
+    },
+    "19_doi_cho_loading": {
+      "name_vi": "Đợi chờ / Loading",
+      "name_en": "Waiting / Loading",
+      "emotion": [
+        "impatient",
+        "bored",
+        "anticipating"
+      ],
+      "use_when": "Nói về chờ đợi, loading, buffer, kết quả chưa ra, quá trình xử lý, suspense",
+      "files": [
+        {
+          "file": "waiting loading_1_Tired Penguin GIF by Pudgy Penguins.gif",
+          "tags": [
+            "waiting",
+            "loading",
+            "patience",
+            "slow"
+          ],
+          "mood": "funny",
+          "visual": "Loading spinner or waiting animation",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "waiting loading_2_Wait Waiting GIF.gif",
+          "tags": [
+            "waiting",
+            "loading",
+            "patience",
+            "slow"
+          ],
+          "mood": "funny",
+          "visual": "Loading spinner or waiting animation",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "waiting loading_3_Loading Please Wait GIF by sendwishonline.com.gif",
+          "tags": [
+            "waiting",
+            "loading",
+            "patience",
+            "slow"
+          ],
+          "mood": "funny",
+          "visual": "Loading spinner or waiting animation",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "buffering patience_1_Still Waiting Penguin GIF by Pudgy Penguins.gif",
+          "tags": [
+            "buffering",
+            "loading",
+            "circle",
+            "slow"
+          ],
+          "mood": "funny",
+          "visual": "Buffering circle spinning endlessly",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "buffering patience_2_Panda Waiting GIF by Kanpai Pandas.gif",
+          "tags": [
+            "buffering",
+            "loading",
+            "circle",
+            "slow"
+          ],
+          "mood": "funny",
+          "visual": "Buffering circle spinning endlessly",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "buffering patience_3_Wait Waiting GIF by Timtek.gif",
+          "tags": [
+            "buffering",
+            "loading",
+            "circle",
+            "slow"
+          ],
+          "mood": "funny",
+          "visual": "Buffering circle spinning endlessly",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "hourglass waiting_1_.gif",
+          "tags": [
+            "hourglass",
+            "time",
+            "waiting",
+            "sand"
+          ],
+          "mood": "funny",
+          "visual": "Hourglass with sand running down",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "hourglass waiting_2_Still Waiting Penguin GIF by Pudgy Penguins.gif",
+          "tags": [
+            "hourglass",
+            "time",
+            "waiting",
+            "sand"
+          ],
+          "mood": "funny",
+          "visual": "Hourglass with sand running down",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "hourglass waiting_3_.gif",
+          "tags": [
+            "hourglass",
+            "time",
+            "waiting",
+            "sand"
+          ],
+          "mood": "funny",
+          "visual": "Hourglass with sand running down",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "skeleton waiting meme_1_Happy Halloween GIF by Flickplay.gif",
+          "tags": [
+            "skeleton",
+            "waiting",
+            "forever",
+            "meme"
+          ],
+          "mood": "funny",
+          "visual": "Skeleton that waited too long meme",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "skeleton waiting meme_2_Skeleton GIF.gif",
+          "tags": [
+            "skeleton",
+            "waiting",
+            "forever",
+            "meme"
+          ],
+          "mood": "funny",
+          "visual": "Skeleton that waited too long meme",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "skeleton waiting meme_3_Instagram Statement GIF.gif",
+          "tags": [
+            "skeleton",
+            "waiting",
+            "forever",
+            "meme"
+          ],
+          "mood": "funny",
+          "visual": "Skeleton that waited too long meme",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "any minute now_1_Jimmy Fallon Hurry GIF by The Tonight Show Starrin.gif",
+          "tags": [
+            "waiting",
+            "soon",
+            "impatient",
+            "tapping"
+          ],
+          "mood": "funny",
+          "visual": "Impatiently waiting for something",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "any minute now_2_Any Day Now Waiting GIF by Lucas and Friends by RV.gif",
+          "tags": [
+            "waiting",
+            "soon",
+            "impatient",
+            "tapping"
+          ],
+          "mood": "funny",
+          "visual": "Impatiently waiting for something",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        },
+        {
+          "file": "any minute now_3_Come On Waiting GIF.gif",
+          "tags": [
+            "waiting",
+            "soon",
+            "impatient",
+            "tapping"
+          ],
+          "mood": "funny",
+          "visual": "Impatiently waiting for something",
+          "best_for": [
+            "chờ kết quả AI xử lý",
+            "suspense trước reveal",
+            "nói về tốc độ chậm"
+          ]
+        }
+      ]
+    },
+    "20_phan_ung_da_nang": {
+      "name_vi": "Phản ứng đa năng",
+      "name_en": "Versatile Reactions",
+      "emotion": [
+        "sarcastic",
+        "amused",
+        "skeptical"
+      ],
+      "use_when": "Phản ứng chung: nghi ngờ, mỉa mai, bình thản, drama, khi không có category cụ thể phù hợp",
+      "files": [
+        {
+          "file": "side eye look_1_Disappointed Man GIF.gif",
+          "tags": [
+            "side eye",
+            "suspicious",
+            "look",
+            "judging"
+          ],
+          "mood": "funny",
+          "visual": "Giving a suspicious side-eye look",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "side eye look_2_You See What GIF by EsZ  Giphy World.gif",
+          "tags": [
+            "side eye",
+            "suspicious",
+            "look",
+            "judging"
+          ],
+          "mood": "funny",
+          "visual": "Giving a suspicious side-eye look",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "side eye look_3_Look What GIF by Fugz Official.gif",
+          "tags": [
+            "side eye",
+            "suspicious",
+            "look",
+            "judging"
+          ],
+          "mood": "funny",
+          "visual": "Giving a suspicious side-eye look",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "eye roll sarcastic_1_Looney Tunes No GIF by Looney Tunes World of Mayhe.gif",
+          "tags": [
+            "eye roll",
+            "sarcastic",
+            "annoyed",
+            "whatever"
+          ],
+          "mood": "funny",
+          "visual": "Sarcastic eye roll reaction",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "eye roll sarcastic_2_Come On Please GIF.gif",
+          "tags": [
+            "eye roll",
+            "sarcastic",
+            "annoyed",
+            "whatever"
+          ],
+          "mood": "funny",
+          "visual": "Sarcastic eye roll reaction",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "eye roll sarcastic_3_Aubrey Plaza Ok GIF by truTV_s The Chris Gethard S.gif",
+          "tags": [
+            "eye roll",
+            "sarcastic",
+            "annoyed",
+            "whatever"
+          ],
+          "mood": "funny",
+          "visual": "Sarcastic eye roll reaction",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "shrug whatever_1_Matt Leblanc Whatever GIF.gif",
+          "tags": [
+            "shrug",
+            "whatever",
+            "don't care",
+            "meh"
+          ],
+          "mood": "funny",
+          "visual": "Shrugging shoulders, don't care",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "shrug whatever_2_Confused Hands Up GIF by STRAPPED_.gif",
+          "tags": [
+            "shrug",
+            "whatever",
+            "don't care",
+            "meh"
+          ],
+          "mood": "funny",
+          "visual": "Shrugging shoulders, don't care",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "shrug whatever_3_I Have No Idea Whatever GIF by MOODMAN.gif",
+          "tags": [
+            "shrug",
+            "whatever",
+            "don't care",
+            "meh"
+          ],
+          "mood": "funny",
+          "visual": "Shrugging shoulders, don't care",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "cool cool cool_1_Andy Samberg GIF.gif",
+          "tags": [
+            "cool",
+            "chill",
+            "okay",
+            "fine"
+          ],
+          "mood": "funny",
+          "visual": "Saying cool cool cool sarcastically",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "cool cool cool_2_This Is Cool GIF by MOODMAN.gif",
+          "tags": [
+            "cool",
+            "chill",
+            "okay",
+            "fine"
+          ],
+          "mood": "funny",
+          "visual": "Saying cool cool cool sarcastically",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "cool cool cool_3_Im Out Amy Poehler GIF by FOX TV.gif",
+          "tags": [
+            "cool",
+            "chill",
+            "okay",
+            "fine"
+          ],
+          "mood": "funny",
+          "visual": "Saying cool cool cool sarcastically",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "sipping tea drama_1_Tell Oh My GIF by Robert E Blackmon.gif",
+          "tags": [
+            "tea",
+            "drama",
+            "sipping",
+            "watching"
+          ],
+          "mood": "funny",
+          "visual": "Sipping tea while watching drama",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "sipping tea drama_2_Watching The Tea GIF by MOODMAN.gif",
+          "tags": [
+            "tea",
+            "drama",
+            "sipping",
+            "watching"
+          ],
+          "mood": "funny",
+          "visual": "Sipping tea while watching drama",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "sipping tea drama_3_GIF by WWE.gif",
+          "tags": [
+            "tea",
+            "drama",
+            "sipping",
+            "watching"
+          ],
+          "mood": "funny",
+          "visual": "Sipping tea while watching drama",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "eating popcorn watching_1_Pop Corn GIF by Ramaj Eroc.gif",
+          "tags": [
+            "popcorn",
+            "watching",
+            "drama",
+            "entertainment"
+          ],
+          "mood": "funny",
+          "visual": "Eating popcorn watching events unfold",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "eating popcorn watching_2_Locked In Popcorn GIF.gif",
+          "tags": [
+            "popcorn",
+            "watching",
+            "drama",
+            "entertainment"
+          ],
+          "mood": "funny",
+          "visual": "Eating popcorn watching events unfold",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "eating popcorn watching_3_Pop Corn GIF.gif",
+          "tags": [
+            "popcorn",
+            "watching",
+            "drama",
+            "entertainment"
+          ],
+          "mood": "funny",
+          "visual": "Eating popcorn watching events unfold",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "facepalm reaction_1_Kirsten Dunst Reaction GIF.gif",
+          "tags": [
+            "facepalm",
+            "disappointed",
+            "cringe",
+            "ugh"
+          ],
+          "mood": "funny",
+          "visual": "Facepalm in disappointment",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "facepalm reaction_2_Fozzie Bear Reaction GIF.gif",
+          "tags": [
+            "facepalm",
+            "disappointed",
+            "cringe",
+            "ugh"
+          ],
+          "mood": "funny",
+          "visual": "Facepalm in disappointment",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "facepalm reaction_3_Oh No Reaction GIF.gif",
+          "tags": [
+            "facepalm",
+            "disappointed",
+            "cringe",
+            "ugh"
+          ],
+          "mood": "funny",
+          "visual": "Facepalm in disappointment",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "wink smirk_1_Oh Yeah Flirt GIF by Wahala Room.gif",
+          "tags": [
+            "wink",
+            "smirk",
+            "flirty",
+            "knowing"
+          ],
+          "mood": "funny",
+          "visual": "Winking or smirking knowingly",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "wink smirk_2_Yeah Right Smile GIF by Apple TV.gif",
+          "tags": [
+            "wink",
+            "smirk",
+            "flirty",
+            "knowing"
+          ],
+          "mood": "funny",
+          "visual": "Winking or smirking knowingly",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        },
+        {
+          "file": "wink smirk_3_Wink Smile GIF.gif",
+          "tags": [
+            "wink",
+            "smirk",
+            "flirty",
+            "knowing"
+          ],
+          "mood": "funny",
+          "visual": "Winking or smirking knowingly",
+          "best_for": [
+            "reaction đa năng",
+            "comedic relief",
+            "transition giữa các phần"
+          ]
+        }
+      ]
+    }
+  }
+}

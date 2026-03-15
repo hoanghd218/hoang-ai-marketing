@@ -14,6 +14,7 @@ const POSITION_MAP: Record<string, React.CSSProperties> = {
   center: { top: "15%", left: "10%", right: "10%" },
   "top-right": { top: "10%", right: "5%", width: "45%" },
   "bottom-left": { bottom: "25%", left: "5%", width: "45%" },
+  bottom: { bottom: "10%", left: 0, right: 0, display: "flex", justifyContent: "center" },
 };
 
 const BRollItem: React.FC<{
@@ -37,9 +38,20 @@ const BRollItem: React.FC<{
     { extrapolateRight: "clamp" }
   );
 
+  const translateY = interpolate(
+    frame,
+    [0, fadeFrames],
+    [40, 0],
+    { extrapolateRight: "clamp" }
+  );
+
   const pos = POSITION_MAP[overlay.position ?? "center"] ?? POSITION_MAP.center;
   const isVideo = /\.(mp4|webm|mov)$/i.test(overlay.mediaPath);
   const borderRadius = overlay.borderRadius ?? 20;
+  const isBottom = overlay.position === "bottom";
+  const mediaStyle: React.CSSProperties = isBottom
+    ? { width: 350, height: "auto", display: "block" }
+    : { width: "100%", height: "auto", display: "block" };
 
   return (
     <div
@@ -47,28 +59,24 @@ const BRollItem: React.FC<{
         position: "absolute",
         ...pos,
         opacity,
-        transform: `scale(${scale})`,
+        transform: `scale(${scale}) translateY(${translateY}px)`,
         zIndex: 5,
+        filter: isBottom ? "drop-shadow(0 4px 8px rgba(0,0,0,0.5))" : undefined,
+        pointerEvents: "none",
       }}
     >
       <div
         style={{
           borderRadius,
           overflow: "hidden",
-          boxShadow: "0 8px 32px rgba(0,0,0,0.5)",
-          border: "2px solid rgba(255,255,255,0.15)",
+          boxShadow: isBottom ? undefined : "0 8px 32px rgba(0,0,0,0.5)",
+          border: isBottom ? undefined : "2px solid rgba(255,255,255,0.15)",
         }}
       >
         {isVideo ? (
-          <Video
-            src={staticFile(overlay.mediaPath)}
-            style={{ width: "100%", height: "auto", display: "block" }}
-          />
+          <Video src={staticFile(overlay.mediaPath)} style={mediaStyle} />
         ) : (
-          <Img
-            src={staticFile(overlay.mediaPath)}
-            style={{ width: "100%", height: "auto", display: "block" }}
-          />
+          <Img src={staticFile(overlay.mediaPath)} style={mediaStyle} />
         )}
       </div>
       {overlay.label && (

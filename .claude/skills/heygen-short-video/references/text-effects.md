@@ -22,6 +22,27 @@ Highlighted keywords oscillate opacity between 30-100% at different frequencies.
 - Each word gets unique frequency (0.3-0.6) and phase (deterministic by word index)
 - Non-highlighted text stays at full opacity
 
+### `typewriter`
+Words appear one-by-one with sharp cut (no fade), like typing on screen. Blinking cursor `|` follows the last revealed word.
+- Best for: `hook` on tech/AI topics — feels like a prompt being typed
+- Stagger: 4 frames/word (~133ms), hard cut visibility
+- Cursor blinks at ~2Hz until all words revealed
+- Pair with: keyboard click or digital beep SFX
+
+### `slam`
+Words drop in from above with scale bounce — starts at 1.8x scale and slams down to normal.
+- Best for: `hook` and `pain` — dramatic, impactful entrance
+- Spring config: `{ damping: 8, mass: 0.6, stiffness: 200 }` — bouncy overshoot
+- Each word drops from -40px with scale 1.8x → 1.0x
+- Pair with: SUDDEN SUSPENSE, boom, or bass drop SFX
+
+### `wave`
+Words ripple in with continuous sine-wave vertical motion after entry.
+- Best for: `hook` on lifestyle/casual topics — playful, energetic
+- Entry uses spring fade, then continuous `6px * sin(frame * 0.12 + i * 0.8)` wave
+- Creates a "living text" feel — words keep subtly moving
+- Pair with: whoosh, snap, or rising tone SFX
+
 ### `none` (default)
 Standard highlight rendering — bold + accent color + subtle text-shadow.
 
@@ -29,11 +50,21 @@ Standard highlight rendering — bold + accent color + subtle text-shadow.
 
 | Caption Style | Recommended Effect | Why |
 |---------------|-------------------|-----|
-| `hook` | `word-by-word` | Maximizes attention in first 3 seconds |
-| `pain` | `flicker` | Creates visual unease matching negative emotion |
-| `solution` | `deep-glow` | Makes positive results feel impressive |
-| `cta` | `word-by-word` | Ensures CTA text is fully read |
+| `hook` | `typewriter` / `slam` / `wave` | **Rotate across videos** for variety |
+| `pain` | `flicker` or `slam` | Creates visual unease or dramatic impact |
+| `solution` | `deep-glow` or `word-by-word` | Makes positive results feel impressive |
+| `cta` | `word-by-word` or `typewriter` | Ensures CTA text is fully read |
 | `normal` | `none` | Keeps information-dense sections clean |
+
+## Hook Style Recipes (rotate across videos)
+
+| Recipe | textEffect | Paired SFX | Best for |
+|--------|-----------|-----------|----------|
+| **Tech/AI** | `typewriter` | keyboard click, digital beep | Demo, tutorial, prompt-focused hooks |
+| **Bold/Shock** | `slam` | SUDDEN SUSPENSE, boom, bass drop | Data hooks, bold claims, myth busting |
+| **Fun/Energy** | `wave` | whoosh, snap, rising tone | Lifestyle, casual, storytelling hooks |
+
+**Rule**: Don't use the same hook recipe for 2 consecutive videos. Alternate to keep content feeling fresh.
 
 ## Caption Position
 
