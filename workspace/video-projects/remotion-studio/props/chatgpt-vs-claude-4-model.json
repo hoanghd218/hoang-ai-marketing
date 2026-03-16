@@ -1,0 +1,44 @@
+{
+  "durationSeconds": 14,
+  "watermark": "@tranvanhoang.com",
+  "bgVideo": "media/videos/Hoang giang day dao tao ai.mp4",
+  "bgMusic": "media/music/rockot-motivational-cinematic-epic-174122.mp3",
+  "sections": [
+    {
+      "lines": ["Opus 4.6 mạnh hơn GPT-5.2"],
+      "startSec": 0.3,
+      "durationSec": 3,
+      "fontSize": 52,
+      "fontWeight": 700,
+      "color": "#FFFFFF",
+      "lineHeight": 1.3
+    },
+    {
+      "lines": ["GPQA: +144 điểm", "ARC-AGI2: 68.8% vs 54.2%"],
+      "startSec": 3.5,
+      "durationSec": 3.5,
+      "fontSize": 48,
+      "fontWeight": 600,
+      "color": "#FFD700",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": ["Context: 1 triệu tokens", "= 750 trang trong 1 cuộc chat"],
+      "startSec": 7.2,
+      "durationSec": 3.5,
+      "fontSize": 46,
+      "fontWeight": 600,
+      "color": "#00D4FF",
+      "lineHeight": 1.4
+    },
+    {
+      "lines": ["ChatGPT chèn quảng cáo.", "Claude tập trung cho bạn câu trả lời tốt nhất."],
+      "startSec": 11,
+      "durationSec": 2.8,
+      "fontSize": 44,
+      "fontWeight": 700,
+      "color": "#FF6B35",
+      "lineHeight": 1.3
+    }
+  ]
+}

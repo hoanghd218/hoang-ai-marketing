@@ -10,10 +10,10 @@ Create short viral videos combining AI avatar (HeyGen) + AI visual scenes (Grok 
 ## Pipeline Overview
 
 ```
-MP3 → Whisper SRT → Analyze SRT & plan segments
+MP3 → Whisper SRT → Ask custom b-roll? → Analyze SRT & plan segments
   → Plan effects, BGM & generate Grok visual prompts (PAUSE for user)
   → User creates Grok videos & provides paths (RESUME)
-  → ⚡ PARALLEL: Verify Grok videos | Render PromptTyping clips | Split audio + HeyGen avatar clips
+  → ⚡ PARALLEL: Verify Grok/custom media | Render PromptTyping clips | Split audio + HeyGen avatar clips
   → Remotion compose (all clips + effects + captions) → Final MP4
 ```
 
@@ -26,7 +26,7 @@ If user does NOT provide avatar/look IDs, auto-select from these:
 | `2e8a789bfbf847d38a03470efbe64f69` | Áo sơ mi xanh nhạt, cầm micro nhỏ, medium close-up, background be |
 | `7ebc6e135f574dcdb943d309cb97806a` | Áo sơ mi xanh nhạt + kính, laptop, medium shot, background tủ gỗ |
 | `27776380b32d4b4aa4c5824571fc7117` | Áo sơ mi xanh nhạt, ghế lưới hai màn hình, background tường đá xám |
-| `be19a6c18a3b4dad95e5b1dca592bc04` | Áo sơ mi xanh nhạt, cầm micro, medium close-up, background tường be |
+
 
 **Selection strategy**: Rotate looks across avatar chunks for visual variety.
 
@@ -40,6 +40,69 @@ User provides:
    - **Yes** (default): Pipeline includes visual segments with Grok-generated videos
    - **No**: All segments are `avatar` type — skip Steps 3c/3d and Step 4 entirely
 5. **Optional**: HeyGen duration limit (seconds) — max total HeyGen avatar time
+6. **Optional**: Custom b-roll media manifest — user-provided images/videos to use as visual segments instead of (or alongside) Grok videos. See "Custom B-roll Media" below.
+
+## Custom B-roll Media
+
+Users often have specific images or videos they want shown at certain moments — screenshots of articles, GitHub repos, app UIs, product demos, etc. These replace Grok visual segments with user-provided media, giving more authentic and contextual visuals.
+
+### When to ask
+
+After Step 1 (transcription) and before Step 2 (segment planning), ask:
+
+> Bạn có ảnh hoặc video nào muốn dùng làm cảnh trám không?
+> (Ví dụ: screenshot bài báo, giao diện GitHub, demo app...)
+> Nếu có, tạo 1 file text mô tả theo format sau rồi đưa path cho mình:
+>
+> ```
+> /path/to/screenshot.png | Bài báo TechCrunch về Claude AI ra mắt tính năng mới
+> /path/to/github-repo.png | Thư viện GitHub anthropic-sdk với 50k stars
+> /path/to/demo.mp4 | Video demo chạy Claude Code trên terminal
+> ```
+>
+> Mỗi dòng: `đường dẫn file | mô tả nội dung`. Mình sẽ tự động ghép vào đúng chỗ phù hợp trong video.
+
+If user says no or skips, proceed normally with Grok-only visuals.
+
+### Manifest format
+
+One line per media item: `file_path | description`
+
+- **file_path**: absolute or relative path to image (.png, .jpg, .jpeg, .webp) or video (.mp4, .mov)
+- **description**: brief Vietnamese/English description of what the media shows and when it should appear
+
+### How to match custom media to segments
+
+After reading the SRT transcript in Step 2:
+
+1. **Parse the manifest** — read each line, split by `|`, validate file exists
+2. **Semantic matching** — compare each media description against SRT text to find the best-fit segment. Look for keyword overlap, topic alignment, and contextual relevance. For example:
+   - Media: "Thư viện GitHub claude-code" → matches segment discussing "claude-code trên GitHub"
+   - Media: "Bài báo về AI Agent" → matches segment mentioning "tin tức mới về AI Agent"
+3. **Mark matched segments as `custom`** type (not `visual`/`grok`) in the plan table
+4. **Remaining visual segments** (unmatched by custom media) become Grok prompts as usual
+5. If the user provides more custom media than visual segments, add extra visual segments where contextually appropriate (split longer avatar segments)
+
+### Handling in production
+
+- **Images**: Convert to a clip with static display. In Remotion props, use `imagePath` instead of `videoPath`:
+  ```json
+  { "imagePath": "media/custom/screenshot-1.png", "durationSeconds": 5.5 }
+  ```
+  Remotion displays the image full-screen (object-fit: cover) for the segment duration with the same zoom/effects as video clips.
+
+- **Videos**: Trim to segment duration with ffmpeg, same as Grok videos:
+  ```bash
+  ffmpeg -i "<custom_video>" -t <segment_duration> -c copy "<output_path>"
+  ```
+
+- **Audio**: Same rule as Grok segments — custom media clips have no useful audio. Split the original MP3 for voiceover on these segments.
+
+- **Copy to Remotion**: Place in `public/media/custom/` alongside heygen and grok folders:
+  ```bash
+  mkdir -p workspace/video-projects/remotion-studio/public/media/custom
+  cp <custom_files> workspace/video-projects/remotion-studio/public/media/custom/
+  ```
 
 ## Duration Constraints
 
@@ -54,9 +117,11 @@ When total video duration ≤ 40s:
 When converting avatar → visual to meet these limits, prioritize keeping avatar for: **hook** (first segment) and **CTA** (last segment). Convert middle segments to visual first.
 
 ### Rule 3: Audio source
-- **Grok videos**: Always MUTE Grok video audio. The original MP3 voiceover plays continuously over all clips (both avatar and visual). Set `audioPath` in Remotion props to play the full MP3 as voiceover track — Grok clips are purely visual.
-- **HeyGen avatar clips**: Use lip-synced audio from HeyGen (audioAssetId upload).
-- In Remotion composition, all Grok clips are automatically muted when `audioPath` is set (the HeyGenShort template handles this).
+- **HeyGen avatar clips**: Already contain lip-synced audio. NEVER overlay `audioPath` on avatar clips — their built-in audio IS the voiceover.
+- **Grok visual clips**: Have NO useful audio (mute them). For Grok segments, split the original MP3 into segment chunks and set each chunk as the audio source for that segment only.
+- **`audioPath`** (top-level prop): ONLY set this when there are Grok/visual segments that need voiceover audio. When set, it mutes ALL clips including HeyGen avatars — so NEVER use it when video is all-avatar.
+- **Mixed avatar + Grok videos**: Do NOT use `audioPath`. Instead, let HeyGen clips play their own audio, and attach MP3 segment chunks to Grok-only clips via per-clip `audioPath` or compose audio tracks per segment in Remotion.
+- **All-avatar videos (no Grok)**: Do NOT set `audioPath` at all. Each HeyGen clip plays its own lip-synced audio natively.
 
 ## Step 1: Transcribe MP3 → SRT
 
@@ -80,6 +145,7 @@ Read the SRT transcript and classify each segment:
 |------|-------------|--------|
 | `avatar` | Direct speaking, opinions, CTA, hooks, explanations | HeyGen avatar clip (lip-sync) |
 | `visual` | Concepts, demos, scenarios, metaphors, processes | Grok AI-generated video (6s) |
+| `custom` | User-provided b-roll matching this segment's content | User image/video from manifest |
 | `prompt-typing` | Speaker reads/shows a prompt, command, text input | Remotion PromptTyping composition |
 
 ### Planning Rules

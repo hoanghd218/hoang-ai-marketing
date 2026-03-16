@@ -5,5 +5,7 @@ export { ZoomClip } from "./ZoomClip";
 export { ProgressBar } from "./ProgressBar";
 export { Vignette } from "./Vignette";
 export { FlashTransition } from "./FlashTransition";
+export { SceneTransition } from "./SceneTransition";
+export type { TransitionType } from "./SceneTransition";
 export { BRollOverlays } from "./BRollOverlay";
 export { FPS, STYLE_MAP, ANIMATED_EMOJI_NAMES } from "./constants";

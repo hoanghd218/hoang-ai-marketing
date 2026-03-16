@@ -94,11 +94,13 @@ npx remotion render src/index.ts HeyGenShort out/heygen-short.mp4 --props=props/
 
 ## Audio Architecture
 
-- **`audioPath`** (top-level prop): Set to the original MP3 file path (e.g. `"media/audio_full.mp3"`). This plays the full voiceover continuously over ALL clips.
-- When `audioPath` is set, ALL video clips (including Grok) are automatically muted by the HeyGenShort template.
-- **Grok videos**: NEVER use Grok's own audio. Grok clips are visual-only — the original MP3 provides the voiceover.
-- **HeyGen avatar clips**: Their lip-sync audio is replaced by the continuous MP3 voiceover track.
-- Result: One unified audio track (original MP3) plays over the entire video timeline.
+**CRITICAL: HeyGen avatar clips already contain lip-synced audio. NEVER overlay `audioPath` on them.**
+
+- **HeyGen avatar clips**: Play their own built-in lip-synced audio natively. Do NOT mute or override.
+- **Grok visual clips**: Have no useful audio — need voiceover from original MP3 segments.
+- **`audioPath`** (top-level prop): ONLY use when there are Grok/visual-only segments. When set, it mutes ALL clips including HeyGen avatars — so NEVER use it for all-avatar videos.
+- **All-avatar videos (no Grok)**: Do NOT set `audioPath`. Each HeyGen clip plays its own audio.
+- **Mixed avatar + Grok videos**: Do NOT use `audioPath`. Let HeyGen clips play their own audio. For Grok segments, split the original MP3 into segment chunks and attach as per-clip audio or compose audio tracks per segment in Remotion.
 
 ## Grok Visual Video Handling
 

@@ -1,0 +1,13 @@
+{
+  "lines": [
+    { "text": "Mình đã hủy" },
+    { "text": "ChatGPT Plus", "isHighlight": true },
+    { "text": "được 90 ngày" },
+    { "text": "vì Claude viết" },
+    { "text": "đúng giọng mình", "isHighlight": true }
+  ],
+  "accentColor": "#FF6B35",
+  "bgVideo": "media/videos/Hoang ngoi lam viec voi may tinh.mp4",
+  "bgMusic": "media/music/rockot-motivational-cinematic-epic-174122.mp3",
+  "durationSeconds": 10
+}

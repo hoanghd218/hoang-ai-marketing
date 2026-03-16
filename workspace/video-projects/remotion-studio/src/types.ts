@@ -106,6 +106,11 @@ export type BackgroundMusicTrack = {
   fadeOutSec?: number; // fade-out duration (default 2)
 };
 
+export type SceneTransitionConfig = {
+  type?: "flash" | "fade-black" | "glitch" | "swipe-left" | "swipe-right" | "zoom-blur";
+  durationFrames?: number; // default 12 (~0.4s)
+};
+
 export type HeyGenShortProps = {
   clips: HeyGenClip[];
   captions: CaptionSegment[];
@@ -119,6 +124,17 @@ export type HeyGenShortProps = {
   hookBoostSec?: number; // auto-boost zoom in first N seconds (default 0 = disabled)
   defaultCaptionPosition?: number; // global caption top% (default 55)
   audioPath?: string; // full audio track — plays instead of clip audio (mutes all clips)
+  footerText?: string; // centered footer text (e.g. "@tranvanhoang.com")
+  outro?: OutroCard; // end card with thank you + CTA
+  sceneTransition?: SceneTransitionConfig; // transition effect between clips (default "flash")
+};
+
+export type OutroCard = {
+  durationSeconds: number; // how long to show (e.g. 3)
+  title: string; // main text (e.g. "Cảm ơn bạn đã xem!")
+  subtitle?: string; // CTA text (e.g. "Vào tranvanhoang.com/qua để nhận template AI")
+  bgColor?: string; // background color (default "#000")
+  profileImage?: string; // profile photo path in public/ (e.g. "hoang profile.webp")
 };
 
 export type PromptTypingProps = {

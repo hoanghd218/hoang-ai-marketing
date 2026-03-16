@@ -1,0 +1,14 @@
+{
+  "title": "Claude tạo app chạy được — không chỉ text",
+  "bodyLines": [
+    { "text": "Gõ 1 câu → Dashboard có biểu đồ, logic", "highlights": ["Dashboard"] },
+    { "text": "Content calendar, form, tracker — 2 phút", "highlights": ["2 phút"] },
+    { "text": "ChatGPT trả text. Claude trả phần mềm.", "highlights": ["phần mềm"] }
+  ],
+  "quote": "\"Artifacts biến chatbot thành công cụ thật sự\"",
+  "accentColor": "#7C3AED",
+  "watermark": "@tranvanhoang.com",
+  "bgVideo": "media/videos/Hoang ngoi lam viec voi may tinh.mp4",
+  "bgMusic": "media/music/rockot-motivational-cinematic-epic-174122.mp3",
+  "durationSeconds": 12
+}
