@@ -71,6 +71,7 @@ export const ZoomClip: React.FC<{
   zoomPulses: ZoomPulse[];
   hookBoostSec?: number;
   defaultCaptionPosition?: number;
+  muted?: boolean;
 }> = ({
   videoPath,
   durationFrames,
@@ -81,6 +82,7 @@ export const ZoomClip: React.FC<{
   zoomPulses,
   hookBoostSec = 0,
   defaultCaptionPosition,
+  muted = false,
 }) => {
   const frame = useCurrentFrame();
   const globalFrame = Math.round(globalStartSec * FPS) + frame;
@@ -117,6 +119,7 @@ export const ZoomClip: React.FC<{
         <Video
           src={staticFile(videoPath)}
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          volume={muted ? 0 : 1}
         />
       </div>
 

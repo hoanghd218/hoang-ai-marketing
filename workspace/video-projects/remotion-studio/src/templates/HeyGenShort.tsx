@@ -50,11 +50,15 @@ export const HeyGenShort: React.FC<HeyGenShortProps> = ({
   backgroundMusic,
   hookBoostSec = 0,
   defaultCaptionPosition,
+  audioPath,
 }) => {
   let offsetFrames = 0;
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#000" }}>
+      {/* Full audio track — plays original voiceover continuously */}
+      {audioPath && <Audio src={staticFile(audioPath)} volume={1} />}
+
       {/* Video clips with zoom, captions, transitions */}
       {clips.map((clip, i) => {
         const durationFrames = Math.round(clip.durationSeconds * FPS);
@@ -75,6 +79,7 @@ export const HeyGenShort: React.FC<HeyGenShortProps> = ({
               zoomPulses={zoomPulses}
               hookBoostSec={hookBoostSec}
               defaultCaptionPosition={defaultCaptionPosition}
+              muted={!!audioPath}
             />
           </Sequence>
         );

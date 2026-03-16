@@ -118,6 +118,7 @@ export type HeyGenShortProps = {
   backgroundMusic?: BackgroundMusicTrack[]; // multiple tracks with per-track volume & timing
   hookBoostSec?: number; // auto-boost zoom in first N seconds (default 0 = disabled)
   defaultCaptionPosition?: number; // global caption top% (default 55)
+  audioPath?: string; // full audio track — plays instead of clip audio (mutes all clips)
 };
 
 export type PromptTypingProps = {

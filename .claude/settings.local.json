@@ -50,7 +50,9 @@
       "Read(//Users/hoangtran/Documents/Github/hoang-ai-marketing/**)",
       "Bash(pkill -f \"remotion\")",
       "Read(//private/tmp/**)",
-      "Bash(ls /Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/*.webm)"
+      "Bash(ls /Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/*.webm)",
+      "mcp__minimax__play_audio",
+      "Bash(rm:*)"
     ],
     "deny": [],
     "ask": []
