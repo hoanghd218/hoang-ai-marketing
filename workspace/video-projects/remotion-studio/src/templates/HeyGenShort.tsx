@@ -303,10 +303,10 @@ export const HeyGenShort: React.FC<HeyGenShortProps> = ({
 
       {showProgressBar && <ProgressBar totalDuration={durationSeconds} />}
 
-      {/* Outro end card */}
+      {/* Outro end card — appended AFTER main video, never overlapping */}
       {outro && (
         <Sequence
-          from={Math.round((durationSeconds - outro.durationSeconds) * FPS)}
+          from={Math.round(durationSeconds * FPS)}
           durationInFrames={Math.round(outro.durationSeconds * FPS)}
         >
           <OutroEndCard outro={outro} />

@@ -52,7 +52,10 @@
       "Read(//private/tmp/**)",
       "Bash(ls /Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/*.webm)",
       "mcp__minimax__play_audio",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-xcom-post-creator/references)",
+      "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-linkedin-post-creator/references)",
+      "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-carousel-creator/references)"
     ],
     "deny": [],
     "ask": []

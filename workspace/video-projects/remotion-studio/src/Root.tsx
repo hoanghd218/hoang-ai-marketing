@@ -129,7 +129,9 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         durationInFrames={40 * FPS}
         calculateMetadata={({ props }) => ({
-          durationInFrames: Math.round(props.durationSeconds * FPS),
+          durationInFrames: Math.round(
+            (props.durationSeconds + (props.outro?.durationSeconds ?? 0)) * FPS
+          ),
         })}
         defaultProps={require("../props/heygen-short.json")}
       />

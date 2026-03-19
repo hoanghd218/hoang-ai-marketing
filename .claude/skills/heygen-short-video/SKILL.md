@@ -98,10 +98,10 @@ After reading the SRT transcript in Step 2:
 
 - **Audio**: Same rule as Grok segments — custom media clips have no useful audio. Split the original MP3 for voiceover on these segments.
 
-- **Copy to Remotion**: Place in `public/media/custom/` alongside heygen and grok folders:
+- **Copy to Remotion**: Place in `media/custom/` (inside the reels assets folder, which is symlinked as Remotion's `public/media/`):
   ```bash
-  mkdir -p workspace/video-projects/remotion-studio/public/media/custom
-  cp <custom_files> workspace/video-projects/remotion-studio/public/media/custom/
+  mkdir -p workspace/assets/reels/custom
+  cp <custom_files> workspace/assets/reels/custom/
   ```
 
 ## Duration Constraints
@@ -232,6 +232,7 @@ BGM: Fortitude (0-10s, vol 0.15) → Miracle (10-30s, vol 0.12) → Rising Star 
 Then instruct user:
 > Hãy tạo các video bằng Grok với prompt trên (mỗi video 6s).
 > Lưu vào folder `workspace/assets/reels/grok_visuals/` với tên: `1.mp4`, `2.mp4`...
+> (Folder này đã symlink vào Remotion public/media/ nên không cần copy)
 > Sau khi xong, đưa path folder cho mình để tiếp tục.
 
 **⏸️ PAUSE HERE** — Wait for user to provide Grok video paths.
@@ -316,7 +317,7 @@ After all 3 parallel tracks complete, compose the final video.
 See [references/remotion-composition.md](references/remotion-composition.md) for full props structure, built-in effects, setup, and render commands.
 
 Key steps:
-1. Copy all clips + assets to `workspace/video-projects/remotion-studio/public/media/`
+1. Place all clips + assets in `workspace/assets/reels/` subfolders (symlinked as Remotion `public/media/`)
 2. Build props JSON with interleaved clips, captions, effects, BGM
 3. Render: `npx remotion render src/index.ts HeyGenShort out/heygen-short.mp4 --props=props/heygen-short.json`
 
