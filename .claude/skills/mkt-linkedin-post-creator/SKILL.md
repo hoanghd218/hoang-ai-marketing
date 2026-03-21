@@ -1,25 +1,29 @@
 ---
 name: mkt-linkedin-post-creator
-description: Tạo LinkedIn posts tối ưu cho professional audience Việt Nam. Auto-detect loại nội dung, chọn format phù hợp (Insight, Case Study, Contrarian, Carousel Text). Output tiếng Việt professional theo brand voice Hoàng. USE WHEN user says 'tạo post linkedin', 'viết linkedin', 'linkedin post', 'bài linkedin', 'viết cho linkedin', 'post cho linkedin'.
+description: Create LinkedIn posts in ENGLISH optimized for global professional audience. Auto-detect content type, choose best format (Insight, Case Study, Contrarian, Carousel Text). Output in English with Hoàng's brand voice adapted for LinkedIn. USE WHEN user says 'tạo post linkedin', 'viết linkedin', 'linkedin post', 'bài linkedin', 'viết cho linkedin', 'post cho linkedin'.
 ---
 
 # LinkedIn Post Creator
 
-Tạo posts cho LinkedIn tối ưu cho professional Vietnamese audience. Tone chuyên nghiệp hơn Facebook, có credential signals, position Hoàng là AI consultant/builder.
+Create posts for LinkedIn in **ENGLISH** — optimized for global professional audience. Professional tone with credential signals, position Hoàng as AI consultant/builder.
+
+## Content Language Rule
+
+**LinkedIn content MUST be written in English.** Only Facebook and YouTube use Vietnamese. LinkedIn, X.com, and Instagram all use English for global reach.
 
 ## Brand Voice Reference
 
-- [BRANDVOICE.MD](../../../MY RESOURCES/BRANDVOICE.MD) - DNA Brand Voice Hoàng
+- [BRANDVOICE.MD](../../../MY RESOURCES/BRANDVOICE.MD) - DNA Brand Voice Hoàng (adapt to English)
 
-**Điều chỉnh brand voice cho LinkedIn:**
-- Xưng hô: "Hoàng" / "mình" / "tôi" (dùng "tôi" nhiều hơn Facebook — professional hơn)
-- Gọi người đọc: "bạn", "anh chị", "các bạn"
-- Giọng: Professional expert — vẫn conversational nhưng có depth và credential hơn
-- Energy: 6.5/10 — tự tin, thoughtful, ít hype hơn Facebook
-- Credential signals: "Sau 2 năm triển khai AI cho doanh nghiệp...", "Từ kinh nghiệm tư vấn 50+ SMEs..."
-- Power words giữ English: System, Automation, AI, Framework, Workflow, ROI, Strategy, Implementation, Enterprise, Scale
-- Luôn có số liệu và case study thực tế
-- KHÔNG dùng emoji trong body text
+**Brand voice adapted for LinkedIn (English):**
+- Voice: "I" / "Hoang" — first person, professional
+- Address readers: "you"
+- Tone: Professional expert — conversational but with depth and credentials
+- Energy: 6.5/10 — confident, thoughtful, less hype than Facebook
+- Credential signals: "After 2 years implementing AI for businesses...", "From consulting 50+ SMEs..."
+- Power words: System, Automation, AI, Framework, Workflow, ROI, Strategy, Implementation, Enterprise, Scale
+- Always include data and real case studies
+- NO emoji in body text
 
 ## Platform Rules — LinkedIn
 

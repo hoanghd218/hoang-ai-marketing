@@ -55,7 +55,9 @@
       "Bash(rm:*)",
       "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-xcom-post-creator/references)",
       "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-linkedin-post-creator/references)",
-      "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-carousel-creator/references)"
+      "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-carousel-creator/references)",
+      "Skill(mkt-repurpose-to-social)",
+      "Skill(mkt-repurpose-to-social:*)"
     ],
     "deny": [],
     "ask": []

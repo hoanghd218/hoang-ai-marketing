@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hệ Thống Content Bằng Claude Code — Hoàng AI Marketing</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+  :root {
+    --bg: #0f1117;
+    --card: #1a1d27;
+    --card-hover: #222633;
+    --border: #2a2e3d;
+    --text: #e4e4e7;
+    --text-muted: #9ca3af;
+    --accent-orange: #f59e0b;
+    --accent-blue: #3b82f6;
+    --accent-green: #10b981;
+    --accent-purple: #8b5cf6;
+    --accent-pink: #ec4899;
+    --accent-red: #ef4444;
+    --accent-cyan: #06b6d4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  /* HEADER */
+  .header {
+    text-align: center;
+    padding: 60px 40px 40px;
+    background: linear-gradient(180deg, #1a1d27 0%, var(--bg) 100%);
+    border-bottom: 1px solid var(--border);
+  }
+  .header-icon { font-size: 48px; margin-bottom: 16px; }
+  .header h1 {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, #f59e0b, #ec4899, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+  .header p {
+    font-size: 18px;
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+  .header .subtitle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-top: 12px;
+    opacity: 0.7;
+  }
+
+  /* PIPELINE BAR */
+  .pipeline-bar {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 24px 40px;
+    position: relative;
+  }
+  .pipeline-step {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    position: relative;
+  }
+  .pipeline-step::after {
+    content: '→';
+    margin-left: 16px;
+    color: #3a3f52;
+    font-size: 16px;
+  }
+  .pipeline-step:last-child::after { content: ''; }
+  .pipeline-step .step-num {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .step-discover .step-num { background: var(--accent-orange); }
+  .step-extract .step-num { background: var(--accent-cyan); }
+  .step-analyze .step-num { background: var(--accent-purple); }
+  .step-create .step-num { background: var(--accent-green); }
+  .step-produce .step-num { background: var(--accent-pink); }
+  .step-distribute .step-num { background: var(--accent-blue); }
+  .step-archive .step-num { background: var(--accent-red); }
+
+  /* STATS BAR */
+  .stats-bar {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat-value {
+    font-size: 32px;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent-orange), var(--accent-pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .stat-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 2px;
+  }
+
+  /* GRID */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 0 40px 40px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .grid-full {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  /* SECTION CARD */
+  .section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .section:hover { border-color: #3a3f52; }
+
+  .section-header {
+    padding: 20px 24px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-header .badge {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .section-header h2 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+  }
+  .section-header .count {
+    margin-left: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--text-muted);
+    background: rgba(255,255,255,0.05);
+    padding: 4px 10px;
+    border-radius: 20px;
+  }
+  .section-desc {
+    padding: 0 24px;
+    font-size: 13px;
+    color: var(--text-muted);
+    padding-top: 12px;
+  }
+
+  .section-body { padding: 16px 24px 20px; }
+
+  /* SKILL ITEMS */
+  .skill-group {
+    margin-bottom: 16px;
+  }
+  .skill-group:last-child { margin-bottom: 0; }
+  .skill-group-title {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .skill-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    transition: background 0.15s;
+    cursor: default;
+  }
+  .skill-item:hover { background: var(--card-hover); }
+
+  .skill-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .skill-info { flex: 1; min-width: 0; }
+  .skill-name {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .skill-desc {
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.4;
+    margin-top: 2px;
+  }
+
+  .skill-tag {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+
+  /* COLOR THEMES */
+  .theme-orange .badge { background: rgba(245,158,11,0.15); color: var(--accent-orange); }
+  .theme-orange .skill-icon { background: rgba(245,158,11,0.1); color: var(--accent-orange); }
+  .theme-orange .skill-tag { background: rgba(245,158,11,0.12); color: var(--accent-orange); }
+  .theme-orange .section-header h2 { color: var(--accent-orange); }
+
+  .theme-cyan .badge { background: rgba(6,182,212,0.15); color: var(--accent-cyan); }
+  .theme-cyan .skill-icon { background: rgba(6,182,212,0.1); color: var(--accent-cyan); }
+  .theme-cyan .skill-tag { background: rgba(6,182,212,0.12); color: var(--accent-cyan); }
+  .theme-cyan .section-header h2 { color: var(--accent-cyan); }
+
+  .theme-purple .badge { background: rgba(139,92,246,0.15); color: var(--accent-purple); }
+  .theme-purple .skill-icon { background: rgba(139,92,246,0.1); color: var(--accent-purple); }
+  .theme-purple .skill-tag { background: rgba(139,92,246,0.12); color: var(--accent-purple); }
+  .theme-purple .section-header h2 { color: var(--accent-purple); }
+
+  .theme-green .badge { background: rgba(16,185,129,0.15); color: var(--accent-green); }
+  .theme-green .skill-icon { background: rgba(16,185,129,0.1); color: var(--accent-green); }
+  .theme-green .skill-tag { background: rgba(16,185,129,0.12); color: var(--accent-green); }
+  .theme-green .section-header h2 { color: var(--accent-green); }
+
+  .theme-pink .badge { background: rgba(236,72,153,0.15); color: var(--accent-pink); }
+  .theme-pink .skill-icon { background: rgba(236,72,153,0.1); color: var(--accent-pink); }
+  .theme-pink .skill-tag { background: rgba(236,72,153,0.12); color: var(--accent-pink); }
+  .theme-pink .section-header h2 { color: var(--accent-pink); }
+
+  .theme-blue .badge { background: rgba(59,130,246,0.15); color: var(--accent-blue); }
+  .theme-blue .skill-icon { background: rgba(59,130,246,0.1); color: var(--accent-blue); }
+  .theme-blue .skill-tag { background: rgba(59,130,246,0.12); color: var(--accent-blue); }
+  .theme-blue .section-header h2 { color: var(--accent-blue); }
+
+  .theme-red .badge { background: rgba(239,68,68,0.15); color: var(--accent-red); }
+  .theme-red .skill-icon { background: rgba(239,68,68,0.1); color: var(--accent-red); }
+  .theme-red .skill-tag { background: rgba(239,68,68,0.12); color: var(--accent-red); }
+  .theme-red .section-header h2 { color: var(--accent-red); }
+
+  /* AGENTS SECTION */
+  .agents-bar {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 40px 24px;
+  }
+  .agents-card {
+    background: linear-gradient(135deg, #1e2130 0%, #1a1d27 100%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+  .agents-card h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--accent-orange);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .agents-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+  }
+  .agent-item {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    padding: 14px 16px;
+    transition: background 0.15s;
+  }
+  .agent-item:hover { background: rgba(255,255,255,0.06); }
+  .agent-name {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent-orange);
+    margin-bottom: 4px;
+  }
+  .agent-desc {
+    font-size: 11px;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  /* COMMANDS SECTION */
+  .commands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 8px;
+  }
+  .command-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--accent-cyan);
+  }
+  .command-item span {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-muted);
+    font-size: 11px;
+  }
+
+  /* MCP INTEGRATIONS */
+  .integrations {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 40px 40px;
+  }
+  .integrations-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+  .integrations-card h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+  .integrations-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .integration-chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+    transition: border-color 0.15s;
+  }
+  .integration-chip:hover { border-color: rgba(255,255,255,0.15); }
+  .integration-chip .int-icon {
+    font-size: 16px;
+  }
+
+  /* FOOTER */
+  .footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid var(--border);
+    margin-top: 20px;
+  }
+  .footer-brand {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, var(--accent-orange), var(--accent-pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .footer p {
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  .footer .powered {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: #555;
+    margin-top: 12px;
+  }
+
+  /* SPAN 2 */
+  .span-2 { grid-column: span 2; }
+
+  @media (max-width: 1200px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .grid-full { grid-template-columns: repeat(2, 1fr); }
+    .agents-grid { grid-template-columns: repeat(3, 1fr); }
+    .span-2 { grid-column: span 1; }
+  }
+  @media (max-width: 768px) {
+    .grid { grid-template-columns: 1fr; padding: 0 16px 24px; }
+    .grid-full { grid-template-columns: 1fr; }
+    .agents-grid { grid-template-columns: 1fr; }
+    .pipeline-bar { flex-wrap: wrap; }
+    .stats-bar { flex-wrap: wrap; gap: 24px; }
+    .header { padding: 40px 16px 24px; }
+    .header h1 { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-icon">&#x1F3AC;</div>
+  <h1>HỆ THỐNG CONTENT BẰNG CLAUDE CODE</h1>
+  <p>Cách tôi tự động hoá toàn bộ quy trình marketing chỉ với một dòng lệnh</p>
+  <div class="subtitle">43 Kỹ năng &bull; 5 Agent tự động &bull; 7 Lệnh tắt &bull; 6 Tích hợp MCP</div>
+</div>
+
+<!-- PIPELINE -->
+<div class="pipeline-bar">
+  <div class="pipeline-step step-discover"><span class="step-num">1</span> Khám phá</div>
+  <div class="pipeline-step step-extract"><span class="step-num">2</span> Trích xuất</div>
+  <div class="pipeline-step step-analyze"><span class="step-num">3</span> Phân tích</div>
+  <div class="pipeline-step step-create"><span class="step-num">4</span> Sáng tạo</div>
+  <div class="pipeline-step step-produce"><span class="step-num">5</span> Sản xuất</div>
+  <div class="pipeline-step step-distribute"><span class="step-num">6</span> Phân phối</div>
+  <div class="pipeline-step step-archive"><span class="step-num">7</span> Lưu trữ</div>
+</div>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat">
+    <div class="stat-value">43+</div>
+    <div class="stat-label">Kỹ năng</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">5</div>
+    <div class="stat-label">Agent tự động</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">7</div>
+    <div class="stat-label">Lệnh tắt</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">6</div>
+    <div class="stat-label">Tích hợp MCP</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value">5</div>
+    <div class="stat-label">Nền tảng</div>
+  </div>
+</div>
+
+<!-- MAIN GRID -->
+<div class="grid">
+
+  <!-- ==================== DISCOVERY ENGINE ==================== -->
+  <div class="section theme-orange">
+    <div class="section-header">
+      <div class="badge">&#x1F50D;</div>
+      <h2>KHÁM PHÁ XU HƯỚNG</h2>
+      <span class="count">4 kỹ năng</span>
+    </div>
+    <div class="section-desc">Tìm trend trước tất cả mọi người</div>
+    <div class="section-body">
+      <div class="skill-group">
+        <div class="skill-group-title">Nguồn dữ liệu</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x25B6;</div>
+          <div class="skill-info">
+            <div class="skill-name">/youtube-trend-finder</div>
+            <div class="skill-desc">Lấy video mới nhất từ kênh đã subscribe qua YouTube API v3</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4C8;</div>
+          <div class="skill-info">
+            <div class="skill-name">/breakout-video-finder</div>
+            <div class="skill-desc">Tìm video viral có tỷ lệ view/subscriber gấp 2x trở lên</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4F0;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-ai-news-aggregator</div>
+            <div class="skill-desc">Tổng hợp tin AI từ Perplexity, GitHub Trending &amp; X.com qua Grok</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F575;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-competitor-video-strategy-analyzer</div>
+            <div class="skill-desc">Phân tích tiêu đề, hook, nhịp độ &amp; thumbnail của đối thủ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== EXTRACT & ANALYZE ==================== -->
+  <div class="section theme-purple">
+    <div class="section-header">
+      <div class="badge">&#x1F9EA;</div>
+      <h2>EXTRACT &amp; ANALYZE</h2>
+      <span class="count">8 skills</span>
+    </div>
+    <div class="section-desc">Research &rarr; Extract &rarr; Understand &rarr; Compile knowledge</div>
+    <div class="section-body">
+      <div class="skill-group">
+        <div class="skill-group-title">Extraction</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4DD;</div>
+          <div class="skill-info">
+            <div class="skill-name">/youtube-transcript</div>
+            <div class="skill-desc">Extract transcripts with dual-method fallback + timestamps</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4CB;</div>
+          <div class="skill-info">
+            <div class="skill-name">/youtube-subtitle-extractor</div>
+            <div class="skill-desc">Extract subtitles in multiple languages</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Analysis</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4A1;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-insight-extractor</div>
+            <div class="skill-desc">5-type framework: Framework, Paradigm Shift, Warning, Diagnosis, Principle</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F3AD;</div>
+          <div class="skill-info">
+            <div class="skill-name">/script-storytelling-analyzer</div>
+            <div class="skill-desc">Score against 6 Callaway storytelling techniques (1B+ views)</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4CA;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-content-format-analyzer</div>
+            <div class="skill-desc">Classify with 4A: Actionable, Analytical, Aspirational, Anthropological</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4F1;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-video-to-content-idea</div>
+            <div class="skill-desc">Generate Facebook content ideas from video analysis</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4D3;</div>
+          <div class="skill-info">
+            <div class="skill-name">/notebooklm-video-analyzer</div>
+            <div class="skill-desc">AI-powered analysis via Google NotebookLM</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4DA;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-content-knowledge-compiler</div>
+            <div class="skill-desc">Compile learnings into persistent knowledge base</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SCRIPT FACTORY ==================== -->
+  <div class="section theme-green">
+    <div class="section-header">
+      <div class="badge">&#x270D;&#xFE0F;</div>
+      <h2>SCRIPT FACTORY</h2>
+      <span class="count">9 skills</span>
+    </div>
+    <div class="section-desc">Research &rarr; Write &rarr; Self-Critique &rarr; Deliver</div>
+    <div class="section-body">
+      <div class="skill-group">
+        <div class="skill-group-title">Video Scripts</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F3AC;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-create-script-storytelling-video</div>
+            <div class="skill-desc">Full YouTube scripts: Title + Intro + Script + CTA (6 Callaway techniques)</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x26A1;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-create-script-short-video</div>
+            <div class="skill-desc">TikTok/Reels/Shorts scripts (Before-After, Three Acts)</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F525;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-create-script-short-video-v2-vn</div>
+            <div class="skill-desc">Natural Vietnamese voice, 4 modern frameworks</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Hooks &amp; Briefs</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F3AF;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-desire-hook-for-video</div>
+            <div class="skill-desc">Desire-based hooks that convert views into leads</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4CC;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-news-to-content-brief</div>
+            <div class="skill-desc">Filter &amp; rank news into content briefs with relevance scoring</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Social Posts</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4D6;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-book-to-wisdom-posts</div>
+            <div class="skill-desc">Extract book wisdom &rarr; viral Facebook posts (6 formats)</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F6E0;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-build-in-public-post-creator</div>
+            <div class="skill-desc">Behind-the-scenes Facebook posts (5 templates)</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F504;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-content-repurposer</div>
+            <div class="skill-desc">1 long-form &rarr; 6-8 multi-format pieces across 5 platforms</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F3E0;</div>
+          <div class="skill-info">
+            <div class="skill-name">/landing-page-content-creator</div>
+            <div class="skill-desc">Quiz-based landing pages for lead generation</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== VIDEO PRODUCTION ==================== -->
+  <div class="section theme-pink">
+    <div class="section-header">
+      <div class="badge">&#x1F3A5;</div>
+      <h2>VIDEO PRODUCTION</h2>
+      <span class="count">6 skills</span>
+    </div>
+    <div class="section-desc">One command = everything you need to film</div>
+    <div class="section-body">
+      <div class="skill-group">
+        <div class="skill-group-title">Audio</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F3A4;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-video-script-to-mp3</div>
+            <div class="skill-desc">Script &rarr; MP3 voiceover via MiniMax TTS (speech-2.8-hd)</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Video Generation</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F916;</div>
+          <div class="skill-info">
+            <div class="skill-name">/heygen-short-video</div>
+            <div class="skill-desc">HeyGen avatar + Grok visual + Remotion composition</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4F9;</div>
+          <div class="skill-info">
+            <div class="skill-name">/short-video-creator</div>
+            <div class="skill-desc">7-15s videos: text overlay on b-roll or Ken Burns from images</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F3EC;</div>
+          <div class="skill-info">
+            <div class="skill-name">/remotion-video-toolkit</div>
+            <div class="skill-desc">Complete Remotion + React toolkit: animations, captions, 3D, effects</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Visual Assets</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F5BC;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-edu-slide-nano</div>
+            <div class="skill-desc">Educational slide illustrations in chalkboard dev style</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4CA;</div>
+          <div class="skill-info">
+            <div class="skill-name">/infographic_generator</div>
+            <div class="skill-desc">Educational infographic prompts (Health, AI, Productivity)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PUBLISH & DISTRIBUTE ==================== -->
+  <div class="section theme-blue">
+    <div class="section-header">
+      <div class="badge">&#x1F680;</div>
+      <h2>PUBLISH &amp; DISTRIBUTE</h2>
+      <span class="count">8 skills</span>
+    </div>
+    <div class="section-desc">From script to live on every platform &mdash; hands-free</div>
+    <div class="section-body">
+      <div class="skill-group">
+        <div class="skill-group-title">Facebook &amp; Social</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4F1;</div>
+          <div class="skill-info">
+            <div class="skill-name">/video-to-facebook-posts</div>
+            <div class="skill-desc">Video transcript &rarr; up to 3 Facebook posts</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F5BC;</div>
+          <div class="skill-info">
+            <div class="skill-name">/image-post-creator</div>
+            <div class="skill-desc">Typography-based image prompts for Facebook posts</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">LinkedIn (English)</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4BC;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-linkedin-post-creator</div>
+            <div class="skill-desc">Professional posts: Insight, Case Study, Contrarian, Carousel</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4C4;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-linkedin-carousel-image</div>
+            <div class="skill-desc">Dark tech carousel slides via Nano Banana Pro</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">X.com &amp; Carousel</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1D54F;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-xcom-post-creator</div>
+            <div class="skill-desc">English threads &amp; standalone posts for X.com</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F5C3;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-carousel-creator</div>
+            <div class="skill-desc">IG (1:1 EN) &amp; TikTok (9:16 VN) carousel slides</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Notifications</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x2708;</div>
+          <div class="skill-info">
+            <div class="skill-name">/telegram-notifier</div>
+            <div class="skill-desc">Send messages, photos &amp; files to Telegram</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== ARCHIVE & SYNC ==================== -->
+  <div class="section theme-red">
+    <div class="section-header">
+      <div class="badge">&#x1F4BE;</div>
+      <h2>ARCHIVE &amp; SYNC</h2>
+      <span class="count">3 skills</span>
+    </div>
+    <div class="section-desc">Knowledge compounds &mdash; never lose a learning</div>
+    <div class="section-body">
+      <div class="skill-group">
+        <div class="skill-group-title">Notion Sync</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4D2;</div>
+          <div class="skill-info">
+            <div class="skill-name">/notion-video-trend-sync</div>
+            <div class="skill-desc">Push video data (title, views, transcript, insight) to Notion DB</div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F9E0;</div>
+          <div class="skill-info">
+            <div class="skill-name">/notebooklm-video-analyzer</div>
+            <div class="skill-desc">Process videos through NotebookLM &rarr; save insights to Notion</div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Knowledge Base</div>
+        <div class="skill-item">
+          <div class="skill-icon">&#x1F4DA;</div>
+          <div class="skill-info">
+            <div class="skill-name">/mkt-content-knowledge-compiler</div>
+            <div class="skill-desc">Hooks, title formulas, video structures &rarr; persistent library</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- AGENTS -->
+<div class="agents-bar">
+  <div class="agents-card">
+    <h3>&#x1F916; AUTONOMOUS AGENTS &mdash; Orchestrate full pipelines end-to-end</h3>
+    <div class="agents-grid">
+      <div class="agent-item">
+        <div class="agent-name">trend-researcher</div>
+        <div class="agent-desc">YouTube search &rarr; parallel transcript (5x) &rarr; summarize &rarr; Notion sync</div>
+      </div>
+      <div class="agent-item">
+        <div class="agent-name">mkt-pillar1-ai-demo-researcher</div>
+        <div class="agent-desc">AI channel videos &rarr; transcript &rarr; strategy &rarr; insight &rarr; knowledge &rarr; Notion &rarr; Telegram</div>
+      </div>
+      <div class="agent-item">
+        <div class="agent-name">mkt-daily-ai-news-scout</div>
+        <div class="agent-desc">3 sources (Perplexity, GitHub, X.com) &rarr; merge &rarr; briefs &rarr; Telegram top 3</div>
+      </div>
+      <div class="agent-item">
+        <div class="agent-name">mkt-full-short-video-from-transcript</div>
+        <div class="agent-desc">Script &rarr; MP3 voiceover &rarr; HeyGen avatar video (3-phase pipeline)</div>
+      </div>
+      <div class="agent-item">
+        <div class="agent-name">mcp-finder</div>
+        <div class="agent-desc">Discover &amp; configure MCP servers from NPM, GitHub &amp; directories</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SLASH COMMANDS -->
+<div class="agents-bar">
+  <div class="agents-card">
+    <h3>&#x2318; SLASH COMMANDS &mdash; One-liners that chain multiple skills</h3>
+    <div class="commands-grid">
+      <div class="command-item">/mkt-repurpose-to-social <span>Script &rarr; FB + IG + LinkedIn</span></div>
+      <div class="command-item">/mkt-analyze-videos <span>Videos &rarr; transcript &rarr; insight &rarr; Notion</span></div>
+      <div class="command-item">/mkt-find-trend-videos <span>Subscribed channels &rarr; summary</span></div>
+      <div class="command-item">/mkt-research-to-contents <span>videos.json &rarr; content ideas &rarr; drafts</span></div>
+      <div class="command-item">/channel-monitor <span>Monitor &rarr; transcript &rarr; Notion</span></div>
+      <div class="command-item">/book-to-wisdom-content <span>Book &rarr; wisdom posts + images</span></div>
+      <div class="command-item">/brand-guidelines <span>Apply Anthropic brand system</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- MCP INTEGRATIONS -->
+<div class="integrations">
+  <div class="integrations-card">
+    <h3>&#x1F50C; POWERED BY &mdash; MCP Server Integrations</h3>
+    <div class="integrations-grid">
+      <div class="integration-chip"><span class="int-icon">&#x1F4DD;</span> Notion (DB sync, pages, comments)</div>
+      <div class="integration-chip"><span class="int-icon">&#x1F4E2;</span> Blotato (auto-posting to FB, LinkedIn, X, IG, TikTok)</div>
+      <div class="integration-chip"><span class="int-icon">&#x1F916;</span> HeyGen (AI avatar video generation)</div>
+      <div class="integration-chip"><span class="int-icon">&#x1F3B5;</span> MiniMax (TTS, music, video, image generation)</div>
+      <div class="integration-chip"><span class="int-icon">&#x2709;</span> Gmail (email drafts &amp; search)</div>
+      <div class="integration-chip"><span class="int-icon">&#x1F4AC;</span> Telegram (notifications &amp; file sharing)</div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-brand">CLAUDE CODE</div>
+  <p>The AI brain that orchestrates everything above</p>
+  <div class="powered">claude.ai/code &bull; 43 skills &bull; 5 agents &bull; 7 commands &bull; 6 MCP servers &bull; 1 CLI to run it all</div>
+</div>
+
+</body>
+</html>

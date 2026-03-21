@@ -72,12 +72,13 @@ All skills live in `.claude/skills/`. Key ones by function:
 
 ## Agents
 
-Four agents in `.claude/agents/`:
+Five agents in `.claude/agents/`:
 
 - **`trend-researcher`** — Orchestrates full YouTube research pipeline: search → parallel transcript extraction (max 5 concurrent) → summarize → push to Notion. Trigger with keyword + date filter.
 - **`mcp-finder`** — Discovers and configures MCP servers.
 - **`mkt-pillar1-ai-demo-researcher`** — Full Pillar 1 pipeline: fetch AI channel videos → transcript → strategy analysis → insight extraction → knowledge compilation → Notion sync → Telegram notification.
 - **`mkt-daily-ai-news-scout`** — Daily Pillar 3 pipeline: aggregate news from 3 sources (Perplexity, GitHub, X.com) → merge → content briefs → Telegram top 3.
+- **`mkt-full-short-video-from-transcript`** — End-to-end short video pipeline: script → MP3 voiceover → HeyGen avatar video. Phase 3 runs in isolated sub-agent to manage 40KB context of heygen-short-video skill.
 
 ## Workspace Structure
 

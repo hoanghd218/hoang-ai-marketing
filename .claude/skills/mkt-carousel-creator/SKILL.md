@@ -1,22 +1,26 @@
 ---
 name: mkt-carousel-creator
-description: Tạo carousel slides cho Instagram và TikTok từ transcript, insight, hoặc topic. Dual-mode (IG 1:1 / TikTok 9:16). Output text + visual direction per slide, sẵn sàng render bằng image-post-creator hoặc mkt-edu-slide-nano. USE WHEN user says 'tạo carousel', 'carousel instagram', 'carousel tiktok', 'tạo slides ig', 'carousel post', 'slide ig', 'slide tiktok', 'ig carousel', 'tiktok carousel'.
+description: Create carousel slides for Instagram and TikTok from transcript, insight, or topic. Dual-mode (IG 1:1 / TikTok 9:16). Instagram content in ENGLISH, TikTok in Vietnamese. Output text + visual direction per slide, ready for image rendering. USE WHEN user says 'tạo carousel', 'carousel instagram', 'carousel tiktok', 'tạo slides ig', 'carousel post', 'slide ig', 'slide tiktok', 'ig carousel', 'tiktok carousel'.
 ---
 
 # Carousel Creator — Instagram & TikTok
 
-Tạo carousel slide content cho Instagram và TikTok. Output: text + visual direction per slide, sẵn sàng render thành ảnh.
+Create carousel slide content for Instagram and TikTok. Output: text + visual direction per slide, ready for image rendering.
+
+## Content Language Rule
+
+**Instagram content MUST be written in English** (global audience). **TikTok content uses Vietnamese** (local audience). Only Facebook and YouTube use Vietnamese. LinkedIn, X.com, and Instagram all use English.
 
 ## Brand Voice Reference
 
 - [BRANDVOICE.MD](../../../MY RESOURCES/BRANDVOICE.MD) - DNA Brand Voice Hoàng
 
-**Điều chỉnh brand voice cho Carousel:**
-- Xưng hô: Không xưng hô trực tiếp trong slide text — viết dạng knowledge statement
-- Slide text: Ngắn gọn, bold, scannable — mỗi slide 1 ý duy nhất
-- Caption: Xưng "mình"/"Hoàng", gọi "bạn"
+**Brand voice for Carousel:**
+- Slide text: Short, bold, scannable — one idea per slide (knowledge statement style, no direct addressing)
+- Caption (IG): English, "I"/"Hoang" voice
+- Caption (TikTok): Vietnamese, "mình"/"Hoàng" voice
 - Energy: 7.5/10 — bold, visual-driven, attention-grabbing
-- Power words giữ English: System, Automation, AI, Framework, Workflow, Template
+- Power words: System, Automation, AI, Framework, Workflow, Template
 
 ## Platform Modes
 

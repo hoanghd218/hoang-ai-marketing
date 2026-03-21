@@ -8,6 +8,10 @@ version: 5.0.0
 
 Tạo hình ảnh bổ trợ thông tin cho bài Facebook chia sẻ kiến thức. Hình ảnh là dạng typography-based (text-heavy), KHÔNG phải ảnh chụp hay minh họa.
 
+## Rule: Mỗi bài Facebook PHẢI có ảnh đi kèm
+
+Khi tạo Facebook post, LUÔN tạo ảnh minh họa đi kèm. Bài viết Facebook không có ảnh sẽ bị giảm reach đáng kể. Skill này nên được gọi tự động sau khi tạo xong nội dung bài viết Facebook.
+
 ## Workflow
 
 **QUAN TRỌNG:** Luôn tuân theo `references/workflow.md` khi skill được kích hoạt.
@@ -35,7 +39,7 @@ Nội dung bài viết Facebook (tiếng Việt) hoặc chủ đề + key points
 - **Title**: Bold, 28-36px equivalent, UPPERCASE nếu là infographic
 - **Body**: Regular/Medium, 20-24px equivalent
 - **Emphasis**: Bold cho từ quan trọng
-- **Footer**: 16px, centered, `@tranvanhoang.com`
+- **Footer**: Small subtle text, centered, `@tranvanhoang.com` (IMPORTANT: do NOT include pixel sizes like "16px" or "18px" in the prompt — AI models render the literal text into the image)
 
 ### Visual Emphasis (2 kỹ thuật chính)
 

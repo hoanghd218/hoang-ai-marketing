@@ -1,24 +1,28 @@
 ---
 name: mkt-xcom-post-creator
-description: Tạo X.com (Twitter) threads và standalone posts từ transcript, insight, hoặc topic. Auto-detect loại nội dung và chọn format phù hợp. Output tiếng Việt theo brand voice Hoàng. USE WHEN user says 'tạo post X', 'viết thread twitter', 'X.com post', 'tạo tweet', 'twitter thread', 'viết cho X', 'post X.com'.
+description: Create X.com (Twitter) threads and standalone posts in ENGLISH from transcript, insight, or topic. Auto-detect content type and choose best format. Output in English with Hoàng's brand voice. USE WHEN user says 'tạo post X', 'viết thread twitter', 'X.com post', 'tạo tweet', 'twitter thread', 'viết cho X', 'post X.com'.
 ---
 
 # X.com Post Creator
 
-Tạo threads và standalone posts cho X.com từ transcript/insight/topic. Tối ưu cho algorithm X.com và audience Vietnamese tech community.
+Create threads and standalone posts for X.com in **ENGLISH** from transcript/insight/topic. Optimized for X.com algorithm and global tech community audience.
+
+## Content Language Rule
+
+**X.com content MUST be written in English.** Only Facebook and YouTube use Vietnamese. LinkedIn, X.com, and Instagram all use English for global reach.
 
 ## Brand Voice Reference
 
-- [BRANDVOICE.MD](../../../MY RESOURCES/BRANDVOICE.MD) - DNA Brand Voice Hoàng
+- [BRANDVOICE.MD](../../../MY RESOURCES/BRANDVOICE.MD) - DNA Brand Voice Hoàng (adapt to English)
 
-**Điều chỉnh brand voice cho X.com:**
-- Xưng hô: "Hoàng" / "mình", gọi người đọc: "bạn", "các bạn"
-- Giọng: Sắc bén hơn Facebook — authority voice, data-driven, punchy
-- Energy: 8/10 — cao hơn Facebook, sharper, bolder
-- Power words giữ tiếng Anh: System, Automation, AI, Framework, Workflow, Template, Scale, ROI
-- English tech terms dùng tự do hơn Facebook (audience X.com quen tech terms)
-- KHÔNG dùng emoji trong body text
-- Luôn có số liệu cụ thể
+**Brand voice adapted for X.com (English):**
+- Voice: "I" / "Hoang", address readers: "you"
+- Tone: Sharper than Facebook — authority voice, data-driven, punchy
+- Energy: 8/10 — higher than Facebook, sharper, bolder
+- Power words: System, Automation, AI, Framework, Workflow, Template, Scale, ROI
+- Tech terms used freely (X.com audience is tech-native)
+- NO emoji in body text
+- Always include specific data points
 
 ## Platform Rules — X.com
 
