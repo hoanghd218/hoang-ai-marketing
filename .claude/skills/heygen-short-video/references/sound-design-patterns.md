@@ -35,7 +35,7 @@ Editorial patterns for syncing sound effects with video moments. All achievable 
 1. **Max 3-5 SFX per video** — more becomes noisy
 2. **Front-load effects** — 60% of SFX in first 10 seconds
 3. **Match energy** — loud SFX for hook, subtle for transitions
-4. **Volume levels**: hook SFX 0.5-0.6, transition SFX 0.3-0.4, CTA SFX 0.5
+4. **Volume levels**: hook SFX 0.25-0.35, transition SFX 0.15-0.2, CTA SFX 0.25. SFX phải nhẹ nhàng, KHÔNG được lấn át giọng nói.
 5. **Never overlap** — space SFX at least 1.5s apart
 
 ## J-cut Audio Pattern
