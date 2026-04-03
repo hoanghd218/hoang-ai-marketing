@@ -43,9 +43,13 @@ Use the templates in [references/templates.md](references/templates.md).
 ### Language
 
 - Write like **talking**, not writing
-- Use everyday words: "tui", "mình", "nhá", "luôn", "đấy"
+- **Always use "mình"** for first person — NOT "tui". Address audience as "bạn" / "các bạn"
 - Short sentences, easy to read aloud
 - No flowery language, no lecturing tone
+- **NO English technical jargon** — write so a 5th grader can understand
+  - ❌ "Artifacts", "Interface", "Context", "Memory", "Projects", "Skills", "Enterprise", "Library", "Strategy", "Value", "Ship features", "Style"
+  - ✅ Describe WHAT IT DOES in plain Vietnamese: "kết quả hiện ra ngay bên cạnh", "nhớ dai hơn", "làm theo cách của bạn", "ra tính năng mới"
+  - Exception: brand names like ChatGPT, Claude, AI, Anthropic are OK to keep
 
 ### Length
 
