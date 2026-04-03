@@ -44,7 +44,7 @@ Words ripple in with continuous sine-wave vertical motion after entry.
 - Pair with: whoosh, snap, or rising tone SFX
 
 ### `none` (default)
-Standard highlight rendering — bold + accent color + subtle text-shadow.
+Standard highlight rendering — **bold white text** + subtle text-shadow. KHÔNG đổi màu chữ highlight — chỉ dùng **font-weight: bold** để làm nổi bật.
 
 ## When to Use
 

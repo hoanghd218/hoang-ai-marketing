@@ -1,5 +1,4 @@
 # Environment variables and MCP config (contains API keys)
-.env
 .mcp.json
 
 # OS files
@@ -24,3 +23,4 @@ venv/
 # exports/
 # data/
 /workspace/content
+config.bat
