@@ -1,0 +1,85 @@
+{
+  "date": "2026-04-03",
+  "total_items": 12,
+  "filtered_items": 9,
+  "sources": {
+    "perplexity": 5,
+    "github": 0,
+    "xcom": 0,
+    "web_search": 7
+  },
+  "items": [
+    {
+      "title": "Microsoft Announces 3 New MAI Models: Transcribe-1, Voice-1, Image-2",
+      "source": "perplexity",
+      "summary": "Microsoft launched 3 world-class models in Foundry: MAI-Transcribe-1 (speech-to-text 25 languages), MAI-Voice-1 (natural voice generation with custom voices), MAI-Image-2 (faster image gen). Available now with safety guardrails, integrated into Copilot, Bing, PowerPoint.",
+      "url": "https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/",
+      "relevance_score": 9,
+      "tags": ["AI models", "voice AI", "transcription", "image generation", "Microsoft", "automation"]
+    },
+    {
+      "title": "Agentic AI Foundation Announces Global 2026 Events + MCP Dev Summit",
+      "source": "perplexity",
+      "summary": "Linux Foundation's Agentic AI Foundation revealed 2026 events across 10 cities. AGNTCon + MCPCon in NA and Europe. Focus on open standards: Model Context Protocol (MCP), goose, AGENTS.md. MCP Dev Summit in New York April 2-3.",
+      "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-global-2026-events-program-anchored-by-agntcon-mcpcon-north-america-and-europe",
+      "relevance_score": 9,
+      "tags": ["agentic AI", "MCP", "open standards", "AI agents", "events"]
+    },
+    {
+      "title": "OpenAI Surpasses $25B Revenue, Eyes IPO; Anthropic Approaches $19B",
+      "source": "web_search",
+      "summary": "OpenAI vượt 25 tỷ USD doanh thu/năm, đang chuẩn bị IPO cuối 2026. Anthropic tiệm cận 19 tỷ USD. Thị trường AI đang bùng nổ doanh thu, không còn chỉ là hype.",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "relevance_score": 9,
+      "tags": ["OpenAI", "Anthropic", "business", "AI market", "IPO"]
+    },
+    {
+      "title": "Current Flagship Models: GPT-5.4 Thinking, Claude Sonnet 4.6, Gemini 3.1 Pro, Grok 4.20",
+      "source": "web_search",
+      "summary": "Bản đồ AI models tháng 4/2026: GPT-5.4 Thinking (OpenAI), Claude Sonnet 4.6 (Anthropic), Gemini 3.1 Pro (Google), Grok 4.20 Beta 2 (xAI). Prediction markets kỳ vọng ít nhất 1 model mới trước cuối tháng 4.",
+      "url": "https://llm-stats.com/ai-news",
+      "relevance_score": 8,
+      "tags": ["LLM", "AI models", "GPT-5", "Claude", "Gemini", "Grok"]
+    },
+    {
+      "title": "OpenClaw Surges Past 210K Stars - Fastest Growing Open Source AI Project",
+      "source": "web_search",
+      "summary": "OpenClaw - personal AI assistant chạy hoàn toàn trên thiết bị cá nhân, kết nối 50+ integrations (WhatsApp, Telegram, Slack...). Từ 9K lên 210K+ stars. Local AI gateway cho mọi người.",
+      "url": "https://github.com/topics/ai",
+      "relevance_score": 9,
+      "tags": ["open source", "local AI", "AI assistant", "OpenClaw", "GitHub"]
+    },
+    {
+      "title": "New Open-Source LLMs: DeepSeek-V3.2-Speciale, GLM-5, MiniMax-M2.5, Qwen3.5-397B",
+      "source": "web_search",
+      "summary": "Làn sóng open-source LLM mới: DeepSeek-V3.2-Speciale (reasoning), GLM-5 và MiniMax-M2.5 (coding), Qwen3.5-397B (general chat). Cuộc đua open-source ngày càng gay gắt.",
+      "url": "https://blog.mean.ceo/new-ai-model-releases-news-april-2026/",
+      "relevance_score": 8,
+      "tags": ["open source", "LLM", "DeepSeek", "Qwen", "coding AI"]
+    },
+    {
+      "title": "Google TurboQuant - Memory-Efficient AI Compression Algorithms",
+      "source": "web_search",
+      "summary": "Google công bố TurboQuant - thuật toán nén AI tiết kiệm bộ nhớ, thách thức cả nhà sản xuất hardware và phần mềm. Cho phép chạy model lớn trên phần cứng nhỏ hơn.",
+      "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+      "relevance_score": 8,
+      "tags": ["Google", "quantization", "optimization", "local AI", "efficiency"]
+    },
+    {
+      "title": "IBM x Arm Strategic Collaboration for Enterprise AI Computing",
+      "source": "perplexity",
+      "summary": "IBM và Arm phát triển kiến trúc kép cho workloads AI và data-intensive. Mở rộng hệ sinh thái Arm vào enterprise. Tín hiệu AI đang xâm nhập sâu vào doanh nghiệp truyền thống.",
+      "url": "https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing",
+      "relevance_score": 7,
+      "tags": ["enterprise AI", "hardware", "IBM", "Arm"]
+    },
+    {
+      "title": "U.S. Judge Rules Trump Admin Violated Free Speech by Banning Anthropic AI in Government",
+      "source": "web_search",
+      "summary": "Tòa liên bang Mỹ phán quyết chính quyền Trump vi phạm quyền tự do ngôn luận khi cấm sử dụng AI của Anthropic trong hệ thống chính phủ. Tín hiệu về AI regulation và chính trị hóa AI.",
+      "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-april3-2026",
+      "relevance_score": 7,
+      "tags": ["AI regulation", "government", "Anthropic", "free speech", "policy"]
+    }
+  ]
+}

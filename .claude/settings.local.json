@@ -57,9 +57,22 @@
       "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-linkedin-post-creator/references)",
       "Bash(mkdir -p /Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-carousel-creator/references)",
       "Skill(mkt-repurpose-to-social)",
-      "Skill(mkt-repurpose-to-social:*)"
+      "Skill(mkt-repurpose-to-social:*)",
+      "Bash(ls /Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/*index* /Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/video-projects/remotion-studio/public/*finger*)",
+      "Bash(SCRIPT=\"/Users/hoangtran/Documents/Github/hoang-ai-marketing/.claude/skills/mkt-broll-screenshot/scripts/capture.py\")",
+      "Bash(ASSETS=\"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/content/2026-04-01/video-short/5-github-repos-claude-code/assets\")",
+      "Bash(__NEW_LINE_bc2f6057fa08dd97__ python3:*)",
+      "Bash(ASSETS=\"/Users/hoangtran/Documents/Github/hoang-ai-marketing/workspace/content/2026-04-01/video-short/ky-nang-ai-thuc-su/assets\")",
+      "Bash(mkdir -p \"$ASSETS\")",
+      "Bash(__NEW_LINE_af620b97a42037d4__ python3:*)",
+      "Bash(export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\")",
+      "Bash(pipx run:*)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")"
     ],
     "deny": [],
     "ask": []
+  },
+  "enabledPlugins": {
+    "discord@claude-plugins-official": true
   }
 }

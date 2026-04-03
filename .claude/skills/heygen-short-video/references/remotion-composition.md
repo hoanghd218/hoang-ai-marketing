@@ -27,7 +27,7 @@ Component: `src/templates/HeyGenShort.tsx` (imports from `src/templates/heygen-s
     }
   ],
   "soundEffects": [
-    { "audioPath": "media/sfx/SUDDEN SUSPENSE.mp3", "startSec": 0.0, "volume": 0.6 }
+    { "audioPath": "media/sfx/SUDDEN SUSPENSE.mp3", "startSec": 0.0, "volume": 0.3 }
   ],
   "zoomPulses": [
     { "timeSec": 0.0, "scale": 1.15, "type": "hold", "durationFrames": 10, "holdSec": 2.5 }
