@@ -87,6 +87,8 @@ export type SoundEffect = {
   audioPath: string;
   startSec: number;
   volume?: number;
+  startFromSec?: number; // skip N seconds at the beginning of the audio file
+  durationSec?: number;  // stop playing after N seconds
 };
 
 export type ZoomPulse = {

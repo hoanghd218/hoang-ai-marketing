@@ -11,6 +11,7 @@ import type { BRollOverlay as BRollOverlayType } from "../../types";
 import { FPS } from "./constants";
 
 const POSITION_MAP: Record<string, React.CSSProperties> = {
+  fullscreen: { top: 0, left: 0, right: 0, bottom: 0 },
   center: { top: "15%", left: "10%", right: "10%" },
   "top-right": { top: "10%", right: "5%", width: "45%" },
   "bottom-left": { bottom: "25%", left: "5%", width: "45%" },
@@ -47,9 +48,12 @@ const BRollItem: React.FC<{
 
   const pos = POSITION_MAP[overlay.position ?? "center"] ?? POSITION_MAP.center;
   const isVideo = /\.(mp4|webm|mov)$/i.test(overlay.mediaPath);
-  const borderRadius = overlay.borderRadius ?? 20;
+  const isFullscreen = overlay.position === "fullscreen";
+  const borderRadius = isFullscreen ? 0 : (overlay.borderRadius ?? 20);
   const isBottom = overlay.position === "bottom";
-  const mediaStyle: React.CSSProperties = isBottom
+  const mediaStyle: React.CSSProperties = isFullscreen
+    ? { width: "100%", height: "100%", objectFit: "cover", display: "block" }
+    : isBottom
     ? { width: 350, height: "auto", display: "block" }
     : { width: "100%", height: "auto", display: "block" };
 

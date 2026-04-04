@@ -26,6 +26,21 @@ const HighlightedText: React.FC<{
 }> = ({ text, highlights, highlightColor, textEffect, localFrame, wordTimings, captionStartSec }) => {
   const words = text.split(/\s+/);
 
+  const BLACK_SHADOW = [
+    "-3px -3px 0 #000",
+    " 3px -3px 0 #000",
+    "-3px  3px 0 #000",
+    " 3px  3px 0 #000",
+    "-3px  0   0 #000",
+    " 3px  0   0 #000",
+    " 0   -3px 0 #000",
+    " 0    3px 0 #000",
+    "0 0 12px rgba(0,0,0,0.95)",
+    "0 0 20px rgba(0,0,0,0.9)",
+    "0 0 32px rgba(0,0,0,0.85)",
+    "0 0 48px rgba(0,0,0,0.7)",
+  ].join(", ");
+
   // Word-by-word mode: each word gets staggered entry
   if (textEffect === "word-by-word") {
     const wordStyles = getWordByWordStyles(text, localFrame, 3, wordTimings, captionStartSec);
@@ -42,9 +57,8 @@ const HighlightedText: React.FC<{
                 display: "inline-block",
                 opacity: wordStyles[i]?.opacity ?? 1,
                 transform: wordStyles[i]?.transform ?? "none",
-                color: isHL ? highlightColor : undefined,
                 fontWeight: isHL ? 900 : undefined,
-                textShadow: isHL ? `0 0 12px ${highlightColor}40` : undefined,
+                textShadow: isHL ? BLACK_SHADOW : undefined,
                 marginRight: "0.3em",
               }}
             >
@@ -72,16 +86,15 @@ const HighlightedText: React.FC<{
                 style={{
                   display: "inline-block",
                   opacity: wordStyles[i]?.opacity ?? 0,
-                  color: isHL ? highlightColor : undefined,
                   fontWeight: isHL ? 900 : undefined,
-                  textShadow: isHL ? `0 0 12px ${highlightColor}40` : undefined,
+                  textShadow: isHL ? BLACK_SHADOW : undefined,
                   marginRight: "0.3em",
                 }}
               >
                 {word}
               </span>
               {cursor.visible && cursor.afterWordIndex === i && (
-                <span style={{ display: "inline-block", color: highlightColor, fontWeight: 400 }}>|</span>
+                <span style={{ display: "inline-block", color: "#fff", fontWeight: 400 }}>|</span>
               )}
             </React.Fragment>
           );
@@ -106,9 +119,8 @@ const HighlightedText: React.FC<{
                 display: "inline-block",
                 opacity: wordStyles[i]?.opacity ?? 1,
                 transform: wordStyles[i]?.transform ?? "none",
-                color: isHL ? highlightColor : undefined,
                 fontWeight: isHL ? 900 : undefined,
-                textShadow: isHL ? `0 0 12px ${highlightColor}40` : undefined,
+                textShadow: isHL ? BLACK_SHADOW : undefined,
                 marginRight: "0.3em",
               }}
             >
@@ -136,9 +148,8 @@ const HighlightedText: React.FC<{
                 display: "inline-block",
                 opacity: wordStyles[i]?.opacity ?? 1,
                 transform: wordStyles[i]?.transform ?? "none",
-                color: isHL ? highlightColor : undefined,
                 fontWeight: isHL ? 900 : undefined,
-                textShadow: isHL ? `0 0 12px ${highlightColor}40` : undefined,
+                textShadow: isHL ? BLACK_SHADOW : undefined,
                 marginRight: "0.3em",
               }}
             >
@@ -179,17 +190,12 @@ const HighlightedText: React.FC<{
 
       const currentHlIdx = hlIdx++;
       const hlStyle: React.CSSProperties = {
-        color: highlightColor,
         fontWeight: 900,
+        textShadow: BLACK_SHADOW,
       };
 
-      if (textEffect === "deep-glow") {
-        hlStyle.textShadow = getDeepGlowShadow(highlightColor, localFrame);
-      } else if (textEffect === "flicker") {
+      if (textEffect === "flicker") {
         hlStyle.opacity = getFlickerOpacity(localFrame, currentHlIdx);
-        hlStyle.textShadow = `0 0 12px ${highlightColor}40`;
-      } else {
-        hlStyle.textShadow = `0 0 12px ${highlightColor}40`;
       }
 
       parts.push(
@@ -251,6 +257,25 @@ export const CaptionRenderer: React.FC<{
   const isHook = captionStyle === "hook";
   const isCTA = captionStyle === "cta";
 
+  // Split text into chunks of 10 words, show current chunk based on elapsed time
+  const MAX_WORDS = 10;
+  const allWords = active.text.split(/\s+/);
+  const chunks: string[] = [];
+  for (let i = 0; i < allWords.length; i += MAX_WORDS) {
+    chunks.push(allWords.slice(i, i + MAX_WORDS).join(" "));
+  }
+  const captionDurSec = active.endSec - active.startSec;
+  const localSec = localFrame / fps;
+  const chunkIdx = Math.min(
+    Math.floor((localSec / captionDurSec) * chunks.length),
+    chunks.length - 1
+  );
+  const displayText = chunks[Math.max(0, chunkIdx)];
+
+  // Per-chunk local frame for animation reset on each chunk
+  const chunkDurFrames = Math.round((captionDurSec / chunks.length) * fps);
+  const chunkLocalFrame = localFrame - chunkIdx * chunkDurFrames;
+
   return (
     <>
       {/* Emoji overlay — hidden when b-roll GIF is active (mutual exclusion) */}
@@ -264,8 +289,8 @@ export const CaptionRenderer: React.FC<{
         style={{
           position: "absolute",
           top: `${captionTop}%`,
-          left: 36,
-          right: 36,
+          left: "15%",
+          right: "15%",
           display: "flex",
           justifyContent: "center",
           transform: `translateY(${slideUp}px)`,
@@ -274,34 +299,51 @@ export const CaptionRenderer: React.FC<{
       >
         <div
           style={{
-            background: preset.bg,
-            borderRadius: isHook ? 16 : 12,
-            padding: isHook ? "20px 28px" : "14px 24px",
-            maxWidth: "92%",
-            border: preset.border,
-            boxShadow: preset.glow,
-            backdropFilter: "blur(8px)",
+            background: "transparent",
+            borderRadius: 0,
+            padding: 0,
+            maxWidth: "100%",
+            border: "none",
+            boxShadow: "none",
+            backdropFilter: "none",
           }}
         >
           <span
             style={{
               color: "#fff",
-              fontSize: isHook ? 44 : 38,
-              fontWeight: isHook ? 900 : 700,
+              fontSize: 60,
+              fontWeight: 900,
               fontFamily: "Inter, system-ui, sans-serif",
               textAlign: "center",
-              lineHeight: 1.35,
+              lineHeight: 1.25,
               display: "block",
-              textShadow: "0 2px 4px rgba(0,0,0,0.3)",
-              letterSpacing: isHook ? "-0.5px" : "0",
+              textTransform: "uppercase",
+              WebkitTextStroke: "0",
+              textShadow: [
+                // hard outline
+                "-3px -3px 0 #000",
+                " 3px -3px 0 #000",
+                "-3px  3px 0 #000",
+                " 3px  3px 0 #000",
+                "-3px  0   0 #000",
+                " 3px  0   0 #000",
+                " 0   -3px 0 #000",
+                " 0    3px 0 #000",
+                // dark halo layers
+                "0 0 12px rgba(0,0,0,0.95)",
+                "0 0 20px rgba(0,0,0,0.9)",
+                "0 0 32px rgba(0,0,0,0.85)",
+                "0 0 48px rgba(0,0,0,0.7)",
+              ].join(", "),
+              letterSpacing: "0.5px",
             }}
           >
             <HighlightedText
-              text={active.text}
+              text={displayText}
               highlights={active.highlights}
               highlightColor={preset.accentColor}
               textEffect={textEffect}
-              localFrame={localFrame}
+              localFrame={chunkLocalFrame}
               wordTimings={active.words}
               captionStartSec={active.startSec}
             />

@@ -1,397 +1,357 @@
 {
-  "clips": [
-    { "videoPath": "media/heygen/chunk_000.mp4", "durationSeconds": 22.66 },
-    { "videoPath": "media/heygen/chunk_001.mp4", "durationSeconds": 22.77 }
-  ],
-  "captions": [
-    {
-      "text": "100 cuốn sách tô màu mỗi ngày, không cần biết vẽ, chi phí gần bằng 0.",
-      "startSec": 0.0,
-      "endSec": 4.04,
-      "style": "hook",
-      "highlights": ["100 cuốn sách", "chi phí gần bằng 0"],
-      "emoji": "mind-blown",
-      "textEffect": "slam",
-      "captionPosition": 55,
-      "words": [
-        {"word": "Một", "start": 0.0, "end": 0.28},
-        {"word": "trong", "start": 0.28, "end": 0.4},
-        {"word": "của", "start": 0.4, "end": 0.52},
-        {"word": "xác", "start": 0.52, "end": 0.66},
-        {"word": "tôn", "start": 0.66, "end": 0.76},
-        {"word": "màu", "start": 0.76, "end": 0.96},
-        {"word": "buổi", "start": 0.96, "end": 1.04},
-        {"word": "ngày", "start": 1.04, "end": 1.18},
-        {"word": "không", "start": 1.18, "end": 1.6},
-        {"word": "cần", "start": 1.6, "end": 1.72},
-        {"word": "biết", "start": 1.72, "end": 1.84},
-        {"word": "vẽ", "start": 1.84, "end": 2.04},
-        {"word": "chỉ", "start": 2.04, "end": 2.38},
-        {"word": "phí", "start": 2.38, "end": 2.5},
-        {"word": "gần", "start": 2.5, "end": 2.66},
-        {"word": "bằng", "start": 2.66, "end": 2.8},
-        {"word": "không", "start": 2.8, "end": 2.96},
-        {"word": "mình", "start": 2.96, "end": 3.28},
-        {"word": "sẽ", "start": 3.28, "end": 3.38},
-        {"word": "chứng", "start": 3.38, "end": 3.56},
-        {"word": "minh", "start": 3.56, "end": 3.68},
-        {"word": "ngay", "start": 3.68, "end": 3.8},
-        {"word": "bây", "start": 3.8, "end": 3.9},
-        {"word": "giờ.", "start": 3.9, "end": 4.04}
-      ]
-    },
-    {
-      "text": "Trước đây muốn bán coloring book cho trẻ em trên Amazon KDP...",
-      "startSec": 4.42,
-      "endSec": 7.24,
-      "style": "pain",
-      "highlights": ["Amazon KDP"],
-      "textEffect": "word-by-word",
-      "captionPosition": 55,
-      "words": [
-        {"word": "Chứ", "start": 4.42, "end": 4.54},
-        {"word": "đây", "start": 4.54, "end": 4.66},
-        {"word": "một", "start": 4.66, "end": 4.78},
-        {"word": "bán", "start": 4.78, "end": 4.98},
-        {"word": "Covid", "start": 4.98, "end": 5.14},
-        {"word": "-19", "start": 5.14, "end": 5.4},
-        {"word": "cho", "start": 5.4, "end": 5.86},
-        {"word": "trẻ", "start": 5.86, "end": 6.36},
-        {"word": "em", "start": 6.36, "end": 6.5},
-        {"word": "trên", "start": 6.5, "end": 6.62},
-        {"word": "Amazon", "start": 6.62, "end": 6.84},
-        {"word": "KDP", "start": 6.84, "end": 7.24}
-      ]
-    },
-    {
-      "text": "Phải thuê người giỏi vẽ, phải biết tiếng Anh, hoặc tự làm từng trang trên Canva mất cả tuần. Mà chưa chắc bán được.",
-      "startSec": 7.24,
-      "endSec": 12.16,
-      "style": "pain",
-      "highlights": ["mất cả tuần", "chưa chắc bán được"],
-      "emoji": "weary",
-      "textEffect": "flicker",
-      "captionPosition": 55,
-      "words": [
-        {"word": "bạn", "start": 7.24, "end": 7.7},
-        {"word": "phải", "start": 7.7, "end": 7.84},
-        {"word": "thuê", "start": 7.84, "end": 7.98},
-        {"word": "người", "start": 7.98, "end": 8.12},
-        {"word": "dói", "start": 8.12, "end": 8.28},
-        {"word": "vẽ,", "start": 8.28, "end": 8.52},
-        {"word": "phải", "start": 8.68, "end": 8.74},
-        {"word": "biết", "start": 8.74, "end": 8.88},
-        {"word": "tính", "start": 8.88, "end": 9.02},
-        {"word": "anh", "start": 9.02, "end": 9.14},
-        {"word": "hoặc", "start": 9.14, "end": 9.52},
-        {"word": "tự", "start": 9.52, "end": 9.62},
-        {"word": "người", "start": 9.62, "end": 9.76},
-        {"word": "làm", "start": 9.76, "end": 9.9},
-        {"word": "từng", "start": 9.9, "end": 10.12},
-        {"word": "trang", "start": 10.12, "end": 10.24},
-        {"word": "trên", "start": 10.24, "end": 10.38},
-        {"word": "kanh", "start": 10.38, "end": 10.54},
-        {"word": "và", "start": 10.54, "end": 10.62},
-        {"word": "mất", "start": 10.62, "end": 10.8},
-        {"word": "cả", "start": 10.8, "end": 10.9},
-        {"word": "tuần", "start": 10.9, "end": 11.1},
-        {"word": "mà", "start": 11.1, "end": 11.64},
-        {"word": "chưa", "start": 11.64, "end": 11.78},
-        {"word": "chắc", "start": 11.78, "end": 11.9},
-        {"word": "bán", "start": 11.9, "end": 12.04},
-        {"word": "được.", "start": 12.04, "end": 12.16}
-      ]
-    },
-    {
-      "text": "Bây giờ mình chỉ cần gõ đúng một dòng lệnh trong Claude Code.",
-      "startSec": 12.6,
-      "endSec": 14.28,
-      "style": "solution",
-      "highlights": ["một dòng lệnh", "Claude Code"],
-      "emoji": "light-bulb",
-      "textEffect": "typewriter",
-      "captionPosition": 55,
-      "words": [
-        {"word": "Bây", "start": 12.6, "end": 12.68},
-        {"word": "giờ", "start": 12.68, "end": 12.78},
-        {"word": "mình", "start": 12.78, "end": 12.88},
-        {"word": "chỉ", "start": 12.88, "end": 13.0},
-        {"word": "cần", "start": 13.0, "end": 13.12},
-        {"word": "gọi", "start": 13.12, "end": 13.24},
-        {"word": "đúng", "start": 13.24, "end": 13.36},
-        {"word": "một", "start": 13.36, "end": 13.52},
-        {"word": "rõ", "start": 13.52, "end": 13.56},
-        {"word": "mọi", "start": 13.56, "end": 13.7},
-        {"word": "lệ", "start": 13.7, "end": 13.72},
-        {"word": "trong", "start": 13.72, "end": 13.88},
-        {"word": "slot", "start": 13.88, "end": 14.12},
-        {"word": "code.", "start": 14.12, "end": 14.28}
-      ]
-    },
-    {
-      "text": "Một cái skill tên là KDP Book Builder. AI sẽ phỏng vấn bạn vài câu: chủ đề gì, bao nhiêu trang, phong cách nào. Xong.",
-      "startSec": 14.62,
-      "endSec": 20.72,
-      "style": "solution",
-      "highlights": ["KDP Book Builder", "AI"],
-      "textEffect": "word-by-word",
-      "captionPosition": 55,
-      "words": [
-        {"word": "Một", "start": 14.62, "end": 14.86},
-        {"word": "cái", "start": 14.86, "end": 14.94},
-        {"word": "skill", "start": 14.94, "end": 15.18},
-        {"word": "trên", "start": 15.18, "end": 15.36},
-        {"word": "là", "start": 15.36, "end": 15.46},
-        {"word": "KDP", "start": 15.46, "end": 15.7},
-        {"word": "Book", "start": 15.7, "end": 16.02},
-        {"word": "Builder", "start": 16.02, "end": 16.44},
-        {"word": "AI", "start": 16.44, "end": 16.92},
-        {"word": "sẽ", "start": 16.92, "end": 17.12},
-        {"word": "phòng", "start": 17.12, "end": 17.24},
-        {"word": "vấn", "start": 17.24, "end": 17.38},
-        {"word": "bản", "start": 17.38, "end": 17.52},
-        {"word": "bài", "start": 17.52, "end": 17.7},
-        {"word": "câu,", "start": 17.7, "end": 18.02},
-        {"word": "Trù", "start": 18.4, "end": 18.44},
-        {"word": "đề", "start": 18.44, "end": 18.56},
-        {"word": "gì,", "start": 18.56, "end": 18.7},
-        {"word": "bán", "start": 19.1, "end": 19.14},
-        {"word": "như", "start": 19.14, "end": 19.2},
-        {"word": "trang,", "start": 19.2, "end": 19.48},
-        {"word": "phong", "start": 19.82, "end": 19.88},
-        {"word": "cách", "start": 19.88, "end": 19.96},
-        {"word": "nào,", "start": 19.96, "end": 20.18},
-        {"word": "sông.", "start": 20.62, "end": 20.72}
-      ]
-    },
-    {
-      "text": "Tự động tạo ra toàn bộ prompt cho từng trang. Tự động tạo ảnh. Tự động review lại ảnh — cái nào chưa đẹp thì nó sửa.",
-      "startSec": 21.22,
-      "endSec": 25.84,
-      "style": "solution",
-      "highlights": ["Tự động", "tự động review"],
-      "emoji": "sparkles",
-      "textEffect": "deep-glow",
-      "captionPosition": 55,
-      "words": [
-        {"word": "Từ", "start": 21.22, "end": 21.3},
-        {"word": "động", "start": 21.3, "end": 21.42},
-        {"word": "tạo", "start": 21.42, "end": 21.58},
-        {"word": "ra", "start": 21.58, "end": 21.66},
-        {"word": "toàn", "start": 21.66, "end": 21.82},
-        {"word": "bộp", "start": 21.82, "end": 22.08},
-        {"word": "rom", "start": 22.08, "end": 22.18},
-        {"word": "cho", "start": 22.18, "end": 22.3},
-        {"word": "từng", "start": 22.3, "end": 22.48},
-        {"word": "trang,", "start": 22.48, "end": 22.66},
-        {"word": "từ", "start": 23.02, "end": 23.1},
-        {"word": "động", "start": 23.1, "end": 23.22},
-        {"word": "tạo", "start": 23.22, "end": 23.34},
-        {"word": "anh,", "start": 23.34, "end": 23.5},
-        {"word": "từ", "start": 23.5, "end": 24.06},
-        {"word": "động", "start": 24.06, "end": 24.18},
-        {"word": "review", "start": 24.18, "end": 24.44},
-        {"word": "là", "start": 24.44, "end": 24.6},
-        {"word": "anh", "start": 24.6, "end": 24.76},
-        {"word": "cái", "start": 24.76, "end": 24.88},
-        {"word": "nào", "start": 24.88, "end": 24.96},
-        {"word": "chưa", "start": 24.96, "end": 25.12},
-        {"word": "đẹp", "start": 25.12, "end": 25.28},
-        {"word": "thì", "start": 25.28, "end": 25.34},
-        {"word": "nó", "start": 25.34, "end": 25.44},
-        {"word": "sửa.", "start": 25.44, "end": 25.84}
-      ]
-    },
-    {
-      "text": "Tự động đóng gói thành file PDF hoàn chỉnh, có cả ảnh bìa luôn.",
-      "startSec": 25.94,
-      "endSec": 28.02,
-      "style": "solution",
-      "highlights": ["PDF hoàn chỉnh", "ảnh bìa"],
-      "textEffect": "none",
-      "captionPosition": 55,
-      "words": [
-        {"word": "Từ", "start": 25.94, "end": 25.94},
-        {"word": "động", "start": 25.94, "end": 26.06},
-        {"word": "đồng", "start": 26.06, "end": 26.24},
-        {"word": "gói", "start": 26.24, "end": 26.42},
-        {"word": "thành", "start": 26.42, "end": 26.5},
-        {"word": "phai", "start": 26.5, "end": 26.68},
-        {"word": "PDF", "start": 26.68, "end": 26.98},
-        {"word": "hoàn", "start": 26.98, "end": 27.1},
-        {"word": "trình", "start": 27.1, "end": 27.26},
-        {"word": "có", "start": 27.26, "end": 27.52},
-        {"word": "cảnh", "start": 27.52, "end": 27.74},
-        {"word": "biệt", "start": 27.74, "end": 27.88},
-        {"word": "luôn,", "start": 27.88, "end": 28.02}
-      ]
-    },
-    {
-      "text": "10 trang — 5 phút. Nhân lên 50 trang là 100 trang một cuốn.",
-      "startSec": 28.34,
-      "endSec": 32.04,
-      "style": "solution",
-      "highlights": ["10 trang", "5 phút", "100 trang"],
-      "textEffect": "deep-glow",
-      "captionPosition": 55,
-      "words": [
-        {"word": "10", "start": 28.34, "end": 28.58},
-        {"word": "%", "start": 28.58, "end": 28.7},
-        {"word": "năm", "start": 28.7, "end": 28.84},
-        {"word": "phút.", "start": 28.84, "end": 29.04},
-        {"word": "Nhân", "start": 29.7, "end": 30.02},
-        {"word": "lên,", "start": 30.02, "end": 30.14},
-        {"word": "50", "start": 30.56, "end": 30.62},
-        {"word": "%", "start": 30.62, "end": 30.98},
-        {"word": "là", "start": 30.98, "end": 31.26},
-        {"word": "1", "start": 31.26, "end": 31.4},
-        {"word": "%", "start": 31.4, "end": 31.5},
-        {"word": "1", "start": 31.5, "end": 31.8},
-        {"word": "quán.", "start": 31.8, "end": 32.04}
-      ]
-    },
-    {
-      "text": "Chi phí? 300 đô Google Credit đủ để tạo hàng trăm cuốn sách.",
-      "startSec": 32.4,
-      "endSec": 35.5,
-      "style": "solution",
-      "highlights": ["300 đô", "hàng trăm cuốn sách"],
-      "emoji": "fire",
-      "textEffect": "deep-glow",
-      "captionPosition": 55,
-      "words": [
-        {"word": "Chỉ", "start": 32.4, "end": 32.64},
-        {"word": "phí", "start": 32.64, "end": 32.86},
-        {"word": "300", "start": 32.86, "end": 33.4},
-        {"word": "do", "start": 33.4, "end": 33.64},
-        {"word": "Google", "start": 33.64, "end": 33.78},
-        {"word": "Credit", "start": 33.78, "end": 34.16},
-        {"word": "đủ", "start": 34.16, "end": 34.58},
-        {"word": "để", "start": 34.58, "end": 34.7},
-        {"word": "tạo", "start": 34.7, "end": 34.9},
-        {"word": "hàng", "start": 34.9, "end": 35.0},
-        {"word": "trăm", "start": 35.0, "end": 35.24},
-        {"word": "quân", "start": 35.24, "end": 35.32},
-        {"word": "xác.", "start": 35.32, "end": 35.5}
-      ]
-    },
-    {
-      "text": "Mình không biết vẽ, không biết design. Nhưng mình biết automation.",
-      "startSec": 35.84,
-      "endSec": 38.48,
-      "style": "normal",
-      "highlights": ["automation"],
-      "textEffect": "word-by-word",
-      "captionPosition": 55,
-      "words": [
-        {"word": "Mình", "start": 35.84, "end": 35.98},
-        {"word": "không", "start": 35.98, "end": 36.1},
-        {"word": "biết", "start": 36.1, "end": 36.18},
-        {"word": "vẽ", "start": 36.18, "end": 36.34},
-        {"word": "không", "start": 36.34, "end": 36.5},
-        {"word": "biết", "start": 36.5, "end": 36.6},
-        {"word": "đi", "start": 36.6, "end": 36.7},
-        {"word": "sai.", "start": 36.7, "end": 36.84},
-        {"word": "Nhưng", "start": 37.5, "end": 37.68},
-        {"word": "mình", "start": 37.68, "end": 37.78},
-        {"word": "biết", "start": 37.78, "end": 37.92},
-        {"word": "ô", "start": 37.92, "end": 38.08},
-        {"word": "tô", "start": 38.08, "end": 38.14},
-        {"word": "máy", "start": 38.14, "end": 38.3},
-        {"word": "sẩn.", "start": 38.3, "end": 38.48}
-      ]
-    },
-    {
-      "text": "Và đây chính là sức mạnh thật sự — một dòng lệnh nhân lên cả trăm lần, tạo ra dòng thu nhập thụ động.",
-      "startSec": 38.88,
-      "endSec": 42.48,
-      "style": "solution",
-      "highlights": ["sức mạnh thật sự", "thu nhập thụ động"],
-      "emoji": "muscle",
-      "textEffect": "deep-glow",
-      "captionPosition": 55,
-      "words": [
-        {"word": "Và", "start": 38.88, "end": 38.94},
-        {"word": "đây", "start": 38.94, "end": 39.08},
-        {"word": "chính", "start": 39.08, "end": 39.24},
-        {"word": "là", "start": 39.24, "end": 39.38},
-        {"word": "sức", "start": 39.38, "end": 39.56},
-        {"word": "mạnh", "start": 39.56, "end": 39.64},
-        {"word": "thật", "start": 39.64, "end": 39.8},
-        {"word": "sự", "start": 39.8, "end": 39.98},
-        {"word": "một", "start": 39.98, "end": 40.22},
-        {"word": "rõ", "start": 40.22, "end": 40.3},
-        {"word": "mọi", "start": 40.3, "end": 40.42},
-        {"word": "lệ", "start": 40.42, "end": 40.46},
-        {"word": "nhân", "start": 40.46, "end": 40.58},
-        {"word": "lên", "start": 40.58, "end": 40.74},
-        {"word": "cả", "start": 40.74, "end": 40.9},
-        {"word": "trăm", "start": 40.9, "end": 41.12},
-        {"word": "lần", "start": 41.12, "end": 41.32},
-        {"word": "tạo", "start": 41.32, "end": 41.76},
-        {"word": "ra", "start": 41.76, "end": 41.86},
-        {"word": "rõ", "start": 41.86, "end": 42.0},
-        {"word": "thú", "start": 42.0, "end": 42.14},
-        {"word": "nhật", "start": 42.14, "end": 42.26},
-        {"word": "thụ", "start": 42.26, "end": 42.38},
-        {"word": "động.", "start": 42.38, "end": 42.48}
-      ]
-    },
-    {
-      "text": "Bạn muốn có bộ skill này? Bình luận \"KDP\" để mình gửi chi tiết nhé.",
-      "startSec": 42.9,
-      "endSec": 45.43,
-      "style": "cta",
-      "highlights": ["KDP", "bộ skill này"],
-      "emoji": "index-finger",
-      "textEffect": "word-by-word",
-      "captionPosition": 55,
-      "words": [
-        {"word": "Bạn", "start": 42.9, "end": 43.02},
-        {"word": "muốn", "start": 43.02, "end": 43.16},
-        {"word": "có", "start": 43.16, "end": 43.26},
-        {"word": "bộ", "start": 43.26, "end": 43.36},
-        {"word": "skill", "start": 43.36, "end": 43.6},
-        {"word": "này", "start": 43.6, "end": 43.84},
-        {"word": "bây", "start": 43.84, "end": 44.08},
-        {"word": "giờ", "start": 44.08, "end": 44.16},
-        {"word": "KDP", "start": 44.16, "end": 44.58},
-        {"word": "để", "start": 44.58, "end": 44.96},
-        {"word": "mình", "start": 44.96, "end": 45.08},
-        {"word": "người", "start": 45.08, "end": 45.28},
-        {"word": "chi", "start": 45.28, "end": 45.44},
-        {"word": "tiết", "start": 45.44, "end": 45.58},
-        {"word": "nhá.", "start": 45.58, "end": 45.78}
-      ]
-    }
-  ],
-  "soundEffects": [
-    { "audioPath": "media/sfx/SUDDEN SUSPENSE.mp3", "startSec": 0.0, "volume": 0.5 },
-    { "audioPath": "media/sfx/búng tay.mp3", "startSec": 12.6, "volume": 0.4 },
-    { "audioPath": "media/sfx/tada tada.mp3", "startSec": 38.88, "volume": 0.4 }
-  ],
-  "zoomPulses": [
-    { "timeSec": 0.0, "scale": 1.15, "type": "hold", "durationFrames": 10, "holdSec": 2.5 },
-    { "timeSec": 12.6, "scale": 1.1, "type": "punch", "durationFrames": 8 },
-    { "timeSec": 38.88, "scale": 1.08, "type": "punch", "durationFrames": 8 },
-    { "timeSec": 42.9, "scale": 1.1, "type": "punch", "durationFrames": 8 }
-  ],
-  "bRollOverlays": [],
-  "backgroundMusic": [
-    { "audioPath": "media/bgm/Fortitude (Shorter Version).mp3", "startSec": 0, "volume": 0.12, "fadeInSec": 1, "fadeOutSec": 2 },
-    { "audioPath": "media/bgm/Miracle - Roman P - Cinematic.mp3", "startSec": 12, "volume": 0.10, "fadeInSec": 1, "fadeOutSec": 2 },
-    { "audioPath": "media/bgm/Rising Star - Song by TURPAK.mp3", "startSec": 32, "volume": 0.12, "fadeInSec": 1, "fadeOutSec": 3 }
-  ],
-  "durationSeconds": 45.43,
+  "durationSeconds": 43.86,
   "crossFadeFrames": 0,
   "showProgressBar": true,
   "hookBoostSec": 10,
   "defaultCaptionPosition": 55,
   "footerText": "@tranvanhoang.com",
+  "sceneTransition": {
+    "type": "flash",
+    "durationFrames": 8
+  },
+  "clips": [
+    {
+      "videoPath": "media/heygen/ai-email-avatar_chunk0.mp4",
+      "durationSeconds": 19.0
+    },
+    {
+      "videoPath": "media/heygen/ai-email-avatar_chunk1.mp4",
+      "durationSeconds": 19.37
+    },
+    {
+      "videoPath": "media/heygen/ai-email-avatar_chunk2.mp4",
+      "durationSeconds": 5.49
+    }
+  ],
+  "captions": [
+    {
+      "text": "Trước đây mình mất 3 tiếng mỗi ngày chỉ để đọc và trả lời email.",
+      "startSec": 0.0,
+      "endSec": 2.32,
+      "style": "hook",
+      "highlights": [
+        "3 tiếng",
+        "email"
+      ],
+      "emoji": "weary",
+      "textEffect": "slam",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Giờ thì có một cái...",
+      "startSec": 2.74,
+      "endSec": 3.96,
+      "style": "hook",
+      "highlights": [
+        "một cái"
+      ],
+      "textEffect": "slam",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Nó tự làm hết. Mình không đụng vào.",
+      "startSec": 4.86,
+      "endSec": 6.7,
+      "style": "hook",
+      "highlights": [
+        "tự làm hết",
+        "không đụng vào"
+      ],
+      "emoji": "mind-blown",
+      "textEffect": "slam",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Hộp thư 200 email mỗi tuần. Phân loại thủ công, trả lời từng cái, quên không ít.",
+      "startSec": 7.16,
+      "endSec": 11.42,
+      "style": "pain",
+      "highlights": [
+        "200 email",
+        "thủ công"
+      ],
+      "textEffect": "flicker",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Stress, mất tập trung, mà vẫn có khách phàn nàn trả lời chậm.",
+      "startSec": 11.8,
+      "endSec": 14.74,
+      "style": "pain",
+      "highlights": [
+        "Stress",
+        "phàn nàn"
+      ],
+      "textEffect": "flicker",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Mình dành 20 phút xây một cái gọi là AI Agent —",
+      "startSec": 15.08,
+      "endSec": 17.64,
+      "style": "solution",
+      "highlights": [
+        "20 phút",
+        "AI Agent"
+      ],
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "không phải ChatGPT thông thường —",
+      "startSec": 18.16,
+      "endSec": 19.16,
+      "style": "solution",
+      "highlights": [
+        "ChatGPT thông thường"
+      ],
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "mà là một cái tự đọc email, tự hiểu ý, tự soạn câu trả lời và gửi đi.",
+      "startSec": 19.66,
+      "endSec": 23.52,
+      "style": "solution",
+      "highlights": [
+        "tự đọc",
+        "tự hiểu",
+        "tự soạn"
+      ],
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Mình chỉ cần phê duyệt cái nào quan trọng. Còn lại? Nó xử lý tự động.",
+      "startSec": 23.98,
+      "endSec": 27.02,
+      "style": "solution",
+      "highlights": [
+        "phê duyệt",
+        "tự động"
+      ],
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "3 tiếng mỗi ngày → xuống còn 15 phút.",
+      "startSec": 27.02,
+      "endSec": 28.94,
+      "style": "normal",
+      "highlights": [
+        "3 tiếng",
+        "15 phút"
+      ],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Tỉ lệ trả lời trong vòng 1 tiếng tăng lên 90%. Khách hài lòng hơn.",
+      "startSec": 29.26,
+      "endSec": 32.68,
+      "style": "normal",
+      "highlights": [
+        "90%",
+        "hài lòng"
+      ],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Mình rảnh hơn. Và cái agent đó chạy 24/7 — không lương, không nghỉ phép, không phàn nàn.",
+      "startSec": 33.22,
+      "endSec": 38.56,
+      "style": "normal",
+      "highlights": [
+        "24/7",
+        "không lương"
+      ],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Nếu bạn muốn biết mình xây cái đó như thế nào —",
+      "startSec": 38.94,
+      "endSec": 40.24,
+      "style": "cta",
+      "highlights": [
+        "muốn biết",
+        "xây"
+      ],
+      "textEffect": "word-by-word",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Link cộng đồng AI Freedom Builders ở dưới bio. Mình chia sẻ chi tiết trong đó.",
+      "startSec": 40.72,
+      "endSec": 43.86,
+      "style": "cta",
+      "highlights": [
+        "AI Freedom Builders",
+        "bio"
+      ],
+      "emoji": "index-finger",
+      "textEffect": "word-by-word",
+      "captionPosition": 55,
+      "words": []
+    }
+  ],
+  "soundEffects": [
+    {
+      "audioPath": "media/sfx/SUDDEN SUSPENSE.mp3",
+      "startSec": 0.0,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/sfx/Bruh - Sound Effect (HD).mp3",
+      "startSec": 7.16,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/sfx/búng tay.mp3",
+      "startSec": 15.08,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/sfx/tada.mp3",
+      "startSec": 27.02,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/sfx/Discord Notification - Sound Effect.mp3",
+      "startSec": 38.94,
+      "volume": 0.7
+    }
+  ],
+  "zoomPulses": [
+    {
+      "timeSec": 0.0,
+      "scale": 1.08,
+      "durationFrames": 12,
+      "type": "punch"
+    },
+    {
+      "timeSec": 2.19,
+      "scale": 1.06,
+      "durationFrames": 18,
+      "type": "hold"
+    }
+  ],
+  "backgroundMusic": [
+    {
+      "audioPath": "media/bgm/Fortitude (Shorter Version).mp3",
+      "startSec": 0,
+      "endSec": 7.16,
+      "volume": 0.15,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Chase Velocity - FableForte - Cinematic.mp3",
+      "startSec": 7.16,
+      "endSec": 14.74,
+      "volume": 0.12,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Miracle - Roman P - Cinematic - FREE MUSIC NO COPYRIGHT.mp3",
+      "startSec": 14.74,
+      "endSec": 27.02,
+      "volume": 0.1,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Epic Emotional Music - Lux-Inspira - Liberation.mp3",
+      "startSec": 27.02,
+      "endSec": 38.56,
+      "volume": 0.15,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Rising Star - Song by TURPAK (No Copyright Music).mp3",
+      "startSec": 38.56,
+      "endSec": 43.86,
+      "volume": 0.15,
+      "fadeInSec": 1,
+      "fadeOutSec": 3
+    }
+  ],
   "outro": {
-    "durationSeconds": 8,
-    "title": "Cảm ơn bạn đã xem!",
-    "subtitle": "Bình luận \"KDP\" để nhận bộ skill tạo sách tô màu bằng AI",
+    "durationSeconds": 3,
+    "title": "Follow để không bỏ lỡ nhé!",
+    "subtitle": "tranvanhoang.com/aifdc",
     "profileImage": "hoang profile.webp"
-  }
+  },
+  "bRollOverlays": [
+    {
+      "mediaPath": "media/grok/ai-email-grok-1.mp4",
+      "startSec": 7.16,
+      "endSec": 9.7,
+      "position": "fullscreen"
+    },
+    {
+      "mediaPath": "media/grok/ai-email-grok-2.mp4",
+      "startSec": 9.7,
+      "endSec": 11.8,
+      "position": "fullscreen"
+    },
+    {
+      "mediaPath": "media/grok/ai-email-grok-3.mp4",
+      "startSec": 11.8,
+      "endSec": 14.74,
+      "position": "fullscreen"
+    },
+    {
+      "mediaPath": "media/grok/ai-email-grok-4.mp4",
+      "startSec": 17.64,
+      "endSec": 19.66,
+      "position": "fullscreen"
+    },
+    {
+      "mediaPath": "media/grok/ai-email-grok-5.mp4",
+      "startSec": 19.66,
+      "endSec": 23.52,
+      "position": "fullscreen"
+    },
+    {
+      "mediaPath": "media/grok/ai-email-grok-6.mp4",
+      "startSec": 23.52,
+      "endSec": 27.02,
+      "position": "fullscreen"
+    },
+    {
+      "mediaPath": "media/grok/ai-email-grok-8.mp4",
+      "startSec": 27.02,
+      "endSec": 30.5,
+      "position": "fullscreen"
+    },
+    {
+      "mediaPath": "media/grok/ai-email-grok-9.mp4",
+      "startSec": 30.5,
+      "endSec": 34.0,
+      "position": "fullscreen"
+    },
+    {
+      "mediaPath": "media/grok/ai-email-grok-10.mp4",
+      "startSec": 34.0,
+      "endSec": 38.56,
+      "position": "fullscreen"
+    }
+  ]
 }

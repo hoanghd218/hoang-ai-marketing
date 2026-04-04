@@ -1,0 +1,374 @@
+{
+  "durationSeconds": 49.325,
+  "crossFadeFrames": 0,
+  "showProgressBar": true,
+  "hookBoostSec": 10,
+  "defaultCaptionPosition": 55,
+  "footerText": "@tranvanhoang.com",
+  "sceneTransition": {
+    "type": "flash",
+    "durationFrames": 8
+  },
+  "clips": [
+    {
+      "videoPath": "media/heygen/ai-email-avatar_seg1_2_3.mp4",
+      "durationSeconds": 10.02
+    },
+    {
+      "videoPath": "media/grok/ai-email-grok-1.mp4",
+      "durationSeconds": 1.88
+    },
+    {
+      "videoPath": "media/grok/ai-email-grok-2.mp4",
+      "durationSeconds": 2.30
+    },
+    {
+      "videoPath": "media/grok/ai-email-grok-3.mp4",
+      "durationSeconds": 3.06
+    },
+    {
+      "videoPath": "media/grok/ai-email-grok-4.mp4",
+      "durationSeconds": 3.90
+    },
+    {
+      "videoPath": "media/grok/ai-email-grok-5.mp4",
+      "durationSeconds": 3.80
+    },
+    {
+      "videoPath": "media/grok/ai-email-grok-6.mp4",
+      "durationSeconds": 4.22
+    },
+    {
+      "videoPath": "media/grok/ai-email-grok-7.mp4",
+      "durationSeconds": 3.04
+    },
+    {
+      "videoPath": "media/grok/ai-email-grok-8.mp4",
+      "durationSeconds": 3.22
+    },
+    {
+      "videoPath": "media/grok/ai-email-grok-9.mp4",
+      "durationSeconds": 3.36
+    },
+    {
+      "videoPath": "media/grok/ai-email-grok-10.mp4",
+      "durationSeconds": 5.04
+    },
+    {
+      "videoPath": "media/heygen/ai-email-avatar_seg14_16.mp4",
+      "durationSeconds": 5.485
+    }
+  ],
+  "captions": [
+    {
+      "text": "Trước đây mình mất 3 tiếng mỗi ngày chỉ để đọc và trả lời email.",
+      "startSec": 0.0,
+      "endSec": 4.32,
+      "style": "hook",
+      "highlights": ["3 tiếng", "email"],
+      "emoji": "weary",
+      "textEffect": "slam",
+      "captionPosition": 55,
+      "words": [
+        { "word": "Trước", "start": 1.92, "end": 2.04 },
+        { "word": "đây", "start": 2.04, "end": 2.16 },
+        { "word": "mình", "start": 2.16, "end": 2.3 },
+        { "word": "mất", "start": 2.3, "end": 2.44 },
+        { "word": "3", "start": 2.44, "end": 2.6 },
+        { "word": "tiếng", "start": 2.6, "end": 2.82 },
+        { "word": "mỗi", "start": 2.82, "end": 2.88 },
+        { "word": "ngày", "start": 2.88, "end": 3.04 },
+        { "word": "chỉ", "start": 3.04, "end": 3.24 },
+        { "word": "để", "start": 3.24, "end": 3.32 },
+        { "word": "đọc", "start": 3.32, "end": 3.54 },
+        { "word": "và", "start": 3.54, "end": 3.7 },
+        { "word": "trả", "start": 3.7, "end": 3.92 },
+        { "word": "lời", "start": 3.92, "end": 4.06 },
+        { "word": "email.", "start": 4.06, "end": 4.32 }
+      ]
+    },
+    {
+      "text": "Giờ thì có một cái...",
+      "startSec": 4.68,
+      "endSec": 7.36,
+      "style": "hook",
+      "highlights": ["một cái"],
+      "textEffect": "slam",
+      "captionPosition": 55,
+      "words": [
+        { "word": "Giờ", "start": 4.68, "end": 5.08 },
+        { "word": "thì", "start": 5.08, "end": 5.32 },
+        { "word": "có", "start": 5.32, "end": 6.06 },
+        { "word": "một", "start": 6.06, "end": 6.3 },
+        { "word": "cái...", "start": 6.3, "end": 7.36 }
+      ]
+    },
+    {
+      "text": "Nó tự làm hết. Mình không đụng vào.",
+      "startSec": 7.36,
+      "endSec": 10.02,
+      "style": "hook",
+      "highlights": ["tự làm hết", "không đụng vào"],
+      "emoji": "mind-blown",
+      "textEffect": "slam",
+      "captionPosition": 55,
+      "words": [
+        { "word": "Nó", "start": 7.36, "end": 7.74 },
+        { "word": "tự", "start": 7.74, "end": 7.94 },
+        { "word": "làm", "start": 7.94, "end": 8.06 },
+        { "word": "hết,", "start": 8.06, "end": 8.24 },
+        { "word": "mình", "start": 8.74, "end": 8.92 },
+        { "word": "không", "start": 8.92, "end": 9.1 },
+        { "word": "đụng", "start": 9.1, "end": 9.3 },
+        { "word": "vào.", "start": 9.3, "end": 10.02 }
+      ]
+    },
+    {
+      "text": "Hộp thư 200 email mỗi tuần.",
+      "startSec": 10.02,
+      "endSec": 11.90,
+      "style": "pain",
+      "highlights": ["200 email"],
+      "textEffect": "flicker",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Phân loại thủ công, trả lời từng cái, quên không ít.",
+      "startSec": 11.90,
+      "endSec": 14.20,
+      "style": "pain",
+      "highlights": ["thủ công", "quên"],
+      "textEffect": "flicker",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Stress, mất tập trung, mà vẫn có khách phàn nàn trả lời chậm.",
+      "startSec": 14.20,
+      "endSec": 17.26,
+      "style": "pain",
+      "highlights": ["Stress", "phàn nàn"],
+      "textEffect": "flicker",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Mình dành 20 phút xây một cái gọi là AI Agent —",
+      "startSec": 17.26,
+      "endSec": 21.16,
+      "style": "solution",
+      "highlights": ["20 phút", "AI Agent"],
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "không phải ChatGPT thông thường —",
+      "startSec": 21.16,
+      "endSec": 24.96,
+      "style": "solution",
+      "highlights": ["ChatGPT thông thường"],
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "mà là một cái tự đọc email, tự hiểu ý, tự soạn câu trả lời và gửi đi.",
+      "startSec": 24.96,
+      "endSec": 29.18,
+      "style": "solution",
+      "highlights": ["tự đọc", "tự hiểu", "tự soạn"],
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Mình chỉ cần phê duyệt cái nào quan trọng. Còn lại? Nó xử lý tự động.",
+      "startSec": 29.18,
+      "endSec": 32.22,
+      "style": "solution",
+      "highlights": ["phê duyệt", "tự động"],
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "3 tiếng mỗi ngày → xuống còn 15 phút.",
+      "startSec": 32.22,
+      "endSec": 35.44,
+      "style": "normal",
+      "highlights": ["3 tiếng", "15 phút"],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Tỉ lệ trả lời trong vòng 1 tiếng tăng lên 90%. Khách hài lòng hơn.",
+      "startSec": 35.44,
+      "endSec": 38.80,
+      "style": "normal",
+      "highlights": ["90%", "hài lòng"],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Mình rảnh hơn và cái agent đó chạy 24/7 — không lương, không nghỉ phép, không phàn nàn.",
+      "startSec": 38.80,
+      "endSec": 43.84,
+      "style": "normal",
+      "highlights": ["24/7", "không lương"],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Nếu bạn muốn biết mình xây cái đó như thế nào —",
+      "startSec": 43.84,
+      "endSec": 46.22,
+      "style": "cta",
+      "highlights": ["muốn biết", "xây"],
+      "textEffect": "word-by-word",
+      "captionPosition": 55,
+      "words": [
+        { "word": "Nếu", "start": 44.68, "end": 44.94 },
+        { "word": "bạn", "start": 44.94, "end": 45.04 },
+        { "word": "muốn", "start": 45.04, "end": 45.22 },
+        { "word": "biết", "start": 45.22, "end": 45.36 },
+        { "word": "mình", "start": 45.36, "end": 45.54 },
+        { "word": "xây", "start": 45.54, "end": 45.70 },
+        { "word": "cái", "start": 45.70, "end": 45.78 },
+        { "word": "đó", "start": 45.78, "end": 45.86 },
+        { "word": "như", "start": 45.86, "end": 45.98 },
+        { "word": "thế", "start": 45.98, "end": 46.08 },
+        { "word": "nào", "start": 46.08, "end": 46.22 }
+      ]
+    },
+    {
+      "text": "Link cộng đồng AI Freedom Builders ở dưới bio.",
+      "startSec": 46.22,
+      "endSec": 49.325,
+      "style": "cta",
+      "highlights": ["AI Freedom Builders", "bio"],
+      "emoji": "index-finger",
+      "textEffect": "word-by-word",
+      "captionPosition": 55,
+      "words": [
+        { "word": "Link", "start": 46.70, "end": 46.90 },
+        { "word": "cộng", "start": 46.90, "end": 46.98 },
+        { "word": "đồng", "start": 46.98, "end": 47.20 },
+        { "word": "AI", "start": 47.20, "end": 47.62 },
+        { "word": "Freedom", "start": 47.62, "end": 48.10 },
+        { "word": "Builders", "start": 48.10, "end": 48.64 },
+        { "word": "ở", "start": 48.64, "end": 48.88 },
+        { "word": "dưới", "start": 48.88, "end": 49.12 },
+        { "word": "bio.", "start": 49.12, "end": 49.325 }
+      ]
+    }
+  ],
+  "soundEffects": [
+    {
+      "audioPath": "media/sfx/SUDDEN SUSPENSE.mp3",
+      "startSec": 0.0,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/sfx/Bruh - Sound Effect (HD).mp3",
+      "startSec": 10.02,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/chunks/ai-email-visual-segs4_6.mp3",
+      "startSec": 10.02,
+      "volume": 1.0
+    },
+    {
+      "audioPath": "media/chunks/ai-email-visual-segs7_11.mp3",
+      "startSec": 17.26,
+      "volume": 1.0
+    },
+    {
+      "audioPath": "media/sfx/búng tay.mp3",
+      "startSec": 17.26,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/sfx/tada.mp3",
+      "startSec": 32.22,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/chunks/ai-email-visual-segs12_13.mp3",
+      "startSec": 35.44,
+      "volume": 1.0
+    },
+    {
+      "audioPath": "media/sfx/Discord Notification - Sound Effect.mp3",
+      "startSec": 43.84,
+      "volume": 0.7
+    }
+  ],
+  "zoomPulses": [
+    {
+      "timeSec": 0.0,
+      "scale": 1.08,
+      "durationFrames": 12,
+      "type": "punch"
+    },
+    {
+      "timeSec": 2.44,
+      "scale": 1.06,
+      "durationFrames": 18,
+      "type": "hold"
+    }
+  ],
+  "backgroundMusic": [
+    {
+      "audioPath": "media/bgm/Fortitude (Shorter Version).mp3",
+      "startSec": 0,
+      "endSec": 10.02,
+      "volume": 0.15,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Chase Velocity - FableForte - Cinematic.mp3",
+      "startSec": 10.02,
+      "endSec": 17.26,
+      "volume": 0.12,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Miracle - Roman P - Cinematic - FREE MUSIC NO COPYRIGHT.mp3",
+      "startSec": 17.26,
+      "endSec": 32.22,
+      "volume": 0.10,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Epic Emotional Music - Lux-Inspira - Liberation.mp3",
+      "startSec": 32.22,
+      "endSec": 43.84,
+      "volume": 0.15,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Rising Star - Song by TURPAK (No Copyright Music).mp3",
+      "startSec": 43.84,
+      "endSec": 49.325,
+      "volume": 0.15,
+      "fadeInSec": 1,
+      "fadeOutSec": 3
+    }
+  ],
+  "outro": {
+    "durationSeconds": 3,
+    "title": "Follow để không bỏ lỡ nhé!",
+    "subtitle": "tranvanhoang.com/aifdc",
+    "profileImage": "hoang profile.webp"
+  }
+}

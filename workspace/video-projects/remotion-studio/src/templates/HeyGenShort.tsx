@@ -9,7 +9,7 @@ import {
   useVideoConfig,
 } from "remotion";
 import type { HeyGenShortProps, BackgroundMusicTrack, OutroCard } from "../types";
-import { FPS, ZoomClip, ProgressBar, BRollOverlays, SceneTransition } from "./heygen-short";
+import { FPS, ZoomClip, ProgressBar, BRollOverlays, SceneTransition, CaptionRenderer } from "./heygen-short";
 
 /* ── Background music with fade in/out ── */
 const BGMusic: React.FC<{
@@ -248,12 +248,9 @@ export const HeyGenShort: React.FC<HeyGenShortProps> = ({
               videoPath={clip.videoPath}
               durationFrames={durationFrames}
               globalStartSec={globalStartSec}
-              captions={captions}
-              totalDuration={durationSeconds}
               isFirst={i === 0}
               zoomPulses={zoomPulses}
               hookBoostSec={hookBoostSec}
-              defaultCaptionPosition={defaultCaptionPosition}
               muted={!!audioPath}
             />
           </Sequence>
@@ -278,13 +275,29 @@ export const HeyGenShort: React.FC<HeyGenShortProps> = ({
         <BRollOverlays overlays={bRollOverlays} />
       )}
 
+      {/* Captions — HIGHEST z-index, always on top of visuals */}
+      <div style={{ position: "absolute", inset: 0, zIndex: 50, pointerEvents: "none" }}>
+        <CaptionRenderer
+          captions={captions}
+          globalStartSec={0}
+          totalDuration={durationSeconds}
+          defaultCaptionPosition={defaultCaptionPosition}
+          bRollOverlays={bRollOverlays}
+        />
+      </div>
+
       {/* Sound effects — each plays at its startSec timestamp */}
       {soundEffects?.map((sfx, i) => (
         <Sequence
           key={`sfx-${i}`}
           from={Math.round(sfx.startSec * FPS)}
+          {...(sfx.durationSec ? { durationInFrames: Math.round(sfx.durationSec * FPS) } : {})}
         >
-          <Audio src={staticFile(sfx.audioPath)} volume={sfx.volume ?? 0.7} />
+          <Audio
+            src={staticFile(sfx.audioPath)}
+            volume={sfx.volume ?? 0.7}
+            {...(sfx.startFromSec ? { startFrom: Math.round(sfx.startFromSec * FPS) } : {})}
+          />
         </Sequence>
       ))}
 

@@ -67,7 +67,10 @@
       "Bash(__NEW_LINE_af620b97a42037d4__ python3:*)",
       "Bash(export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\")",
       "Bash(pipx run:*)",
-      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")"
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(xargs kill:*)",
+      "Bash(lsof -i TCP:3000 -sTCP:LISTEN)",
+      "Read(//tmp/**)"
     ],
     "deny": [],
     "ask": []

@@ -1,0 +1,599 @@
+{
+  "durationSeconds": 57.56,
+  "crossFadeFrames": 0,
+  "showProgressBar": true,
+  "hookBoostSec": 10,
+  "defaultCaptionPosition": 55,
+  "footerText": "@tranvanhoang.com",
+  "sceneTransition": {
+    "type": "flash",
+    "durationFrames": 8
+  },
+  "clips": [
+    {
+      "videoPath": "media/heygen/chunk_seg1.mp4",
+      "durationSeconds": 7.22
+    },
+    {
+      "videoPath": "media/custom/seg2-courses-overview.mp4",
+      "durationSeconds": 8.94
+    },
+    {
+      "videoPath": "media/custom/seg3-claude-101.mp4",
+      "durationSeconds": 5.3
+    },
+    {
+      "videoPath": "media/custom/seg4-agent-skills.mp4",
+      "durationSeconds": 3.88
+    },
+    {
+      "videoPath": "media/custom/seg5-subagents.mp4",
+      "durationSeconds": 4.62
+    },
+    {
+      "videoPath": "media/custom/seg6-building-api.mp4",
+      "durationSeconds": 5.4
+    },
+    {
+      "videoPath": "media/custom/seg7-intro-mcp.mp4",
+      "durationSeconds": 6.3
+    },
+    {
+      "videoPath": "media/heygen/chunk_seg8_trimmed.mp4",
+      "durationSeconds": 2.62
+    },
+    {
+      "videoPath": "media/heygen/chunk_seg9_extended.mp4",
+      "durationSeconds": 4.48
+    },
+    {
+      "videoPath": "media/custom/seg10-courses-overview.mp4",
+      "durationSeconds": 5.8
+    }
+  ],
+  "captions": [
+    {
+      "text": "Anthropic vừa mở 16 khoá học miễn phí về Claude AI. Mình đoán là đa số mọi người chưa biết cái trang này tồn tại.",
+      "startSec": 0.0,
+      "endSec": 6.62,
+      "style": "hook",
+      "highlights": [
+        "16 khoá học",
+        "miễn phí"
+      ],
+      "emoji": "mind-blown",
+      "textEffect": "slam",
+      "captionPosition": 55,
+      "words": [
+        {
+          "word": "Anthropic",
+          "start": 0.0,
+          "end": 0.26
+        },
+        {
+          "word": "vừa",
+          "start": 0.26,
+          "end": 0.36
+        },
+        {
+          "word": "mở",
+          "start": 0.36,
+          "end": 0.5
+        },
+        {
+          "word": "16",
+          "start": 0.74,
+          "end": 0.84
+        },
+        {
+          "word": "khoá",
+          "start": 0.84,
+          "end": 1.02
+        },
+        {
+          "word": "học",
+          "start": 1.02,
+          "end": 1.3
+        },
+        {
+          "word": "miễn",
+          "start": 1.3,
+          "end": 1.6
+        },
+        {
+          "word": "phí",
+          "start": 1.6,
+          "end": 1.7
+        },
+        {
+          "word": "về",
+          "start": 1.7,
+          "end": 1.86
+        },
+        {
+          "word": "Claude",
+          "start": 1.86,
+          "end": 2.08
+        },
+        {
+          "word": "AI.",
+          "start": 2.08,
+          "end": 2.42
+        },
+        {
+          "word": "Mình",
+          "start": 3.24,
+          "end": 3.34
+        },
+        {
+          "word": "đoán",
+          "start": 3.34,
+          "end": 3.54
+        },
+        {
+          "word": "là",
+          "start": 3.54,
+          "end": 3.66
+        },
+        {
+          "word": "đa",
+          "start": 3.66,
+          "end": 3.92
+        },
+        {
+          "word": "số",
+          "start": 3.92,
+          "end": 4.0
+        },
+        {
+          "word": "mọi",
+          "start": 4.0,
+          "end": 4.12
+        },
+        {
+          "word": "người",
+          "start": 4.12,
+          "end": 4.28
+        },
+        {
+          "word": "chưa",
+          "start": 4.28,
+          "end": 4.46
+        },
+        {
+          "word": "biết",
+          "start": 4.46,
+          "end": 4.6
+        },
+        {
+          "word": "cái",
+          "start": 4.6,
+          "end": 4.74
+        },
+        {
+          "word": "trang",
+          "start": 4.74,
+          "end": 4.84
+        },
+        {
+          "word": "này",
+          "start": 4.84,
+          "end": 4.98
+        },
+        {
+          "word": "tồn",
+          "start": 4.98,
+          "end": 5.22
+        },
+        {
+          "word": "tại,",
+          "start": 5.22,
+          "end": 5.34
+        },
+        {
+          "word": "mình",
+          "start": 5.8,
+          "end": 5.88
+        },
+        {
+          "word": "cũng",
+          "start": 5.88,
+          "end": 6.0
+        },
+        {
+          "word": "mới",
+          "start": 6.0,
+          "end": 6.14
+        },
+        {
+          "word": "tìm",
+          "start": 6.14,
+          "end": 6.26
+        },
+        {
+          "word": "ra",
+          "start": 6.26,
+          "end": 6.42
+        },
+        {
+          "word": "thôi.",
+          "start": 6.42,
+          "end": 6.62
+        }
+      ]
+    },
+    {
+      "text": "Và thật ra thay vì bỏ mấy triệu học AI ở chỗ khác ấy — bạn có thể vào thẳng nguồn. Học từ chính Anthropic. Không mất đồng nào.",
+      "startSec": 7.22,
+      "endSec": 15.74,
+      "style": "solution",
+      "highlights": [
+        "thẳng nguồn",
+        "Không mất đồng nào"
+      ],
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Thứ nhất là Claude 101 — dành cho người mới, không cần background kỹ thuật.",
+      "startSec": 16.16,
+      "endSec": 21.46,
+      "style": "normal",
+      "highlights": [
+        "Claude 101",
+        "người mới"
+      ],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Thứ hai là Introduction to Agent Skills và Subagents — điểm bắt đầu đúng nhất để xây AI Agent.",
+      "startSec": 21.46,
+      "endSec": 25.34,
+      "style": "normal",
+      "highlights": [
+        "Agent Skills",
+        "AI Agent"
+      ],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Đúng từ Anthropic luôn.",
+      "startSec": 25.34,
+      "endSec": 29.96,
+      "style": "normal",
+      "highlights": [
+        "Anthropic"
+      ],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Thứ ba là Building with the Claude API — cho bạn nào muốn tích hợp Claude vào sản phẩm.",
+      "startSec": 29.96,
+      "endSec": 35.36,
+      "style": "normal",
+      "highlights": [
+        "Claude API",
+        "tích hợp"
+      ],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Thứ tư là Introduction to MCP — Model Context Protocol. Nền tảng để Claude kết nối với tool bên ngoài.",
+      "startSec": 35.36,
+      "endSec": 41.66,
+      "style": "normal",
+      "highlights": [
+        "MCP",
+        "Model Context Protocol"
+      ],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    },
+    {
+      "text": "Hiểu cái này sớm thì 6 tháng nữa bạn đi trước rất xa đấy.",
+      "startSec": 41.66,
+      "endSec": 43.9,
+      "style": "solution",
+      "highlights": [
+        "6 tháng",
+        "đi trước"
+      ],
+      "emoji": "fire",
+      "textEffect": "deep-glow",
+      "captionPosition": 55,
+      "words": [
+        {
+          "word": "Hiểu",
+          "start": 41.66,
+          "end": 41.78
+        },
+        {
+          "word": "cái",
+          "start": 41.78,
+          "end": 41.9
+        },
+        {
+          "word": "này",
+          "start": 41.9,
+          "end": 42.02
+        },
+        {
+          "word": "sớm",
+          "start": 42.02,
+          "end": 42.32
+        },
+        {
+          "word": "thì",
+          "start": 42.32,
+          "end": 42.46
+        },
+        {
+          "word": "6",
+          "start": 42.46,
+          "end": 42.64
+        },
+        {
+          "word": "tháng",
+          "start": 42.64,
+          "end": 42.82
+        },
+        {
+          "word": "nữa",
+          "start": 42.82,
+          "end": 42.92
+        },
+        {
+          "word": "bạn",
+          "start": 42.92,
+          "end": 43.12
+        },
+        {
+          "word": "đi",
+          "start": 43.12,
+          "end": 43.24
+        },
+        {
+          "word": "trước",
+          "start": 43.24,
+          "end": 43.42
+        },
+        {
+          "word": "rất",
+          "start": 43.42,
+          "end": 43.54
+        },
+        {
+          "word": "xa",
+          "start": 43.54,
+          "end": 43.78
+        },
+        {
+          "word": "đấy.",
+          "start": 43.78,
+          "end": 43.9
+        }
+      ]
+    },
+    {
+      "text": "Còn nếu bạn muốn mình gửi link thẳng luôn — comment chữ \"claude\" xuống bên dưới, mình gửi cho nhá.",
+      "startSec": 44.28,
+      "endSec": 48.76,
+      "style": "cta",
+      "highlights": [
+        "comment",
+        "claude"
+      ],
+      "emoji": "index-finger",
+      "textEffect": "word-by-word",
+      "captionPosition": 55,
+      "words": [
+        {
+          "word": "Còn",
+          "start": 44.28,
+          "end": 44.4
+        },
+        {
+          "word": "nếu",
+          "start": 44.4,
+          "end": 44.58
+        },
+        {
+          "word": "bạn",
+          "start": 44.58,
+          "end": 44.7
+        },
+        {
+          "word": "muốn",
+          "start": 44.7,
+          "end": 44.88
+        },
+        {
+          "word": "mình",
+          "start": 44.88,
+          "end": 45.04
+        },
+        {
+          "word": "gửi",
+          "start": 45.04,
+          "end": 45.26
+        },
+        {
+          "word": "link",
+          "start": 45.26,
+          "end": 45.36
+        },
+        {
+          "word": "thẳng",
+          "start": 45.36,
+          "end": 45.54
+        },
+        {
+          "word": "luôn,",
+          "start": 45.54,
+          "end": 45.72
+        },
+        {
+          "word": "comment",
+          "start": 46.0,
+          "end": 46.08
+        },
+        {
+          "word": "chữ",
+          "start": 46.08,
+          "end": 46.24
+        },
+        {
+          "word": "\"claude\"",
+          "start": 46.24,
+          "end": 46.52
+        },
+        {
+          "word": "xuống",
+          "start": 46.52,
+          "end": 46.9
+        },
+        {
+          "word": "bên",
+          "start": 46.9,
+          "end": 47.06
+        },
+        {
+          "word": "dưới,",
+          "start": 47.06,
+          "end": 47.32
+        },
+        {
+          "word": "mình",
+          "start": 47.32,
+          "end": 47.44
+        },
+        {
+          "word": "gửi",
+          "start": 47.44,
+          "end": 47.72
+        },
+        {
+          "word": "cho",
+          "start": 48.06,
+          "end": 48.22
+        },
+        {
+          "word": "nhá.",
+          "start": 48.22,
+          "end": 48.52
+        }
+      ]
+    },
+    {
+      "text": "Các bạn không cần học hết 16 khoá. Chọn 1-2 cái phù hợp rồi bắt đầu thôi. Đúng hướng rồi đấy.",
+      "startSec": 48.76,
+      "endSec": 54.56,
+      "style": "cta",
+      "highlights": [
+        "1-2 cái",
+        "đúng hướng"
+      ],
+      "textEffect": "none",
+      "captionPosition": 55,
+      "words": []
+    }
+  ],
+  "soundEffects": [
+    {
+      "audioPath": "media/chunks/chunk_000.mp3",
+      "startSec": 0.0,
+      "volume": 1.0
+    },
+    {
+      "audioPath": "media/chunks/chunk_001.mp3",
+      "startSec": 16.16,
+      "volume": 1.0
+    },
+    {
+      "audioPath": "media/chunks/chunk_002.mp3",
+      "startSec": 35.359,
+      "volume": 1.0
+    },
+    {
+      "audioPath": "media/sfx/SUDDEN SUSPENSE.mp3",
+      "startSec": 0.0,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/sfx/búng tay.mp3",
+      "startSec": 10.56,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/sfx/lung linh.mp3",
+      "startSec": 25.6,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/sfx/tada.mp3",
+      "startSec": 41.66,
+      "volume": 0.7
+    },
+    {
+      "audioPath": "media/sfx/Discord Notification - Sound Effect.mp3",
+      "startSec": 44.28,
+      "volume": 0.7
+    }
+  ],
+  "zoomPulses": [
+    {
+      "timeSec": 0.0,
+      "scale": 1.08,
+      "durationFrames": 12,
+      "type": "punch"
+    },
+    {
+      "timeSec": 1.02,
+      "scale": 1.06,
+      "durationFrames": 18,
+      "type": "hold"
+    }
+  ],
+  "backgroundMusic": [
+    {
+      "audioPath": "media/bgm/Chase Velocity - FableForte - Cinematic.mp3",
+      "startSec": 0,
+      "endSec": 15.74,
+      "volume": 0.15,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Miracle - Roman P - Cinematic - FREE MUSIC NO COPYRIGHT.mp3",
+      "startSec": 15.74,
+      "endSec": 43.9,
+      "volume": 0.1,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/bgm/Rising Star - Song by TURPAK (No Copyright Music).mp3",
+      "startSec": 43.9,
+      "endSec": 54.56,
+      "volume": 0.15,
+      "fadeInSec": 1,
+      "fadeOutSec": 3
+    }
+  ],
+  "outro": {
+    "durationSeconds": 3,
+    "title": "Follow để không bỏ lỡ nhé!",
+    "subtitle": "tranvanhoang.com/aifdc",
+    "profileImage": "hoang profile.webp"
+  }
+}

@@ -6,11 +6,10 @@ import {
   useCurrentFrame,
   staticFile,
 } from "remotion";
-import type { CaptionSegment, ZoomPulse } from "../../types";
+import type { ZoomPulse } from "../../types";
 import { FPS } from "./constants";
 import { Vignette } from "./Vignette";
 import { FlashTransition } from "./FlashTransition";
-import { CaptionRenderer } from "./CaptionRenderer";
 
 /* ── Compute zoom pulse contribution ── */
 const getZoomPulseScale = (
@@ -65,23 +64,17 @@ export const ZoomClip: React.FC<{
   videoPath: string;
   durationFrames: number;
   globalStartSec: number;
-  captions: CaptionSegment[];
-  totalDuration: number;
   isFirst: boolean;
   zoomPulses: ZoomPulse[];
   hookBoostSec?: number;
-  defaultCaptionPosition?: number;
   muted?: boolean;
 }> = ({
   videoPath,
   durationFrames,
   globalStartSec,
-  captions,
-  totalDuration,
   isFirst,
   zoomPulses,
   hookBoostSec = 0,
-  defaultCaptionPosition,
   muted = false,
 }) => {
   const frame = useCurrentFrame();
@@ -126,13 +119,6 @@ export const ZoomClip: React.FC<{
       <Vignette />
 
       {!isFirst && <FlashTransition durationFrames={durationFrames} />}
-
-      <CaptionRenderer
-        captions={captions}
-        globalStartSec={globalStartSec}
-        totalDuration={totalDuration}
-        defaultCaptionPosition={defaultCaptionPosition}
-      />
     </AbsoluteFill>
   );
 };
