@@ -1,0 +1,405 @@
+### HeyGen API — REST Client test file
+### Cài extension: humao.rest-client
+### Cách dùng: click "Send Request" phía trên mỗi block `###`
+### API key lấy ở https://app.heygen.com/settings → API
+
+@apiKey = {{$dotenv HEYGEN_API_KEY}}
+@baseUrl = https://api.heygen.com
+@uploadUrl = https://upload.heygen.com
+
+
+### ============================================================
+### USER & ACCOUNT
+### ============================================================
+
+### Get current user / remaining credits
+GET {{baseUrl}}/v1/user/remaining_quota
+X-Api-Key: {{apiKey}}
+
+
+### ============================================================
+### AVATARS
+### ============================================================
+
+### List avatar looks (avatars + talking photos)
+GET {{baseUrl}}/v2/avatars
+X-Api-Key: {{apiKey}}
+
+
+### List avatar groups
+GET {{baseUrl}}/v2/avatar_group.list
+X-Api-Key: {{apiKey}}
+
+
+### Get avatar group detail
+GET {{baseUrl}}/v2/avatar_group/REPLACE_GROUP_ID
+X-Api-Key: {{apiKey}}
+
+
+### Get avatar look detail
+GET {{baseUrl}}/v2/avatar/REPLACE_AVATAR_ID/details
+X-Api-Key: {{apiKey}}
+
+
+### Update avatar look (rename)
+PATCH {{baseUrl}}/v2/avatars/REPLACE_AVATAR_ID
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "name": "New avatar name"
+}
+
+
+### Create photo avatar
+POST {{baseUrl}}/v2/photo_avatar/photo/generate
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "name": "My Photo Avatar",
+  "image_url": "https://example.com/portrait.jpg"
+}
+
+
+### Create prompt avatar (AI generated from prompt)
+POST {{baseUrl}}/v2/photo_avatar/photo/generate
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "name": "My Prompt Avatar",
+  "prompt": "A confident 30yo asian woman in business suit, studio lighting",
+  "age": "Young Adult",
+  "gender": "Woman",
+  "ethnicity": "Asian American"
+}
+
+
+### Create digital twin (from video footage)
+POST {{baseUrl}}/v1/video.create_avatar
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "name": "My Digital Twin",
+  "video_url": "https://example.com/footage.mp4"
+}
+
+
+### Create avatar consent (cho private avatar)
+POST {{baseUrl}}/v2/avatar_group/REPLACE_GROUP_ID/consent
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "reroute_url": "https://example.com/consent-done"
+}
+
+
+### ============================================================
+### VOICES
+### ============================================================
+
+### List voices (public library)
+GET {{baseUrl}}/v2/voices
+X-Api-Key: {{apiKey}}
+
+
+### List private/cloned voices
+GET {{baseUrl}}/v2/voices?type=private
+X-Api-Key: {{apiKey}}
+
+
+### Design voice (AI tạo voice từ prompt)
+POST {{baseUrl}}/v2/voice/design
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "prompt": "Warm, confident female narrator, middle-aged",
+  "gender": "female",
+  "locale": "en-US",
+  "seed": 0
+}
+
+
+### ============================================================
+### TEXT-TO-SPEECH
+### ============================================================
+
+### Create speech (TTS)
+POST {{baseUrl}}/v2/audio.generate
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "voice_id": "2d5b0e6cf36f460aa7fc47e3eee4ba54",
+  "input_text": "Xin chào các bạn, đây là giọng đọc thử.",
+  "input_type": "text",
+  "speed": 1.0,
+  "pitch": 0
+}
+
+
+### ============================================================
+### VIDEO GENERATION
+### ============================================================
+
+### Create video from avatar (text → video)
+# @name createVideoFromAvatar
+POST {{baseUrl}}/v2/video/generate
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "video_inputs": [
+    {
+      "character": {
+        "type": "avatar",
+        "avatar_id": "Daisy-inskirt-20220818",
+        "avatar_style": "normal"
+      },
+      "voice": {
+        "type": "text",
+        "input_text": "Xin chào, đây là video test từ HeyGen API.",
+        "voice_id": "2d5b0e6cf36f460aa7fc47e3eee4ba54"
+      }
+    }
+  ],
+  "dimension": { "width": 1280, "height": 720 }
+}
+
+
+### Create video từ talking photo / photo avatar
+POST {{baseUrl}}/v2/video/generate
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "video_inputs": [
+    {
+      "character": {
+        "type": "talking_photo",
+        "talking_photo_id": "REPLACE_TALKING_PHOTO_ID"
+      },
+      "voice": {
+        "type": "text",
+        "input_text": "Nội dung demo cho talking photo.",
+        "voice_id": "2d5b0e6cf36f460aa7fc47e3eee4ba54"
+      }
+    }
+  ],
+  "dimension": { "width": 1080, "height": 1920 }
+}
+
+
+### Create video từ image (animate ảnh)
+POST {{baseUrl}}/v2/video/generate
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "video_inputs": [
+    {
+      "character": {
+        "type": "talking_photo",
+        "talking_photo_id": "REPLACE_IMAGE_ID"
+      },
+      "voice": {
+        "type": "audio",
+        "audio_url": "https://example.com/voiceover.mp3"
+      }
+    }
+  ],
+  "dimension": { "width": 1920, "height": 1080 }
+}
+
+
+### ============================================================
+### VIDEO MANAGEMENT
+### ============================================================
+
+### List videos
+GET {{baseUrl}}/v1/video.list?limit=20
+X-Api-Key: {{apiKey}}
+
+
+### List videos — pagination
+GET {{baseUrl}}/v1/video.list?limit=20&token=REPLACE_TOKEN
+X-Api-Key: {{apiKey}}
+
+
+### List videos — filter by title
+GET {{baseUrl}}/v1/video.list?limit=20&title=REPLACE_SUBSTRING
+X-Api-Key: {{apiKey}}
+
+
+### Get video status
+GET {{baseUrl}}/v1/video_status.get?video_id=REPLACE_VIDEO_ID
+X-Api-Key: {{apiKey}}
+
+
+### Delete video
+DELETE {{baseUrl}}/v1/video.delete?video_id=REPLACE_VIDEO_ID
+X-Api-Key: {{apiKey}}
+
+
+### ============================================================
+### VIDEO TRANSLATION
+### ============================================================
+
+### List supported translation languages
+GET {{baseUrl}}/v2/video_translate/target_languages
+X-Api-Key: {{apiKey}}
+
+
+### Create video translation
+POST {{baseUrl}}/v2/video_translate
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "video_url": "https://example.com/source.mp4",
+  "output_language": "Vietnamese",
+  "title": "Test translation",
+  "speaker_num": 1
+}
+
+
+### List translations
+GET {{baseUrl}}/v2/video_translate/list?limit=10
+X-Api-Key: {{apiKey}}
+
+
+### Get translation status
+GET {{baseUrl}}/v2/video_translate/REPLACE_TRANSLATION_ID
+X-Api-Key: {{apiKey}}
+
+
+### Update translation title
+PATCH {{baseUrl}}/v2/video_translate/REPLACE_TRANSLATION_ID
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{ "title": "New title" }
+
+
+### Delete translation
+DELETE {{baseUrl}}/v2/video_translate/REPLACE_TRANSLATION_ID
+X-Api-Key: {{apiKey}}
+
+
+### ============================================================
+### LIPSYNC
+### ============================================================
+
+### Create lipsync (thay audio + sync môi)
+POST {{baseUrl}}/v2/video/lipsync
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "video_url": "https://example.com/source.mp4",
+  "audio_url": "https://example.com/new-audio.mp3",
+  "title": "Lipsync test",
+  "mode": "speed"
+}
+
+
+### List lipsync jobs
+GET {{baseUrl}}/v2/video/lipsync/list?limit=10
+X-Api-Key: {{apiKey}}
+
+
+### Get lipsync status
+GET {{baseUrl}}/v2/video/lipsync/REPLACE_LIPSYNC_ID
+X-Api-Key: {{apiKey}}
+
+
+### Update lipsync title
+PATCH {{baseUrl}}/v2/video/lipsync/REPLACE_LIPSYNC_ID
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{ "title": "New title" }
+
+
+### Delete lipsync
+DELETE {{baseUrl}}/v2/video/lipsync/REPLACE_LIPSYNC_ID
+X-Api-Key: {{apiKey}}
+
+
+### ============================================================
+### VIDEO AGENT (one-shot AI video generation)
+### ============================================================
+
+### Create video agent session (chat mode — recommended)
+POST {{baseUrl}}/v3/video-agents/sessions
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "prompt": "Tạo video giới thiệu về AI Agent cho người Việt, giọng nam, 60 giây",
+  "mode": "chat",
+  "orientation": "portrait"
+}
+
+
+### Create video agent session (generate mode — fire-and-forget)
+POST {{baseUrl}}/v3/video-agents/sessions
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "prompt": "Video ngắn giới thiệu khóa học AI Agent",
+  "mode": "generate"
+}
+
+
+### Get video agent session
+GET {{baseUrl}}/v3/video-agents/sessions/REPLACE_SESSION_ID
+X-Api-Key: {{apiKey}}
+
+
+### Send message to video agent session
+POST {{baseUrl}}/v3/video-agents/sessions/REPLACE_SESSION_ID/messages
+X-Api-Key: {{apiKey}}
+Content-Type: application/json
+
+{
+  "message": "Chọn voice số 2 và dùng style kinh doanh"
+}
+
+
+### Stop video agent session
+POST {{baseUrl}}/v3/video-agents/sessions/REPLACE_SESSION_ID/stop
+X-Api-Key: {{apiKey}}
+
+
+### List videos produced in a session
+GET {{baseUrl}}/v3/video-agents/sessions/REPLACE_SESSION_ID/videos
+X-Api-Key: {{apiKey}}
+
+
+### Get session resource
+GET {{baseUrl}}/v3/video-agents/sessions/REPLACE_SESSION_ID/resources/REPLACE_RESOURCE_ID
+X-Api-Key: {{apiKey}}
+
+
+### List video agent styles
+GET {{baseUrl}}/v3/video-agents/styles
+X-Api-Key: {{apiKey}}
+
+
+### ============================================================
+### ASSET UPLOAD
+### ============================================================
+
+### Upload asset (raw binary) — Content-Type theo file:
+###   image/jpeg | image/png | video/mp4 | audio/mpeg
+POST {{uploadUrl}}/v1/asset
+X-Api-Key: {{apiKey}}
+Content-Type: image/jpeg
+
+< ./path/to/your/file.jpg

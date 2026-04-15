@@ -225,6 +225,10 @@ export const HeyGenShort: React.FC<HeyGenShortProps> = ({
   const transitionType = sceneTransition?.type ?? "flash";
   const transitionDur = sceneTransition?.durationFrames ?? 12;
 
+  // Detect absolute-positioning mode: if ANY clip has startSec, treat all clips as absolute.
+  // In absolute mode, clips can overlap, sequential crossfades and scene transitions are disabled.
+  const isAbsoluteMode = clips.some((c) => c.startSec !== undefined);
+
   // Pre-calculate clip start frames for transition overlay placement
   const clipStarts: number[] = [];
 
@@ -236,39 +240,55 @@ export const HeyGenShort: React.FC<HeyGenShortProps> = ({
       {/* Video clips with zoom, captions, transitions */}
       {clips.map((clip, i) => {
         const durationFrames = Math.round(clip.durationSeconds * FPS);
-        const from = offsetFrames;
-        const globalStartSec = offsetFrames / FPS;
+        let from: number;
+        if (clip.startSec !== undefined) {
+          // Absolute positioning — clip starts at a fixed timeline position
+          from = Math.round(clip.startSec * FPS);
+        } else {
+          // Sequential stacking (legacy) — clips flow one after another with crossfade
+          from = offsetFrames;
+          offsetFrames +=
+            durationFrames - (i < clips.length - 1 ? crossFadeFrames : 0);
+        }
+        const globalStartSec = from / FPS;
         clipStarts.push(from);
-        offsetFrames +=
-          durationFrames - (i < clips.length - 1 ? crossFadeFrames : 0);
+
+        const zIndex = clip.zIndex ?? 0;
+        // Global audioPath mutes all clips (legacy). Otherwise, respect per-clip muted.
+        const isMuted = audioPath ? true : (clip.muted ?? false);
 
         return (
           <Sequence key={i} from={from} durationInFrames={durationFrames}>
-            <ZoomClip
-              videoPath={clip.videoPath}
-              durationFrames={durationFrames}
-              globalStartSec={globalStartSec}
-              isFirst={i === 0}
-              zoomPulses={zoomPulses}
-              hookBoostSec={hookBoostSec}
-              muted={!!audioPath}
-            />
+            <AbsoluteFill style={{ zIndex }}>
+              <ZoomClip
+                videoPath={clip.videoPath}
+                durationFrames={durationFrames}
+                globalStartSec={globalStartSec}
+                isFirst={i === 0}
+                zoomPulses={zoomPulses}
+                hookBoostSec={hookBoostSec}
+                muted={isMuted}
+                startFromSec={clip.startFromSec}
+                disableFlash={isAbsoluteMode}
+              />
+            </AbsoluteFill>
           </Sequence>
         );
       })}
 
-      {/* Scene transitions — visual overlay at each clip boundary */}
-      {clipStarts.map((startFrame, i) =>
-        i === 0 ? null : (
-          <Sequence
-            key={`transition-${i}`}
-            from={startFrame}
-            durationInFrames={transitionDur}
-          >
-            <SceneTransition type={transitionType} />
-          </Sequence>
-        )
-      )}
+      {/* Scene transitions — visual overlay at each clip boundary (sequential mode only) */}
+      {!isAbsoluteMode &&
+        clipStarts.map((startFrame, i) =>
+          i === 0 ? null : (
+            <Sequence
+              key={`transition-${i}`}
+              from={startFrame}
+              durationInFrames={transitionDur}
+            >
+              <SceneTransition type={transitionType} />
+            </Sequence>
+          )
+        )}
 
       {/* B-roll overlays — on top of clips, under captions */}
       {bRollOverlays && bRollOverlays.length > 0 && (
@@ -342,7 +362,7 @@ export const HeyGenShort: React.FC<HeyGenShortProps> = ({
           <span
             style={{
               color: "rgba(255,255,255,0.85)",
-              fontSize: 32,
+              fontSize: 42,
               fontFamily: "Inter, sans-serif",
               fontWeight: 600,
               letterSpacing: 1.5,

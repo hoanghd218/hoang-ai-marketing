@@ -17,6 +17,8 @@ production-plan.json + MP3 → Split audio (avatar segments only)
 | Look ID | Description |
 |---------|-------------|
 | `7ebc6e135f574dcdb943d309cb97806a` | Áo sơ mi xanh nhạt, cầm micro nhỏ, medium close-up, background be |
+| `ff800d7f76aa48f5a23eb6a742ed5365` | User-saved avatar look |
+| `662173bbf8974f97823695de1957bc05` | User-saved avatar look |
 | `27776380b32d4b4aa4c5824571fc7117` | Áo sơ mi xanh nhạt + kính, laptop, medium shot, background tủ gỗ |
 
 

@@ -137,6 +137,26 @@ Dẫn từ nguồn tin đáng tin cậy để tạo trọng lượng.
 
 ---
 
+### Loại 11: Mơ Ước → Khoảng Cách → Cầu Nối (Dream → Gap → Bridge)
+Vẽ ra viễn cảnh lý tưởng, rồi chỉ ra rào cản khiến đa số không đạt được, rồi hứa sẽ dẫn đường qua. Tạo tension cực mạnh trong 30 giây đầu.
+
+**Công thức**: "Tưởng tượng nếu [viễn cảnh lý tưởng]. Nhưng thực tế [X]% người sẽ không bao giờ làm được vì [rào cản]. Đó là lý do trong video này, mình sẽ chỉ bạn [lời hứa cụ thể]."
+
+**Ví dụ:**
+- "Tưởng tượng nếu Claude Code có thể trở thành một đội marketing chuyên nghiệp, tự động chạy cho bạn 24/7. Nhưng thực tế 99% người dùng sẽ không bao giờ làm được — vì họ không biết cách dùng đúng skill. Đó là lý do hôm nay mình sẽ chỉ bạn [N] skill cụ thể, từng bước một."
+- "Tưởng tượng nếu bạn có thể tạo 30 video mỗi tuần mà không cần thuê ai. Nhưng 95% người thử đều bỏ cuộc sau tuần đầu tiên — vì họ thiếu một thứ. Hôm nay mình sẽ cho bạn thứ đó."
+- "Tưởng tượng nếu AI có thể thay thế cả một phòng ban trong công ty bạn. Nghe viển vông đúng không? Nhưng mình đã làm được — và cách làm đơn giản hơn bạn nghĩ rất nhiều."
+- "Tưởng tượng nếu mỗi sáng thức dậy, hệ thống đã tự chạy, tự kiếm tiền, tự tạo nội dung cho bạn. Nhưng 99% người dùng AI vẫn đang ngồi gõ từng câu một. Sự khác biệt? Chỉ là [N] bước setup mà mình sẽ chỉ ngay bây giờ."
+
+**Khi nào dùng**: Mạnh nhất cho video dạng Listicle (Top N tools/skills) và video dạng Hướng dẫn tổng hợp. Đặc biệt hiệu quả khi muốn tạo cảm giác "nếu không xem = bỏ lỡ cơ hội lớn".
+
+**Yếu tố bổ trợ** (thêm sau Bridge để tăng sức mạnh):
+- **Triple promise**: "[tiết kiệm thời gian], [kiếm thêm tiền], [vượt xa đối thủ]"
+- **Objection killer**: "kể cả nếu bạn không biết code / không rành kỹ thuật"
+- **Free bait**: "và mình sẽ cho bạn hoàn toàn miễn phí"
+
+---
+
 ## Cách Chọn Mở Đầu Phù Hợp
 
 | Dạng Video | Mở Đầu Mạnh Nhất | Dự Phòng |

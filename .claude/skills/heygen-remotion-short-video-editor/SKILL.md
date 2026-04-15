@@ -24,14 +24,7 @@ production-plan.json + HeyGen clips + Grok/custom videos + MP3
 
 1. Read `production-plan.json` for segment list, effects, BGM
 2. Read `heygen_manifest.json` for avatar clip mapping
-3. **Auto-generate Grok visuals if missing**: If plan has `visual` segments with `grokPrompt` but `grok_visuals/` folder doesn't exist or is empty:
-   ```bash
-   uv run .claude/skills/heygen-short-video/scripts/generate_grok_visuals.py \
-     "<plan_path>/production-plan.json" \
-     "<plan_parent_dir>/grok_visuals/" \
-     --ratio "9:16" --resolution 720p --duration 6
-   ```
-   This calls 79ai API to generate Grok videos automatically (~30-60s each).
+3. **Verify Grok visuals exist (do NOT generate here)**: If plan has `grok` segments, check that the referenced `grok_visuals/*.mp4` files exist. Grok generation is handled upstream by `video-ai-editor` Phase 1b — this skill only verifies. If Grok videos are missing, STOP and report the error.
 4. Verify all referenced files exist:
    - HeyGen clips: `heygen_clips/chunk_XXX.mp4`
    - Grok videos: `grok_visuals/1.mp4`, `2.mp4`...

@@ -63,8 +63,8 @@ const BRollItem: React.FC<{
         position: "absolute",
         ...pos,
         opacity,
-        transform: `scale(${scale}) translateY(${translateY}px)`,
-        zIndex: 5,
+        transform: isFullscreen ? undefined : `scale(${scale}) translateY(${translateY}px)`,
+        zIndex: isFullscreen ? 1 : 5,
         filter: isBottom ? "drop-shadow(0 4px 8px rgba(0,0,0,0.5))" : undefined,
         pointerEvents: "none",
       }}
@@ -78,7 +78,7 @@ const BRollItem: React.FC<{
         }}
       >
         {isVideo ? (
-          <Video src={staticFile(overlay.mediaPath)} style={mediaStyle} />
+          <Video src={staticFile(overlay.mediaPath)} style={mediaStyle} volume={0} />
         ) : (
           <Img src={staticFile(overlay.mediaPath)} style={mediaStyle} />
         )}

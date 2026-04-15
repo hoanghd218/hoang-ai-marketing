@@ -68,6 +68,10 @@ export const ZoomClip: React.FC<{
   zoomPulses: ZoomPulse[];
   hookBoostSec?: number;
   muted?: boolean;
+  /** Skip first N seconds of the source video. */
+  startFromSec?: number;
+  /** Disable the intro flash transition (used when clips are positioned absolutely and may overlap). */
+  disableFlash?: boolean;
 }> = ({
   videoPath,
   durationFrames,
@@ -76,6 +80,8 @@ export const ZoomClip: React.FC<{
   zoomPulses,
   hookBoostSec = 0,
   muted = false,
+  startFromSec,
+  disableFlash = false,
 }) => {
   const frame = useCurrentFrame();
   const globalFrame = Math.round(globalStartSec * FPS) + frame;
@@ -113,12 +119,13 @@ export const ZoomClip: React.FC<{
           src={staticFile(videoPath)}
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
           volume={muted ? 0 : 1}
+          {...(startFromSec ? { startFrom: Math.round(startFromSec * FPS) } : {})}
         />
       </div>
 
       <Vignette />
 
-      {!isFirst && <FlashTransition durationFrames={durationFrames} />}
+      {!isFirst && !disableFlash && <FlashTransition durationFrames={durationFrames} />}
     </AbsoluteFill>
   );
 };

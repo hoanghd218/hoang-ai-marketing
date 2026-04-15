@@ -70,7 +70,10 @@
       "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
       "Bash(xargs kill:*)",
       "Bash(lsof -i TCP:3000 -sTCP:LISTEN)",
-      "Read(//tmp/**)"
+      "Read(//tmp/**)",
+      "mcp__notebooklm-mcp__notebook_create",
+      "mcp__notebooklm-mcp__source_add",
+      "mcp__notebooklm-mcp__notebook_query"
     ],
     "deny": [],
     "ask": []

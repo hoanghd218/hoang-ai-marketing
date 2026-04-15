@@ -1,0 +1,445 @@
+{
+  "clips": [
+    {
+      "videoPath": "media/cvg-chunk_000.mp4",
+      "durationSeconds": 9.0,
+      "startSec": 0,
+      "muted": false
+    },
+    {
+      "videoPath": "media/cvg-grok-1.mp4",
+      "durationSeconds": 8.8,
+      "startSec": 9.0,
+      "muted": true
+    },
+    {
+      "videoPath": "media/cvg-chunk_001.mp4",
+      "durationSeconds": 2.5,
+      "startSec": 17.8,
+      "muted": false
+    },
+    {
+      "videoPath": "media/cvg-grok-2.mp4",
+      "durationSeconds": 9.2,
+      "startSec": 20.3,
+      "muted": true
+    },
+    {
+      "videoPath": "media/cvg-grok-3.mp4",
+      "durationSeconds": 11.4,
+      "startSec": 29.5,
+      "muted": true
+    },
+    {
+      "videoPath": "media/cvg-chunk_002.mp4",
+      "durationSeconds": 6.7,
+      "startSec": 40.9,
+      "muted": false
+    },
+    {
+      "videoPath": "media/cvg-grok-1.mp4",
+      "durationSeconds": 9.8,
+      "startSec": 47.6,
+      "muted": true
+    },
+    {
+      "videoPath": "media/cvg-chunk_003.mp4",
+      "durationSeconds": 16.18,
+      "startSec": 57.4,
+      "muted": false
+    }
+  ],
+  "captions": [
+    {
+      "text": "Cùng giá 20 đô một tháng, nhưng Claude với Gemini là hai con AI hoàn toàn khác nhau.",
+      "startSec": 0.0,
+      "endSec": 4.34,
+      "highlights": ["đốt tiền", "20 đô"],
+      "style": "hook",
+      "textEffect": "slam",
+      "emoji": "mind-blown",
+      "words": [
+        {"word": "Cùng", "start": 0.0, "end": 0.32},
+        {"word": "giá", "start": 0.32, "end": 0.48},
+        {"word": "20", "start": 0.48, "end": 0.68},
+        {"word": "đô", "start": 0.68, "end": 0.8},
+        {"word": "một", "start": 0.8, "end": 0.94},
+        {"word": "tháng,", "start": 0.94, "end": 1.18},
+        {"word": "nhưng", "start": 1.18, "end": 1.58},
+        {"word": "Claude", "start": 1.58, "end": 1.94},
+        {"word": "với", "start": 1.94, "end": 2.08},
+        {"word": "Gemini", "start": 2.08, "end": 2.52},
+        {"word": "là", "start": 2.52, "end": 3.04},
+        {"word": "hai", "start": 3.04, "end": 3.26},
+        {"word": "con", "start": 3.26, "end": 3.4},
+        {"word": "AI", "start": 3.4, "end": 3.58},
+        {"word": "hoàn", "start": 3.58, "end": 3.8},
+        {"word": "toàn", "start": 3.8, "end": 3.96},
+        {"word": "khác", "start": 3.96, "end": 4.1},
+        {"word": "nhau.", "start": 4.1, "end": 4.34}
+      ]
+    },
+    {
+      "text": "Mình dùng cả hai suốt 2 năm.",
+      "startSec": 4.84,
+      "endSec": 5.98,
+      "style": "hook",
+      "textEffect": "slam",
+      "words": [
+        {"word": "Mình", "start": 4.84, "end": 5.1},
+        {"word": "dùng", "start": 5.1, "end": 5.28},
+        {"word": "cả", "start": 5.28, "end": 5.4},
+        {"word": "hai", "start": 5.4, "end": 5.56},
+        {"word": "suốt", "start": 5.56, "end": 5.68},
+        {"word": "2", "start": 5.68, "end": 5.82},
+        {"word": "năm.", "start": 5.82, "end": 5.98}
+      ]
+    },
+    {
+      "text": "Chọn sai một cái là bạn đang đốt tiền mỗi tháng mà không biết.",
+      "startSec": 6.72,
+      "endSec": 8.98,
+      "highlights": ["đốt tiền"],
+      "style": "hook",
+      "textEffect": "slam",
+      "words": [
+        {"word": "Chọn", "start": 6.72, "end": 6.94},
+        {"word": "sai", "start": 6.94, "end": 7.14},
+        {"word": "một", "start": 7.14, "end": 7.28},
+        {"word": "cái", "start": 7.28, "end": 7.4},
+        {"word": "là", "start": 7.4, "end": 7.66},
+        {"word": "bạn", "start": 7.66, "end": 7.86},
+        {"word": "đang", "start": 7.86, "end": 8.0},
+        {"word": "đốt", "start": 8.0, "end": 8.12},
+        {"word": "tiền", "start": 8.12, "end": 8.26},
+        {"word": "mỗi", "start": 8.26, "end": 8.38},
+        {"word": "tháng", "start": 8.38, "end": 8.6},
+        {"word": "mà", "start": 8.6, "end": 8.7},
+        {"word": "không", "start": 8.7, "end": 8.8},
+        {"word": "biết.", "start": 8.8, "end": 8.98}
+      ]
+    },
+    {
+      "text": "Trước đây mình cũng nghĩ: chọn 1 cái xịn nhất cho tiết kiệm. Kết quả?",
+      "startSec": 9.42,
+      "endSec": 11.8,
+      "highlights": ["giọng máy"],
+      "style": "pain",
+      "textEffect": "flicker"
+    },
+    {
+      "text": "Viết bài thì ra giọng máy, tra cứu thì thiếu nguồn, cần ảnh thì không có.",
+      "startSec": 12.24,
+      "endSec": 14.76,
+      "highlights": ["giọng máy"],
+      "style": "pain",
+      "textEffect": "flicker"
+    },
+    {
+      "text": "Mất thời gian copy qua copy lại giữa mấy con AI khác nhau.",
+      "startSec": 15.12,
+      "endSec": 17.36,
+      "style": "pain",
+      "textEffect": "flicker"
+    },
+    {
+      "text": "Sau 2 năm, mình chia đơn giản thành 3 kiểu công việc thôi nhá:",
+      "startSec": 17.78,
+      "endSec": 20.3,
+      "highlights": ["3 kiểu"],
+      "style": "solution",
+      "textEffect": "word-by-word",
+      "emoji": "light-bulb",
+      "words": [
+        {"word": "Sau", "start": 17.78, "end": 18.02},
+        {"word": "2", "start": 18.02, "end": 18.2},
+        {"word": "năm,", "start": 18.2, "end": 18.46},
+        {"word": "mình", "start": 18.46, "end": 18.66},
+        {"word": "chia", "start": 18.66, "end": 18.86},
+        {"word": "đơn", "start": 18.86, "end": 19.02},
+        {"word": "giản", "start": 19.02, "end": 19.2},
+        {"word": "thành", "start": 19.2, "end": 19.42},
+        {"word": "3", "start": 19.42, "end": 19.58},
+        {"word": "kiểu", "start": 19.58, "end": 19.74},
+        {"word": "công", "start": 19.74, "end": 19.9},
+        {"word": "việc", "start": 19.9, "end": 20.06},
+        {"word": "thôi", "start": 20.06, "end": 20.16},
+        {"word": "nhá:", "start": 20.16, "end": 20.3}
+      ]
+    },
+    {
+      "text": "Một, nếu bạn viết nhiều — blog, kịch bản, email — chọn Claude.",
+      "startSec": 20.7,
+      "endSec": 23.64,
+      "highlights": ["Claude"],
+      "style": "solution",
+      "textEffect": "deep-glow"
+    },
+    {
+      "text": "Giọng văn của nó ra như người thật, không có cái gạch ngang dài đặc trưng của máy.",
+      "startSec": 24.3,
+      "endSec": 27.46,
+      "highlights": ["người thật"],
+      "style": "solution",
+      "textEffect": "deep-glow"
+    },
+    {
+      "text": "Mình viết script video gần như toàn dùng Claude.",
+      "startSec": 27.8,
+      "endSec": 29.46,
+      "highlights": ["Claude"],
+      "style": "solution",
+      "textEffect": "deep-glow"
+    },
+    {
+      "text": "Hai, nếu bạn cần đào sâu tìm hiểu một chủ đề, hoặc tạo ảnh, tạo video ngay trong lúc chat — chọn Gemini.",
+      "startSec": 29.86,
+      "endSec": 34.98,
+      "highlights": ["Gemini"],
+      "style": "solution",
+      "textEffect": "deep-glow"
+    },
+    {
+      "text": "Gemini quét cả trăm nguồn, trích dẫn đầy đủ.",
+      "startSec": 35.64,
+      "endSec": 37.54,
+      "highlights": ["trăm nguồn"],
+      "style": "solution",
+      "textEffect": "deep-glow"
+    },
+    {
+      "text": "Còn Claude thì không tạo được ảnh, không tạo được video — dừng lại ở đó luôn.",
+      "startSec": 37.88,
+      "endSec": 40.88,
+      "style": "normal",
+      "textEffect": "flicker"
+    },
+    {
+      "text": "Ba, nếu bạn muốn AI tự mở file, tự sửa, tự chạy nhiều bước trong khi bạn đi uống cà phê — chọn Claude.",
+      "startSec": 41.42,
+      "endSec": 45.56,
+      "highlights": ["Claude Code", "Claude Co-work"],
+      "style": "solution",
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Claude Code với Claude Co-work bây giờ mạnh hơn hẳn.",
+      "startSec": 45.72,
+      "endSec": 47.56,
+      "highlights": ["Claude Code", "Claude Co-work"],
+      "style": "solution",
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Có một cái bạn cần biết trước khi trả tiền:",
+      "startSec": 47.88,
+      "endSec": 49.32,
+      "highlights": ["hạn chế"],
+      "style": "normal",
+      "textEffect": "flicker"
+    },
+    {
+      "text": "Claude dạo này hạn chế lượt dùng khá gắt ở giờ cao điểm.",
+      "startSec": 49.72,
+      "endSec": 52.22,
+      "highlights": ["hạn chế"],
+      "style": "normal",
+      "textEffect": "flicker"
+    },
+    {
+      "text": "Làm task dài dễ bị dừng giữa chừng.",
+      "startSec": 52.54,
+      "endSec": 54.04,
+      "highlights": ["dừng giữa chừng"],
+      "style": "normal",
+      "textEffect": "flicker"
+    },
+    {
+      "text": "Gemini thì công bố giới hạn rõ ràng, dễ canh hơn.",
+      "startSec": 54.44,
+      "endSec": 56.8,
+      "style": "normal",
+      "textEffect": "flicker"
+    },
+    {
+      "text": "Sau 2 năm, thật ra mình trả tiền cho cả hai. 40 đô một tháng.",
+      "startSec": 57.4,
+      "endSec": 61.34,
+      "highlights": ["40 đô", "bổ sung cho nhau"],
+      "style": "solution",
+      "textEffect": "deep-glow",
+      "emoji": "check-mark"
+    },
+    {
+      "text": "Claude cho việc viết và chạy task. Gemini cho tra cứu và ảnh.",
+      "startSec": 62.26,
+      "endSec": 65.82,
+      "highlights": ["bổ sung cho nhau"],
+      "style": "solution",
+      "textEffect": "deep-glow"
+    },
+    {
+      "text": "Hai cái nó bổ sung cho nhau, không thay thế nhau.",
+      "startSec": 66.3,
+      "endSec": 68.08,
+      "highlights": ["bổ sung cho nhau"],
+      "style": "solution",
+      "textEffect": "deep-glow"
+    },
+    {
+      "text": "Mình có 2 buổi Zoom chia sẻ về cách dùng Claude hiệu quả.",
+      "startSec": 68.44,
+      "endSec": 70.6,
+      "highlights": ["comment", "claude"],
+      "style": "cta",
+      "textEffect": "word-by-word",
+      "emoji": "index-finger"
+    },
+    {
+      "text": "Ai muốn tham gia thì comment chữ \"claude\" bên dưới, mình gửi link cho nhá.",
+      "startSec": 70.98,
+      "endSec": 73.58,
+      "highlights": ["comment", "claude"],
+      "style": "cta",
+      "textEffect": "word-by-word"
+    }
+  ],
+  "durationSeconds": 73.58,
+  "crossFadeFrames": 12,
+  "hookBoostSec": 10,
+  "defaultCaptionPosition": 55,
+  "audioPath": "media/cvg-voiceover.mp3",
+  "footerText": "@tranvanhoang.com",
+  "sceneTransition": {
+    "type": "flash",
+    "durationFrames": 12
+  },
+  "soundEffects": [
+    {
+      "audioPath": "media/cvg-sfx-camera-flash.mp3",
+      "startSec": 0.0,
+      "volume": 0.3
+    },
+    {
+      "audioPath": "media/cvg-sfx-bruh.mp3",
+      "startSec": 9.2,
+      "volume": 0.25
+    },
+    {
+      "audioPath": "media/cvg-sfx-bung-tay.mp3",
+      "startSec": 17.9,
+      "volume": 0.2
+    },
+    {
+      "audioPath": "media/cvg-sfx-laser.mp3",
+      "startSec": 41.0,
+      "volume": 0.2
+    },
+    {
+      "audioPath": "media/cvg-sfx-suspense.mp3",
+      "startSec": 47.7,
+      "volume": 0.2
+    },
+    {
+      "audioPath": "media/cvg-sfx-tada.mp3",
+      "startSec": 57.5,
+      "volume": 0.2
+    },
+    {
+      "audioPath": "media/cvg-sfx-discord.mp3",
+      "startSec": 68.2,
+      "volume": 0.25
+    }
+  ],
+  "backgroundMusic": [
+    {
+      "audioPath": "media/cvg-bgm-chase-velocity.mp3",
+      "startSec": 0,
+      "endSec": 9.0,
+      "volume": 0.15,
+      "fadeInSec": 0.1,
+      "fadeOutSec": 1.5
+    },
+    {
+      "audioPath": "media/cvg-bgm-aluminum.mp3",
+      "startSec": 9.0,
+      "endSec": 57.4,
+      "volume": 0.12,
+      "fadeInSec": 1,
+      "fadeOutSec": 2
+    },
+    {
+      "audioPath": "media/cvg-bgm-rising-star.mp3",
+      "startSec": 57.4,
+      "endSec": 73.58,
+      "volume": 0.15,
+      "fadeInSec": 1,
+      "fadeOutSec": 3
+    }
+  ],
+  "bRollOverlays": [
+    {
+      "mediaPath": "media/claude.webp",
+      "startSec": 1.5,
+      "endSec": 4.5,
+      "position": "bottom-left",
+      "scale": 0.5,
+      "label": "Claude"
+    },
+    {
+      "mediaPath": "media/gemini.svg",
+      "startSec": 4.5,
+      "endSec": 7.5,
+      "position": "bottom-left",
+      "scale": 0.5,
+      "label": "Gemini"
+    },
+    {
+      "mediaPath": "media/claude code.jpeg",
+      "startSec": 45.7,
+      "endSec": 47.6,
+      "position": "bottom-left",
+      "scale": 0.5,
+      "label": "Claude Code"
+    },
+    {
+      "mediaPath": "media/claude cowork.jpg",
+      "startSec": 43.5,
+      "endSec": 45.5,
+      "position": "bottom-left",
+      "scale": 0.5,
+      "label": "Claude Cowork"
+    },
+    {
+      "mediaPath": "media/claude.webp",
+      "startSec": 61.0,
+      "endSec": 63.0,
+      "position": "bottom-left",
+      "scale": 0.5,
+      "label": "Claude"
+    },
+    {
+      "mediaPath": "media/gemini.svg",
+      "startSec": 63.5,
+      "endSec": 65.5,
+      "position": "bottom-left",
+      "scale": 0.5,
+      "label": "Gemini"
+    }
+  ],
+  "zoomPulses": [
+    {"timeSec": 0.0, "scale": 1.15, "type": "punch"},
+    {"timeSec": 8.0, "scale": 1.1, "type": "punch"},
+    {"timeSec": 17.9, "scale": 1.12, "type": "punch"},
+    {"timeSec": 41.0, "scale": 1.1, "type": "punch"},
+    {"timeSec": 57.5, "scale": 1.1, "type": "punch"},
+    {"timeSec": 68.2, "scale": 1.1, "type": "punch"}
+  ],
+  "outro": {
+    "durationSeconds": 3,
+    "title": "Cảm ơn bạn đã xem!",
+    "subtitle": "Comment \"claude\" để nhận link Zoom",
+    "bgColor": "#000",
+    "profileImage": "hoang profile.webp"
+  }
+}

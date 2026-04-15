@@ -78,9 +78,51 @@ export type BRollOverlay = {
   label?: string;
 };
 
+/** Legacy type — use VideoClip instead */
 export type HeyGenClip = {
   videoPath: string;
   durationSeconds: number;
+  /** Absolute timeline start in seconds. If set, clip is positioned absolutely (overlapping allowed). If undefined, falls back to sequential stacking. */
+  startSec?: number;
+  /** Source offset — skip first N seconds of the source video. */
+  startFromSec?: number;
+  /** Override the global muted behavior. If undefined, uses `!!audioPath`. */
+  muted?: boolean;
+  /** Stacking order — higher values render on top. Default 0. B-roll visuals should use zIndex >= 10 to sit above avatar clips. */
+  zIndex?: number;
+};
+
+/**
+ * Unified clip that can appear in the timeline.
+ * - "avatar": HeyGen avatar video (lip-synced to voiceover)
+ * - "broll": Full-screen b-roll visual (video/image), audio muted
+ * - "media": Generic video/image clip with optional audio
+ */
+export type VideoClip =
+  | AvatarClip
+  | BRollClip
+  | MediaClip;
+
+export type AvatarClip = {
+  type: "avatar";
+  videoPath: string;
+  durationSeconds: number;
+};
+
+export type BRollClip = {
+  type: "broll";
+  mediaPath: string;        // video or image in public/media/
+  durationSeconds: number;
+  overlayText?: string;      // text overlay (e.g. "#1 TASTE")
+  position?: "fullscreen" | "center" | "top-right" | "bottom-left" | "bottom";
+  borderRadius?: number;
+};
+
+export type MediaClip = {
+  type: "media";
+  mediaPath: string;
+  durationSeconds: number;
+  volume?: number;           // 0-1, default 0
 };
 
 export type SoundEffect = {

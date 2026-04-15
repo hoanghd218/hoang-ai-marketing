@@ -1,0 +1,169 @@
+{
+  "clips": [
+    { "videoPath": "media/heygen/chunk_000.mp4", "durationSeconds": 1.9 },
+    { "videoPath": "media/custom/nick-intro.mp4", "durationSeconds": 2.66 },
+    { "videoPath": "media/heygen/chunk_001.mp4", "durationSeconds": 4.26 },
+    { "videoPath": "media/custom/nick-share.mp4", "durationSeconds": 4.72 },
+    { "videoPath": "media/custom/building-web-app.mp4", "durationSeconds": 5.68 },
+    { "videoPath": "media/heygen/chunk_002.mp4", "durationSeconds": 1.62 },
+    { "videoPath": "media/custom/setup-claude-code.mp4", "durationSeconds": 1.96 },
+    { "videoPath": "media/custom/claude-md-brain.mp4", "durationSeconds": 3.74 },
+    { "videoPath": "media/custom/advanced-plan-mode.mp4", "durationSeconds": 3.44 },
+    { "videoPath": "media/custom/agent-teams.mp4", "durationSeconds": 7.24 },
+    { "videoPath": "media/heygen/chunk_003.mp4", "durationSeconds": 7.9 }
+  ],
+  "captions": [
+    {
+      "text": "Một ông chủ kiếm 4 triệu đô mỗi năm nhờ AI,",
+      "startSec": 0.0, "endSec": 1.9,
+      "style": "hook",
+      "highlights": ["4 triệu đô", "AI"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "vừa tung ra KHÓA HỌC Claude AI dài 4 tiếng — hoàn toàn miễn phí.",
+      "startSec": 1.9, "endSec": 4.56,
+      "style": "hook",
+      "highlights": ["KHÓA HỌC", "miễn phí"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Hơn 1 triệu lượt xem. Và mình vừa xem xong.",
+      "startSec": 4.56, "endSec": 6.32,
+      "style": "normal",
+      "highlights": ["1 triệu"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Mà cái hay là ổng không giữ lại cho riêng mình.",
+      "startSec": 6.32, "endSec": 8.82,
+      "style": "normal",
+      "highlights": ["cái hay"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Ông Nick Saraev này — 6 năm xây doanh nghiệp tự động hóa,",
+      "startSec": 8.82, "endSec": 11.44,
+      "style": "normal",
+      "highlights": ["6 năm"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "công ty 7 chữ số — ổng chia sẻ hết cho mọi người.",
+      "startSec": 11.44, "endSec": 13.54,
+      "style": "solution",
+      "highlights": ["7 chữ số", "chia sẻ hết"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Ổng tung ra khóa học 4 tiếng. Miễn phí.",
+      "startSec": 13.54, "endSec": 15.72,
+      "style": "solution",
+      "highlights": ["4 tiếng", "Miễn phí"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Dạy Claude AI từ con số 0 đến mức bạn xây được cả đội AI làm việc thay mình.",
+      "startSec": 15.72, "endSec": 19.22,
+      "style": "solution",
+      "highlights": ["con số 0", "đội AI"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "4 tiếng này ổng dạy gì?",
+      "startSec": 19.22, "endSec": 20.84,
+      "style": "hook",
+      "highlights": ["4 tiếng"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Cách cài đặt lên máy tính — ai cũng làm được.",
+      "startSec": 20.84, "endSec": 22.8,
+      "style": "normal",
+      "highlights": ["cài đặt"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Cách tạo \"bộ não dự án\" — để AI hiểu ý bạn mà không cần giải thích lại mỗi lần.",
+      "startSec": 22.8, "endSec": 26.54,
+      "style": "normal",
+      "highlights": ["bộ não dự án"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Cách cho AI lập kế hoạch trước khi làm — một phút lên kế hoạch tiết kiệm cả tiếng sửa lỗi.",
+      "startSec": 26.54, "endSec": 29.98,
+      "style": "normal",
+      "highlights": ["lập kế hoạch", "tiết kiệm cả tiếng"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Và phần hay nhất — cách tạo ra cả một đội AI.",
+      "startSec": 29.98, "endSec": 32.26,
+      "style": "solution",
+      "highlights": ["đội AI"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Đứa đi nghiên cứu, đứa soi lỗi, đứa chạy thử.",
+      "startSec": 32.26, "endSec": 34.08,
+      "style": "solution",
+      "highlights": [],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Giống như bạn có cả team nhân viên mà không tốn đồng lương nào.",
+      "startSec": 34.08, "endSec": 37.22,
+      "style": "solution",
+      "highlights": ["team nhân viên", "không tốn đồng lương"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Nói thật — khóa học 4 tiếng này chi tiết hơn 90% các khóa trả tiền mà mình từng thấy. Mà nó FREE.",
+      "startSec": 37.22, "endSec": 41.38,
+      "style": "hook",
+      "highlights": ["90%", "FREE"],
+      "textEffect": "word-by-word"
+    },
+    {
+      "text": "Comment \"claude\" bên dưới — mình gửi link khóa học cho bạn nhé.",
+      "startSec": 41.38, "endSec": 45.12,
+      "style": "cta",
+      "highlights": ["claude"],
+      "textEffect": "word-by-word"
+    }
+  ],
+  "soundEffects": [
+    { "audioPath": "media/sfx/SUDDEN SUSPENSE.mp3", "startSec": 0.0, "volume": 0.3 },
+    { "audioPath": "media/visual_audio/nick-intro.mp3", "startSec": 1.9, "volume": 1.0, "durationSec": 2.66 },
+    { "audioPath": "media/sfx/whoosh.mp3", "startSec": 1.85, "volume": 0.25 },
+    { "audioPath": "media/visual_audio/nick-share.mp3", "startSec": 8.82, "volume": 1.0, "durationSec": 4.72 },
+    { "audioPath": "media/sfx/whoosh.mp3", "startSec": 8.77, "volume": 0.25 },
+    { "audioPath": "media/visual_audio/building-web-app.mp3", "startSec": 13.54, "volume": 1.0, "durationSec": 5.68 },
+    { "audioPath": "media/sfx/ting.mp3", "startSec": 13.5, "volume": 0.3 },
+    { "audioPath": "media/sfx/whoosh.mp3", "startSec": 19.17, "volume": 0.25 },
+    { "audioPath": "media/visual_audio/setup-claude-code.mp3", "startSec": 20.84, "volume": 1.0, "durationSec": 1.96 },
+    { "audioPath": "media/sfx/whoosh.mp3", "startSec": 20.79, "volume": 0.25 },
+    { "audioPath": "media/visual_audio/claude-md-brain.mp3", "startSec": 22.8, "volume": 1.0, "durationSec": 3.74 },
+    { "audioPath": "media/sfx/whoosh.mp3", "startSec": 22.75, "volume": 0.25 },
+    { "audioPath": "media/visual_audio/advanced-plan-mode.mp3", "startSec": 26.54, "volume": 1.0, "durationSec": 3.44 },
+    { "audioPath": "media/sfx/whoosh.mp3", "startSec": 26.49, "volume": 0.25 },
+    { "audioPath": "media/visual_audio/agent-teams.mp3", "startSec": 29.98, "volume": 1.0, "durationSec": 7.24 },
+    { "audioPath": "media/sfx/Wow.mp3", "startSec": 29.98, "volume": 0.3 },
+    { "audioPath": "media/sfx/dramatic-boom.mp3", "startSec": 37.22, "volume": 0.35 },
+    { "audioPath": "media/sfx/tada.mp3", "startSec": 41.38, "volume": 0.3 }
+  ],
+  "zoomPulses": [
+    { "timeSec": 0.0, "scale": 1.15, "type": "hold", "durationFrames": 10, "holdSec": 2.0 }
+  ],
+  "bRollOverlays": [],
+  "backgroundMusic": [
+    { "audioPath": "media/bgm/Aluminum - Roie Shpigler.mp3", "startSec": 0, "volume": 0.1, "fadeInSec": 1, "fadeOutSec": 2 },
+    { "audioPath": "media/bgm/rising-star.mp3", "startSec": 29, "volume": 0.12, "fadeInSec": 1, "fadeOutSec": 3 }
+  ],
+  "durationSeconds": 45.12,
+  "crossFadeFrames": 0,
+  "showProgressBar": true,
+  "hookBoostSec": 5,
+  "defaultCaptionPosition": 55
+}

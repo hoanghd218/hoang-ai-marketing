@@ -97,7 +97,7 @@ plans/reports/          # Agent exploration reports
 - **Founder**: Hoang — Chuyên gia AI, chia sẻ kiến thức xây dựng AI Agent (Claude.ai, Claude Code, OpenClaw)
 - **Positioning**: One Person Business powered by AI — xây dựng đội ngũ bot làm việc 24/7, tạo freedom & dòng tiền thụ động
 - **Products**: Khóa học AI Agent, Vibe Coding, phần mềm, AI Agent solutions
-- **Community**: AI Freedom Builders — `tranvanhoang.com/aifdc`
+- **Community**: AI Freedom Builders
 - **Default CTA**: Kêu gọi tham gia cộng đồng AI Freedom Builders
 - **Vision**: Trở thành YouTuber chuyên chia sẻ kiến thức AI hàng đầu Việt Nam → sau đó chuyển sang vai trò Investor đầu tư vào các cá nhân/startup khởi nghiệp trong lĩnh vực AI, Robotics, AIaaS
 

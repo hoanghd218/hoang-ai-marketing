@@ -1,6 +1,6 @@
 ---
 name: plan-short-video-edit
-description: "Plan short video production from MP3 voiceover + script. Transcribes audio to SRT with word-level timestamps, analyzes content to classify segments (avatar/visual/custom/prompt-typing), plans effects, captions, BGM, Grok video prompts, and outputs a complete production plan folder. This is the planning phase — downstream skills (heygen-short-video, heygen-remotion-short-video-editor) consume this output. USE WHEN user says 'plan video edit', 'lên kế hoạch video', 'plan short video', 'phân tích script video', 'tạo plan video từ mp3', 'plan video ngắn', 'chuẩn bị video edit'."
+description: "Plan short video production from MP3 voiceover + script + PRE-EXTRACTED SRT. Analyzes content to classify segments (heygen/grok/custom/prompt-typing), plans effects, captions, BGM, Grok video prompts, and outputs a complete production plan folder. SRT transcription is handled upstream by mkt-ai-video-extract-srt-segment. This is the planning phase — downstream skills (heygen-short-video, heygen-remotion-short-video-editor) consume this output. USE WHEN user says 'plan video edit', 'lên kế hoạch video', 'plan short video', 'phân tích script video', 'tạo plan video từ mp3', 'plan video ngắn', 'chuẩn bị video edit'."
 ---
 
 # Plan Short Video Edit
@@ -8,7 +8,7 @@ description: "Plan short video production from MP3 voiceover + script. Transcrib
 Analyze MP3 voiceover + script to produce a complete production plan folder that downstream skills consume.
 
 ```
-MP3 + Script → Whisper SRT → Ask custom b-roll? → Classify segments
+MP3 + Script + SRT (pre-extracted) → Ask custom b-roll? → Classify segments
   → Plan effects, captions, BGM, Grok prompts → Output plan folder
 ```
 
@@ -16,32 +16,21 @@ MP3 + Script → Whisper SRT → Ask custom b-roll? → Classify segments
 
 1. **MP3 file path** (required) — voiceover audio
 2. **Script text or file** (required) — full script content for context
-3. **SRT file** (optional — skip transcription)
-4. **Custom b-roll manifest** (optional — see references in heygen-short-video skill)
+3. **SRT file** (required) — pre-extracted upstream by `mkt-ai-video-extract-srt-segment`
+4. **Segments JSON** (required) — word-level timestamps, pre-extracted upstream
+5. **Custom b-roll manifest** (optional — see references in heygen-short-video skill)
 
-## Step 1: Transcribe MP3 → SRT
+## Step 1: Verify SRT + Segments Exist
 
-Skip if user provides SRT.
+**SRT transcription and script-based correction are handled upstream** (by `mkt-ai-video-extract-srt-segment` skill). This skill does NOT transcribe audio.
 
-```bash
-uv run .claude/skills/heygen-short-video/scripts/transcribe_mp3.py "<mp3_path>" --language vi --model base
-```
+Verify the following files exist:
+- `<mp3_parent>/voiceover.srt` — or a provided SRT path
+- `<mp3_parent>/voiceover_segments.json` — word-level timestamps
 
-Output: `<stem>.srt` + `<stem>_segments.json` next to MP3. The segments JSON includes word-level `{word, start, end}` timestamps for precise SFX placement and word-by-word caption rendering.
+If either is missing, STOP and tell the user to run `mkt-ai-video-extract-srt-segment` first.
 
-### Step 1b: Script-based SRT correction (REQUIRED)
-
-Whisper often mangles Vietnamese text — especially English terms (e.g. "OpenClaw" → "OpenColor", "MCP Servers" → "MCP Service", "prompt" → "PromGtt"). Since we already have the original script, **always** post-process the SRT:
-
-1. Read the Whisper-generated SRT (keep all timestamps as-is)
-2. Compare each SRT entry's text against the corresponding section of the original script
-3. Replace the Whisper text with the correct script text, matching by position/order
-4. Preserve the exact SRT timestamp boundaries — only fix the text content
-5. Write the corrected SRT back to the same file
-
-**Why**: The SRT text is used for captions in the final video. Wrong text = wrong captions. Timestamps from Whisper are accurate; text is not — the script is the source of truth for text.
-
-After correction, ask about custom b-roll:
+After verification, ask about custom b-roll:
 > Bạn có ảnh hoặc video nào muốn dùng làm cảnh trám không?
 > (Ví dụ: screenshot bài báo, giao diện GitHub, demo app...)
 > Nếu có, tạo 1 file text: `/path/to/file.png | Mô tả nội dung`
@@ -52,18 +41,18 @@ Read SRT transcript and classify each segment:
 
 | Type | When to use | Source |
 |------|-------------|--------|
-| `avatar` | Direct speaking, opinions, CTA, hooks, explanations | HeyGen avatar clip |
-| `visual` | Concepts, demos, scenarios, metaphors, processes | Grok AI video (6s) |
+| `heygen` | Direct speaking, opinions, CTA, hooks, explanations | HeyGen avatar clip |
+| `grok` | Concepts, demos, scenarios, metaphors, processes | Grok AI video (6s) |
 | `custom` | User-provided b-roll matching content | User image/video |
 | `prompt-typing` | Speaker reads a prompt, command, text input | Remotion PromptTyping |
 
 ### Duration Constraints
 
-- **HeyGen ≤ 50%** of total duration. If exceeded, convert middle avatar segments to visual.
-- **≤ 30s total**: Max 2 avatar segments (≤ 15s avatar time)
-- **31-40s total**: Max 3 avatar segments (≤ 20s avatar time)
-- Prioritize keeping avatar for **hook** (first) and **CTA** (last)
-- Show budget: `Avatar: X.Xs / Y.Ys budget (Z%)`
+- **HeyGen ≤ 50%** of total duration. If exceeded, convert middle heygen segments to grok.
+- **≤ 30s total**: Max 2 heygen segments (≤ 15s heygen time)
+- **31-40s total**: Max 3 heygen segments (≤ 20s heygen time)
+- Prioritize keeping heygen for **hook** (first) and **CTA** (last)
+- Show budget: `HeyGen: X.Xs / Y.Ys budget (Z%)`
 
 ## Step 3: Plan Production Elements
 
@@ -88,7 +77,7 @@ For each segment, determine in one pass:
    ls workspace/video-projects/remotion-studio/public/reels/audio/bgm/
    ```
    Chỉ dùng tên file có trong thư mục này.
-8. **Grok Video Prompts** — For each `visual` segment. Reference: `heygen-short-video/references/grok-prompts.md`
+8. **Grok Video Prompts** — For each `grok` segment. Reference: `heygen-short-video/references/grok-prompts.md`
 
 ## Step 4: Output Plan Folder
 
@@ -97,7 +86,7 @@ Save everything to:
 workspace/content/{YYYY-MM-DD}/video-short/{slug}/plan/
 ├── script.txt              # Original script
 ├── voiceover.srt           # Transcribed SRT
-├── segments.json           # Word-level timestamps from Whisper
+├── voiceover_segments.json  # Word-level timestamps (from upstream extract skill)
 ├── production-plan.json    # Complete plan (see schema below)
 └── grok-prompts.md         # Grok prompts for user to generate videos
 ```
@@ -116,7 +105,7 @@ workspace/content/{YYYY-MM-DD}/video-short/{slug}/plan/
       "index": 1,
       "startSec": 0.0,
       "endSec": 3.5,
-      "type": "avatar",
+      "type": "heygen",
       "srtText": "Bạn có biết rằng...",
       "style": "hook",
       "highlights": ["biết"],
@@ -131,7 +120,7 @@ workspace/content/{YYYY-MM-DD}/video-short/{slug}/plan/
       "index": 2,
       "startSec": 3.5,
       "endSec": 9.0,
-      "type": "visual",
+      "type": "grok",
       "srtText": "AI tự động chạy lúc bạn ngủ",
       "style": "normal",
       "highlights": ["AI"],

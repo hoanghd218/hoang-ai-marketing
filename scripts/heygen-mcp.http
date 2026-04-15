@@ -1,0 +1,229 @@
+### HeyGen MCP Server — HTTP calls giống hệt Claude Code MCP
+### Cần extension: humao.rest-client
+###
+### MCP = JSON-RPC 2.0 over HTTP, auth bằng OAuth 2.0 Bearer token
+### Server: https://mcp.heygen.com/mcp/v1/
+###
+### LUỒNG DÙNG:
+### 1. Chạy 3 request OAuth (block 1→2→3) để lấy access_token
+### 2. Paste token vào @accessToken
+### 3. Gọi MCP tools bằng JSON-RPC (block 4 trở đi)
+
+@mcpUrl = https://mcp.heygen.com/mcp/v1/
+@authBase = https://mcp.heygen.com
+
+# Sau khi chạy OAuth flow, paste access_token vào đây:
+@accessToken = PASTE_ACCESS_TOKEN_HERE
+
+
+### ============================================================
+### OAUTH 2.0 FLOW (chạy 1 lần, token thường sống nhiều giờ)
+### ============================================================
+
+### 0. Discover OAuth endpoints
+GET {{authBase}}/.well-known/oauth-authorization-server
+
+
+### 1. Dynamic client registration (MCP standard)
+# @name register
+POST {{authBase}}/register
+Content-Type: application/json
+
+{
+  "client_name": "REST Client Test",
+  "redirect_uris": ["http://localhost:3000/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
+
+###
+# Sau khi register xong, copy client_id:
+# @client_id = {{register.response.body.client_id}}
+
+
+### 2. Mở URL này trên browser để login HeyGen → nhận redirect
+###    http://localhost:3000/callback?code=XXX&state=...
+###    → copy code từ URL callback
+###
+###  Thay CLIENT_ID_FROM_STEP_1 vào URL dưới rồi paste vào trình duyệt:
+###
+###  https://mcp.heygen.com/authorize?response_type=code&client_id=CLIENT_ID_FROM_STEP_1&redirect_uri=http://localhost:3000/callback&state=test123&code_challenge_method=S256&code_challenge=E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM
+
+
+### 3. Exchange code → access_token
+###    (code_verifier phải match code_challenge ở bước 2)
+###    Demo challenge trên dùng verifier: dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk
+POST {{authBase}}/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=authorization_code
+&code=PASTE_CODE_FROM_CALLBACK_URL
+&redirect_uri=http://localhost:3000/callback
+&client_id=PASTE_CLIENT_ID
+&code_verifier=dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk
+
+
+### ============================================================
+### MCP PROTOCOL — JSON-RPC 2.0 calls
+### ============================================================
+
+### 4. Initialize MCP session
+POST {{mcpUrl}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "initialize",
+  "params": {
+    "protocolVersion": "2024-11-05",
+    "capabilities": {},
+    "clientInfo": { "name": "rest-client-test", "version": "1.0" }
+  }
+}
+
+
+### 5. List all available tools (xem HeyGen MCP có tool gì)
+POST {{mcpUrl}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "method": "tools/list"
+}
+
+
+### ============================================================
+### 6. Call tool — LIST VIDEOS
+### ============================================================
+POST {{mcpUrl}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{
+  "jsonrpc": "2.0",
+  "id": 10,
+  "method": "tools/call",
+  "params": {
+    "name": "list_videos",
+    "arguments": { "limit": 10 }
+  }
+}
+
+
+### 7. Call tool — GET CURRENT USER
+POST {{mcpUrl}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{
+  "jsonrpc": "2.0",
+  "id": 11,
+  "method": "tools/call",
+  "params": {
+    "name": "get_current_user",
+    "arguments": {}
+  }
+}
+
+
+### 8. Call tool — LIST AVATAR LOOKS
+POST {{mcpUrl}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{
+  "jsonrpc": "2.0",
+  "id": 12,
+  "method": "tools/call",
+  "params": {
+    "name": "list_avatar_looks",
+    "arguments": { "limit": 20 }
+  }
+}
+
+
+### 9. Call tool — LIST VOICES
+POST {{mcpUrl}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{
+  "jsonrpc": "2.0",
+  "id": 13,
+  "method": "tools/call",
+  "params": {
+    "name": "list_voices",
+    "arguments": { "type": "public", "limit": 20 }
+  }
+}
+
+
+### 10. Call tool — GET VIDEO STATUS
+POST {{mcpUrl}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{
+  "jsonrpc": "2.0",
+  "id": 14,
+  "method": "tools/call",
+  "params": {
+    "name": "get_video",
+    "arguments": { "videoId": "REPLACE_VIDEO_ID" }
+  }
+}
+
+
+### 11. Call tool — CREATE VIDEO FROM AVATAR
+POST {{mcpUrl}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{
+  "jsonrpc": "2.0",
+  "id": 15,
+  "method": "tools/call",
+  "params": {
+    "name": "create_video_from_avatar",
+    "arguments": {
+      "avatarId": "REPLACE_AVATAR_ID",
+      "script": "Xin chào, đây là video test qua MCP.",
+      "voiceId": "REPLACE_VOICE_ID",
+      "aspectRatio": "9:16"
+    }
+  }
+}
+
+
+### 12. Call tool — CREATE SPEECH (TTS)
+POST {{mcpUrl}}
+Authorization: Bearer {{accessToken}}
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{
+  "jsonrpc": "2.0",
+  "id": 16,
+  "method": "tools/call",
+  "params": {
+    "name": "create_speech",
+    "arguments": {
+      "text": "Đây là audio test qua MCP server.",
+      "voiceId": "REPLACE_VOICE_ID",
+      "speed": 1.0
+    }
+  }
+}
