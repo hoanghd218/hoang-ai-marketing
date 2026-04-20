@@ -69,6 +69,7 @@ All skills live in `.claude/skills/`. Key ones by function:
 | `mkt-news-to-content-brief` | Filter & rank news into content briefs | `workspace/content/news-briefs/` |
 | `mkt-content-repurposer` | 1 long-form → 4-5 multi-format content pieces | `workspace/content/repurposed/` |
 | `mkt-build-in-public-post-creator` | Build-in-public Facebook posts (5 templates) | stdout |
+| `github-trend-finder` | Top GitHub trending repos (daily/weekly/monthly) để seed content | `research/github-trend/[date]/` |
 
 ## Agents
 

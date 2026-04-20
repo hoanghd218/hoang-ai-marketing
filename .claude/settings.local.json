@@ -73,7 +73,17 @@
       "Read(//tmp/**)",
       "mcp__notebooklm-mcp__notebook_create",
       "mcp__notebooklm-mcp__source_add",
-      "mcp__notebooklm-mcp__notebook_query"
+      "mcp__notebooklm-mcp__notebook_query",
+      "Read(//Users/tonyhoang/.claude/skills/.venv/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/tonyhoang/.local/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Bash(command -v python3)",
+      "WebFetch(domain:www.notion.so)",
+      "Bash(chmod +x .claude/skills/mkt-ideas-to-script-notion/scripts/push_to_notion.py)",
+      "Bash(uvx --help)",
+      "Bash(claude mcp *)",
+      "Bash(awk '/^[0-9]+$/ {next} /-->/ {next} /^$/ {next} {print}')"
     ],
     "deny": [],
     "ask": []
